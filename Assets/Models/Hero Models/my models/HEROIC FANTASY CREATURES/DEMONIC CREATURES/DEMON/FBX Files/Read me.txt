@@ -1,0 +1,10 @@
+This demon comes with 2 lava whips : 1 / hell whip idle
+                                     2 / hell whip
+User has to switch from one whip to another when he desires to make the demon 
+take the whip or put it back around its neck.
+animation name : 1 / groundedPutBackWhip : hell whip visible from frame 0 to frame 44, 
+then turn off its visibility on frame 45 and turn on the visibility of the hell whip idle on frame 45.
+                 
+                 2 / groundedGetWhip : hell whip not visible from frame 0 to frame 9 then 
+                 become visible on frame 10, hell whip idle visible from frame 0 to frame 9, 
+                 then become invisible on frame 10

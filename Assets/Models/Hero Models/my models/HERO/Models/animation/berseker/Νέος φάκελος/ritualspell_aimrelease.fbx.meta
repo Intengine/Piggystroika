@@ -1,0 +1,1530 @@
+fileFormatVersion: 2
+guid: 5666e14a47b0c7249a23e0e3c9f49f86
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: AnimObjectL
+    100002: AnimObjectR
+    100004: Arms
+    100006: BODY
+    100008: boots
+    100010: BrowsMaleOrc05
+    100012: BrowsMaleOrcHorns05
+    100014: Cinema4D_Editor
+    100016: gloves
+    100018: HairLineMaleOrc15
+    100020: HairMaleOrc16
+    100022: HairShavedMaleOrc15
+    100024: helmet
+    100026: HumanBeard40
+    100028: HumanBeardLong01_1bit
+    100030: MaleEyesOrcBlind
+    100032: MaleHeadOrc
+    100034: MaleMouthOrc1
+    100036: MarksMaleHumanoid09RightGash
+    100038: NPC
+    100040: NPC_COM__COM__
+    100042: NPC_Head__Head_
+    100044: NPC_L_Calf__LClf_
+    100046: NPC_L_Clavicle__LClv_
+    100048: NPC_L_Finger00__LF00_
+    100050: NPC_L_Finger01__LF01_
+    100052: NPC_L_Finger02__LF02_
+    100054: NPC_L_Finger10__LF10_
+    100056: NPC_L_Finger11__LF11_
+    100058: NPC_L_Finger12__LF12_
+    100060: NPC_L_Finger20__LF20_
+    100062: NPC_L_Finger21__LF21_
+    100064: NPC_L_Finger22__LF22_
+    100066: NPC_L_Finger30__LF30_
+    100068: NPC_L_Finger31__LF31_
+    100070: NPC_L_Finger32__LF32_
+    100072: NPC_L_Finger40__LF40_
+    100074: NPC_L_Finger41__LF41_
+    100076: NPC_L_Finger42__LF42_
+    100078: NPC_L_Foot__Lft__
+    100080: NPC_L_Forearm__LLar_
+    100082: NPC_L_ForearmTwist1__LLt1_
+    100084: NPC_L_ForearmTwist2__LLt2_
+    100086: NPC_L_Hand__LHnd_
+    100088: NPC_L_Pauldron
+    100090: NPC_L_Thigh__LThg_
+    100092: NPC_L_Toe0__LToe_
+    100094: NPC_L_UpperArm__LUar_
+    100096: NPC_L_UpperarmTwist1__LUt1_
+    100098: NPC_L_UpperarmTwist2__LUt2_
+    100100: NPC_Neck__Neck_
+    100102: NPC_Pelvis__Pelv_
+    100104: NPC_R_Calf__RClf_
+    100106: NPC_R_Clavicle__RClv_
+    100108: NPC_R_Finger00__RF00_
+    100110: NPC_R_Finger01__RF01_
+    100112: NPC_R_Finger02__RF02_
+    100114: NPC_R_Finger10__RF10_
+    100116: NPC_R_Finger11__RF11_
+    100118: NPC_R_Finger12__RF12_
+    100120: NPC_R_Finger20__RF20_
+    100122: NPC_R_Finger21__RF21_
+    100124: NPC_R_Finger22__RF22_
+    100126: NPC_R_Finger30__RF30_
+    100128: NPC_R_Finger31__RF31_
+    100130: NPC_R_Finger32__RF32_
+    100132: NPC_R_Finger40__RF40_
+    100134: NPC_R_Finger41__RF41_
+    100136: NPC_R_Finger42__RF42_
+    100138: NPC_R_Foot__Rft__
+    100140: NPC_R_Forearm__RLar_
+    100142: NPC_R_ForearmTwist1__RLt1_
+    100144: NPC_R_ForearmTwist2__RLt2_
+    100146: NPC_R_Hand__RHnd_
+    100148: NPC_R_Pauldron
+    100150: NPC_R_Thigh__RThg_
+    100152: NPC_R_Toe0__RToe_
+    100154: NPC_R_UpperArm__RUar_
+    100156: NPC_R_UpperarmTwist1__RUt1_
+    100158: NPC_R_UpperarmTwist2__RUt2_
+    100160: NPC_Root__Root_
+    100162: NPC_Spine1__Spn1_
+    100164: NPC_Spine2__Spn2_
+    100166: NPC_Spine__Spn0_
+    100168: NPCEyeBone
+    100170: Null
+    100172: pants
+    100174: QUIVER
+    100176: //RootNode
+    100178: SHIELD
+    100180: SkirtBBone01
+    100182: SkirtBBone02
+    100184: SkirtBBone03
+    100186: SkirtFBone01
+    100188: SkirtFBone02
+    100190: SkirtFBone03
+    100192: SkirtLBone01
+    100194: SkirtLBone02
+    100196: SkirtLBone03
+    100198: SkirtRBone01
+    100200: SkirtRBone02
+    100202: SkirtRBone03
+    100204: WEAPON
+    100206: WeaponAxe
+    100208: WeaponBack
+    100210: WeaponBow
+    100212: WeaponDagger
+    100214: WeaponMace
+    100216: WeaponSword
+    400000: AnimObjectL
+    400002: AnimObjectR
+    400004: Arms
+    400006: BODY
+    400008: boots
+    400010: BrowsMaleOrc05
+    400012: BrowsMaleOrcHorns05
+    400014: Cinema4D_Editor
+    400016: gloves
+    400018: HairLineMaleOrc15
+    400020: HairMaleOrc16
+    400022: HairShavedMaleOrc15
+    400024: helmet
+    400026: HumanBeard40
+    400028: HumanBeardLong01_1bit
+    400030: MaleEyesOrcBlind
+    400032: MaleHeadOrc
+    400034: MaleMouthOrc1
+    400036: MarksMaleHumanoid09RightGash
+    400038: NPC
+    400040: NPC_COM__COM__
+    400042: NPC_Head__Head_
+    400044: NPC_L_Calf__LClf_
+    400046: NPC_L_Clavicle__LClv_
+    400048: NPC_L_Finger00__LF00_
+    400050: NPC_L_Finger01__LF01_
+    400052: NPC_L_Finger02__LF02_
+    400054: NPC_L_Finger10__LF10_
+    400056: NPC_L_Finger11__LF11_
+    400058: NPC_L_Finger12__LF12_
+    400060: NPC_L_Finger20__LF20_
+    400062: NPC_L_Finger21__LF21_
+    400064: NPC_L_Finger22__LF22_
+    400066: NPC_L_Finger30__LF30_
+    400068: NPC_L_Finger31__LF31_
+    400070: NPC_L_Finger32__LF32_
+    400072: NPC_L_Finger40__LF40_
+    400074: NPC_L_Finger41__LF41_
+    400076: NPC_L_Finger42__LF42_
+    400078: NPC_L_Foot__Lft__
+    400080: NPC_L_Forearm__LLar_
+    400082: NPC_L_ForearmTwist1__LLt1_
+    400084: NPC_L_ForearmTwist2__LLt2_
+    400086: NPC_L_Hand__LHnd_
+    400088: NPC_L_Pauldron
+    400090: NPC_L_Thigh__LThg_
+    400092: NPC_L_Toe0__LToe_
+    400094: NPC_L_UpperArm__LUar_
+    400096: NPC_L_UpperarmTwist1__LUt1_
+    400098: NPC_L_UpperarmTwist2__LUt2_
+    400100: NPC_Neck__Neck_
+    400102: NPC_Pelvis__Pelv_
+    400104: NPC_R_Calf__RClf_
+    400106: NPC_R_Clavicle__RClv_
+    400108: NPC_R_Finger00__RF00_
+    400110: NPC_R_Finger01__RF01_
+    400112: NPC_R_Finger02__RF02_
+    400114: NPC_R_Finger10__RF10_
+    400116: NPC_R_Finger11__RF11_
+    400118: NPC_R_Finger12__RF12_
+    400120: NPC_R_Finger20__RF20_
+    400122: NPC_R_Finger21__RF21_
+    400124: NPC_R_Finger22__RF22_
+    400126: NPC_R_Finger30__RF30_
+    400128: NPC_R_Finger31__RF31_
+    400130: NPC_R_Finger32__RF32_
+    400132: NPC_R_Finger40__RF40_
+    400134: NPC_R_Finger41__RF41_
+    400136: NPC_R_Finger42__RF42_
+    400138: NPC_R_Foot__Rft__
+    400140: NPC_R_Forearm__RLar_
+    400142: NPC_R_ForearmTwist1__RLt1_
+    400144: NPC_R_ForearmTwist2__RLt2_
+    400146: NPC_R_Hand__RHnd_
+    400148: NPC_R_Pauldron
+    400150: NPC_R_Thigh__RThg_
+    400152: NPC_R_Toe0__RToe_
+    400154: NPC_R_UpperArm__RUar_
+    400156: NPC_R_UpperarmTwist1__RUt1_
+    400158: NPC_R_UpperarmTwist2__RUt2_
+    400160: NPC_Root__Root_
+    400162: NPC_Spine1__Spn1_
+    400164: NPC_Spine2__Spn2_
+    400166: NPC_Spine__Spn0_
+    400168: NPCEyeBone
+    400170: Null
+    400172: pants
+    400174: QUIVER
+    400176: //RootNode
+    400178: SHIELD
+    400180: SkirtBBone01
+    400182: SkirtBBone02
+    400184: SkirtBBone03
+    400186: SkirtFBone01
+    400188: SkirtFBone02
+    400190: SkirtFBone03
+    400192: SkirtLBone01
+    400194: SkirtLBone02
+    400196: SkirtLBone03
+    400198: SkirtRBone01
+    400200: SkirtRBone02
+    400202: SkirtRBone03
+    400204: WEAPON
+    400206: WeaponAxe
+    400208: WeaponBack
+    400210: WeaponBow
+    400212: WeaponDagger
+    400214: WeaponMace
+    400216: WeaponSword
+    4300000: helmet
+    4300002: gloves
+    4300004: Arms
+    4300006: pants
+    4300008: BODY
+    4300010: boots
+    4300012: BrowsMaleOrc05
+    4300014: BrowsMaleOrcHorns05
+    4300016: HumanBeard40
+    4300018: HumanBeardLong01_1bit
+    4300020: HairMaleOrc16
+    4300022: HairLineMaleOrc15
+    4300024: HairShavedMaleOrc15
+    4300026: MaleEyesOrcBlind
+    4300028: MarksMaleHumanoid09RightGash
+    4300030: MaleHeadOrc
+    4300032: MaleMouthOrc1
+    7400000: C4D Animation Take
+    9500000: //RootNode
+    13700000: Arms
+    13700002: BODY
+    13700004: boots
+    13700006: BrowsMaleOrc05
+    13700008: BrowsMaleOrcHorns05
+    13700010: gloves
+    13700012: HairLineMaleOrc15
+    13700014: HairMaleOrc16
+    13700016: HairShavedMaleOrc15
+    13700018: helmet
+    13700020: HumanBeard40
+    13700022: HumanBeardLong01_1bit
+    13700024: MaleEyesOrcBlind
+    13700026: MaleHeadOrc
+    13700028: MaleMouthOrc1
+    13700030: MarksMaleHumanoid09RightGash
+    13700032: pants
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Avatar creation failed:\n\tTransform 'NPC_COM__COM__' for human
+      bone 'Hips' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: C4D Animation Take
+      takeName: C4D Animation Take
+      firstFrame: 0
+      lastFrame: 26
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cinema4D_Editor
+        weight: 0
+      - path: NPC
+        weight: 1
+      - path: NPC/NPC_Root__Root_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/NPC_L_Thigh__LThg_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/NPC_L_Thigh__LThg_/NPC_L_Calf__LClf_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/NPC_L_Thigh__LThg_/NPC_L_Calf__LClf_/NPC_L_Foot__Lft__
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/NPC_L_Thigh__LThg_/NPC_L_Calf__LClf_/NPC_L_Foot__Lft__/NPC_L_Toe0__LToe_
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/NPC_R_Thigh__RThg_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/NPC_R_Thigh__RThg_/NPC_R_Calf__RClf_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/NPC_R_Thigh__RThg_/NPC_R_Calf__RClf_/NPC_R_Foot__Rft__
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/NPC_R_Thigh__RThg_/NPC_R_Calf__RClf_/NPC_R_Foot__Rft__/NPC_R_Toe0__RToe_
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/SkirtBBone01
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/SkirtBBone01/SkirtBBone02
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/SkirtBBone01/SkirtBBone02/SkirtBBone03
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/SkirtFBone01
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/SkirtFBone01/SkirtFBone02
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/SkirtFBone01/SkirtFBone02/SkirtFBone03
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/SkirtLBone01
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/SkirtLBone01/SkirtLBone02
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/SkirtLBone01/SkirtLBone02/SkirtLBone03
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/SkirtRBone01
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/SkirtRBone01/SkirtRBone02
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/SkirtRBone01/SkirtRBone02/SkirtRBone03
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/WeaponAxe
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/WeaponDagger
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/WeaponMace
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/WeaponSword
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_Pauldron
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_ForearmTwist1__LLt1_
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_ForearmTwist2__LLt2_
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_/AnimObjectL
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_/NPC_L_Finger00__LF00_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_/NPC_L_Finger00__LF00_/NPC_L_Finger01__LF01_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_/NPC_L_Finger00__LF00_/NPC_L_Finger01__LF01_/NPC_L_Finger02__LF02_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_/NPC_L_Finger10__LF10_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_/NPC_L_Finger10__LF10_/NPC_L_Finger11__LF11_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_/NPC_L_Finger10__LF10_/NPC_L_Finger11__LF11_/NPC_L_Finger12__LF12_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_/NPC_L_Finger20__LF20_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_/NPC_L_Finger20__LF20_/NPC_L_Finger21__LF21_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_/NPC_L_Finger20__LF20_/NPC_L_Finger21__LF21_/NPC_L_Finger22__LF22_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_/NPC_L_Finger30__LF30_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_/NPC_L_Finger30__LF30_/NPC_L_Finger31__LF31_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_/NPC_L_Finger30__LF30_/NPC_L_Finger31__LF31_/NPC_L_Finger32__LF32_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_/NPC_L_Finger40__LF40_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_/NPC_L_Finger40__LF40_/NPC_L_Finger41__LF41_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_/NPC_L_Finger40__LF40_/NPC_L_Finger41__LF41_/NPC_L_Finger42__LF42_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_/SHIELD
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_UpperarmTwist1__LUt1_
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_UpperarmTwist1__LUt1_/NPC_L_UpperarmTwist2__LUt2_
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_Neck__Neck_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_Neck__Neck_/NPC_Head__Head_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_Neck__Neck_/NPC_Head__Head_/NPCEyeBone
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_Pauldron
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_ForearmTwist1__RLt1_
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_ForearmTwist2__RLt2_
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_/AnimObjectR
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_/NPC_R_Finger00__RF00_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_/NPC_R_Finger00__RF00_/NPC_R_Finger01__RF01_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_/NPC_R_Finger00__RF00_/NPC_R_Finger01__RF01_/NPC_R_Finger02__RF02_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_/NPC_R_Finger10__RF10_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_/NPC_R_Finger10__RF10_/NPC_R_Finger11__RF11_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_/NPC_R_Finger10__RF10_/NPC_R_Finger11__RF11_/NPC_R_Finger12__RF12_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_/NPC_R_Finger20__RF20_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_/NPC_R_Finger20__RF20_/NPC_R_Finger21__RF21_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_/NPC_R_Finger20__RF20_/NPC_R_Finger21__RF21_/NPC_R_Finger22__RF22_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_/NPC_R_Finger30__RF30_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_/NPC_R_Finger30__RF30_/NPC_R_Finger31__RF31_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_/NPC_R_Finger30__RF30_/NPC_R_Finger31__RF31_/NPC_R_Finger32__RF32_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_/NPC_R_Finger40__RF40_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_/NPC_R_Finger40__RF40_/NPC_R_Finger41__RF41_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_/NPC_R_Finger40__RF40_/NPC_R_Finger41__RF41_/NPC_R_Finger42__RF42_
+        weight: 1
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_/WEAPON
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_UpperarmTwist1__RUt1_
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_UpperarmTwist1__RUt1_/NPC_R_UpperarmTwist2__RUt2_
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/QUIVER
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/WeaponBack
+        weight: 0
+      - path: NPC/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/WeaponBow
+        weight: 0
+      - path: Null
+        weight: 0
+      - path: Null/Arms
+        weight: 0
+      - path: Null/BODY
+        weight: 0
+      - path: Null/boots
+        weight: 0
+      - path: Null/BrowsMaleOrc05
+        weight: 0
+      - path: Null/BrowsMaleOrcHorns05
+        weight: 0
+      - path: Null/gloves
+        weight: 0
+      - path: Null/HairLineMaleOrc15
+        weight: 0
+      - path: Null/HairMaleOrc16
+        weight: 0
+      - path: Null/HairShavedMaleOrc15
+        weight: 0
+      - path: Null/helmet
+        weight: 0
+      - path: Null/HumanBeard40
+        weight: 0
+      - path: Null/HumanBeardLong01_1bit
+        weight: 0
+      - path: Null/MaleEyesOrcBlind
+        weight: 0
+      - path: Null/MaleHeadOrc
+        weight: 0
+      - path: Null/MaleMouthOrc1
+        weight: 0
+      - path: Null/MarksMaleHumanoid09RightGash
+        weight: 0
+      - path: Null/pants
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: NPC_COM__COM__
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Thigh__LThg_
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Thigh__RThg_
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Calf__LClf_
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Calf__RClf_
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Foot__Lft__
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Foot__Rft__
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_Spine__Spn0_
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_Spine1__Spn1_
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_Neck__Neck_
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_Head__Head_
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Clavicle__LClv_
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Clavicle__RClv_
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_UpperArm__LUar_
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_UpperArm__RUar_
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Forearm__LLar_
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Forearm__RLar_
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Hand__LHnd_
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Hand__RHnd_
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Finger00__LF00_
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Finger01__LF01_
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Finger02__LF02_
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Finger10__LF10_
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Finger11__LF11_
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Finger12__LF12_
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Finger20__LF20_
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Finger21__LF21_
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Finger22__LF22_
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Finger30__LF30_
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Finger31__LF31_
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Finger32__LF32_
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Finger40__LF40_
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Finger41__LF41_
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_L_Finger42__LF42_
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Finger00__RF00_
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Finger01__RF01_
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Finger02__RF02_
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Finger10__RF10_
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Finger11__RF11_
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Finger12__RF12_
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Finger20__RF20_
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Finger21__RF21_
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Finger22__RF22_
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Finger30__RF30_
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Finger31__RF31_
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Finger32__RF32_
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Finger40__RF40_
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Finger41__RF41_
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NPC_R_Finger42__RF42_
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: ritualspell_aimrelease(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cinema4D_Editor
+      parentName: 
+      position: {x: -1.385098, y: 1.3909161, z: -2.0597246}
+      rotation: {x: 0.113667116, y: 0.8934971, z: 0.05482652, w: 0.43097192}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: NPC
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Root__Root_
+      parentName: 
+      position: {x: -0, y: -0.00000495, z: 1.0991208e-21}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_COM__COM__
+      parentName: 
+      position: {x: 0.0025723497, y: -0.0017284099, z: 0.67906}
+      rotation: {x: 0.0020726945, y: -0.06286931, z: -0.9980196, w: -0.00034543368}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Pelvis__Pelv_
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.06286931, y: -0.0020725653, z: 0.00034544588, w: 0.9980196}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: SkirtBBone01
+      parentName: 
+      position: {x: 1.7763568e-17, y: -0.112463, z: 0.0894833}
+      rotation: {x: 0.9761405, y: 0.0673598, z: -0.059760414, w: 0.1975882}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkirtBBone02
+      parentName: 
+      position: {x: 0.0000000026168265, y: 0.000000068394385, z: 0.129167}
+      rotation: {x: 0.19827978, y: -0.0034543546, z: 0.00518153, w: 0.9801257}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+    - name: SkirtBBone03
+      parentName: 
+      position: {x: 5.045467e-11, y: 0.000000030068886, z: 0.129167}
+      rotation: {x: -0.12953818, y: 0.00000010624718, z: -0.005526915, w: 0.991559}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkirtFBone01
+      parentName: 
+      position: {x: -0.00000003, y: 0.119316, z: 0.057327}
+      rotation: {x: -0.03350737, y: 0.99295497, z: 0.07737764, w: -0.08324905}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkirtFBone02
+      parentName: 
+      position: {x: 7.2443346e-10, y: 0.00000002928305, z: 0.129167}
+      rotation: {x: 0.12711988, y: -0.028671129, z: 0.03868878, w: 0.99071777}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkirtFBone03
+      parentName: 
+      position: {x: -5.1387514e-12, y: 3.0479618e-12, z: 0.129167}
+      rotation: {x: 0.0037997882, y: 0.007599463, z: 0.016926343, w: 0.99982065}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: SkirtLBone01
+      parentName: 
+      position: {x: 0.15082699, y: -0.012983299, z: 0.0732162}
+      rotation: {x: 0.69087154, y: 0.70337313, z: 0.16546309, w: 0.024180992}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkirtLBone02
+      parentName: 
+      position: {x: -0.000000022031452, y: 0.00000010556811, z: 0.129167}
+      rotation: {x: 0.027980303, y: -0.058378607, z: -0.0010361926, w: 0.9979018}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkirtLBone03
+      parentName: 
+      position: {x: -0.000000005154086, y: -0.0000000047430473, z: 0.129167}
+      rotation: {x: 0.027290111, y: -0.11468459, z: -0.0024178806, w: 0.9930241}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkirtRBone01
+      parentName: 
+      position: {x: -0.15082699, y: -0.012983299, z: 0.0732163}
+      rotation: {x: -0.6584009, y: 0.72652066, z: 0.097761065, w: -0.17064233}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkirtRBone02
+      parentName: 
+      position: {x: -0.000000005039968, y: -0.000000085846324, z: 0.129167}
+      rotation: {x: 0.009326882, y: 0.0148536805, z: 0.017617214, w: 0.99969095}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkirtRBone03
+      parentName: 
+      position: {x: -0.000000006922526, y: -0.00000006436934, z: 0.129167}
+      rotation: {x: 0.00898137, y: 0.014853712, z: 0.017617224, w: 0.9996941}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WeaponAxe
+      parentName: 
+      position: {x: -0.189915, y: -0.0299356, z: -0.19048901}
+      rotation: {x: 0.5903677, y: 0.43595204, z: 0.18950222, w: 0.6523042}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999998}
+    - name: WeaponDagger
+      parentName: 
+      position: {x: 0.0860921, y: 0.057874497, z: 0.029913599}
+      rotation: {x: -0.39528838, y: -0.6237215, z: 0.6515475, w: 0.17379436}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: WeaponMace
+      parentName: 
+      position: {x: -0.123693, y: -0.0339526, z: 0.0316814}
+      rotation: {x: 0.596886, y: -0.43646428, z: 0.5526812, w: -0.38440806}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: WeaponSword
+      parentName: 
+      position: {x: 0.118915, y: 0.0191689, z: 0.0666605}
+      rotation: {x: 0.6827378, y: 0.37283817, z: -0.57159555, w: -0.2610353}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: NPC_L_Thigh__LThg_
+      parentName: 
+      position: {x: 0.066150695, y: 0, z: -2.842171e-16}
+      rotation: {x: -0.019852178, y: -0.9984142, z: 0.017471807, w: -0.049697597}
+      scale: {x: 0.9999998, y: 1.0000001, z: 0.99999976}
+    - name: NPC_L_Calf__LClf_
+      parentName: 
+      position: {x: -0.0000000080186044, y: 0.0000000064176713, z: 0.35595298}
+      rotation: {x: 0.064977944, y: -0.00019054445, z: -0.0076318085, w: 0.9978576}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: NPC_L_Foot__Lft__
+      parentName: 
+      position: {x: 0.000000021444839, y: 0.0000000070829724, z: 0.279498}
+      rotation: {x: 0.5280997, y: 0.004658636, z: -0.13337407, w: -0.83863014}
+      scale: {x: 0.99999976, y: 0.9999997, z: 0.9999998}
+    - name: NPC_L_Toe0__LToe_
+      parentName: 
+      position: {x: -0.0000000017872501, y: -0.00016326048, z: 0.106611}
+      rotation: {x: -0.48602816, y: 0.006217961, z: -0.01727169, w: 0.8737504}
+      scale: {x: 1, y: 1.0000001, z: 0.9999998}
+    - name: NPC_R_Thigh__RThg_
+      parentName: 
+      position: {x: -0.066150695, y: 1.7763568e-17, z: -0.00000007}
+      rotation: {x: 0.01985229, y: -0.99841493, z: 0.017461061, w: 0.049684994}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1.0000005}
+    - name: NPC_R_Calf__RClf_
+      parentName: 
+      position: {x: -0.000000027731906, y: -0.000000004759008, z: 0.35595298}
+      rotation: {x: 0.06494565, y: 0.00018994516, z: 0.007644206, w: 0.9978595}
+      scale: {x: 0.9999993, y: 0.9999996, z: 0.99999964}
+    - name: NPC_R_Foot__Rft__
+      parentName: 
+      position: {x: -0.000000029078754, y: -0.000000008899788, z: 0.279498}
+      rotation: {x: 0.5281864, y: -0.0047630193, z: 0.1334159, w: -0.8385683}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000002}
+    - name: NPC_R_Toe0__RToe_
+      parentName: 
+      position: {x: 0.000000009331013, y: -0.00016325586, z: 0.106611}
+      rotation: {x: -0.5184992, y: -0.056305952, z: -0.05837865, w: 0.85122275}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: NPC_Spine__Spn0_
+      parentName: 
+      position: {x: -6.591949e-19, y: -0.0523986, z: 0.0379164}
+      rotation: {x: -0.084612615, y: -0.0020794286, z: 0.0003006377, w: 0.9964117}
+      scale: {x: 0.9999999, y: 1.0000002, z: 0.9999998}
+    - name: NPC_Spine1__Spn1_
+      parentName: 
+      position: {x: 2.220446e-18, y: -0.00000002, z: 0.0874872}
+      rotation: {x: 0.075373426, y: -0.0000037682028, z: -0.00000022354624, w: 0.9971554}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: NPC_Spine2__Spn2_
+      parentName: 
+      position: {x: -5.902859e-10, y: -0.00017107092, z: 0.098640695}
+      rotation: {x: -0.12035686, y: 0.000003603031, z: 0.00000089226484, w: 0.99273074}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1.0000002}
+    - name: QUIVER
+      parentName: 
+      position: {x: 0.07278409, y: -0.060480498, z: -0.16815099}
+      rotation: {x: 0.14819697, y: 0.72535753, z: -0.6550218, w: 0.1511314}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WeaponBack
+      parentName: 
+      position: {x: -0.125489, y: -0.0634521, z: 0.28651}
+      rotation: {x: -0.67705834, y: -0.12669866, z: -0.13040437, w: 0.7131158}
+      scale: {x: 0.9999999, y: 0.9999998, z: 0.9999998}
+    - name: WeaponBow
+      parentName: 
+      position: {x: 0.035580385, y: -0.105776995, z: 0.024652593}
+      rotation: {x: 0.09755653, y: 0.687547, z: -0.67945683, w: 0.23685497}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999998}
+    - name: NPC_Neck__Neck_
+      parentName: 
+      position: {x: 0.0000000025223466, y: 0.0002695582, z: 0.22039498}
+      rotation: {x: -0.029133333, y: 0.00017548239, z: 0.0052924016, w: 0.9995615}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000004}
+    - name: NPC_Head__Head_
+      parentName: 
+      position: {x: 4.794486e-10, y: -6.091948e-10, z: 0.073927596}
+      rotation: {x: 0.095524184, y: -0.00045107145, z: 0.00006391097, w: 0.9954271}
+      scale: {x: 1, y: 0.9999991, z: 0.99999744}
+    - name: NPCEyeBone
+      parentName: 
+      position: {x: 0.0008224766, y: 0.080962494, z: 0.037123892}
+      rotation: {x: 0.0004727193, y: -0.0005875718, z: -0.005302039, w: 0.9999857}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.99999994}
+    - name: NPC_R_Clavicle__RClv_
+      parentName: 
+      position: {x: -0.01695089, y: 0.058874696, z: 0.19454299}
+      rotation: {x: -0.026564604, y: -0.76021004, z: 0.19870265, w: 0.61797446}
+      scale: {x: 0.99999976, y: 0.99999976, z: 1.0000004}
+    - name: NPC_R_Pauldron
+      parentName: 
+      position: {x: -0.008825636, y: 0.015349318, z: 0.113674}
+      rotation: {x: -0.20760685, y: 0.48499194, z: -0.5837861, w: 0.61715156}
+      scale: {x: 1.0000001, y: 0.9999999, z: 0.99999994}
+    - name: NPC_R_UpperArm__RUar_
+      parentName: 
+      position: {x: 0.00000001577378, y: 0.000000013446372, z: 0.14043999}
+      rotation: {x: 0.13105714, y: -0.08252465, z: 0.17601381, w: -0.97212803}
+      scale: {x: 0.9999996, y: 0.9999995, z: 0.99999994}
+    - name: NPC_R_UpperarmTwist1__RUt1_
+      parentName: 
+      position: {x: 0.00000007000003, y: -0.000000069999786, z: 0.00000015000006}
+      rotation: {x: 0.026336638, y: -0.7066164, z: -0.02633584, w: -0.706616}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000005}
+    - name: NPC_R_UpperarmTwist2__RUt2_
+      parentName: 
+      position: {x: -0.070403196, y: 0.0000000100000035, z: 0.000000070000006}
+      rotation: {x: 0.015683632, y: -0.00000048991217, z: 0.00000065064546, w: 0.999877}
+      scale: {x: 1, y: 1.0000004, z: 1.0000002}
+    - name: NPC_R_Forearm__RLar_
+      parentName: 
+      position: {x: -0.000000042822744, y: 0.00000017301714, z: 0.22833999}
+      rotation: {x: -0.027706573, y: 0.014519536, z: -0.0032439253, w: 0.9995054}
+      scale: {x: 1.0000007, y: 0.9999998, z: 1.000001}
+    - name: NPC_R_Hand__RHnd_
+      parentName: 
+      position: {x: -0.000000013241864, y: 0.00000031600374, z: 0.160467}
+      rotation: {x: 0.031788148, y: -0.042848706, z: -0.6814362, w: 0.72993046}
+      scale: {x: 1.0000001, y: 0.9999991, z: 0.9999998}
+    - name: AnimObjectR
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0, y: 0, z: 0}
+    - name: WEAPON
+      parentName: 
+      position: {x: -0.00000004403869, y: -0.024345238, z: 0.07159219}
+      rotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: NPC_R_Finger00__RF00_
+      parentName: 
+      position: {x: -0.028604018, y: -0.009202177, z: 0.031670395}
+      rotation: {x: -0.1724063, y: -0.34332928, z: 0.4529529, w: 0.8045091}
+      scale: {x: 0.99999964, y: 0.9999998, z: 1.0000002}
+    - name: NPC_R_Finger01__RF01_
+      parentName: 
+      position: {x: -0.000000039571535, y: -0.00000011234488, z: 0.0323609}
+      rotation: {x: 0.03111859, y: 0.014587447, z: -0.013198183, w: 0.9993222}
+      scale: {x: 1, y: 0.9999998, z: 1.0000002}
+    - name: NPC_R_Finger02__RF02_
+      parentName: 
+      position: {x: 0.000000035902907, y: -0.0000000013466716, z: 0.028369801}
+      rotation: {x: 0.043642867, y: 0.024422888, z: -0.0010665525, w: 0.99874806}
+      scale: {x: 1.0000002, y: 1.0000004, z: 0.99999976}
+    - name: NPC_R_Finger10__RF10_
+      parentName: 
+      position: {x: -0.025448449, y: -0.0010913144, z: 0.0839495}
+      rotation: {x: -0.08204775, y: 0.017922554, z: 0.060535002, w: -0.9946268}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1.0000007}
+    - name: NPC_R_Finger11__RF11_
+      parentName: 
+      position: {x: -0.000000005887134, y: -0.000000011533528, z: 0.0245818}
+      rotation: {x: 0.036920637, y: 0.0000003779369, z: 0.000000076996805, w: 0.9993182}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000004}
+    - name: NPC_R_Finger12__RF12_
+      parentName: 
+      position: {x: -0.000000005208561, y: 0.000000041690882, z: 0.0189273}
+      rotation: {x: 0.12811472, y: -0.0000018143476, z: 0.00000062945935, w: 0.9917594}
+      scale: {x: 1, y: 0.99999994, z: 0.9999998}
+    - name: NPC_R_Finger20__RF20_
+      parentName: 
+      position: {x: -0.0036777158, y: -0.0008282137, z: 0.08262}
+      rotation: {x: -0.08087754, y: 0.010713506, z: 0.099305734, w: -0.99170685}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000008}
+    - name: NPC_R_Finger21__RF21_
+      parentName: 
+      position: {x: 0.000000014543775, y: -0.00000005395129, z: 0.032016397}
+      rotation: {x: 0.03619732, y: -0.0000014991717, z: -0.00000031301343, w: 0.9993447}
+      scale: {x: 0.9999999, y: 0.99999934, z: 0.9999998}
+    - name: NPC_R_Finger22__RF22_
+      parentName: 
+      position: {x: 0.000000060066, y: -0.000000013661402, z: 0.019894399}
+      rotation: {x: 0.1469005, y: 0.0000012376827, z: -0.0000010390296, w: 0.98915136}
+      scale: {x: 1.0000001, y: 0.9999998, z: 0.99999964}
+    - name: NPC_R_Finger30__RF30_
+      parentName: 
+      position: {x: 0.014443555, y: -0.006391492, z: 0.07976389}
+      rotation: {x: -0.079099216, y: 0.00054865715, z: 0.18179493, w: -0.98014987}
+      scale: {x: 1.0000006, y: 0.9999998, z: 1.0000007}
+    - name: NPC_R_Finger31__RF31_
+      parentName: 
+      position: {x: 0.00000005217082, y: -0.00000004238611, z: 0.0267191}
+      rotation: {x: 0.03539217, y: 0.0000021766225, z: -0.00000017153305, w: 0.99937356}
+      scale: {x: 0.99999994, y: 0.9999996, z: 1.0000001}
+    - name: NPC_R_Finger32__RF32_
+      parentName: 
+      position: {x: -0.000000043055195, y: -0.000000036672816, z: 0.0200726}
+      rotation: {x: 0.109102465, y: -0.0000019427725, z: 0.000000577857, w: 0.99403054}
+      scale: {x: 1, y: 0.9999996, z: 0.9999997}
+    - name: NPC_R_Finger40__RF40_
+      parentName: 
+      position: {x: 0.030002855, y: -0.01583214, z: 0.07421079}
+      rotation: {x: -0.07683742, y: -0.012080991, z: 0.22409354, w: -0.9714588}
+      scale: {x: 1.0000004, y: 0.99999964, z: 1.0000001}
+    - name: NPC_R_Finger41__RF41_
+      parentName: 
+      position: {x: 0.000000058042694, y: -0.000000076955125, z: 0.0176075}
+      rotation: {x: 0.03584218, y: -0.000002040241, z: 0.0000019765148, w: 0.9993575}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1.0000002}
+    - name: NPC_R_Finger42__RF42_
+      parentName: 
+      position: {x: -0.00000007938859, y: 0.000000007502024, z: 0.0178331}
+      rotation: {x: 0.21966548, y: 0.0000016580609, z: -0.00000037365362, w: 0.9755753}
+      scale: {x: 1, y: 0.99999976, z: 1.0000004}
+    - name: NPC_R_ForearmTwist1__RLt1_
+      parentName: 
+      position: {x: 0.00000004578514, y: 0.00000022510163, z: 0.101172}
+      rotation: {x: 0.023937954, y: -0.70667756, z: -0.023911832, w: -0.70672643}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: NPC_R_ForearmTwist2__RLt2_
+      parentName: 
+      position: {x: 0.000000026407504, y: 0.00000014111416, z: 0.0463874}
+      rotation: {x: 0.029387904, y: -0.7064795, z: -0.029363148, w: -0.70651317}
+      scale: {x: 0.9999997, y: 1, z: 0.9999999}
+    - name: NPC_L_Clavicle__LClv_
+      parentName: 
+      position: {x: 0.016950909, y: 0.058874696, z: 0.19454299}
+      rotation: {x: 0.02656196, y: -0.7602102, z: 0.19870326, w: -0.61797404}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.9999996}
+    - name: NPC_L_Pauldron
+      parentName: 
+      position: {x: 0.00943371, y: 0.012376492, z: 0.11150201}
+      rotation: {x: 0.28705698, y: -0.51297224, z: 0.29154763, w: 0.75462425}
+      scale: {x: 0.99999994, y: 1.0000002, z: 0.99999976}
+    - name: NPC_L_UpperArm__LUar_
+      parentName: 
+      position: {x: -0.00000011303178, y: 0.00000005949059, z: 0.14043899}
+      rotation: {x: 0.13105762, y: 0.08252504, z: -0.17601065, w: -0.9721285}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1.0000005}
+    - name: NPC_L_UpperarmTwist1__LUt1_
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7067561, y: 0.022171311, z: 0.70676196, w: 0.022174364}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: NPC_L_UpperarmTwist2__LUt2_
+      parentName: 
+      position: {x: -0.0704031, y: -0.00000001, z: 0.000000109999995}
+      rotation: {x: -0.01568091, y: 0.000004206704, z: 0.0000018360413, w: 0.99987704}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000004}
+    - name: NPC_L_Forearm__LLar_
+      parentName: 
+      position: {x: -0.000000012634242, y: -0.00000001400648, z: 0.22833999}
+      rotation: {x: -0.027705448, y: -0.014515789, z: 0.003237668, w: 0.99950546}
+      scale: {x: 0.9999997, y: 0.9999998, z: 1.0000005}
+    - name: NPC_L_Hand__LHnd_
+      parentName: 
+      position: {x: 0.000000002618396, y: -0.000000025769294, z: 0.160467}
+      rotation: {x: 0.03178162, y: 0.04281506, z: 0.6814381, w: 0.72993094}
+      scale: {x: 1.0000002, y: 0.9999995, z: 1.0000001}
+    - name: AnimObjectL
+      parentName: 
+      position: {x: 0.0000001699614, y: -0.024345214, z: 0.0715921}
+      rotation: {x: 0.57922775, y: 0.5792276, z: -0.40557986, w: 0.4055805}
+      scale: {x: 1, y: 1, z: 0.9999998}
+    - name: SHIELD
+      parentName: 
+      position: {x: 0.000000049961457, y: -0.024345415, z: 0.0715923}
+      rotation: {x: 0.57955843, y: 0.578951, z: -0.4055402, w: 0.4055427}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: NPC_L_Finger00__LF00_
+      parentName: 
+      position: {x: 0.028603908, y: -0.009202126, z: 0.0316704}
+      rotation: {x: -0.17240807, y: 0.34332746, z: -0.45295388, w: 0.8045089}
+      scale: {x: 1.0000005, y: 0.9999996, z: 1.0000001}
+    - name: NPC_L_Finger01__LF01_
+      parentName: 
+      position: {x: -0.00000008239507, y: 0.000000039005133, z: 0.032361098}
+      rotation: {x: 0.03111302, y: -0.014598154, z: 0.013197645, w: 0.9993221}
+      scale: {x: 1.0000004, y: 0.9999999, z: 0.99999994}
+    - name: NPC_L_Finger02__LF02_
+      parentName: 
+      position: {x: 0.00000005967854, y: -0.0000000029752576, z: 0.0283697}
+      rotation: {x: 0.04364301, y: -0.024406238, z: 0.0010659816, w: 0.9987485}
+      scale: {x: 1, y: 1.0000001, z: 0.99999946}
+    - name: NPC_L_Finger10__LF10_
+      parentName: 
+      position: {x: 0.025448425, y: -0.0010913268, z: 0.0839494}
+      rotation: {x: 0.08204982, y: 0.01792179, z: 0.060533956, w: 0.99462676}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000002}
+    - name: NPC_L_Finger11__LF11_
+      parentName: 
+      position: {x: 0.0000000027165543, y: -0.000000005262527, z: 0.0245818}
+      rotation: {x: 0.03691891, y: 0.0000011023051, z: 0.000000053280157, w: 0.9993183}
+      scale: {x: 0.99999994, y: 0.9999995, z: 1}
+    - name: NPC_L_Finger12__LF12_
+      parentName: 
+      position: {x: -0.000000027533973, y: -0.00000006394854, z: 0.0189274}
+      rotation: {x: 0.12811403, y: -0.00000116516, z: -0.000000004974938, w: 0.9917595}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1.0000001}
+    - name: NPC_L_Finger20__LF20_
+      parentName: 
+      position: {x: 0.003677663, y: -0.00082818663, z: 0.08262}
+      rotation: {x: 0.08087485, y: 0.010713119, z: 0.09930583, w: 0.9917071}
+      scale: {x: 0.9999998, y: 0.99999976, z: 1.0000006}
+    - name: NPC_L_Finger21__LF21_
+      parentName: 
+      position: {x: 0.0000000070725763, y: -0.0000000034512138, z: 0.032016497}
+      rotation: {x: 0.036200367, y: -0.00000055696285, z: 0.000000046884274, w: 0.9993445}
+      scale: {x: 1, y: 0.9999994, z: 0.99999994}
+    - name: NPC_L_Finger22__LF22_
+      parentName: 
+      position: {x: 0.0000000048659, y: 0.000000005055912, z: 0.019894399}
+      rotation: {x: 0.14688694, y: 0.0000021558294, z: 0.00000013703314, w: 0.9891533}
+      scale: {x: 1.0000001, y: 1, z: 1.0000005}
+    - name: NPC_L_Finger30__LF30_
+      parentName: 
+      position: {x: -0.014443577, y: -0.0063915458, z: 0.0797639}
+      rotation: {x: 0.079099305, y: 0.00054833665, z: 0.18179624, w: 0.98014957}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1.0000005}
+    - name: NPC_L_Finger31__LF31_
+      parentName: 
+      position: {x: 0.0000000793792, y: 0.0000000055977227, z: 0.0267191}
+      rotation: {x: 0.03539251, y: 0.0000036341846, z: -0.000000058334667, w: 0.99937356}
+      scale: {x: 0.9999998, y: 0.99999934, z: 1.0000004}
+    - name: NPC_L_Finger32__LF32_
+      parentName: 
+      position: {x: -0.00000006250481, y: 0.00000007724658, z: 0.0200726}
+      rotation: {x: 0.10911435, y: 0.00000018941876, z: -0.00000048269817, w: 0.9940293}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: NPC_L_Finger40__LF40_
+      parentName: 
+      position: {x: -0.030002978, y: -0.015832014, z: 0.0742108}
+      rotation: {x: 0.07684643, y: -0.012076363, z: 0.22409795, w: 0.9714571}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000007}
+    - name: NPC_L_Finger41__LF41_
+      parentName: 
+      position: {x: -0.000000023872296, y: 0.000000002719969, z: 0.0176077}
+      rotation: {x: 0.035845485, y: -0.0000014987629, z: 0.00000027523058, w: 0.99935734}
+      scale: {x: 1, y: 0.9999996, z: 0.99999946}
+    - name: NPC_L_Finger42__LF42_
+      parentName: 
+      position: {x: 0.000000006581845, y: 0.0000000067221433, z: 0.0178331}
+      rotation: {x: 0.21966285, y: 0.0000013729657, z: -0.00000046031337, w: 0.9755759}
+      scale: {x: 1, y: 0.9999995, z: 1.0000008}
+    - name: NPC_L_ForearmTwist1__LLt1_
+      parentName: 
+      position: {x: -0.000000017263861, y: 0.000000027887062, z: 0.101173}
+      rotation: {x: -0.7067058, y: 0.023921452, z: 0.706698, w: 0.023927422}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000005}
+    - name: NPC_L_ForearmTwist2__LLt2_
+      parentName: 
+      position: {x: -0.0000000079152285, y: -0.000000057214173, z: 0.0463864}
+      rotation: {x: -0.70642376, y: 0.031166121, z: 0.7064152, w: 0.031171776}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000004}
+    - name: Null
+      parentName: 
+      position: {x: -0.00000265, y: 0.07272466, z: 0.0024069706}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arms
+      parentName: 
+      position: {x: 0.00000265, y: -0.039845366, z: 0.023036228}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BODY
+      parentName: 
+      position: {x: 0.00000265, y: -0.07272466, z: -0.0024069706}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boots
+      parentName: 
+      position: {x: -0.00004495, y: -0.07272466, z: -0.0024069706}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BrowsMaleOrc05
+      parentName: 
+      position: {x: 0.00000265, y: -0.07272466, z: -0.0024069706}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BrowsMaleOrcHorns05
+      parentName: 
+      position: {x: 0.00000265, y: -0.07272466, z: -0.0024069706}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gloves
+      parentName: 
+      position: {x: 0.00000265, y: -0.07272466, z: -0.0024069706}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HairLineMaleOrc15
+      parentName: 
+      position: {x: 0.00000265, y: -0.07272466, z: -0.0024069706}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HairMaleOrc16
+      parentName: 
+      position: {x: 0.00000265, y: -0.07272466, z: -0.0024069706}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HairShavedMaleOrc15
+      parentName: 
+      position: {x: 0.00000265, y: -0.07272466, z: -0.0024069706}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: helmet
+      parentName: 
+      position: {x: 0.00000265, y: -0.07272466, z: -0.0024069706}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HumanBeard40
+      parentName: 
+      position: {x: 0.00000265, y: -0.07272466, z: -0.0024069706}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HumanBeardLong01_1bit
+      parentName: 
+      position: {x: 0.00000265, y: -0.07272466, z: -0.0024069706}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MaleEyesOrcBlind
+      parentName: 
+      position: {x: 0.00000265, y: -0.07272466, z: -0.0024069706}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MaleHeadOrc
+      parentName: 
+      position: {x: 0.0000052, y: 1.1307153, z: 0.01306833}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MaleMouthOrc1
+      parentName: 
+      position: {x: 0.00000265, y: -0.07272466, z: -0.0024069706}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MarksMaleHumanoid09RightGash
+      parentName: 
+      position: {x: 0.00000265, y: -0.07272466, z: -0.0024069706}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pants
+      parentName: 
+      position: {x: 0.00000265, y: -0.07272466, z: -0.0024069706}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

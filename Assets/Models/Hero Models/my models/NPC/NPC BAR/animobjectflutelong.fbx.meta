@@ -1,0 +1,926 @@
+fileFormatVersion: 2
+guid: fcad76f9946ef004dbaadaf8403cbd13
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: AnimObjectFlute_0
+    100002: //RootNode
+    100004: animobjectflutelong
+    100006: AnimObjectL
+    100008: AnimObjectL_2
+    100010: AnimObjectR
+    100012: AnimObjectR_2
+    100014: BodyMale_BigOutfit
+    100016: BrowsMaleHumanoid05
+    100018: Cinema4D_Editor
+    100020: HairLineMaleNord06
+    100022: HairMaleNord06
+    100024: HandMaleBig3rd
+    100026: Hat
+    100028: HumanBeard40
+    100030: HumanBeardLong01_1bit
+    100032: MaleEyesHumanBrightGreen
+    100034: MaleHeadNord
+    100036: merchantboots
+    100038: merchanttorso_1
+    100040: NPC_COM__COM__
+    100042: NPC_COM__COM___2
+    100044: NPC_Head__Head_
+    100046: NPC_Head__Head__2
+    100048: NPC_L_Calf__LClf_
+    100050: NPC_L_Calf__LClf__2
+    100052: NPC_L_Clavicle__LClv_
+    100054: NPC_L_Clavicle__LClv__2
+    100056: NPC_L_Finger00__LF00_
+    100058: NPC_L_Finger00__LF00__2
+    100060: NPC_L_Finger01__LF01_
+    100062: NPC_L_Finger01__LF01__2
+    100064: NPC_L_Finger02__LF02_
+    100066: NPC_L_Finger02__LF02__2
+    100068: NPC_L_Finger10__LF10_
+    100070: NPC_L_Finger10__LF10__2
+    100072: NPC_L_Finger11__LF11_
+    100074: NPC_L_Finger11__LF11__2
+    100076: NPC_L_Finger12__LF12_
+    100078: NPC_L_Finger12__LF12__2
+    100080: NPC_L_Finger20__LF20_
+    100082: NPC_L_Finger20__LF20__2
+    100084: NPC_L_Finger21__LF21_
+    100086: NPC_L_Finger21__LF21__2
+    100088: NPC_L_Finger22__LF22_
+    100090: NPC_L_Finger22__LF22__2
+    100092: NPC_L_Finger30__LF30_
+    100094: NPC_L_Finger30__LF30__2
+    100096: NPC_L_Finger31__LF31_
+    100098: NPC_L_Finger31__LF31__2
+    100100: NPC_L_Finger32__LF32_
+    100102: NPC_L_Finger32__LF32__2
+    100104: NPC_L_Finger40__LF40_
+    100106: NPC_L_Finger40__LF40__2
+    100108: NPC_L_Finger41__LF41_
+    100110: NPC_L_Finger41__LF41__2
+    100112: NPC_L_Finger42__LF42_
+    100114: NPC_L_Finger42__LF42__2
+    100116: NPC_L_Foot__Lft__
+    100118: NPC_L_Foot__Lft___2
+    100120: NPC_L_Forearm__LLar_
+    100122: NPC_L_Forearm__LLar__2
+    100124: NPC_L_ForearmTwist1__LLt1_
+    100126: NPC_L_ForearmTwist1__LLt1__2
+    100128: NPC_L_ForearmTwist2__LLt2_
+    100130: NPC_L_ForearmTwist2__LLt2__2
+    100132: NPC_L_Hand__LHnd_
+    100134: NPC_L_Hand__LHnd__2
+    100136: NPC_L_Pauldron
+    100138: NPC_L_Pauldron_2
+    100140: NPC_L_Thigh__LThg_
+    100142: NPC_L_Thigh__LThg__2
+    100144: NPC_L_Toe0__LToe_
+    100146: NPC_L_Toe0__LToe__2
+    100148: NPC_L_UpperArm__LUar_
+    100150: NPC_L_UpperArm__LUar__2
+    100152: NPC_L_UpperarmTwist1__LUt1_
+    100154: NPC_L_UpperarmTwist1__LUt1__2
+    100156: NPC_L_UpperarmTwist2__LUt2_
+    100158: NPC_L_UpperarmTwist2__LUt2__2
+    100160: NPC_Neck__Neck_
+    100162: NPC_Neck__Neck__2
+    100164: NPC_Pelvis__Pelv_
+    100166: NPC_Pelvis__Pelv__2
+    100168: NPC_R_Calf__RClf_
+    100170: NPC_R_Calf__RClf__2
+    100172: NPC_R_Clavicle__RClv_
+    100174: NPC_R_Clavicle__RClv__2
+    100176: NPC_R_Finger00__RF00_
+    100178: NPC_R_Finger00__RF00__2
+    100180: NPC_R_Finger01__RF01_
+    100182: NPC_R_Finger01__RF01__2
+    100184: NPC_R_Finger02__RF02_
+    100186: NPC_R_Finger02__RF02__2
+    100188: NPC_R_Finger10__RF10_
+    100190: NPC_R_Finger10__RF10__2
+    100192: NPC_R_Finger11__RF11_
+    100194: NPC_R_Finger11__RF11__2
+    100196: NPC_R_Finger12__RF12_
+    100198: NPC_R_Finger12__RF12__2
+    100200: NPC_R_Finger20__RF20_
+    100202: NPC_R_Finger20__RF20__2
+    100204: NPC_R_Finger21__RF21_
+    100206: NPC_R_Finger21__RF21__2
+    100208: NPC_R_Finger22__RF22_
+    100210: NPC_R_Finger22__RF22__2
+    100212: NPC_R_Finger30__RF30_
+    100214: NPC_R_Finger30__RF30__2
+    100216: NPC_R_Finger31__RF31_
+    100218: NPC_R_Finger31__RF31__2
+    100220: NPC_R_Finger32__RF32_
+    100222: NPC_R_Finger32__RF32__2
+    100224: NPC_R_Finger40__RF40_
+    100226: NPC_R_Finger40__RF40__2
+    100228: NPC_R_Finger41__RF41_
+    100230: NPC_R_Finger41__RF41__2
+    100232: NPC_R_Finger42__RF42_
+    100234: NPC_R_Finger42__RF42__2
+    100236: NPC_R_Foot__Rft__
+    100238: NPC_R_Foot__Rft___2
+    100240: NPC_R_Forearm__RLar_
+    100242: NPC_R_Forearm__RLar__2
+    100244: NPC_R_ForearmTwist1__RLt1_
+    100246: NPC_R_ForearmTwist1__RLt1__2
+    100248: NPC_R_ForearmTwist2__RLt2_
+    100250: NPC_R_ForearmTwist2__RLt2__2
+    100252: NPC_R_Hand__RHnd_
+    100254: NPC_R_Hand__RHnd__2
+    100256: NPC_R_Pauldron
+    100258: NPC_R_Pauldron_2
+    100260: NPC_R_Thigh__RThg_
+    100262: NPC_R_Thigh__RThg__2
+    100264: NPC_R_Toe0__RToe_
+    100266: NPC_R_Toe0__RToe__2
+    100268: NPC_R_UpperArm__RUar_
+    100270: NPC_R_UpperArm__RUar__2
+    100272: NPC_R_UpperarmTwist1__RUt1_
+    100274: NPC_R_UpperarmTwist1__RUt1__2
+    100276: NPC_R_UpperarmTwist2__RUt2_
+    100278: NPC_R_UpperarmTwist2__RUt2__2
+    100280: NPC_Root__Root_
+    100282: NPC_Root__Root__2
+    100284: NPC_Spine1__Spn1_
+    100286: NPC_Spine1__Spn1__2
+    100288: NPC_Spine2__Spn2_
+    100290: NPC_Spine2__Spn2__2
+    100292: NPC_Spine__Spn0_
+    100294: NPC_Spine__Spn0__2
+    100296: NPCEyeBone
+    100298: NPCEyeBone_2
+    100300: Null
+    100302: QUIVER
+    100304: QUIVER_2
+    100306: SHIELD
+    100308: SHIELD_2
+    100310: SkirtBBone01
+    100312: SkirtBBone01_2
+    100314: SkirtBBone02
+    100316: SkirtBBone02_2
+    100318: SkirtBBone03
+    100320: SkirtBBone03_2
+    100322: SkirtFBone01
+    100324: SkirtFBone01_2
+    100326: SkirtFBone02
+    100328: SkirtFBone02_2
+    100330: SkirtFBone03
+    100332: SkirtFBone03_2
+    100334: SkirtLBone01
+    100336: SkirtLBone01_2
+    100338: SkirtLBone02
+    100340: SkirtLBone02_2
+    100342: SkirtLBone03
+    100344: SkirtLBone03_2
+    100346: SkirtRBone01
+    100348: SkirtRBone01_2
+    100350: SkirtRBone02
+    100352: SkirtRBone02_2
+    100354: SkirtRBone03
+    100356: SkirtRBone03_2
+    100358: target
+    100360: WEAPON
+    100362: WEAPON_2
+    100364: WeaponAxe
+    100366: WeaponAxe_2
+    100368: WeaponBack
+    100370: WeaponBack_2
+    100372: WeaponBow
+    100374: WeaponBow_2
+    100376: WeaponDagger
+    100378: WeaponDagger_2
+    100380: WeaponMace
+    100382: WeaponMace_2
+    100384: WeaponSword
+    100386: WeaponSword_2
+    400000: AnimObjectFlute_0
+    400002: //RootNode
+    400004: animobjectflutelong
+    400006: AnimObjectL
+    400008: AnimObjectL_2
+    400010: AnimObjectR
+    400012: AnimObjectR_2
+    400014: BodyMale_BigOutfit
+    400016: BrowsMaleHumanoid05
+    400018: Cinema4D_Editor
+    400020: HairLineMaleNord06
+    400022: HairMaleNord06
+    400024: HandMaleBig3rd
+    400026: Hat
+    400028: HumanBeard40
+    400030: HumanBeardLong01_1bit
+    400032: MaleEyesHumanBrightGreen
+    400034: MaleHeadNord
+    400036: merchantboots
+    400038: merchanttorso_1
+    400040: NPC_COM__COM__
+    400042: NPC_COM__COM___2
+    400044: NPC_Head__Head_
+    400046: NPC_Head__Head__2
+    400048: NPC_L_Calf__LClf_
+    400050: NPC_L_Calf__LClf__2
+    400052: NPC_L_Clavicle__LClv_
+    400054: NPC_L_Clavicle__LClv__2
+    400056: NPC_L_Finger00__LF00_
+    400058: NPC_L_Finger00__LF00__2
+    400060: NPC_L_Finger01__LF01_
+    400062: NPC_L_Finger01__LF01__2
+    400064: NPC_L_Finger02__LF02_
+    400066: NPC_L_Finger02__LF02__2
+    400068: NPC_L_Finger10__LF10_
+    400070: NPC_L_Finger10__LF10__2
+    400072: NPC_L_Finger11__LF11_
+    400074: NPC_L_Finger11__LF11__2
+    400076: NPC_L_Finger12__LF12_
+    400078: NPC_L_Finger12__LF12__2
+    400080: NPC_L_Finger20__LF20_
+    400082: NPC_L_Finger20__LF20__2
+    400084: NPC_L_Finger21__LF21_
+    400086: NPC_L_Finger21__LF21__2
+    400088: NPC_L_Finger22__LF22_
+    400090: NPC_L_Finger22__LF22__2
+    400092: NPC_L_Finger30__LF30_
+    400094: NPC_L_Finger30__LF30__2
+    400096: NPC_L_Finger31__LF31_
+    400098: NPC_L_Finger31__LF31__2
+    400100: NPC_L_Finger32__LF32_
+    400102: NPC_L_Finger32__LF32__2
+    400104: NPC_L_Finger40__LF40_
+    400106: NPC_L_Finger40__LF40__2
+    400108: NPC_L_Finger41__LF41_
+    400110: NPC_L_Finger41__LF41__2
+    400112: NPC_L_Finger42__LF42_
+    400114: NPC_L_Finger42__LF42__2
+    400116: NPC_L_Foot__Lft__
+    400118: NPC_L_Foot__Lft___2
+    400120: NPC_L_Forearm__LLar_
+    400122: NPC_L_Forearm__LLar__2
+    400124: NPC_L_ForearmTwist1__LLt1_
+    400126: NPC_L_ForearmTwist1__LLt1__2
+    400128: NPC_L_ForearmTwist2__LLt2_
+    400130: NPC_L_ForearmTwist2__LLt2__2
+    400132: NPC_L_Hand__LHnd_
+    400134: NPC_L_Hand__LHnd__2
+    400136: NPC_L_Pauldron
+    400138: NPC_L_Pauldron_2
+    400140: NPC_L_Thigh__LThg_
+    400142: NPC_L_Thigh__LThg__2
+    400144: NPC_L_Toe0__LToe_
+    400146: NPC_L_Toe0__LToe__2
+    400148: NPC_L_UpperArm__LUar_
+    400150: NPC_L_UpperArm__LUar__2
+    400152: NPC_L_UpperarmTwist1__LUt1_
+    400154: NPC_L_UpperarmTwist1__LUt1__2
+    400156: NPC_L_UpperarmTwist2__LUt2_
+    400158: NPC_L_UpperarmTwist2__LUt2__2
+    400160: NPC_Neck__Neck_
+    400162: NPC_Neck__Neck__2
+    400164: NPC_Pelvis__Pelv_
+    400166: NPC_Pelvis__Pelv__2
+    400168: NPC_R_Calf__RClf_
+    400170: NPC_R_Calf__RClf__2
+    400172: NPC_R_Clavicle__RClv_
+    400174: NPC_R_Clavicle__RClv__2
+    400176: NPC_R_Finger00__RF00_
+    400178: NPC_R_Finger00__RF00__2
+    400180: NPC_R_Finger01__RF01_
+    400182: NPC_R_Finger01__RF01__2
+    400184: NPC_R_Finger02__RF02_
+    400186: NPC_R_Finger02__RF02__2
+    400188: NPC_R_Finger10__RF10_
+    400190: NPC_R_Finger10__RF10__2
+    400192: NPC_R_Finger11__RF11_
+    400194: NPC_R_Finger11__RF11__2
+    400196: NPC_R_Finger12__RF12_
+    400198: NPC_R_Finger12__RF12__2
+    400200: NPC_R_Finger20__RF20_
+    400202: NPC_R_Finger20__RF20__2
+    400204: NPC_R_Finger21__RF21_
+    400206: NPC_R_Finger21__RF21__2
+    400208: NPC_R_Finger22__RF22_
+    400210: NPC_R_Finger22__RF22__2
+    400212: NPC_R_Finger30__RF30_
+    400214: NPC_R_Finger30__RF30__2
+    400216: NPC_R_Finger31__RF31_
+    400218: NPC_R_Finger31__RF31__2
+    400220: NPC_R_Finger32__RF32_
+    400222: NPC_R_Finger32__RF32__2
+    400224: NPC_R_Finger40__RF40_
+    400226: NPC_R_Finger40__RF40__2
+    400228: NPC_R_Finger41__RF41_
+    400230: NPC_R_Finger41__RF41__2
+    400232: NPC_R_Finger42__RF42_
+    400234: NPC_R_Finger42__RF42__2
+    400236: NPC_R_Foot__Rft__
+    400238: NPC_R_Foot__Rft___2
+    400240: NPC_R_Forearm__RLar_
+    400242: NPC_R_Forearm__RLar__2
+    400244: NPC_R_ForearmTwist1__RLt1_
+    400246: NPC_R_ForearmTwist1__RLt1__2
+    400248: NPC_R_ForearmTwist2__RLt2_
+    400250: NPC_R_ForearmTwist2__RLt2__2
+    400252: NPC_R_Hand__RHnd_
+    400254: NPC_R_Hand__RHnd__2
+    400256: NPC_R_Pauldron
+    400258: NPC_R_Pauldron_2
+    400260: NPC_R_Thigh__RThg_
+    400262: NPC_R_Thigh__RThg__2
+    400264: NPC_R_Toe0__RToe_
+    400266: NPC_R_Toe0__RToe__2
+    400268: NPC_R_UpperArm__RUar_
+    400270: NPC_R_UpperArm__RUar__2
+    400272: NPC_R_UpperarmTwist1__RUt1_
+    400274: NPC_R_UpperarmTwist1__RUt1__2
+    400276: NPC_R_UpperarmTwist2__RUt2_
+    400278: NPC_R_UpperarmTwist2__RUt2__2
+    400280: NPC_Root__Root_
+    400282: NPC_Root__Root__2
+    400284: NPC_Spine1__Spn1_
+    400286: NPC_Spine1__Spn1__2
+    400288: NPC_Spine2__Spn2_
+    400290: NPC_Spine2__Spn2__2
+    400292: NPC_Spine__Spn0_
+    400294: NPC_Spine__Spn0__2
+    400296: NPCEyeBone
+    400298: NPCEyeBone_2
+    400300: Null
+    400302: QUIVER
+    400304: QUIVER_2
+    400306: SHIELD
+    400308: SHIELD_2
+    400310: SkirtBBone01
+    400312: SkirtBBone01_2
+    400314: SkirtBBone02
+    400316: SkirtBBone02_2
+    400318: SkirtBBone03
+    400320: SkirtBBone03_2
+    400322: SkirtFBone01
+    400324: SkirtFBone01_2
+    400326: SkirtFBone02
+    400328: SkirtFBone02_2
+    400330: SkirtFBone03
+    400332: SkirtFBone03_2
+    400334: SkirtLBone01
+    400336: SkirtLBone01_2
+    400338: SkirtLBone02
+    400340: SkirtLBone02_2
+    400342: SkirtLBone03
+    400344: SkirtLBone03_2
+    400346: SkirtRBone01
+    400348: SkirtRBone01_2
+    400350: SkirtRBone02
+    400352: SkirtRBone02_2
+    400354: SkirtRBone03
+    400356: SkirtRBone03_2
+    400358: target
+    400360: WEAPON
+    400362: WEAPON_2
+    400364: WeaponAxe
+    400366: WeaponAxe_2
+    400368: WeaponBack
+    400370: WeaponBack_2
+    400372: WeaponBow
+    400374: WeaponBow_2
+    400376: WeaponDagger
+    400378: WeaponDagger_2
+    400380: WeaponMace
+    400382: WeaponMace_2
+    400384: WeaponSword
+    400386: WeaponSword_2
+    2300000: AnimObjectFlute_0
+    3300000: AnimObjectFlute_0
+    4300000: HandMaleBig3rd
+    4300002: BodyMale_BigOutfit
+    4300004: merchanttorso_1
+    4300006: Hat
+    4300008: merchantboots
+    4300010: MaleEyesHumanBrightGreen
+    4300012: BrowsMaleHumanoid05
+    4300014: HumanBeard40
+    4300016: HumanBeardLong01_1bit
+    4300018: HairMaleNord06
+    4300020: HairLineMaleNord06
+    4300022: MaleHeadNord
+    4300024: AnimObjectFlute_0
+    7400000: C4D Animation Take
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: BodyMale_BigOutfit
+    13700002: BrowsMaleHumanoid05
+    13700004: HairLineMaleNord06
+    13700006: HairMaleNord06
+    13700008: HandMaleBig3rd
+    13700010: Hat
+    13700012: HumanBeard40
+    13700014: HumanBeardLong01_1bit
+    13700016: MaleEyesHumanBrightGreen
+    13700018: MaleHeadNord
+    13700020: merchantboots
+    13700022: merchanttorso_1
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: C4D Animation Take
+      takeName: C4D Animation Take
+      firstFrame: 0
+      lastFrame: 360
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: animobjectflutelong
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/NPC_L_Thigh__LThg_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/NPC_L_Thigh__LThg_/NPC_L_Calf__LClf_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/NPC_L_Thigh__LThg_/NPC_L_Calf__LClf_/NPC_L_Foot__Lft__
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/NPC_L_Thigh__LThg_/NPC_L_Calf__LClf_/NPC_L_Foot__Lft__/NPC_L_Toe0__LToe_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/NPC_R_Thigh__RThg_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/NPC_R_Thigh__RThg_/NPC_R_Calf__RClf_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/NPC_R_Thigh__RThg_/NPC_R_Calf__RClf_/NPC_R_Foot__Rft__
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/NPC_R_Thigh__RThg_/NPC_R_Calf__RClf_/NPC_R_Foot__Rft__/NPC_R_Toe0__RToe_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/SkirtBBone01
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/SkirtBBone01/SkirtBBone02
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/SkirtBBone01/SkirtBBone02/SkirtBBone03
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/SkirtFBone01
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/SkirtFBone01/SkirtFBone02
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/SkirtFBone01/SkirtFBone02/SkirtFBone03
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/SkirtLBone01
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/SkirtLBone01/SkirtLBone02
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/SkirtLBone01/SkirtLBone02/SkirtLBone03
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/SkirtRBone01
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/SkirtRBone01/SkirtRBone02
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/SkirtRBone01/SkirtRBone02/SkirtRBone03
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/WeaponAxe
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/WeaponDagger
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/WeaponMace
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Pelvis__Pelv_/WeaponSword
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_Pauldron
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_ForearmTwist1__LLt1_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_ForearmTwist2__LLt2_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_/AnimObjectL
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_/NPC_L_Finger00__LF00_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_/NPC_L_Finger00__LF00_/NPC_L_Finger01__LF01_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_/NPC_L_Finger00__LF00_/NPC_L_Finger01__LF01_/NPC_L_Finger02__LF02_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_/NPC_L_Finger10__LF10_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_/NPC_L_Finger10__LF10_/NPC_L_Finger11__LF11_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_/NPC_L_Finger10__LF10_/NPC_L_Finger11__LF11_/NPC_L_Finger12__LF12_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_/NPC_L_Finger20__LF20_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_/NPC_L_Finger20__LF20_/NPC_L_Finger21__LF21_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_/NPC_L_Finger20__LF20_/NPC_L_Finger21__LF21_/NPC_L_Finger22__LF22_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_/NPC_L_Finger30__LF30_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_/NPC_L_Finger30__LF30_/NPC_L_Finger31__LF31_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_/NPC_L_Finger30__LF30_/NPC_L_Finger31__LF31_/NPC_L_Finger32__LF32_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_/NPC_L_Finger40__LF40_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_/NPC_L_Finger40__LF40_/NPC_L_Finger41__LF41_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_/NPC_L_Finger40__LF40_/NPC_L_Finger41__LF41_/NPC_L_Finger42__LF42_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_Forearm__LLar_/NPC_L_Hand__LHnd_/SHIELD
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_UpperarmTwist1__LUt1_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_L_Clavicle__LClv_/NPC_L_UpperArm__LUar_/NPC_L_UpperarmTwist1__LUt1_/NPC_L_UpperarmTwist2__LUt2_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_Neck__Neck_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_Neck__Neck_/NPC_Head__Head_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_Neck__Neck_/NPC_Head__Head_/NPCEyeBone
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_Pauldron
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_ForearmTwist1__RLt1_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_ForearmTwist2__RLt2_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_/AnimObjectR
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_/NPC_R_Finger00__RF00_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_/NPC_R_Finger00__RF00_/NPC_R_Finger01__RF01_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_/NPC_R_Finger00__RF00_/NPC_R_Finger01__RF01_/NPC_R_Finger02__RF02_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_/NPC_R_Finger10__RF10_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_/NPC_R_Finger10__RF10_/NPC_R_Finger11__RF11_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_/NPC_R_Finger10__RF10_/NPC_R_Finger11__RF11_/NPC_R_Finger12__RF12_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_/NPC_R_Finger20__RF20_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_/NPC_R_Finger20__RF20_/NPC_R_Finger21__RF21_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_/NPC_R_Finger20__RF20_/NPC_R_Finger21__RF21_/NPC_R_Finger22__RF22_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_/NPC_R_Finger30__RF30_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_/NPC_R_Finger30__RF30_/NPC_R_Finger31__RF31_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_/NPC_R_Finger30__RF30_/NPC_R_Finger31__RF31_/NPC_R_Finger32__RF32_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_/NPC_R_Finger40__RF40_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_/NPC_R_Finger40__RF40_/NPC_R_Finger41__RF41_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_/NPC_R_Finger40__RF40_/NPC_R_Finger41__RF41_/NPC_R_Finger42__RF42_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_Forearm__RLar_/NPC_R_Hand__RHnd_/WEAPON
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_UpperarmTwist1__RUt1_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/NPC_R_Clavicle__RClv_/NPC_R_UpperArm__RUar_/NPC_R_UpperarmTwist1__RUt1_/NPC_R_UpperarmTwist2__RUt2_
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/QUIVER
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/WeaponBack
+        weight: 0
+      - path: animobjectflutelong/NPC_Root__Root_/NPC_COM__COM__/NPC_Spine__Spn0_/NPC_Spine1__Spn1_/NPC_Spine2__Spn2_/WeaponBow
+        weight: 0
+      - path: Cinema4D_Editor
+        weight: 0
+      - path: Null
+        weight: 0
+      - path: Null/BodyMale_BigOutfit
+        weight: 0
+      - path: Null/BrowsMaleHumanoid05
+        weight: 0
+      - path: Null/HairLineMaleNord06
+        weight: 0
+      - path: Null/HairMaleNord06
+        weight: 0
+      - path: Null/HandMaleBig3rd
+        weight: 0
+      - path: Null/Hat
+        weight: 0
+      - path: Null/HumanBeard40
+        weight: 0
+      - path: Null/HumanBeardLong01_1bit
+        weight: 0
+      - path: Null/MaleEyesHumanBrightGreen
+        weight: 0
+      - path: Null/MaleHeadNord
+        weight: 0
+      - path: Null/merchantboots
+        weight: 0
+      - path: Null/merchanttorso_1
+        weight: 0
+      - path: target
+        weight: 1
+      - path: target/NPC_Root__Root__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Pelvis__Pelv__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Pelvis__Pelv__2/NPC_L_Thigh__LThg__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Pelvis__Pelv__2/NPC_L_Thigh__LThg__2/NPC_L_Calf__LClf__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Pelvis__Pelv__2/NPC_L_Thigh__LThg__2/NPC_L_Calf__LClf__2/NPC_L_Foot__Lft___2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Pelvis__Pelv__2/NPC_L_Thigh__LThg__2/NPC_L_Calf__LClf__2/NPC_L_Foot__Lft___2/NPC_L_Toe0__LToe__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Pelvis__Pelv__2/NPC_R_Thigh__RThg__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Pelvis__Pelv__2/NPC_R_Thigh__RThg__2/NPC_R_Calf__RClf__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Pelvis__Pelv__2/NPC_R_Thigh__RThg__2/NPC_R_Calf__RClf__2/NPC_R_Foot__Rft___2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Pelvis__Pelv__2/NPC_R_Thigh__RThg__2/NPC_R_Calf__RClf__2/NPC_R_Foot__Rft___2/NPC_R_Toe0__RToe__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Pelvis__Pelv__2/SkirtBBone01_2
+        weight: 0
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Pelvis__Pelv__2/SkirtBBone01_2/SkirtBBone02_2
+        weight: 0
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Pelvis__Pelv__2/SkirtBBone01_2/SkirtBBone02_2/SkirtBBone03_2
+        weight: 0
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Pelvis__Pelv__2/SkirtFBone01_2
+        weight: 0
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Pelvis__Pelv__2/SkirtFBone01_2/SkirtFBone02_2
+        weight: 0
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Pelvis__Pelv__2/SkirtFBone01_2/SkirtFBone02_2/SkirtFBone03_2
+        weight: 0
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Pelvis__Pelv__2/SkirtLBone01_2
+        weight: 0
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Pelvis__Pelv__2/SkirtLBone01_2/SkirtLBone02_2
+        weight: 0
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Pelvis__Pelv__2/SkirtLBone01_2/SkirtLBone02_2/SkirtLBone03_2
+        weight: 0
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Pelvis__Pelv__2/SkirtRBone01_2
+        weight: 0
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Pelvis__Pelv__2/SkirtRBone01_2/SkirtRBone02_2
+        weight: 0
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Pelvis__Pelv__2/SkirtRBone01_2/SkirtRBone02_2/SkirtRBone03_2
+        weight: 0
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Pelvis__Pelv__2/WeaponAxe_2
+        weight: 0
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Pelvis__Pelv__2/WeaponDagger_2
+        weight: 0
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Pelvis__Pelv__2/WeaponMace_2
+        weight: 0
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Pelvis__Pelv__2/WeaponSword_2
+        weight: 0
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_L_Clavicle__LClv__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_L_Clavicle__LClv__2/NPC_L_Pauldron_2
+        weight: 0
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_L_Clavicle__LClv__2/NPC_L_UpperArm__LUar__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_L_Clavicle__LClv__2/NPC_L_UpperArm__LUar__2/NPC_L_Forearm__LLar__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_L_Clavicle__LClv__2/NPC_L_UpperArm__LUar__2/NPC_L_Forearm__LLar__2/NPC_L_ForearmTwist1__LLt1__2
+        weight: 0
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_L_Clavicle__LClv__2/NPC_L_UpperArm__LUar__2/NPC_L_Forearm__LLar__2/NPC_L_ForearmTwist2__LLt2__2
+        weight: 0
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_L_Clavicle__LClv__2/NPC_L_UpperArm__LUar__2/NPC_L_Forearm__LLar__2/NPC_L_Hand__LHnd__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_L_Clavicle__LClv__2/NPC_L_UpperArm__LUar__2/NPC_L_Forearm__LLar__2/NPC_L_Hand__LHnd__2/AnimObjectL_2
+        weight: 0
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_L_Clavicle__LClv__2/NPC_L_UpperArm__LUar__2/NPC_L_Forearm__LLar__2/NPC_L_Hand__LHnd__2/AnimObjectL_2/AnimObjectFlute_0
+        weight: 0
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_L_Clavicle__LClv__2/NPC_L_UpperArm__LUar__2/NPC_L_Forearm__LLar__2/NPC_L_Hand__LHnd__2/NPC_L_Finger00__LF00__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_L_Clavicle__LClv__2/NPC_L_UpperArm__LUar__2/NPC_L_Forearm__LLar__2/NPC_L_Hand__LHnd__2/NPC_L_Finger00__LF00__2/NPC_L_Finger01__LF01__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_L_Clavicle__LClv__2/NPC_L_UpperArm__LUar__2/NPC_L_Forearm__LLar__2/NPC_L_Hand__LHnd__2/NPC_L_Finger00__LF00__2/NPC_L_Finger01__LF01__2/NPC_L_Finger02__LF02__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_L_Clavicle__LClv__2/NPC_L_UpperArm__LUar__2/NPC_L_Forearm__LLar__2/NPC_L_Hand__LHnd__2/NPC_L_Finger10__LF10__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_L_Clavicle__LClv__2/NPC_L_UpperArm__LUar__2/NPC_L_Forearm__LLar__2/NPC_L_Hand__LHnd__2/NPC_L_Finger10__LF10__2/NPC_L_Finger11__LF11__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_L_Clavicle__LClv__2/NPC_L_UpperArm__LUar__2/NPC_L_Forearm__LLar__2/NPC_L_Hand__LHnd__2/NPC_L_Finger10__LF10__2/NPC_L_Finger11__LF11__2/NPC_L_Finger12__LF12__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_L_Clavicle__LClv__2/NPC_L_UpperArm__LUar__2/NPC_L_Forearm__LLar__2/NPC_L_Hand__LHnd__2/NPC_L_Finger20__LF20__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_L_Clavicle__LClv__2/NPC_L_UpperArm__LUar__2/NPC_L_Forearm__LLar__2/NPC_L_Hand__LHnd__2/NPC_L_Finger20__LF20__2/NPC_L_Finger21__LF21__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_L_Clavicle__LClv__2/NPC_L_UpperArm__LUar__2/NPC_L_Forearm__LLar__2/NPC_L_Hand__LHnd__2/NPC_L_Finger20__LF20__2/NPC_L_Finger21__LF21__2/NPC_L_Finger22__LF22__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_L_Clavicle__LClv__2/NPC_L_UpperArm__LUar__2/NPC_L_Forearm__LLar__2/NPC_L_Hand__LHnd__2/NPC_L_Finger30__LF30__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_L_Clavicle__LClv__2/NPC_L_UpperArm__LUar__2/NPC_L_Forearm__LLar__2/NPC_L_Hand__LHnd__2/NPC_L_Finger30__LF30__2/NPC_L_Finger31__LF31__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_L_Clavicle__LClv__2/NPC_L_UpperArm__LUar__2/NPC_L_Forearm__LLar__2/NPC_L_Hand__LHnd__2/NPC_L_Finger30__LF30__2/NPC_L_Finger31__LF31__2/NPC_L_Finger32__LF32__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_L_Clavicle__LClv__2/NPC_L_UpperArm__LUar__2/NPC_L_Forearm__LLar__2/NPC_L_Hand__LHnd__2/NPC_L_Finger40__LF40__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_L_Clavicle__LClv__2/NPC_L_UpperArm__LUar__2/NPC_L_Forearm__LLar__2/NPC_L_Hand__LHnd__2/NPC_L_Finger40__LF40__2/NPC_L_Finger41__LF41__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_L_Clavicle__LClv__2/NPC_L_UpperArm__LUar__2/NPC_L_Forearm__LLar__2/NPC_L_Hand__LHnd__2/NPC_L_Finger40__LF40__2/NPC_L_Finger41__LF41__2/NPC_L_Finger42__LF42__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_L_Clavicle__LClv__2/NPC_L_UpperArm__LUar__2/NPC_L_Forearm__LLar__2/NPC_L_Hand__LHnd__2/SHIELD_2
+        weight: 0
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_L_Clavicle__LClv__2/NPC_L_UpperArm__LUar__2/NPC_L_UpperarmTwist1__LUt1__2
+        weight: 0
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_L_Clavicle__LClv__2/NPC_L_UpperArm__LUar__2/NPC_L_UpperarmTwist1__LUt1__2/NPC_L_UpperarmTwist2__LUt2__2
+        weight: 0
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_Neck__Neck__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_Neck__Neck__2/NPC_Head__Head__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_Neck__Neck__2/NPC_Head__Head__2/NPCEyeBone_2
+        weight: 0
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_R_Clavicle__RClv__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_R_Clavicle__RClv__2/NPC_R_Pauldron_2
+        weight: 0
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_R_Clavicle__RClv__2/NPC_R_UpperArm__RUar__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_R_Clavicle__RClv__2/NPC_R_UpperArm__RUar__2/NPC_R_Forearm__RLar__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_R_Clavicle__RClv__2/NPC_R_UpperArm__RUar__2/NPC_R_Forearm__RLar__2/NPC_R_ForearmTwist1__RLt1__2
+        weight: 0
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_R_Clavicle__RClv__2/NPC_R_UpperArm__RUar__2/NPC_R_Forearm__RLar__2/NPC_R_ForearmTwist2__RLt2__2
+        weight: 0
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_R_Clavicle__RClv__2/NPC_R_UpperArm__RUar__2/NPC_R_Forearm__RLar__2/NPC_R_Hand__RHnd__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_R_Clavicle__RClv__2/NPC_R_UpperArm__RUar__2/NPC_R_Forearm__RLar__2/NPC_R_Hand__RHnd__2/AnimObjectR_2
+        weight: 0
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_R_Clavicle__RClv__2/NPC_R_UpperArm__RUar__2/NPC_R_Forearm__RLar__2/NPC_R_Hand__RHnd__2/NPC_R_Finger00__RF00__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_R_Clavicle__RClv__2/NPC_R_UpperArm__RUar__2/NPC_R_Forearm__RLar__2/NPC_R_Hand__RHnd__2/NPC_R_Finger00__RF00__2/NPC_R_Finger01__RF01__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_R_Clavicle__RClv__2/NPC_R_UpperArm__RUar__2/NPC_R_Forearm__RLar__2/NPC_R_Hand__RHnd__2/NPC_R_Finger00__RF00__2/NPC_R_Finger01__RF01__2/NPC_R_Finger02__RF02__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_R_Clavicle__RClv__2/NPC_R_UpperArm__RUar__2/NPC_R_Forearm__RLar__2/NPC_R_Hand__RHnd__2/NPC_R_Finger10__RF10__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_R_Clavicle__RClv__2/NPC_R_UpperArm__RUar__2/NPC_R_Forearm__RLar__2/NPC_R_Hand__RHnd__2/NPC_R_Finger10__RF10__2/NPC_R_Finger11__RF11__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_R_Clavicle__RClv__2/NPC_R_UpperArm__RUar__2/NPC_R_Forearm__RLar__2/NPC_R_Hand__RHnd__2/NPC_R_Finger10__RF10__2/NPC_R_Finger11__RF11__2/NPC_R_Finger12__RF12__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_R_Clavicle__RClv__2/NPC_R_UpperArm__RUar__2/NPC_R_Forearm__RLar__2/NPC_R_Hand__RHnd__2/NPC_R_Finger20__RF20__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_R_Clavicle__RClv__2/NPC_R_UpperArm__RUar__2/NPC_R_Forearm__RLar__2/NPC_R_Hand__RHnd__2/NPC_R_Finger20__RF20__2/NPC_R_Finger21__RF21__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_R_Clavicle__RClv__2/NPC_R_UpperArm__RUar__2/NPC_R_Forearm__RLar__2/NPC_R_Hand__RHnd__2/NPC_R_Finger20__RF20__2/NPC_R_Finger21__RF21__2/NPC_R_Finger22__RF22__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_R_Clavicle__RClv__2/NPC_R_UpperArm__RUar__2/NPC_R_Forearm__RLar__2/NPC_R_Hand__RHnd__2/NPC_R_Finger30__RF30__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_R_Clavicle__RClv__2/NPC_R_UpperArm__RUar__2/NPC_R_Forearm__RLar__2/NPC_R_Hand__RHnd__2/NPC_R_Finger30__RF30__2/NPC_R_Finger31__RF31__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_R_Clavicle__RClv__2/NPC_R_UpperArm__RUar__2/NPC_R_Forearm__RLar__2/NPC_R_Hand__RHnd__2/NPC_R_Finger30__RF30__2/NPC_R_Finger31__RF31__2/NPC_R_Finger32__RF32__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_R_Clavicle__RClv__2/NPC_R_UpperArm__RUar__2/NPC_R_Forearm__RLar__2/NPC_R_Hand__RHnd__2/NPC_R_Finger40__RF40__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_R_Clavicle__RClv__2/NPC_R_UpperArm__RUar__2/NPC_R_Forearm__RLar__2/NPC_R_Hand__RHnd__2/NPC_R_Finger40__RF40__2/NPC_R_Finger41__RF41__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_R_Clavicle__RClv__2/NPC_R_UpperArm__RUar__2/NPC_R_Forearm__RLar__2/NPC_R_Hand__RHnd__2/NPC_R_Finger40__RF40__2/NPC_R_Finger41__RF41__2/NPC_R_Finger42__RF42__2
+        weight: 1
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_R_Clavicle__RClv__2/NPC_R_UpperArm__RUar__2/NPC_R_Forearm__RLar__2/NPC_R_Hand__RHnd__2/WEAPON_2
+        weight: 0
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_R_Clavicle__RClv__2/NPC_R_UpperArm__RUar__2/NPC_R_UpperarmTwist1__RUt1__2
+        weight: 0
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/NPC_R_Clavicle__RClv__2/NPC_R_UpperArm__RUar__2/NPC_R_UpperarmTwist1__RUt1__2/NPC_R_UpperarmTwist2__RUt2__2
+        weight: 0
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/QUIVER_2
+        weight: 0
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/WeaponBack_2
+        weight: 0
+      - path: target/NPC_Root__Root__2/NPC_COM__COM___2/NPC_Spine__Spn0__2/NPC_Spine1__Spn1__2/NPC_Spine2__Spn2__2/WeaponBow_2
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

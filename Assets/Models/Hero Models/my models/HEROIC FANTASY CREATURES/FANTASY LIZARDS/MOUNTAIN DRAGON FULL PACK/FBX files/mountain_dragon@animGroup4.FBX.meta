@@ -1,0 +1,1188 @@
+fileFormatVersion: 2
+guid: d567bee7cf926de4fa0ccce97bdbacb3
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bone005
+    100002: Bone005(mirrored)
+    100004: Bone006
+    100006: Bone006(mirrored)
+    100008: Bone007
+    100010: Bone007(mirrored)
+    100012: Bone008
+    100014: Bone008(mirrored)
+    100016: Bone009
+    100018: Bone009(mirrored)
+    100020: Bone010
+    100022: Bone010(mirrored)
+    100024: Bone011
+    100026: Bone011(mirrored)
+    100028: Bone012
+    100030: Bone012(mirrored)
+    100032: Bone013
+    100034: Bone013(mirrored)
+    100036: Bone014
+    100038: Bone014(mirrored)
+    100040: Bone015
+    100042: Bone015(mirrored)
+    100044: Bone016
+    100046: Bone016(mirrored)
+    100048: Bone017
+    100050: Bone017(mirrored)
+    100052: Bone018
+    100054: Bone018(mirrored)
+    100056: Bone019
+    100058: Bone019(mirrored)
+    100060: Bone020
+    100062: Bone020(mirrored)
+    100064: Bone021
+    100066: Bone021(mirrored)
+    100068: Dummy001
+    100070: Dummy002
+    100072: Dummy003
+    100074: Dummy004
+    100076: Dummy005
+    100078: Dummy006
+    100080: Dummy007
+    100082: Dummy008
+    100084: Dummy009
+    100086: Dummy010
+    100088: Dummy011
+    100090: Dummy012
+    100092: IK Chain001
+    100094: IK Chain002
+    100096: IK Chain003
+    100098: IK Chain004
+    100100: IK Chain005
+    100102: IK Chain006
+    100104: IK Chain007
+    100106: IK Chain008
+    100108: IK Chain009
+    100110: IK Chain010
+    100112: jaw_down_01_
+    100114: jaw_down_02_
+    100116: jaw_down_03_
+    100118: jaw_down_04_
+    100120: jaw_up_01_
+    100122: jaw_up_02_
+    100124: mountain_dragon
+    100126: //RootNode
+    100128: mountain_dragon_
+    100130: mountain_dragon_ Footsteps
+    100132: mountain_dragon_ Head
+    100134: mountain_dragon_ HeadNub
+    100136: mountain_dragon_ L Calf
+    100138: mountain_dragon_ L Clavicle
+    100140: mountain_dragon_ L Finger0
+    100142: mountain_dragon_ L Finger01
+    100144: mountain_dragon_ L Finger02
+    100146: mountain_dragon_ L Finger0Nub
+    100148: mountain_dragon_ L Finger1
+    100150: mountain_dragon_ L Finger11
+    100152: mountain_dragon_ L Finger12
+    100154: mountain_dragon_ L Finger1Nub
+    100156: mountain_dragon_ L Finger2
+    100158: mountain_dragon_ L Finger21
+    100160: mountain_dragon_ L Finger22
+    100162: mountain_dragon_ L Finger2Nub
+    100164: mountain_dragon_ L Finger3
+    100166: mountain_dragon_ L Finger31
+    100168: mountain_dragon_ L Finger32
+    100170: mountain_dragon_ L Finger3Nub
+    100172: mountain_dragon_ L Foot
+    100174: mountain_dragon_ L Forearm
+    100176: mountain_dragon_ L Hand
+    100178: mountain_dragon_ L HorseLink
+    100180: mountain_dragon_ L Thigh
+    100182: mountain_dragon_ L Toe0
+    100184: mountain_dragon_ L Toe01
+    100186: mountain_dragon_ L Toe02
+    100188: mountain_dragon_ L Toe0Nub
+    100190: mountain_dragon_ L Toe1
+    100192: mountain_dragon_ L Toe11
+    100194: mountain_dragon_ L Toe12
+    100196: mountain_dragon_ L Toe1Nub
+    100198: mountain_dragon_ L Toe2
+    100200: mountain_dragon_ L Toe21
+    100202: mountain_dragon_ L Toe22
+    100204: mountain_dragon_ L Toe2Nub
+    100206: mountain_dragon_ L Toe3
+    100208: mountain_dragon_ L Toe31
+    100210: mountain_dragon_ L Toe32
+    100212: mountain_dragon_ L Toe3Nub
+    100214: mountain_dragon_ L UpperArm
+    100216: mountain_dragon_ Neck
+    100218: mountain_dragon_ Neck1
+    100220: mountain_dragon_ Neck2
+    100222: mountain_dragon_ Neck3
+    100224: mountain_dragon_ Neck4
+    100226: mountain_dragon_ Pelvis
+    100228: mountain_dragon_ R Calf
+    100230: mountain_dragon_ R Clavicle
+    100232: mountain_dragon_ R Finger0
+    100234: mountain_dragon_ R Finger01
+    100236: mountain_dragon_ R Finger02
+    100238: mountain_dragon_ R Finger0Nub
+    100240: mountain_dragon_ R Finger1
+    100242: mountain_dragon_ R Finger11
+    100244: mountain_dragon_ R Finger12
+    100246: mountain_dragon_ R Finger1Nub
+    100248: mountain_dragon_ R Finger2
+    100250: mountain_dragon_ R Finger21
+    100252: mountain_dragon_ R Finger22
+    100254: mountain_dragon_ R Finger2Nub
+    100256: mountain_dragon_ R Finger3
+    100258: mountain_dragon_ R Finger31
+    100260: mountain_dragon_ R Finger32
+    100262: mountain_dragon_ R Finger3Nub
+    100264: mountain_dragon_ R Foot
+    100266: mountain_dragon_ R Forearm
+    100268: mountain_dragon_ R Hand
+    100270: mountain_dragon_ R HorseLink
+    100272: mountain_dragon_ R Thigh
+    100274: mountain_dragon_ R Toe0
+    100276: mountain_dragon_ R Toe01
+    100278: mountain_dragon_ R Toe02
+    100280: mountain_dragon_ R Toe0Nub
+    100282: mountain_dragon_ R Toe1
+    100284: mountain_dragon_ R Toe11
+    100286: mountain_dragon_ R Toe12
+    100288: mountain_dragon_ R Toe1Nub
+    100290: mountain_dragon_ R Toe2
+    100292: mountain_dragon_ R Toe21
+    100294: mountain_dragon_ R Toe22
+    100296: mountain_dragon_ R Toe2Nub
+    100298: mountain_dragon_ R Toe3
+    100300: mountain_dragon_ R Toe31
+    100302: mountain_dragon_ R Toe32
+    100304: mountain_dragon_ R Toe3Nub
+    100306: mountain_dragon_ R UpperArm
+    100308: mountain_dragon_ Spine
+    100310: mountain_dragon_ Spine1
+    100312: mountain_dragon_ Spine2
+    100314: mountain_dragon_ Tail
+    100316: mountain_dragon_ Tail1
+    100318: mountain_dragon_ Tail10
+    100320: mountain_dragon_ Tail11
+    100322: mountain_dragon_ Tail12
+    100324: mountain_dragon_ Tail13
+    100326: mountain_dragon_ Tail14
+    100328: mountain_dragon_ Tail15
+    100330: mountain_dragon_ Tail16
+    100332: mountain_dragon_ Tail2
+    100334: mountain_dragon_ Tail3
+    100336: mountain_dragon_ Tail4
+    100338: mountain_dragon_ Tail5
+    100340: mountain_dragon_ Tail6
+    100342: mountain_dragon_ Tail7
+    100344: mountain_dragon_ Tail8
+    100346: mountain_dragon_ Tail9
+    100348: mountain_dragon_ TailNub
+    100350: wingL_arm_
+    100352: wingL_arm_(mirrored)
+    100354: wingL_foreArm1_
+    100356: wingL_foreArm1_(mirrored)
+    100358: wingL_foreArm2_
+    100360: wingL_foreArm2_(mirrored)
+    100362: wingL_hand_
+    100364: wingL_hand_(mirrored)
+    400000: Bone005
+    400002: Bone005(mirrored)
+    400004: Bone006
+    400006: Bone006(mirrored)
+    400008: Bone007
+    400010: Bone007(mirrored)
+    400012: Bone008
+    400014: Bone008(mirrored)
+    400016: Bone009
+    400018: Bone009(mirrored)
+    400020: Bone010
+    400022: Bone010(mirrored)
+    400024: Bone011
+    400026: Bone011(mirrored)
+    400028: Bone012
+    400030: Bone012(mirrored)
+    400032: Bone013
+    400034: Bone013(mirrored)
+    400036: Bone014
+    400038: Bone014(mirrored)
+    400040: Bone015
+    400042: Bone015(mirrored)
+    400044: Bone016
+    400046: Bone016(mirrored)
+    400048: Bone017
+    400050: Bone017(mirrored)
+    400052: Bone018
+    400054: Bone018(mirrored)
+    400056: Bone019
+    400058: Bone019(mirrored)
+    400060: Bone020
+    400062: Bone020(mirrored)
+    400064: Bone021
+    400066: Bone021(mirrored)
+    400068: Dummy001
+    400070: Dummy002
+    400072: Dummy003
+    400074: Dummy004
+    400076: Dummy005
+    400078: Dummy006
+    400080: Dummy007
+    400082: Dummy008
+    400084: Dummy009
+    400086: Dummy010
+    400088: Dummy011
+    400090: Dummy012
+    400092: IK Chain001
+    400094: IK Chain002
+    400096: IK Chain003
+    400098: IK Chain004
+    400100: IK Chain005
+    400102: IK Chain006
+    400104: IK Chain007
+    400106: IK Chain008
+    400108: IK Chain009
+    400110: IK Chain010
+    400112: jaw_down_01_
+    400114: jaw_down_02_
+    400116: jaw_down_03_
+    400118: jaw_down_04_
+    400120: jaw_up_01_
+    400122: jaw_up_02_
+    400124: mountain_dragon
+    400126: //RootNode
+    400128: mountain_dragon_
+    400130: mountain_dragon_ Footsteps
+    400132: mountain_dragon_ Head
+    400134: mountain_dragon_ HeadNub
+    400136: mountain_dragon_ L Calf
+    400138: mountain_dragon_ L Clavicle
+    400140: mountain_dragon_ L Finger0
+    400142: mountain_dragon_ L Finger01
+    400144: mountain_dragon_ L Finger02
+    400146: mountain_dragon_ L Finger0Nub
+    400148: mountain_dragon_ L Finger1
+    400150: mountain_dragon_ L Finger11
+    400152: mountain_dragon_ L Finger12
+    400154: mountain_dragon_ L Finger1Nub
+    400156: mountain_dragon_ L Finger2
+    400158: mountain_dragon_ L Finger21
+    400160: mountain_dragon_ L Finger22
+    400162: mountain_dragon_ L Finger2Nub
+    400164: mountain_dragon_ L Finger3
+    400166: mountain_dragon_ L Finger31
+    400168: mountain_dragon_ L Finger32
+    400170: mountain_dragon_ L Finger3Nub
+    400172: mountain_dragon_ L Foot
+    400174: mountain_dragon_ L Forearm
+    400176: mountain_dragon_ L Hand
+    400178: mountain_dragon_ L HorseLink
+    400180: mountain_dragon_ L Thigh
+    400182: mountain_dragon_ L Toe0
+    400184: mountain_dragon_ L Toe01
+    400186: mountain_dragon_ L Toe02
+    400188: mountain_dragon_ L Toe0Nub
+    400190: mountain_dragon_ L Toe1
+    400192: mountain_dragon_ L Toe11
+    400194: mountain_dragon_ L Toe12
+    400196: mountain_dragon_ L Toe1Nub
+    400198: mountain_dragon_ L Toe2
+    400200: mountain_dragon_ L Toe21
+    400202: mountain_dragon_ L Toe22
+    400204: mountain_dragon_ L Toe2Nub
+    400206: mountain_dragon_ L Toe3
+    400208: mountain_dragon_ L Toe31
+    400210: mountain_dragon_ L Toe32
+    400212: mountain_dragon_ L Toe3Nub
+    400214: mountain_dragon_ L UpperArm
+    400216: mountain_dragon_ Neck
+    400218: mountain_dragon_ Neck1
+    400220: mountain_dragon_ Neck2
+    400222: mountain_dragon_ Neck3
+    400224: mountain_dragon_ Neck4
+    400226: mountain_dragon_ Pelvis
+    400228: mountain_dragon_ R Calf
+    400230: mountain_dragon_ R Clavicle
+    400232: mountain_dragon_ R Finger0
+    400234: mountain_dragon_ R Finger01
+    400236: mountain_dragon_ R Finger02
+    400238: mountain_dragon_ R Finger0Nub
+    400240: mountain_dragon_ R Finger1
+    400242: mountain_dragon_ R Finger11
+    400244: mountain_dragon_ R Finger12
+    400246: mountain_dragon_ R Finger1Nub
+    400248: mountain_dragon_ R Finger2
+    400250: mountain_dragon_ R Finger21
+    400252: mountain_dragon_ R Finger22
+    400254: mountain_dragon_ R Finger2Nub
+    400256: mountain_dragon_ R Finger3
+    400258: mountain_dragon_ R Finger31
+    400260: mountain_dragon_ R Finger32
+    400262: mountain_dragon_ R Finger3Nub
+    400264: mountain_dragon_ R Foot
+    400266: mountain_dragon_ R Forearm
+    400268: mountain_dragon_ R Hand
+    400270: mountain_dragon_ R HorseLink
+    400272: mountain_dragon_ R Thigh
+    400274: mountain_dragon_ R Toe0
+    400276: mountain_dragon_ R Toe01
+    400278: mountain_dragon_ R Toe02
+    400280: mountain_dragon_ R Toe0Nub
+    400282: mountain_dragon_ R Toe1
+    400284: mountain_dragon_ R Toe11
+    400286: mountain_dragon_ R Toe12
+    400288: mountain_dragon_ R Toe1Nub
+    400290: mountain_dragon_ R Toe2
+    400292: mountain_dragon_ R Toe21
+    400294: mountain_dragon_ R Toe22
+    400296: mountain_dragon_ R Toe2Nub
+    400298: mountain_dragon_ R Toe3
+    400300: mountain_dragon_ R Toe31
+    400302: mountain_dragon_ R Toe32
+    400304: mountain_dragon_ R Toe3Nub
+    400306: mountain_dragon_ R UpperArm
+    400308: mountain_dragon_ Spine
+    400310: mountain_dragon_ Spine1
+    400312: mountain_dragon_ Spine2
+    400314: mountain_dragon_ Tail
+    400316: mountain_dragon_ Tail1
+    400318: mountain_dragon_ Tail10
+    400320: mountain_dragon_ Tail11
+    400322: mountain_dragon_ Tail12
+    400324: mountain_dragon_ Tail13
+    400326: mountain_dragon_ Tail14
+    400328: mountain_dragon_ Tail15
+    400330: mountain_dragon_ Tail16
+    400332: mountain_dragon_ Tail2
+    400334: mountain_dragon_ Tail3
+    400336: mountain_dragon_ Tail4
+    400338: mountain_dragon_ Tail5
+    400340: mountain_dragon_ Tail6
+    400342: mountain_dragon_ Tail7
+    400344: mountain_dragon_ Tail8
+    400346: mountain_dragon_ Tail9
+    400348: mountain_dragon_ TailNub
+    400350: wingL_arm_
+    400352: wingL_arm_(mirrored)
+    400354: wingL_foreArm1_
+    400356: wingL_foreArm1_(mirrored)
+    400358: wingL_foreArm2_
+    400360: wingL_foreArm2_(mirrored)
+    400362: wingL_hand_
+    400364: wingL_hand_(mirrored)
+    4300000: mountain_dragon
+    7400000: Take 001
+    7400002: idle
+    7400004: goInAirNormal
+    7400006: flyNormal
+    7400008: glideNormal
+    7400010: goToSwoopPos
+    7400012: swoopPosIdle
+    7400014: landingNormal
+    7400016: swoopPosToHangPrey1Attack
+    7400018: glidePosToHangPrey1attack
+    7400020: glideHangPrey1
+    7400022: flyHangPrey1
+    7400024: glideHangPrey1ThrowFireball
+    7400026: flyHangPrey1ThrowFireball
+    7400028: ThrowPrey1Attack
+    7400030: inAirNormalImpactFront
+    7400032: inAirNormalImpactRear
+    7400034: inAirNormalImpactTop
+    7400036: inAirNormalImpactBottom
+    7400038: inAirNormalImpactRight
+    7400040: inAirNormalImpactLeft
+    7400042: swoopPosToFall
+    7400044: glidePosToFall
+    7400046: fall
+    7400048: death_hitTheGround
+    7400050: deadIdle_asleepIdle
+    7400052: revive_wakeUp
+    11100000: //RootNode
+    13700000: mountain_dragon
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: goInAirNormal
+      takeName: 
+      firstFrame: 5
+      lastFrame: 50
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: flyNormal
+      takeName: 
+      firstFrame: 55
+      lastFrame: 85
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: glideNormal
+      takeName: 
+      firstFrame: 90
+      lastFrame: 120
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: goToSwoopPos
+      takeName: 
+      firstFrame: 125
+      lastFrame: 140
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: swoopPosIdle
+      takeName: 
+      firstFrame: 145
+      lastFrame: 175
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: landingNormal
+      takeName: 
+      firstFrame: 180
+      lastFrame: 200
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: swoopPosToHangPrey1Attack
+      takeName: 
+      firstFrame: 205
+      lastFrame: 250
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: glidePosToHangPrey1attack
+      takeName: 
+      firstFrame: 210
+      lastFrame: 250
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: glideHangPrey1
+      takeName: 
+      firstFrame: 255
+      lastFrame: 285
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: flyHangPrey1
+      takeName: 
+      firstFrame: 290
+      lastFrame: 320
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: glideHangPrey1ThrowFireball
+      takeName: 
+      firstFrame: 325
+      lastFrame: 355
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: flyHangPrey1ThrowFireball
+      takeName: 
+      firstFrame: 360
+      lastFrame: 390
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ThrowPrey1Attack
+      takeName: 
+      firstFrame: 395
+      lastFrame: 435
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: inAirNormalImpactFront
+      takeName: 
+      firstFrame: 440
+      lastFrame: 470
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: inAirNormalImpactRear
+      takeName: 
+      firstFrame: 475
+      lastFrame: 505
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: inAirNormalImpactBottom
+      takeName: 
+      firstFrame: 510
+      lastFrame: 540
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: inAirNormalImpactTop
+      takeName: 
+      firstFrame: 545
+      lastFrame: 575
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: inAirNormalImpactRight
+      takeName: 
+      firstFrame: 580
+      lastFrame: 610
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: inAirNormalImpactLeft
+      takeName: 
+      firstFrame: 615
+      lastFrame: 645
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: swoopPosToFall
+      takeName: 
+      firstFrame: 650
+      lastFrame: 695
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: glidePosToFall
+      takeName: 
+      firstFrame: 655
+      lastFrame: 695
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fall
+      takeName: 
+      firstFrame: 700
+      lastFrame: 720
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death_hitTheGround
+      takeName: 
+      firstFrame: 725
+      lastFrame: 795
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: deadIdle_asleepIdle
+      takeName: 
+      firstFrame: 800
+      lastFrame: 830
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: revive_wakeUp
+      takeName: 
+      firstFrame: 835
+      lastFrame: 880
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
