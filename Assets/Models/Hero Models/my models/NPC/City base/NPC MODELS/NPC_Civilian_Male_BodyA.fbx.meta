@@ -179,7 +179,17 @@ ModelImporter:
     13700000: NPC_Civilian_Male_BodyA_Amesh
     13700002: NPC_Civilian_Male_HeadA_Amesh
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NPC_Civilian_Male_BodyA_MatInst
+    second: {fileID: 2100000, guid: 68ccea83175872e4890961b964f4c080, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NPC_Civilian_Male_HeadA_MatInst
+    second: {fileID: 2100000, guid: 76f525e03e2267a4caf8169ceda25c22, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -191,8 +201,9 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: "Avatar creation failed:\n\tTransform 'J_L_Thigh' for human bone
-      'LeftUpperLeg' not found\n"
+    rigImportErrors: "Avatar creation failed:\n\tAmbiguous Transform '' and 'NPC_Civilian_Male_BodyA'
+      found in hierarchy for human bone 'Hips'. Transform name mapped to a human bone
+      must be unique.\n"
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 

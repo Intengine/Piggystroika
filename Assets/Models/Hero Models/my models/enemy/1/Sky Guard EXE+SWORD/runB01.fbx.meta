@@ -288,7 +288,12 @@ ModelImporter:
     13700004: 0002_AN_NPC_MOB_DragonNewtA_B01_SK_BYN
     13700006: 0003_AN_NPC_MOB_DragonNewtA_B01_SK_BYN
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 7eb54142d46c1c743accf72e79cc6d13, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -300,11 +305,57 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: "Avatar creation failed:\n\tTransform 'Bip01_Pelvis' for human
-      bone 'Hips' not found\n"
+    rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'C4D Animation Take' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Bip01_Spine' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Spine1' has translation
+      animation that will be discarded.\n\t'Bip01_Spine2' has translation animation
+      that will be discarded.\n\t'Bip01_Neck' has translation animation that will
+      be discarded.\n\t'Bip01_Neck' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Bip01_L_Clavicle' has translation animation
+      that will be discarded.\n\t'Bip01_L_UpperArm' has translation animation that
+      will be discarded.\n\t'Bip01_L_Forearm' has translation animation that will
+      be discarded.\n\t'Bip01_L_Hand' has translation animation that will be discarded.\n\t'Bip01_L_Finger0'
+      has translation animation that will be discarded.\n\t'Bip01_L_Finger01' has
+      translation animation that will be discarded.\n\t'Bip01_L_Finger02' has translation
+      animation that will be discarded.\n\t'Bip01_L_Finger1' has translation animation
+      that will be discarded.\n\t'Bip01_L_Finger11' has translation animation that
+      will be discarded.\n\t'Bip01_L_Finger12' has translation animation that will
+      be discarded.\n\t'Bip01_L_Finger2' has translation animation that will be discarded.\n\t'Bip01_L_Finger21'
+      has translation animation that will be discarded.\n\t'Bip01_L_Finger22' has
+      translation animation that will be discarded.\n\t'Bip01_L_Finger3' has translation
+      animation that will be discarded.\n\t'Bip01_L_Finger31' has translation animation
+      that will be discarded.\n\t'Bip01_L_Finger32' has translation animation that
+      will be discarded.\n\t'Bip01_L_Finger4' has translation animation that will
+      be discarded.\n\t'Bip01_L_Finger41' has translation animation that will be discarded.\n\t'Bip01_L_Finger42'
+      has translation animation that will be discarded.\n\t'Bip01_R_Clavicle' has
+      translation animation that will be discarded.\n\t'Bip01_R_UpperArm' has translation
+      animation that will be discarded.\n\t'Bip01_R_Forearm' has translation animation
+      that will be discarded.\n\t'Bip01_R_Hand' has translation animation that will
+      be discarded.\n\t'Bip01_R_Finger0' has translation animation that will be discarded.\n\t'Bip01_R_Finger01'
+      has translation animation that will be discarded.\n\t'Bip01_R_Finger02' has
+      translation animation that will be discarded.\n\t'Bip01_R_Finger1' has translation
+      animation that will be discarded.\n\t'Bip01_R_Finger11' has translation animation
+      that will be discarded.\n\t'Bip01_R_Finger12' has translation animation that
+      will be discarded.\n\t'Bip01_R_Finger2' has translation animation that will
+      be discarded.\n\t'Bip01_R_Finger21' has translation animation that will be discarded.\n\t'Bip01_R_Finger22'
+      has translation animation that will be discarded.\n\t'Bip01_R_Finger3' has translation
+      animation that will be discarded.\n\t'Bip01_R_Finger31' has translation animation
+      that will be discarded.\n\t'Bip01_R_Finger32' has translation animation that
+      will be discarded.\n\t'Bip01_R_Finger4' has translation animation that will
+      be discarded.\n\t'Bip01_R_Finger41' has translation animation that will be discarded.\n\t'Bip01_R_Finger42'
+      has translation animation that will be discarded.\n\t'Bip01_Head' has translation
+      animation that will be discarded.\n\t'BN_Mouth' has translation animation that
+      will be discarded.\n\t'Bip01_L_Thigh' has translation animation that will be
+      discarded.\n\t'Bip01_L_Calf' has translation animation that will be discarded.\n\t'Bip01_L_Foot'
+      has translation animation that will be discarded.\n\t'BN_Toe04_L_01' has translation
+      animation that will be discarded.\n\t'Bip01_R_Thigh' has translation animation
+      that will be discarded.\n\t'Bip01_R_Calf' has translation animation that will
+      be discarded.\n\t'Bip01_R_Foot' has translation animation that will be discarded.\n\t'BN_Toe04_R_01'
+      has translation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0

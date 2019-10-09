@@ -4,8 +4,124 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    400000: //RootNode
+    100002: WEREWOLF
+    100004: WEREWOLF_
+    100006: WEREWOLF_ Head
+    100008: WEREWOLF_ L Calf
+    100010: WEREWOLF_ L Clavicle
+    100012: WEREWOLF_ L Finger0
+    100014: WEREWOLF_ L Finger01
+    100016: WEREWOLF_ L Finger02
+    100018: WEREWOLF_ L Finger1
+    100020: WEREWOLF_ L Finger11
+    100022: WEREWOLF_ L Finger12
+    100024: WEREWOLF_ L Finger2
+    100026: WEREWOLF_ L Finger21
+    100028: WEREWOLF_ L Finger22
+    100030: WEREWOLF_ L Finger3
+    100032: WEREWOLF_ L Finger31
+    100034: WEREWOLF_ L Finger32
+    100036: WEREWOLF_ L Foot
+    100038: WEREWOLF_ L Forearm
+    100040: WEREWOLF_ L Hand
+    100042: WEREWOLF_ L HorseLink
+    100044: WEREWOLF_ L Thigh
+    100046: WEREWOLF_ L Toe0
+    100048: WEREWOLF_ L UpperArm
+    100050: WEREWOLF_ Neck
+    100052: WEREWOLF_ Neck1
+    100054: WEREWOLF_ Pelvis
+    100056: WEREWOLF_ Queue de cheval 1
+    100058: WEREWOLF_ R Calf
+    100060: WEREWOLF_ R Clavicle
+    100062: WEREWOLF_ R Finger0
+    100064: WEREWOLF_ R Finger01
+    100066: WEREWOLF_ R Finger02
+    100068: WEREWOLF_ R Finger1
+    100070: WEREWOLF_ R Finger11
+    100072: WEREWOLF_ R Finger12
+    100074: WEREWOLF_ R Finger2
+    100076: WEREWOLF_ R Finger21
+    100078: WEREWOLF_ R Finger22
+    100080: WEREWOLF_ R Finger3
+    100082: WEREWOLF_ R Finger31
+    100084: WEREWOLF_ R Finger32
+    100086: WEREWOLF_ R Foot
+    100088: WEREWOLF_ R Forearm
+    100090: WEREWOLF_ R Hand
+    100092: WEREWOLF_ R HorseLink
+    100094: WEREWOLF_ R Thigh
+    100096: WEREWOLF_ R Toe0
+    100098: WEREWOLF_ R UpperArm
+    100100: WEREWOLF_ Spine
+    100102: WEREWOLF_ Spine1
+    100104: WEREWOLF_ Tail
+    100106: WEREWOLF_ Tail1
+    100108: WEREWOLF_ Tail2
+    100110: WEREWOLF_ Tail3
+    100112: WEREWOLF_ Tail4
+    400000: WEREWOLF
+    400002: //RootNode
+    400004: WEREWOLF_
+    400006: WEREWOLF_ Head
+    400008: WEREWOLF_ L Calf
+    400010: WEREWOLF_ L Clavicle
+    400012: WEREWOLF_ L Finger0
+    400014: WEREWOLF_ L Finger01
+    400016: WEREWOLF_ L Finger02
+    400018: WEREWOLF_ L Finger1
+    400020: WEREWOLF_ L Finger11
+    400022: WEREWOLF_ L Finger12
+    400024: WEREWOLF_ L Finger2
+    400026: WEREWOLF_ L Finger21
+    400028: WEREWOLF_ L Finger22
+    400030: WEREWOLF_ L Finger3
+    400032: WEREWOLF_ L Finger31
+    400034: WEREWOLF_ L Finger32
+    400036: WEREWOLF_ L Foot
+    400038: WEREWOLF_ L Forearm
+    400040: WEREWOLF_ L Hand
+    400042: WEREWOLF_ L HorseLink
+    400044: WEREWOLF_ L Thigh
+    400046: WEREWOLF_ L Toe0
+    400048: WEREWOLF_ L UpperArm
+    400050: WEREWOLF_ Neck
+    400052: WEREWOLF_ Neck1
+    400054: WEREWOLF_ Pelvis
+    400056: WEREWOLF_ Queue de cheval 1
+    400058: WEREWOLF_ R Calf
+    400060: WEREWOLF_ R Clavicle
+    400062: WEREWOLF_ R Finger0
+    400064: WEREWOLF_ R Finger01
+    400066: WEREWOLF_ R Finger02
+    400068: WEREWOLF_ R Finger1
+    400070: WEREWOLF_ R Finger11
+    400072: WEREWOLF_ R Finger12
+    400074: WEREWOLF_ R Finger2
+    400076: WEREWOLF_ R Finger21
+    400078: WEREWOLF_ R Finger22
+    400080: WEREWOLF_ R Finger3
+    400082: WEREWOLF_ R Finger31
+    400084: WEREWOLF_ R Finger32
+    400086: WEREWOLF_ R Foot
+    400088: WEREWOLF_ R Forearm
+    400090: WEREWOLF_ R Hand
+    400092: WEREWOLF_ R HorseLink
+    400094: WEREWOLF_ R Thigh
+    400096: WEREWOLF_ R Toe0
+    400098: WEREWOLF_ R UpperArm
+    400100: WEREWOLF_ Spine
+    400102: WEREWOLF_ Spine1
+    400104: WEREWOLF_ Tail
+    400106: WEREWOLF_ Tail1
+    400108: WEREWOLF_ Tail2
+    400110: WEREWOLF_ Tail3
+    400112: WEREWOLF_ Tail4
+    4300000: WEREWOLF
+    7400000: Take 001
     9500000: //RootNode
+    11100000: //RootNode
+    13700000: WEREWOLF
     2186277476908879412: ImportLogs
   externalObjects:
   - first:
@@ -24,8 +140,7 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: "Avatar creation failed:\n\tTransform 'WEREWOLF_' for human bone
-      'Hips' not found\n"
+    rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
@@ -40,35 +155,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Take 001
-      takeName: Take 001
-      firstFrame: 0
-      lastFrame: 1
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []

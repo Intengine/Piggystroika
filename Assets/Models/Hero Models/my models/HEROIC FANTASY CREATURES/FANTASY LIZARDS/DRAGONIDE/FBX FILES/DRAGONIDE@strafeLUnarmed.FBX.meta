@@ -121,11 +121,17 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: "Avatar creation failed:\n\tTransform 'DRAGONIDE_ Pelvis' for
-      human bone 'Hips' not found\n"
-    rigImportWarnings: 
+    rigImportErrors: 
+    rigImportWarnings: "Avatar Rig Configuration mis-match. Inbetween bone rotation
+      in configuration does not match rotation in animation file:\n\t'DRAGONIDE_ L
+      HorseLink' : rotation error = 85.197250 deg\n\t'DRAGONIDE_ R HorseLink' : rotation
+      error = 98.334427 deg\n"
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\n\t'DRAGONIDE_ L HorseLink' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'DRAGONIDE_
+      R HorseLink' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0

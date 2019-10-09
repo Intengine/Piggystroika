@@ -185,7 +185,37 @@ ModelImporter:
     13700000: protection
     13700002: skeleton_knight
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: helmet
+    second: {fileID: 2100000, guid: db088959056495a459d5a8100373f79b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: protection
+    second: {fileID: 2100000, guid: 23651192f510b644fbab90f80912a157, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rondache
+    second: {fileID: 2100000, guid: f5fe8c6ced1147d41aef8315f5f796cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skeleton
+    second: {fileID: 2100000, guid: c22d2067fd3808c42843108f5777b7cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sword
+    second: {fileID: 2100000, guid: e540b334a3b22ae4e89bb68a7d83009d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: two-handed_sword
+    second: {fileID: 2100000, guid: 7c39b49c55e26d6458893ebcca57f1a6, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

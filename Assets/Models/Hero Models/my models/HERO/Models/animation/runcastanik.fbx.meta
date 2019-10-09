@@ -312,7 +312,32 @@ ModelImporter:
     13700006: Castanic_M_H06_Leg_Skel
     13700008: Castanic_M_Hair06_Skel
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Castanic_M_Face06_MI
+    second: {fileID: 2100000, guid: 8e313e7ce451a4c4d8af96ea7e929cbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Castanic_M_H06_Body_MI
+    second: {fileID: 2100000, guid: ae0ed83d12f3f694ba99ba5f9f41cfbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Castanic_M_H06_Hand_MI
+    second: {fileID: 2100000, guid: af01713ea2698364c8b5fb1392d36993, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Castanic_M_H06_Leg_MI
+    second: {fileID: 2100000, guid: 98276b1a6ea9627468eed642994e6b77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Castanic_M_Hair06_MI
+    second: {fileID: 2100000, guid: fda2938cb71934341a59a5f819cca3fa, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -324,11 +349,21 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: "Avatar creation failed:\n\tTransform 'Bip01_Pelvis' for human
-      bone 'Hips' not found\n"
+    rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'C4D Animation Take' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Bip01_Spine' has translation animation that
+      will be discarded.\n\t'Bip01_Spine' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'Bip01_Spine1' has translation
+      animation that will be discarded.\n\t'Bip01_Spine3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Neck' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has translation animation that will be discarded.\n\t'Bip01_R_Clavicle' has
+      translation animation that will be discarded.\n\t'Bip01_L_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_R_Thigh' has translation animation
+      that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0

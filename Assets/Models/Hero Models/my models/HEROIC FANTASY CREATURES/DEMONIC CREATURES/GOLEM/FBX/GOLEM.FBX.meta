@@ -4,8 +4,126 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: GOLEM_
+    100004: GOLEM_ Head
+    100006: GOLEM_ L Calf
+    100008: GOLEM_ L Clavicle
+    100010: GOLEM_ L Finger0
+    100012: GOLEM_ L Finger01
+    100014: GOLEM_ L Finger02
+    100016: GOLEM_ L Finger1
+    100018: GOLEM_ L Finger11
+    100020: GOLEM_ L Finger12
+    100022: GOLEM_ L Finger2
+    100024: GOLEM_ L Finger21
+    100026: GOLEM_ L Finger22
+    100028: GOLEM_ L Finger3
+    100030: GOLEM_ L Finger31
+    100032: GOLEM_ L Finger32
+    100034: GOLEM_ L Finger4
+    100036: GOLEM_ L Finger41
+    100038: GOLEM_ L Finger42
+    100040: GOLEM_ L Foot
+    100042: GOLEM_ L Forearm
+    100044: GOLEM_ L Hand
+    100046: GOLEM_ L Thigh
+    100048: GOLEM_ L Toe0
+    100050: GOLEM_ L UpperArm
+    100052: GOLEM_ Neck
+    100054: GOLEM_ Pelvis
+    100056: GOLEM_ Queue de cheval 1
+    100058: GOLEM_ R Calf
+    100060: GOLEM_ R Clavicle
+    100062: GOLEM_ R Finger0
+    100064: GOLEM_ R Finger01
+    100066: GOLEM_ R Finger02
+    100068: GOLEM_ R Finger1
+    100070: GOLEM_ R Finger11
+    100072: GOLEM_ R Finger12
+    100074: GOLEM_ R Finger2
+    100076: GOLEM_ R Finger21
+    100078: GOLEM_ R Finger22
+    100080: GOLEM_ R Finger3
+    100082: GOLEM_ R Finger31
+    100084: GOLEM_ R Finger32
+    100086: GOLEM_ R Finger4
+    100088: GOLEM_ R Finger41
+    100090: GOLEM_ R Finger42
+    100092: GOLEM_ R Foot
+    100094: GOLEM_ R Forearm
+    100096: GOLEM_ R Hand
+    100098: GOLEM_ R Thigh
+    100100: GOLEM_ R Toe0
+    100102: GOLEM_ R UpperArm
+    100104: GOLEM_ Spine
+    100106: GOLEM_ Spine1
+    100108: GOLEM_LOD0
+    100110: GOLEM_LOD1
     400000: //RootNode
+    400002: GOLEM_
+    400004: GOLEM_ Head
+    400006: GOLEM_ L Calf
+    400008: GOLEM_ L Clavicle
+    400010: GOLEM_ L Finger0
+    400012: GOLEM_ L Finger01
+    400014: GOLEM_ L Finger02
+    400016: GOLEM_ L Finger1
+    400018: GOLEM_ L Finger11
+    400020: GOLEM_ L Finger12
+    400022: GOLEM_ L Finger2
+    400024: GOLEM_ L Finger21
+    400026: GOLEM_ L Finger22
+    400028: GOLEM_ L Finger3
+    400030: GOLEM_ L Finger31
+    400032: GOLEM_ L Finger32
+    400034: GOLEM_ L Finger4
+    400036: GOLEM_ L Finger41
+    400038: GOLEM_ L Finger42
+    400040: GOLEM_ L Foot
+    400042: GOLEM_ L Forearm
+    400044: GOLEM_ L Hand
+    400046: GOLEM_ L Thigh
+    400048: GOLEM_ L Toe0
+    400050: GOLEM_ L UpperArm
+    400052: GOLEM_ Neck
+    400054: GOLEM_ Pelvis
+    400056: GOLEM_ Queue de cheval 1
+    400058: GOLEM_ R Calf
+    400060: GOLEM_ R Clavicle
+    400062: GOLEM_ R Finger0
+    400064: GOLEM_ R Finger01
+    400066: GOLEM_ R Finger02
+    400068: GOLEM_ R Finger1
+    400070: GOLEM_ R Finger11
+    400072: GOLEM_ R Finger12
+    400074: GOLEM_ R Finger2
+    400076: GOLEM_ R Finger21
+    400078: GOLEM_ R Finger22
+    400080: GOLEM_ R Finger3
+    400082: GOLEM_ R Finger31
+    400084: GOLEM_ R Finger32
+    400086: GOLEM_ R Finger4
+    400088: GOLEM_ R Finger41
+    400090: GOLEM_ R Finger42
+    400092: GOLEM_ R Foot
+    400094: GOLEM_ R Forearm
+    400096: GOLEM_ R Hand
+    400098: GOLEM_ R Thigh
+    400100: GOLEM_ R Toe0
+    400102: GOLEM_ R UpperArm
+    400104: GOLEM_ Spine
+    400106: GOLEM_ Spine1
+    400108: GOLEM_LOD0
+    400110: GOLEM_LOD1
+    4300000: GOLEM
+    4300002: GOLEM_LOD0
+    4300004: GOLEM_LOD1
+    7400000: Take 001
     9500000: //RootNode
+    11100000: //RootNode
+    13700000: GOLEM_LOD0
+    13700002: GOLEM_LOD1
+    20500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects:
   - first:
@@ -24,8 +142,7 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: "Avatar creation failed:\n\tTransform 'GOLEM_' for human bone
-      'Hips' not found\n"
+    rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
@@ -40,35 +157,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Take 001
-      takeName: Take 001
-      firstFrame: 0
-      lastFrame: 1
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages:

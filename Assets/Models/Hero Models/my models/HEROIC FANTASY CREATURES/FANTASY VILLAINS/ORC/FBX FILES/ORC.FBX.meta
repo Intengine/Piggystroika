@@ -3,9 +3,156 @@ guid: aa476cf34d3d46d478aa560a935400c6
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
+    100000: axe001
+    100002: BELLY_CLOTHE
+    100004: FOREARM_ARMOR
+    100006: FOREARM_ARMOR001
+    100008: //RootNode
+    100010: ORC
+    100012: ORC_
+    100014: ORC_ Head
+    100016: ORC_ L Calf
+    100018: ORC_ L Clavicle
+    100020: ORC_ L Finger0
+    100022: ORC_ L Finger01
+    100024: ORC_ L Finger02
+    100026: ORC_ L Finger1
+    100028: ORC_ L Finger11
+    100030: ORC_ L Finger12
+    100032: ORC_ L Finger2
+    100034: ORC_ L Finger21
+    100036: ORC_ L Finger22
+    100038: ORC_ L Finger3
+    100040: ORC_ L Finger31
+    100042: ORC_ L Finger32
+    100044: ORC_ L Foot
+    100046: ORC_ L Forearm
+    100048: ORC_ L Hand
+    100050: ORC_ L Thigh
+    100052: ORC_ L Toe0
+    100054: ORC_ L UpperArm
+    100056: ORC_ Neck
+    100058: ORC_ Pelvis
+    100060: ORC_ Queue de cheval 1
+    100062: ORC_ Queue de cheval 11
+    100064: ORC_ Queue de cheval 12
+    100066: ORC_ Queue de cheval 13
+    100068: ORC_ Queue de cheval 2
+    100070: ORC_ R Calf
+    100072: ORC_ R Clavicle
+    100074: ORC_ R Finger0
+    100076: ORC_ R Finger01
+    100078: ORC_ R Finger02
+    100080: ORC_ R Finger1
+    100082: ORC_ R Finger11
+    100084: ORC_ R Finger12
+    100086: ORC_ R Finger2
+    100088: ORC_ R Finger21
+    100090: ORC_ R Finger22
+    100092: ORC_ R Finger3
+    100094: ORC_ R Finger31
+    100096: ORC_ R Finger32
+    100098: ORC_ R Foot
+    100100: ORC_ R Forearm
+    100102: ORC_ R Hand
+    100104: ORC_ R Thigh
+    100106: ORC_ R Toe0
+    100108: ORC_ R UpperArm
+    100110: ORC_ Spine
+    100112: ORC_ Spine1
+    100114: ORC_PONYTAIL
+    100116: SHOULDER_PADS
+    100118: Structure001
+    100120: Structure002
+    100122: Structure003
+    100124: Structure005
+    100126: Structure006
+    100128: Structure007
+    400000: axe001
+    400002: BELLY_CLOTHE
+    400004: FOREARM_ARMOR
+    400006: FOREARM_ARMOR001
+    400008: ORC
+    400010: //RootNode
+    400012: ORC_
+    400014: ORC_ Head
+    400016: ORC_ L Calf
+    400018: ORC_ L Clavicle
+    400020: ORC_ L Finger0
+    400022: ORC_ L Finger01
+    400024: ORC_ L Finger02
+    400026: ORC_ L Finger1
+    400028: ORC_ L Finger11
+    400030: ORC_ L Finger12
+    400032: ORC_ L Finger2
+    400034: ORC_ L Finger21
+    400036: ORC_ L Finger22
+    400038: ORC_ L Finger3
+    400040: ORC_ L Finger31
+    400042: ORC_ L Finger32
+    400044: ORC_ L Foot
+    400046: ORC_ L Forearm
+    400048: ORC_ L Hand
+    400050: ORC_ L Thigh
+    400052: ORC_ L Toe0
+    400054: ORC_ L UpperArm
+    400056: ORC_ Neck
+    400058: ORC_ Pelvis
+    400060: ORC_ Queue de cheval 1
+    400062: ORC_ Queue de cheval 11
+    400064: ORC_ Queue de cheval 12
+    400066: ORC_ Queue de cheval 13
+    400068: ORC_ Queue de cheval 2
+    400070: ORC_ R Calf
+    400072: ORC_ R Clavicle
+    400074: ORC_ R Finger0
+    400076: ORC_ R Finger01
+    400078: ORC_ R Finger02
+    400080: ORC_ R Finger1
+    400082: ORC_ R Finger11
+    400084: ORC_ R Finger12
+    400086: ORC_ R Finger2
+    400088: ORC_ R Finger21
+    400090: ORC_ R Finger22
+    400092: ORC_ R Finger3
+    400094: ORC_ R Finger31
+    400096: ORC_ R Finger32
+    400098: ORC_ R Foot
+    400100: ORC_ R Forearm
+    400102: ORC_ R Hand
+    400104: ORC_ R Thigh
+    400106: ORC_ R Toe0
+    400108: ORC_ R UpperArm
+    400110: ORC_ Spine
+    400112: ORC_ Spine1
+    400114: ORC_PONYTAIL
+    400116: SHOULDER_PADS
+    400118: Structure001
+    400120: Structure002
+    400122: Structure003
+    400124: Structure005
+    400126: Structure006
+    400128: Structure007
+    2300000: axe001
+    2300002: FOREARM_ARMOR
+    2300004: FOREARM_ARMOR001
+    3300000: axe001
+    3300002: FOREARM_ARMOR
+    3300004: FOREARM_ARMOR001
+    4300000: ORC
+    4300002: SHOULDER_PADS
+    4300004: BELLY_CLOTHE
+    4300006: FOREARM_ARMOR001
+    4300008: axe001
+    4300010: FOREARM_ARMOR
+    4300012: ORC_PONYTAIL
+    7400000: Take 001
+    9500000: //RootNode
     11100000: //RootNode
+    13700000: BELLY_CLOTHE
+    13700002: ORC
+    13700004: ORC_PONYTAIL
+    13700006: SHOULDER_PADS
     2186277476908879412: ImportLogs
   externalObjects:
   - first:
@@ -54,35 +201,7 @@ ModelImporter:
     animationWrapMode: 2
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Take 001
-      takeName: Take 001
-      firstFrame: 0
-      lastFrame: 56
-      wrapMode: 2
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []

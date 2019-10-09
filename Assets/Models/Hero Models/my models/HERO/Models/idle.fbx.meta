@@ -324,7 +324,32 @@ ModelImporter:
     13700006: Human_M_L20_Hand_Skel
     13700008: Human_M_L20_Leg_Skel
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Human_M_Face12_MI
+    second: {fileID: 2100000, guid: 8ca36a177ca6b3a428355d602c6677b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Human_M_Hair12_MI
+    second: {fileID: 2100000, guid: c7841b018cede8840a578cf116276670, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Human_M_L20_Body_MI
+    second: {fileID: 2100000, guid: 38e55c668a98bf84b8f9f3db803b2101, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Human_M_L20_Hand_MI
+    second: {fileID: 2100000, guid: 2d1be02a2483b2a4ca2765280a4c759d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Human_M_L20_Leg_MI
+    second: {fileID: 2100000, guid: 9adb2fc82b31f8f4da57c8d636ffcf13, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -336,11 +361,16 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: "Avatar creation failed:\n\tTransform 'Bip01_Pelvis' for human
-      bone 'Hips' not found\n"
+    rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'C4D Animation Take' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Bip01_Spine3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Neck' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_L_Clavicle'
+      has translation animation that will be discarded.\n\t'Bip01_R_Clavicle' has
+      translation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0

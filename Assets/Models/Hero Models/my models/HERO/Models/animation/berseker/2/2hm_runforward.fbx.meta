@@ -263,7 +263,97 @@ ModelImporter:
     13700030: MarksMaleHumanoid09RightGash
     13700032: pants
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arms
+    second: {fileID: 2100000, guid: 8941e1f6d594f85468f37cac06c0640f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BODY
+    second: {fileID: 2100000, guid: 8941e1f6d594f85468f37cac06c0640f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BrowsMaleOrc05
+    second: {fileID: 2100000, guid: 56a4d1ef21daf994ca99d699773b8e25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BrowsMaleOrcHorns05
+    second: {fileID: 2100000, guid: 1ca3ba67a30f4894bba35b06f74869fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HairLineMaleOrc15
+    second: {fileID: 2100000, guid: 523d999e2a8c3224a9ce600f5fa8aac2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HairMaleOrc16
+    second: {fileID: 2100000, guid: 523d999e2a8c3224a9ce600f5fa8aac2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HairShavedMaleOrc15
+    second: {fileID: 2100000, guid: 212126484e49d514e8d711cb9ddc9e6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HumanBeard40
+    second: {fileID: 2100000, guid: 878aede9805bd4240a0edbd7c1dcc739, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HumanBeardLong01_1bit
+    second: {fileID: 2100000, guid: 878aede9805bd4240a0edbd7c1dcc739, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MaleEyesOrcBlind
+    second: {fileID: 2100000, guid: 01fcd6a53e0ac0c42b47d1398750df09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MaleHeadOrc
+    second: {fileID: 2100000, guid: 346fba4ee431f8e40b374622c5208c69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MaleMouthOrc1
+    second: {fileID: 2100000, guid: 38f4006f1c7c91e4bb539624a7b3825b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MarksMaleHumanoid09RightGash
+    second: {fileID: 2100000, guid: 876b643ae986d494487f6b413bc57a3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.00019d
+    second: {fileID: 2100000, guid: 274d13d50c9f8134382c456d087f4840, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: boots
+    second: {fileID: 2100000, guid: 98db00374df4c4c4487638d71c656e03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gloves
+    second: {fileID: 2100000, guid: 8acf097458da07c45a17b66b54aad4d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: helmet
+    second: {fileID: 2100000, guid: 12e74acc2b9bc3949924c245eeb87241, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pants
+    second: {fileID: 2100000, guid: 8941e1f6d594f85468f37cac06c0640f, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -275,11 +365,14 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: "Avatar creation failed:\n\tTransform 'NPC_COM__COM__' for human
-      bone 'Hips' not found\n"
+    rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'C4D Animation Take' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'NPC_Spine2__Spn2_' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'NPC_Pelvis__Pelv_'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0

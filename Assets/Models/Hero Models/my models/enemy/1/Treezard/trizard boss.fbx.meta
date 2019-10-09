@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 3ecdaebfa00e9b14ea78105648e52a1b
 ModelImporter:
-  serializedVersion: 23
+  serializedVersion: 16
   fileIDToRecycleName:
     100000: Cinema4D_Editor
     100002: MagicEffectsNode
@@ -150,74 +150,46 @@ ModelImporter:
     4300000: SprigganMatron_0
     9500000: //RootNode
     13700000: SprigganMatron_0
-    2186277476908879412: ImportLogs
-  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: "Avatar creation failed:\n\tTransform 'NPC_COM__COM__' for human
-      bone 'Hips' not found\n"
-    rigImportWarnings: 
-    animationImportErrors: 
-    animationImportWarnings: 
-    animationRetargetingWarnings: 
-    animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 3
-    animationRotationError: 0.5
-    animationPositionError: 0.5
-    animationScaleError: 0.5
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.01
+    globalScale: .00999999978
     meshCompression: 0
     addColliders: 0
-    useSRGBMaterialColor: 1
-    importVisibility: 0
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
-    keepQuads: 0
     weldVertices: 1
-    preserveHierarchy: 0
-    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 0
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 4
-    normalCalculationMode: 0
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
+    tangentImportMode: 1
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
     human:
     - boneName: NPC_COM__COM__
       humanName: Hips
@@ -581,380 +553,374 @@ ModelImporter:
         modified: 0
     skeleton:
     - name: sprigganmatronvariant(Clone)
-      parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: Cinema4D_Editor
-      parentName: 
-      position: {x: -1.637915, y: 1.6761527, z: -2.3252754}
-      rotation: {x: 0.11388503, y: 0.8828981, z: 0.05827792, w: 0.45180184}
+      position: {x: -1.63791502, y: 1.67615271, z: -2.32527542}
+      rotation: {x: .11388503, y: .882898092, z: .0582779199, w: .451801836}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: SprigganMatron_0
-      parentName: 
-      position: {x: -0.0038266699, y: -0.0035337799, z: 0}
-      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+      position: {x: -.00382666988, y: -.00353377988, z: 0}
+      rotation: {x: -.707106829, y: 0, z: 0, w: .707106829}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: sprigganmatronvariant
-      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: NPC_L_FootBox
-      parentName: 
-      position: {x: 0.151686, y: -0.0346465, z: 0.00000002}
-      rotation: {x: -0.00000014961579, y: -0.000000020367933, z: -0.13489074, w: 0.9908605}
-      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+      position: {x: .151685998, y: -.0346464999, z: 1.99999999e-08}
+      rotation: {x: -1.49615786e-07, y: -2.03679331e-08, z: -.134890735, w: .990860522}
+      scale: {x: .99999994, y: .99999994, z: 1}
+      transformModified: 1
     - name: NPC_L_HeelPivot
-      parentName: 
-      position: {x: -0.00146871, y: -0.0017666499, z: -5.743349e-19}
-      rotation: {x: 0, y: 6.617445e-24, z: -0, w: 1}
+      position: {x: -.00146871002, y: -.00176664989, z: -5.74334919e-19}
+      rotation: {x: 0, y: 6.6174449e-24, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: NPC_L_ToePivot
-      parentName: 
-      position: {x: 0.00146875, y: 0.132445, z: 0.00000002}
-      rotation: {x: 0, y: 6.617445e-24, z: -0, w: 1}
+      position: {x: .00146874995, y: .132444993, z: 1.99999999e-08}
+      rotation: {x: 0, y: 6.6174449e-24, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: NPC_R_FootBox
-      parentName: 
-      position: {x: -0.151686, y: -0.0346465, z: 0.00000002}
-      rotation: {x: -0.00000015207019, y: 0.0000000023387423, z: 0.13489074, w: 0.9908605}
-      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+      position: {x: -.151685998, y: -.0346464999, z: 1.99999999e-08}
+      rotation: {x: -1.52070186e-07, y: 2.33874231e-09, z: .134890735, w: .990860522}
+      scale: {x: .99999994, y: .99999994, z: 1}
+      transformModified: 1
     - name: NPC_R_HeelPivot
-      parentName: 
-      position: {x: 0.00146868, y: -0.00176666, z: -6.515504e-19}
+      position: {x: .00146867998, y: -.00176666002, z: -6.5155042e-19}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: NPC_R_ToePivot
-      parentName: 
-      position: {x: -0.0014687399, y: 0.132445, z: 0.00000002}
+      position: {x: -.00146873994, y: .132444993, z: 1.99999999e-08}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: NPC_Root__Root_
-      parentName: 
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: NPC_COM__COM__
-      parentName: 
-      position: {x: 0.00000002, y: -0.0237013, z: 0.82006496}
-      rotation: {x: 0, y: 0, z: -1, w: -0.0000012025994}
+      position: {x: 1.99999999e-08, y: -.0237013008, z: .820064962}
+      rotation: {x: 0, y: 0, z: -1, w: -1.20259938e-06}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: NPC_Pelvis__Pelv_
-      parentName: 
       position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0.00000016858739, y: 0.00000047683733, z: 0.0000010766086, w: 1}
+      rotation: {x: 1.68587391e-07, y: 4.76837329e-07, z: 1.07660856e-06, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: NPC_L_Thigh__LThg_
-      parentName: 
-      position: {x: 0.08045729, y: -0.00669421, z: 0.0151282}
-      rotation: {x: 0.009303144, y: 0.99457365, z: 0.09208868, w: 0.04750296}
-      scale: {x: 0.9999996, y: 0.99999994, z: 0.9999996}
+      position: {x: .0804572925, y: -.00669421023, z: .0151281999}
+      rotation: {x: .00930314418, y: .994573653, z: .092088677, w: .047502961}
+      scale: {x: .999999583, y: .99999994, z: .999999583}
+      transformModified: 1
     - name: NPC_L_Calf__LClf_
-      parentName: 
-      position: {x: 0.000000049999997, y: 0.00000002, z: 0.35693198}
-      rotation: {x: -0.32971728, y: -0.021682654, z: -0.011875259, w: -0.943756}
-      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+      position: {x: 4.9999997e-08, y: 1.99999999e-08, z: .356931984}
+      rotation: {x: -.329717278, y: -.0216826536, z: -.0118752588, w: -.943755984}
+      scale: {x: 1.00000012, y: 1, z: .99999994}
+      transformModified: 1
     - name: NPC_L_Foot__Lft__
-      parentName: 
-      position: {x: 1.7763568e-17, y: 0.000000049999997, z: 0.276014}
-      rotation: {x: 0.36063513, y: -0.012659423, z: -0.076762825, w: -0.92945665}
-      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000004}
+      position: {x: 1.7763568e-17, y: 4.9999997e-08, z: .276014}
+      rotation: {x: .360635132, y: -.0126594231, z: -.0767628253, w: -.929456651}
+      scale: {x: 1.00000024, y: 1.00000012, z: 1.00000036}
+      transformModified: 1
     - name: NPC_L_Toe0__LToe_
-      parentName: 
-      position: {x: 0.0000004733104, y: -0.00016341018, z: 0.250111}
-      rotation: {x: -0.607884, y: 0.018350959, z: 0.01442742, w: 0.7936827}
-      scale: {x: 0.9999998, y: 0.99999964, z: 0.9999997}
+      position: {x: 4.73310394e-07, y: -.000163410179, z: .250111014}
+      rotation: {x: -.60788399, y: .0183509588, z: .0144274198, w: .793682694}
+      scale: {x: .999999821, y: .999999642, z: .999999702}
+      transformModified: 1
     - name: NPC_R_Thigh__RThg_
-      parentName: 
-      position: {x: -0.0804574, y: -0.0066942195, z: 0.0151282}
-      rotation: {x: -0.009300961, y: 0.9945736, z: 0.09208948, w: -0.04750283}
-      scale: {x: 1.0000001, y: 0.9999998, z: 0.99999964}
+      position: {x: -.0804573968, y: -.00669421954, z: .0151281999}
+      rotation: {x: -.00930096116, y: .994573593, z: .0920894817, w: -.0475028306}
+      scale: {x: 1.00000012, y: .999999821, z: .999999642}
+      transformModified: 1
     - name: NPC_R_Calf__RClf_
-      parentName: 
-      position: {x: -0.00000002, y: -0.00000002, z: 0.35693198}
-      rotation: {x: -0.32971838, y: 0.021685477, z: 0.011876208, w: -0.9437555}
-      scale: {x: 0.99999964, y: 0.9999997, z: 1.0000001}
+      position: {x: -1.99999999e-08, y: -1.99999999e-08, z: .356931984}
+      rotation: {x: -.329718381, y: .0216854773, z: .0118762078, w: -.943755507}
+      scale: {x: .999999642, y: .999999702, z: 1.00000012}
+      transformModified: 1
     - name: NPC_R_Foot__Rft__
-      parentName: 
-      position: {x: 0.000000007546297, y: 0.000000026351223, z: 0.276014}
-      rotation: {x: 0.36063537, y: 0.012657838, z: 0.07676358, w: -0.9294565}
-      scale: {x: 1.0000002, y: 1.0000002, z: 0.99999994}
+      position: {x: 7.54629692e-09, y: 2.63512234e-08, z: .276014}
+      rotation: {x: .36063537, y: .0126578379, z: .0767635778, w: -.929456472}
+      scale: {x: 1.00000024, y: 1.00000024, z: .99999994}
+      transformModified: 1
     - name: NPC_R_Toe0__RToe_
-      parentName: 
-      position: {x: -0.00000046169907, y: -0.00016347042, z: 0.250111}
-      rotation: {x: -0.6078841, y: -0.018351022, z: -0.01442745, w: 0.7936825}
-      scale: {x: 0.9999997, y: 0.99999994, z: 1.0000001}
+      position: {x: -4.61699074e-07, y: -.000163470424, z: .250111014}
+      rotation: {x: -.607884109, y: -.0183510222, z: -.0144274496, w: .793682516}
+      scale: {x: .999999702, y: .99999994, z: 1.00000012}
+      transformModified: 1
     - name: NPC_Spine__Spn0_
-      parentName: 
-      position: {x: -0.00000014, y: -0.012428499, z: 0.0393594}
-      rotation: {x: -0.000028491268, y: -1.4027834e-11, z: 0.00000050000006, w: 1}
+      position: {x: -1.39999997e-07, y: -.0124284988, z: .0393593982}
+      rotation: {x: -2.84912676e-05, y: -1.40278336e-11, z: 5.00000056e-07, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: MagicEffectsNode
-      parentName: 
-      position: {x: -0.000000109999995, y: 0.0495697, z: 0.032070797}
-      rotation: {x: 4.038968e-28, y: 1.9358213e-23, z: 2.646978e-23, w: 1}
+      position: {x: -1.09999995e-07, y: .0495696999, z: .0320707969}
+      rotation: {x: 4.03896783e-28, y: 1.93582127e-23, z: 2.64697796e-23, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: NPC_Spine1__Spn1_
-      parentName: 
-      position: {x: -8.470329e-24, y: 0.00000001, z: 0.070929594}
-      rotation: {x: -0.004731574, y: -0.000009219804, z: 0.00000004359779, w: 0.9999888}
-      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+      position: {x: -8.47032928e-24, y: 9.99999994e-09, z: .0709295943}
+      rotation: {x: -.0047315741, y: -9.21980427e-06, z: 4.35977903e-08, w: .999988794}
+      scale: {x: 1, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
     - name: NPC_Spine2__Spn2_
-      parentName: 
-      position: {x: -0, y: -0.00017104, z: 0.046862703}
-      rotation: {x: 0.00006912126, y: 0.000009498464, z: 0.00000048365746, w: 1}
-      scale: {x: 1, y: 1, z: 1.0000001}
+      position: {x: -0, y: -.000171039996, z: .0468627028}
+      rotation: {x: 6.91212626e-05, y: 9.49846435e-06, z: 4.83657459e-07, w: 1}
+      scale: {x: 1, y: 1, z: 1.00000012}
+      transformModified: 1
     - name: NPC_L_Clavicle__LClv_
-      parentName: 
-      position: {x: 0.0147518, y: 0.0208955, z: 0.201284}
-      rotation: {x: 0.02418237, y: -0.7888459, z: 0.15058856, w: -0.5953658}
-      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+      position: {x: .0147518003, y: .0208954997, z: .201284006}
+      rotation: {x: .0241823699, y: -.788845897, z: .150588557, w: -.595365822}
+      scale: {x: 1.00000012, y: 1, z: 1.00000012}
+      transformModified: 1
     - name: NPC_L_UpperArm__LUar_
-      parentName: 
-      position: {x: -0.00000020458593, y: 0.0000000027390288, z: 0.0963892}
-      rotation: {x: -0.100607894, y: -0.10584685, z: 0.23393019, w: 0.9612238}
-      scale: {x: 1.0000001, y: 1.0000005, z: 1}
+      position: {x: -2.0458593e-07, y: 2.73902878e-09, z: .0963891968}
+      rotation: {x: -.100607894, y: -.105846852, z: .233930185, w: .961223781}
+      scale: {x: 1.00000012, y: 1.00000048, z: 1}
+      transformModified: 1
     - name: NPC_L_UpperarmTwist1__LUt1_
-      parentName: 
-      position: {x: 0.00000022000002, y: -5.7864823e-15, z: 0.00000007}
-      rotation: {x: 0.7055628, y: 0.046703663, z: -0.7055628, w: 0.046703663}
+      position: {x: 2.20000018e-07, y: -5.78648229e-15, z: 6.99999987e-08}
+      rotation: {x: .70556277, y: .0467036627, z: -.70556277, w: .0467036627}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: NPC_L_UpperarmTwist2__LUt2_
-      parentName: 
-      position: {x: -0.0704031, y: 0.000000040000018, z: 0.00000021999999}
-      rotation: {x: 0.033041183, y: 0.00000015056523, z: 0.000000005541869, w: 0.999454}
+      position: {x: -.0704030991, y: 4.00000175e-08, z: 2.1999999e-07}
+      rotation: {x: .0330411829, y: 1.50565228e-07, z: 5.54186919e-09, w: .999454021}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: NPC_L_Forearm__LLar_
-      parentName: 
-      position: {x: 0.000000042428614, y: -0.00000024841643, z: 0.223071}
-      rotation: {x: 0.042018835, y: 0.017758438, z: 0.0026331882, w: -0.9989555}
-      scale: {x: 1.0000002, y: 0.99999976, z: 0.9999998}
+      position: {x: 4.24286135e-08, y: -2.48416427e-07, z: .223070994}
+      rotation: {x: .0420188345, y: .0177584384, z: .00263318815, w: -.998955488}
+      scale: {x: 1.00000024, y: .999999762, z: .999999821}
+      transformModified: 1
     - name: NPC_L_ForearmTwist1__LLt1_
-      parentName: 
-      position: {x: -0.00000041672308, y: -0.00000018058599, z: 0.150516}
-      rotation: {x: -0.6935187, y: 0.13793677, z: 0.69352764, w: 0.13793029}
-      scale: {x: 1.0000001, y: 1.0000002, z: 0.99999994}
+      position: {x: -4.16723083e-07, y: -1.80585985e-07, z: .150516003}
+      rotation: {x: -.693518698, y: .137936771, z: .693527639, w: .137930289}
+      scale: {x: 1.00000012, y: 1.00000024, z: .99999994}
+      transformModified: 1
     - name: NPC_L_ForearmTwist2__LLt2_
-      parentName: 
-      position: {x: -0.00000028761556, y: -0.0000002839397, z: 0.0560165}
-      rotation: {x: -0.70155543, y: 0.0883974, z: 0.70156467, w: 0.08839116}
-      scale: {x: 0.9999998, y: 0.99999976, z: 0.9999998}
+      position: {x: -2.87615563e-07, y: -2.83939698e-07, z: .056016501}
+      rotation: {x: -.701555431, y: .0883973986, z: .70156467, w: .0883911625}
+      scale: {x: .999999821, y: .999999762, z: .999999821}
+      transformModified: 1
     - name: NPC_L_Hand__LHnd_
-      parentName: 
-      position: {x: 0.000000114208056, y: -0.000000014063392, z: 0.199959}
-      rotation: {x: 0.042240907, y: 0.10900079, z: 0.5474107, w: 0.8286592}
-      scale: {x: 1.0000001, y: 0.99999976, z: 0.9999999}
+      position: {x: 1.14208056e-07, y: -1.40633922e-08, z: .199958995}
+      rotation: {x: .0422409065, y: .109000787, z: .547410727, w: .828659177}
+      scale: {x: 1.00000012, y: .999999762, z: .999999881}
+      transformModified: 1
     - name: NPC_L_MagicNode__LMag_
-      parentName: 
-      position: {x: 0.0049999887, y: -0.042878136, z: 0.08748409}
-      rotation: {x: 2.2551405e-17, y: 2.7755576e-17, z: -1.3877788e-17, w: 1}
+      position: {x: .00499998871, y: -.042878136, z: .0874840915}
+      rotation: {x: 2.25514052e-17, y: 2.77555756e-17, z: -1.38777878e-17, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: SHIELD
-      parentName: 
-      position: {x: 0.0000000055075, y: -0.02434553, z: 0.07159209}
-      rotation: {x: 0.5, y: 0.50000006, z: -0.5, w: 0.50000006}
-      scale: {x: 1.0000001, y: 1, z: 1}
+      position: {x: 5.50749979e-09, y: -.0243455302, z: .0715920925}
+      rotation: {x: .5, y: .50000006, z: -.5, w: .50000006}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
     - name: NPC_L_Finger00__RF00_
-      parentName: 
-      position: {x: 0.032625604, y: 0.0019895104, z: 0.0216664}
-      rotation: {x: -0.23585053, y: 0.05202402, z: -0.63320273, w: 0.73533833}
-      scale: {x: 0.9999995, y: 0.99999976, z: 0.9999999}
+      position: {x: .0326256044, y: .00198951038, z: .0216664001}
+      rotation: {x: -.235850528, y: .0520240217, z: -.633202732, w: .73533833}
+      scale: {x: .999999523, y: .999999762, z: .999999881}
+      transformModified: 1
     - name: NPC_L_Finger01__RF01_
-      parentName: 
-      position: {x: 0.000000015033013, y: -0.00000004683291, z: 0.049836}
-      rotation: {x: -0.03328978, y: 0.00047510662, z: 0.014703417, w: 0.9993375}
-      scale: {x: 1.0000002, y: 1, z: 1.0000004}
+      position: {x: 1.50330131e-08, y: -4.68329091e-08, z: .0498359986}
+      rotation: {x: -.033289779, y: .000475106615, z: .0147034172, w: .999337494}
+      scale: {x: 1.00000024, y: 1, z: 1.00000036}
+      transformModified: 1
     - name: NPC_L_Finger02__RF02_
-      parentName: 
-      position: {x: 0.00000015807271, y: 0.00000002246888, z: 0.045819897}
-      rotation: {x: 0.21696074, y: -0.023849966, z: 0.005302557, w: 0.97587454}
-      scale: {x: 1, y: 1.0000001, z: 0.99999976}
+      position: {x: 1.58072709e-07, y: 2.24688801e-08, z: .0458198972}
+      rotation: {x: .216960743, y: -.023849966, z: .00530255679, w: .975874543}
+      scale: {x: 1, y: 1.00000012, z: .999999762}
+      transformModified: 1
     - name: NPC_L_Finger10__RF10_
-      parentName: 
-      position: {x: 0.019252112, y: 0.026150273, z: 0.057493705}
-      rotation: {x: -0.10547667, y: 0.15318294, z: 0.19045752, w: 0.96391684}
-      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000001}
+      position: {x: .0192521121, y: .0261502732, z: .0574937053}
+      rotation: {x: -.10547667, y: .153182939, z: .190457523, w: .963916838}
+      scale: {x: .99999994, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
     - name: NPC_L_Finger11__RF11_
-      parentName: 
-      position: {x: 0.0000001343048, y: -0.00000008428871, z: 0.08450659}
-      rotation: {x: 0.036575142, y: 0.000001434404, z: -0.000000060166954, w: 0.99933094}
-      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+      position: {x: 1.34304798e-07, y: -8.42887076e-08, z: .0845065936}
+      rotation: {x: .0365751423, y: 1.434404e-06, z: -6.01669541e-08, w: .999330938}
+      scale: {x: 1.00000024, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
     - name: NPC_L_Finger12__RF12_
-      parentName: 
-      position: {x: -0.00000013156993, y: -0.000000025093694, z: 0.0650774}
-      rotation: {x: 0.2796359, y: -0.000000557337, z: 0.00000033999567, w: 0.96010613}
-      scale: {x: 1, y: 1, z: 1.0000001}
+      position: {x: -1.31569934e-07, y: -2.50936942e-08, z: .0650774017}
+      rotation: {x: .279635906, y: -5.57336989e-07, z: 3.39995665e-07, w: .960106134}
+      scale: {x: 1, y: 1, z: 1.00000012}
+      transformModified: 1
     - name: NPC_L_Finger20__RF20_
-      parentName: 
-      position: {x: -0.007751336, y: 0.011016573, z: 0.0613474}
-      rotation: {x: -0.09673814, y: 0.16122752, z: 0.27482814, w: 0.94293}
-      scale: {x: 1, y: 1.0000001, z: 1}
+      position: {x: -.00775133586, y: .0110165728, z: .0613473989}
+      rotation: {x: -.0967381373, y: .161227524, z: .274828136, w: .942929983}
+      scale: {x: 1, y: 1.00000012, z: 1}
+      transformModified: 1
     - name: NPC_L_Finger21__RF21_
-      parentName: 
-      position: {x: 0.000000076849645, y: 0.00000003839912, z: 0.091141395}
-      rotation: {x: 0.036091074, y: -0.00000020243007, z: -0.00000046790112, w: 0.9993485}
-      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+      position: {x: 7.68496449e-08, y: 3.83991186e-08, z: .0911413953}
+      rotation: {x: .0360910743, y: -2.02430073e-07, z: -4.67901117e-07, w: .999348521}
+      scale: {x: 1.00000024, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
     - name: NPC_L_Finger22__RF22_
-      parentName: 
-      position: {x: -0.000000063421794, y: -0.00000006700493, z: 0.060644202}
-      rotation: {x: 0.19955988, y: 0.0000029881505, z: -0.0000008755322, w: 0.9798857}
-      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
+      position: {x: -6.3421794e-08, y: -6.70049332e-08, z: .0606442019}
+      rotation: {x: .199559882, y: 2.98815053e-06, z: -8.7553218e-07, w: .979885697}
+      scale: {x: .99999994, y: .99999994, z: .999999881}
+      transformModified: 1
     - name: NPC_L_Finger30__RF30_
-      parentName: 
-      position: {x: -0.030516587, y: -0.009929076, z: 0.058569696}
-      rotation: {x: -0.09507617, y: 0.16288911, z: 0.3917351, w: 0.90053946}
-      scale: {x: 0.9999999, y: 1.0000004, z: 1}
+      position: {x: -.0305165872, y: -.00992907584, z: .0585696958}
+      rotation: {x: -.0950761735, y: .162889108, z: .391735107, w: .900539458}
+      scale: {x: .999999881, y: 1.00000036, z: 1}
+      transformModified: 1
     - name: NPC_L_Finger31__RF31_
-      parentName: 
-      position: {x: 0.000000047232106, y: -0.000000061771644, z: 0.0653442}
-      rotation: {x: 0.031326894, y: 0.0000015920348, z: -0.0000019236863, w: 0.9995092}
-      scale: {x: 0.99999994, y: 0.9999998, z: 0.99999994}
+      position: {x: 4.72321062e-08, y: -6.17716438e-08, z: .0653441995}
+      rotation: {x: .0313268937, y: 1.59203478e-06, z: -1.92368634e-06, w: .999509215}
+      scale: {x: .99999994, y: .999999821, z: .99999994}
+      transformModified: 1
     - name: NPC_L_Finger32__RF32_
-      parentName: 
-      position: {x: 0.000000058922172, y: -0.00000004176286, z: 0.060847502}
-      rotation: {x: 0.17494184, y: 0.00000031664578, z: -0.0000000816224, w: 0.9845788}
-      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000001}
+      position: {x: 5.8922172e-08, y: -4.17628598e-08, z: .0608475022}
+      rotation: {x: .174941838, y: 3.16645782e-07, z: -8.16224031e-08, w: .984578788}
+      scale: {x: 1.00000012, y: 1.00000036, z: 1.00000012}
+      transformModified: 1
     - name: NPC_Neck__Neck_
-      parentName: 
-      position: {x: 0.00000013000002, y: 0.00026966, z: 0.22039498}
-      rotation: {x: -0.0655908, y: -0.000013724227, z: 0.005294623, w: 0.9978326}
-      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000001}
+      position: {x: 1.30000018e-07, y: .000269659999, z: .220394984}
+      rotation: {x: -.0655907989, y: -1.37242268e-05, z: .00529462285, w: .997832596}
+      scale: {x: 1.00000048, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
     - name: NPC_Head__Head_
-      parentName: 
-      position: {x: 3.3701205e-11, y: 0.0000000100003525, z: 0.095366694}
-      rotation: {x: 0.07017818, y: -0.0004562431, z: 0.00005236891, w: 0.99753445}
-      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+      position: {x: 3.3701205e-11, y: 1.00003525e-08, z: .095366694}
+      rotation: {x: .0701781809, y: -.000456243113, z: 5.23689087e-05, w: .997534454}
+      scale: {x: 1.00000036, y: 1.00000012, z: 1.00000024}
+      transformModified: 1
     - name: NPC_Head_MagicNode__Hmag_
-      parentName: 
-      position: {x: -0.00000002940711, y: 0.115395, z: -0.0327487}
-      rotation: {x: 0, y: -2.1175824e-21, z: -0, w: 1}
+      position: {x: -2.94071096e-08, y: .115395002, z: -.0327486992}
+      rotation: {x: 0, y: -2.11758237e-21, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: NPC_R_Clavicle__RClv_
-      parentName: 
-      position: {x: -0.0147518, y: 0.0208955, z: 0.201284}
-      rotation: {x: -0.02418033, y: -0.78884375, z: 0.15059301, w: 0.59536767}
-      scale: {x: 0.9999999, y: 1.0000001, z: 0.9999999}
+      position: {x: -.0147518003, y: .0208954997, z: .201284006}
+      rotation: {x: -.0241803303, y: -.788843751, z: .150593013, w: .59536767}
+      scale: {x: .999999881, y: 1.00000012, z: .999999881}
+      transformModified: 1
     - name: NPC_R_UpperArm__RUar_
-      parentName: 
-      position: {x: -0.0000000154141, y: 0.000000072739056, z: 0.0963893}
-      rotation: {x: -0.100611284, y: 0.10584306, z: -0.23393288, w: 0.96122324}
-      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+      position: {x: -1.54141002e-08, y: 7.27390557e-08, z: .0963893011}
+      rotation: {x: -.100611284, y: .10584306, z: -.233932883, w: .961223245}
+      scale: {x: .99999994, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
     - name: NPC_R_UpperarmTwist1__RUt1_
-      parentName: 
-      position: {x: -0.00000015000006, y: -0.000000030000024, z: 0.00000021999999}
-      rotation: {x: -0.000000027154584, y: 0.7071068, z: 0.000000027154584, w: 0.7071068}
+      position: {x: -1.50000062e-07, y: -3.00000238e-08, z: 2.1999999e-07}
+      rotation: {x: -2.71545844e-08, y: .707106829, z: 2.71545844e-08, w: .707106829}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: NPC_R_UpperarmTwist2__RUt2_
-      parentName: 
-      position: {x: -0.0704034, y: -0.000000030000024, z: 0.00000029999998}
-      rotation: {x: -0.0029429477, y: -0.00000016183844, z: -4.762966e-10, w: 0.9999957}
+      position: {x: -.0704033971, y: -3.00000238e-08, z: 2.99999982e-07}
+      rotation: {x: -.00294294767, y: -1.61838443e-07, z: -4.76296613e-10, w: .999995708}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: NPC_R_Forearm__RLar_
-      parentName: 
-      position: {x: -0.00000006511361, y: -0.000000025860565, z: 0.22306998}
-      rotation: {x: 0.042018954, y: -0.017756417, z: -0.0026349553, w: -0.9989556}
-      scale: {x: 1.0000008, y: 1.0000006, z: 1.0000008}
+      position: {x: -6.51136105e-08, y: -2.58605652e-08, z: .223069981}
+      rotation: {x: .0420189537, y: -.0177564174, z: -.00263495534, w: -.998955607}
+      scale: {x: 1.00000083, y: 1.0000006, z: 1.00000083}
+      transformModified: 1
     - name: NPC_R_ForearmTwist2__RLt2_
-      parentName: 
-      position: {x: 0.0000021921446, y: 0.00000023332315, z: 0.0583823}
-      rotation: {x: -0.0940369, y: 0.700826, z: 0.0940369, w: 0.700826}
-      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+      position: {x: 2.19214462e-06, y: 2.33323149e-07, z: .0583822988}
+      rotation: {x: -.0940368995, y: .700825989, z: .0940368995, w: .700825989}
+      scale: {x: 1, y: .99999994, z: .999999881}
+      transformModified: 1
     - name: NPC_R_ForearmTwist1__RLt1_
-      parentName: 
-      position: {x: -0.0000031667535, y: 0.00000066251675, z: 0.152873}
-      rotation: {x: 0.13793685, y: -0.69351625, z: -0.13793132, w: -0.6935299}
-      scale: {x: 1, y: 0.99999994, z: 0.99999934}
+      position: {x: -3.16675346e-06, y: 6.62516754e-07, z: .152872995}
+      rotation: {x: .137936845, y: -.693516254, z: -.137931317, w: -.693529904}
+      scale: {x: 1, y: .99999994, z: .999999344}
+      transformModified: 1
     - name: NPC_R_Hand__RHnd_
-      parentName: 
-      position: {x: -0.00000006115395, y: -0.00000002286818, z: 0.199959}
-      rotation: {x: -0.04224457, y: 0.108996384, z: 0.54741156, w: -0.82865906}
-      scale: {x: 1.0000002, y: 0.9999999, z: 0.9999999}
+      position: {x: -6.11539477e-08, y: -2.28681802e-08, z: .199958995}
+      rotation: {x: -.0422445685, y: .108996384, z: .547411561, w: -.828659058}
+      scale: {x: 1.00000024, y: .999999881, z: .999999881}
+      transformModified: 1
     - name: NPC_R_MagicNode__RMag_
-      parentName: 
-      position: {x: -0.004999879, y: -0.042877946, z: 0.087483935}
-      rotation: {x: -6.591949e-17, y: 2.7755576e-17, z: 1.8296334e-33, w: 1}
+      position: {x: -.00499987882, y: -.042877946, z: .0874839351}
+      rotation: {x: -6.59194921e-17, y: 2.77555756e-17, z: 1.82963345e-33, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: WEAPON
-      parentName: 
-      position: {x: 0.0000001245072, y: -0.024345357, z: 0.07159192}
-      rotation: {x: 0.50000006, y: -0.49999997, z: 0.50000006, w: 0.49999997}
-      scale: {x: 1.0000001, y: 1, z: 1}
+      position: {x: 1.24507196e-07, y: -.024345357, z: .0715919212}
+      rotation: {x: .50000006, y: -.49999997, z: .50000006, w: .49999997}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
     - name: NPC_R_Finger00__RF00_
-      parentName: 
-      position: {x: -0.032625698, y: 0.001989373, z: 0.021666398}
-      rotation: {x: 0.23584844, y: 0.052023698, z: -0.63320285, w: -0.7353388}
-      scale: {x: 0.9999997, y: 0.9999999, z: 0.9999998}
+      position: {x: -.0326256976, y: .00198937301, z: .0216663983}
+      rotation: {x: .235848442, y: .0520236976, z: -.633202851, w: -.735338807}
+      scale: {x: .999999702, y: .999999881, z: .999999821}
+      transformModified: 1
     - name: NPC_R_Finger01__RF01_
-      parentName: 
-      position: {x: 0.00000015196753, y: 0.000000107826004, z: 0.0498361}
-      rotation: {x: -0.033295237, y: -0.00047571815, z: -0.014704649, w: 0.9993373}
-      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000008}
+      position: {x: 1.51967527e-07, y: 1.07826004e-07, z: .0498360991}
+      rotation: {x: -.0332952365, y: -.000475718145, z: -.0147046493, w: .999337316}
+      scale: {x: 1.00000048, y: 1.00000036, z: 1.00000083}
+      transformModified: 1
     - name: NPC_R_Finger02__RF02_
-      parentName: 
-      position: {x: 0.000000006038546, y: -0.000000066437046, z: 0.0458198}
-      rotation: {x: 0.2169637, y: 0.02385194, z: -0.005303169, w: 0.9758739}
-      scale: {x: 0.99999976, y: 0.99999976, z: 0.9999995}
+      position: {x: 6.03854611e-09, y: -6.64370461e-08, z: .0458198003}
+      rotation: {x: .216963693, y: .0238519404, z: -.00530316914, w: .975873888}
+      scale: {x: .999999762, y: .999999762, z: .999999523}
+      transformModified: 1
     - name: NPC_R_Finger10__RF10_
-      parentName: 
-      position: {x: -0.0192521, y: 0.026150236, z: 0.05749358}
-      rotation: {x: 0.105476275, y: 0.15318277, z: 0.19045787, w: -0.96391684}
-      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000002}
+      position: {x: -.0192520991, y: .0261502359, z: .0574935786}
+      rotation: {x: .105476275, y: .153182775, z: .190457866, w: -.963916838}
+      scale: {x: 1.00000012, y: 1.00000048, z: 1.00000024}
+      transformModified: 1
     - name: NPC_R_Finger11__RF11_
-      parentName: 
-      position: {x: -0.00000013432629, y: -0.00000009245876, z: 0.084506795}
-      rotation: {x: 0.036574844, y: 0.00000014441942, z: 0.000000051374958, w: 0.999331}
-      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+      position: {x: -1.34326285e-07, y: -9.24587624e-08, z: .0845067948}
+      rotation: {x: .0365748443, y: 1.44419417e-07, z: 5.13749576e-08, w: .999330997}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
     - name: NPC_R_Finger12__RF12_
-      parentName: 
-      position: {x: -0.00000013884768, y: -0.00000001276479, z: 0.0650774}
-      rotation: {x: -0.27963564, y: 0.0000013537859, z: -0.0000009853088, w: -0.9601062}
-      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999946}
+      position: {x: -1.38847682e-07, y: -1.27647901e-08, z: .0650774017}
+      rotation: {x: -.279635638, y: 1.35378593e-06, z: -9.85308816e-07, w: -.960106194}
+      scale: {x: .99999994, y: .999999881, z: .999999464}
+      transformModified: 1
     - name: NPC_R_Finger20__RF20_
-      parentName: 
-      position: {x: 0.0077513144, y: 0.011016637, z: 0.061347187}
-      rotation: {x: -0.09673771, y: -0.16122606, z: -0.27482766, w: 0.94293046}
-      scale: {x: 0.9999997, y: 1.0000005, z: 0.9999999}
+      position: {x: .00775131444, y: .0110166371, z: .0613471866}
+      rotation: {x: -.0967377126, y: -.161226064, z: -.274827659, w: .94293046}
+      scale: {x: .999999702, y: 1.00000048, z: .999999881}
+      transformModified: 1
     - name: NPC_R_Finger21__RF21_
-      parentName: 
-      position: {x: -0.00000013286504, y: -0.00000007215078, z: 0.0911415}
-      rotation: {x: 0.036090765, y: -0.00000028405523, z: -0.0000000013169404, w: 0.9993485}
-      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999976}
+      position: {x: -1.3286504e-07, y: -7.21507831e-08, z: .0911414996}
+      rotation: {x: .0360907651, y: -2.84055233e-07, z: -1.31694045e-09, w: .999348521}
+      scale: {x: .99999994, y: 1.00000012, z: .999999762}
+      transformModified: 1
     - name: NPC_R_Finger22__RF22_
-      parentName: 
-      position: {x: -0.00000002249105, y: -0.000000027179832, z: 0.060644303}
-      rotation: {x: 0.19956017, y: -0.00000013509168, z: 0.000000011618821, w: 0.9798856}
-      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+      position: {x: -2.24910508e-08, y: -2.71798317e-08, z: .0606443025}
+      rotation: {x: .199560165, y: -1.35091682e-07, z: 1.16188206e-08, w: .979885578}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
     - name: NPC_R_Finger30__RF30_
-      parentName: 
-      position: {x: 0.03051661, y: -0.009929014, z: 0.058569808}
-      rotation: {x: -0.09507789, y: -0.16288765, z: -0.39173308, w: 0.9005404}
-      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
+      position: {x: .0305166095, y: -.00992901437, z: .0585698076}
+      rotation: {x: -.0950778872, y: -.162887648, z: -.39173308, w: .900540411}
+      scale: {x: .99999994, y: .999999881, z: .999999821}
+      transformModified: 1
     - name: NPC_R_Finger31__RF31_
-      parentName: 
-      position: {x: 0.000000039716106, y: -0.00000008585959, z: 0.065344}
-      rotation: {x: 0.03132838, y: 0.00000088993755, z: -0.000000010419313, w: 0.9995092}
-      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+      position: {x: 3.9716106e-08, y: -8.58595897e-08, z: .0653439984}
+      rotation: {x: .0313283801, y: 8.89937553e-07, z: -1.04193134e-08, w: .999509215}
+      scale: {x: 1.00000012, y: 1.00000012, z: .99999994}
+      transformModified: 1
     - name: NPC_R_Finger32__RF32_
-      parentName: 
-      position: {x: -0.00000007120343, y: 0.0000000010633805, z: 0.060847502}
-      rotation: {x: 0.1749381, y: -0.0000009474945, z: 0.00000009352724, w: 0.9845795}
-      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
-    armTwist: 0.5
-    foreArmTwist: 0.5
-    upperLegTwist: 0.5
-    legTwist: 0.5
-    armStretch: 0.05
-    legStretch: 0.05
+      position: {x: -7.12034307e-08, y: 1.06338049e-09, z: .0608475022}
+      rotation: {x: .174938098, y: -9.47494527e-07, z: 9.35272411e-08, w: .984579504}
+      scale: {x: .99999994, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
     feetSpacing: 0
     rootMotionBoneName: 
-    hasTranslationDoF: 0
-    hasExtraRoot: 0
-    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 3
-  humanoidOversampling: 1
   additionalBone: 0
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 

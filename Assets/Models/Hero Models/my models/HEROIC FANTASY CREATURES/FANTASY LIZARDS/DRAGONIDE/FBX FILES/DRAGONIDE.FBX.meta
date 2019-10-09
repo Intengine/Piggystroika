@@ -3,9 +3,142 @@ guid: 9ee11524dc07df345a8fc6d0005c4090
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
+    100000: belly_armor
+    100002: //RootNode
+    100004: DRAGONIDE
+    100006: DRAGONIDE_
+    100008: DRAGONIDE_ Head
+    100010: DRAGONIDE_ L Calf
+    100012: DRAGONIDE_ L Clavicle
+    100014: DRAGONIDE_ L Finger0
+    100016: DRAGONIDE_ L Finger01
+    100018: DRAGONIDE_ L Finger02
+    100020: DRAGONIDE_ L Finger1
+    100022: DRAGONIDE_ L Finger11
+    100024: DRAGONIDE_ L Finger12
+    100026: DRAGONIDE_ L Foot
+    100028: DRAGONIDE_ L Forearm
+    100030: DRAGONIDE_ L Hand
+    100032: DRAGONIDE_ L HorseLink
+    100034: DRAGONIDE_ L Thigh
+    100036: DRAGONIDE_ L Toe0
+    100038: DRAGONIDE_ L Toe01
+    100040: DRAGONIDE_ L Toe02
+    100042: DRAGONIDE_ L UpperArm
+    100044: DRAGONIDE_ Neck
+    100046: DRAGONIDE_ Neck1
+    100048: DRAGONIDE_ Pelvis
+    100050: DRAGONIDE_ Queue de cheval 1
+    100052: DRAGONIDE_ R Calf
+    100054: DRAGONIDE_ R Clavicle
+    100056: DRAGONIDE_ R Finger0
+    100058: DRAGONIDE_ R Finger01
+    100060: DRAGONIDE_ R Finger02
+    100062: DRAGONIDE_ R Finger1
+    100064: DRAGONIDE_ R Finger11
+    100066: DRAGONIDE_ R Finger12
+    100068: DRAGONIDE_ R Foot
+    100070: DRAGONIDE_ R Forearm
+    100072: DRAGONIDE_ R Hand
+    100074: DRAGONIDE_ R HorseLink
+    100076: DRAGONIDE_ R Thigh
+    100078: DRAGONIDE_ R Toe0
+    100080: DRAGONIDE_ R Toe01
+    100082: DRAGONIDE_ R Toe02
+    100084: DRAGONIDE_ R UpperArm
+    100086: DRAGONIDE_ Spine
+    100088: DRAGONIDE_ Spine1
+    100090: DRAGONIDE_ Tail
+    100092: DRAGONIDE_ Tail1
+    100094: DRAGONIDE_ Tail2
+    100096: DRAGONIDE_ Tail3
+    100098: DRAGONIDE_ Tail4
+    100100: DRAGONIDE_ Tail5
+    100102: DRAGONIDE_ Tail6
+    100104: DRAGONIDE_ Tail7
+    100106: fighting_skirt
+    100108: forearm_armor
+    100110: shoulder_armor
+    100112: spike_bracelet
+    100114: warhammer
+    400000: belly_armor
+    400002: DRAGONIDE
+    400004: //RootNode
+    400006: DRAGONIDE_
+    400008: DRAGONIDE_ Head
+    400010: DRAGONIDE_ L Calf
+    400012: DRAGONIDE_ L Clavicle
+    400014: DRAGONIDE_ L Finger0
+    400016: DRAGONIDE_ L Finger01
+    400018: DRAGONIDE_ L Finger02
+    400020: DRAGONIDE_ L Finger1
+    400022: DRAGONIDE_ L Finger11
+    400024: DRAGONIDE_ L Finger12
+    400026: DRAGONIDE_ L Foot
+    400028: DRAGONIDE_ L Forearm
+    400030: DRAGONIDE_ L Hand
+    400032: DRAGONIDE_ L HorseLink
+    400034: DRAGONIDE_ L Thigh
+    400036: DRAGONIDE_ L Toe0
+    400038: DRAGONIDE_ L Toe01
+    400040: DRAGONIDE_ L Toe02
+    400042: DRAGONIDE_ L UpperArm
+    400044: DRAGONIDE_ Neck
+    400046: DRAGONIDE_ Neck1
+    400048: DRAGONIDE_ Pelvis
+    400050: DRAGONIDE_ Queue de cheval 1
+    400052: DRAGONIDE_ R Calf
+    400054: DRAGONIDE_ R Clavicle
+    400056: DRAGONIDE_ R Finger0
+    400058: DRAGONIDE_ R Finger01
+    400060: DRAGONIDE_ R Finger02
+    400062: DRAGONIDE_ R Finger1
+    400064: DRAGONIDE_ R Finger11
+    400066: DRAGONIDE_ R Finger12
+    400068: DRAGONIDE_ R Foot
+    400070: DRAGONIDE_ R Forearm
+    400072: DRAGONIDE_ R Hand
+    400074: DRAGONIDE_ R HorseLink
+    400076: DRAGONIDE_ R Thigh
+    400078: DRAGONIDE_ R Toe0
+    400080: DRAGONIDE_ R Toe01
+    400082: DRAGONIDE_ R Toe02
+    400084: DRAGONIDE_ R UpperArm
+    400086: DRAGONIDE_ Spine
+    400088: DRAGONIDE_ Spine1
+    400090: DRAGONIDE_ Tail
+    400092: DRAGONIDE_ Tail1
+    400094: DRAGONIDE_ Tail2
+    400096: DRAGONIDE_ Tail3
+    400098: DRAGONIDE_ Tail4
+    400100: DRAGONIDE_ Tail5
+    400102: DRAGONIDE_ Tail6
+    400104: DRAGONIDE_ Tail7
+    400106: fighting_skirt
+    400108: forearm_armor
+    400110: shoulder_armor
+    400112: spike_bracelet
+    400114: warhammer
+    2300000: forearm_armor
+    2300002: spike_bracelet
+    2300004: warhammer
+    3300000: forearm_armor
+    3300002: spike_bracelet
+    3300004: warhammer
+    4300000: DRAGONIDE
+    4300002: forearm_armor
+    4300004: warhammer
+    4300006: spike_bracelet
+    4300008: shoulder_armor
+    4300010: fighting_skirt
+    4300012: belly_armor
+    7400000: Take 001
     9500000: //RootNode
+    11100000: //RootNode
+    13700000: belly_armor
+    13700002: DRAGONIDE
+    13700004: fighting_skirt
+    13700006: shoulder_armor
     2186277476908879412: ImportLogs
   externalObjects:
   - first:
@@ -34,9 +167,11 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: "Avatar creation failed:\n\tTransform 'DRAGONIDE_ Pelvis' for
-      human bone 'Hips' not found\n"
-    rigImportWarnings: 
+    rigImportErrors: 
+    rigImportWarnings: "Avatar Rig Configuration mis-match. Inbetween bone rotation
+      in configuration does not match rotation in animation file:\n\t'DRAGONIDE_ L
+      HorseLink' : rotation error = 41.013077 deg\n\t'DRAGONIDE_ R HorseLink' : rotation
+      error = 41.013084 deg\n"
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -50,35 +185,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Take 001
-      takeName: Take 001
-      firstFrame: 0
-      lastFrame: 1
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []

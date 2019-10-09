@@ -4,8 +4,131 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    400000: //RootNode
+    100002: VAMPIRE
+    100004: VAMPIRE_
+    100006: VAMPIRE_ Footsteps
+    100008: VAMPIRE_ Head
+    100010: VAMPIRE_ L Calf
+    100012: VAMPIRE_ L Clavicle
+    100014: VAMPIRE_ L Finger0
+    100016: VAMPIRE_ L Finger01
+    100018: VAMPIRE_ L Finger02
+    100020: VAMPIRE_ L Finger1
+    100022: VAMPIRE_ L Finger11
+    100024: VAMPIRE_ L Finger12
+    100026: VAMPIRE_ L Finger2
+    100028: VAMPIRE_ L Finger21
+    100030: VAMPIRE_ L Finger22
+    100032: VAMPIRE_ L Foot
+    100034: VAMPIRE_ L Forearm
+    100036: VAMPIRE_ L Hand
+    100038: VAMPIRE_ L HorseLink
+    100040: VAMPIRE_ L Thigh
+    100042: VAMPIRE_ L Toe0
+    100044: VAMPIRE_ L Toe01
+    100046: VAMPIRE_ L Toe02
+    100048: VAMPIRE_ L Toe1
+    100050: VAMPIRE_ L Toe11
+    100052: VAMPIRE_ L Toe12
+    100054: VAMPIRE_ L Toe2
+    100056: VAMPIRE_ L Toe21
+    100058: VAMPIRE_ L UpperArm
+    100060: VAMPIRE_ Neck
+    100062: VAMPIRE_ Neck1
+    100064: VAMPIRE_ Pelvis
+    100066: VAMPIRE_ Queue de cheval 1
+    100068: VAMPIRE_ R Calf
+    100070: VAMPIRE_ R Clavicle
+    100072: VAMPIRE_ R Finger0
+    100074: VAMPIRE_ R Finger01
+    100076: VAMPIRE_ R Finger02
+    100078: VAMPIRE_ R Finger1
+    100080: VAMPIRE_ R Finger11
+    100082: VAMPIRE_ R Finger12
+    100084: VAMPIRE_ R Finger2
+    100086: VAMPIRE_ R Finger21
+    100088: VAMPIRE_ R Finger22
+    100090: VAMPIRE_ R Foot
+    100092: VAMPIRE_ R Forearm
+    100094: VAMPIRE_ R Hand
+    100096: VAMPIRE_ R HorseLink
+    100098: VAMPIRE_ R Thigh
+    100100: VAMPIRE_ R Toe0
+    100102: VAMPIRE_ R Toe01
+    100104: VAMPIRE_ R Toe02
+    100106: VAMPIRE_ R Toe1
+    100108: VAMPIRE_ R Toe11
+    100110: VAMPIRE_ R Toe12
+    100112: VAMPIRE_ R Toe2
+    100114: VAMPIRE_ R Toe21
+    100116: VAMPIRE_ R UpperArm
+    100118: VAMPIRE_ Spine
+    100120: VAMPIRE_ Spine1
+    400000: VAMPIRE
+    400002: //RootNode
+    400004: VAMPIRE_
+    400006: VAMPIRE_ Footsteps
+    400008: VAMPIRE_ Head
+    400010: VAMPIRE_ L Calf
+    400012: VAMPIRE_ L Clavicle
+    400014: VAMPIRE_ L Finger0
+    400016: VAMPIRE_ L Finger01
+    400018: VAMPIRE_ L Finger02
+    400020: VAMPIRE_ L Finger1
+    400022: VAMPIRE_ L Finger11
+    400024: VAMPIRE_ L Finger12
+    400026: VAMPIRE_ L Finger2
+    400028: VAMPIRE_ L Finger21
+    400030: VAMPIRE_ L Finger22
+    400032: VAMPIRE_ L Foot
+    400034: VAMPIRE_ L Forearm
+    400036: VAMPIRE_ L Hand
+    400038: VAMPIRE_ L HorseLink
+    400040: VAMPIRE_ L Thigh
+    400042: VAMPIRE_ L Toe0
+    400044: VAMPIRE_ L Toe01
+    400046: VAMPIRE_ L Toe02
+    400048: VAMPIRE_ L Toe1
+    400050: VAMPIRE_ L Toe11
+    400052: VAMPIRE_ L Toe12
+    400054: VAMPIRE_ L Toe2
+    400056: VAMPIRE_ L Toe21
+    400058: VAMPIRE_ L UpperArm
+    400060: VAMPIRE_ Neck
+    400062: VAMPIRE_ Neck1
+    400064: VAMPIRE_ Pelvis
+    400066: VAMPIRE_ Queue de cheval 1
+    400068: VAMPIRE_ R Calf
+    400070: VAMPIRE_ R Clavicle
+    400072: VAMPIRE_ R Finger0
+    400074: VAMPIRE_ R Finger01
+    400076: VAMPIRE_ R Finger02
+    400078: VAMPIRE_ R Finger1
+    400080: VAMPIRE_ R Finger11
+    400082: VAMPIRE_ R Finger12
+    400084: VAMPIRE_ R Finger2
+    400086: VAMPIRE_ R Finger21
+    400088: VAMPIRE_ R Finger22
+    400090: VAMPIRE_ R Foot
+    400092: VAMPIRE_ R Forearm
+    400094: VAMPIRE_ R Hand
+    400096: VAMPIRE_ R HorseLink
+    400098: VAMPIRE_ R Thigh
+    400100: VAMPIRE_ R Toe0
+    400102: VAMPIRE_ R Toe01
+    400104: VAMPIRE_ R Toe02
+    400106: VAMPIRE_ R Toe1
+    400108: VAMPIRE_ R Toe11
+    400110: VAMPIRE_ R Toe12
+    400112: VAMPIRE_ R Toe2
+    400114: VAMPIRE_ R Toe21
+    400116: VAMPIRE_ R UpperArm
+    400118: VAMPIRE_ Spine
+    400120: VAMPIRE_ Spine1
+    4300000: VAMPIRE
+    7400000: Take 001
     11100000: //RootNode
+    13700000: VAMPIRE
     2186277476908879412: ImportLogs
   externalObjects:
   - first:
@@ -39,35 +162,7 @@ ModelImporter:
     animationWrapMode: 2
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Take 001
-      takeName: Take 001
-      firstFrame: 0
-      lastFrame: 1
-      wrapMode: 2
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []

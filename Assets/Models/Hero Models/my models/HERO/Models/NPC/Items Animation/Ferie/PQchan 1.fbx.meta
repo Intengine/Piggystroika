@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 55e27874782c80d43a0dd4ba2e5dd7db
 ModelImporter:
-  serializedVersion: 23
+  serializedVersion: 16
   fileIDToRecycleName:
     100000: Body
     100002: Brooch
@@ -147,35 +147,21 @@ ModelImporter:
     13700016: HeadSet
     13700018: Skirt
     13700020: Udewa
-    2186277476908879412: ImportLogs
-  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: "Avatar creation failed:\n\tTransform 'Chr_Hips' for human bone
-      'Hips' not found\n"
-    rigImportWarnings: 
-    animationImportErrors: 
-    animationImportWarnings: 
-    animationRetargetingWarnings: 
-    animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 3
-    animationRotationError: 0.5
-    animationPositionError: 0.5
-    animationScaleError: 0.5
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
       name: 000_Def
@@ -187,7 +173,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -300,7 +285,6 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 001_Stand
       takeName: 001_Stand
@@ -311,7 +295,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -424,7 +407,6 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 002_Idle
       takeName: 002_Idle
@@ -435,7 +417,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -548,7 +529,6 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 003_Walk
       takeName: 003_Walk
@@ -559,7 +539,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -672,7 +651,6 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 004_Run
       takeName: 004_Run
@@ -683,7 +661,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -796,7 +773,6 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 005_Jump
       takeName: 005_Jump
@@ -807,7 +783,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -920,7 +895,6 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 006_Pose
       takeName: 006_Pose
@@ -931,7 +905,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -1044,7 +1017,6 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 100_Fly_Idle
       takeName: 100_Fly_Idle
@@ -1055,7 +1027,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 1
@@ -1168,7 +1139,6 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 101_Fly_Straight
       takeName: 101_Fly_Straight
@@ -1179,7 +1149,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 1
@@ -1292,7 +1261,6 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 102_Fly_toRight
       takeName: 102_Fly_toRight
@@ -1303,7 +1271,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -1416,7 +1383,6 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 103_Fly_toLeft
       takeName: 103_Fly_toLeft
@@ -1427,7 +1393,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -1540,7 +1505,6 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 104_Fly_Up
       takeName: 104_Fly_Up
@@ -1551,7 +1515,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -1664,7 +1627,6 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 105_Fly_Down
       takeName: 105_Fly_Down
@@ -1675,7 +1637,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -1788,7 +1749,6 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 106_Fly_ItemGet
       takeName: 106_Fly_ItemGet
@@ -1799,7 +1759,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -1912,7 +1871,6 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 107_Fly_ItemGet_Loop
       takeName: 107_Fly_ItemGet_Loop
@@ -1923,7 +1881,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -2036,7 +1993,6 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 108_Fly_Damage
       takeName: 108_Fly_Damage
@@ -2047,7 +2003,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -2160,7 +2115,6 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 109_Fly_Disappo
       takeName: 109_Fly_Disappo
@@ -2171,7 +2125,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -2284,7 +2237,6 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 110_Fly_Disappo_Loop
       takeName: 110_Fly_Disappo_Loop
@@ -2295,7 +2247,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -2408,7 +2359,6 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 200_AOQ_Idle
       takeName: 200_AOQ_Idle
@@ -2419,7 +2369,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -2532,7 +2481,6 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 201_AOQ_restA
       takeName: 201_AOQ_restA
@@ -2543,7 +2491,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -2656,7 +2603,6 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 202_AOQ_restB
       takeName: 202_AOQ_restB
@@ -2667,7 +2613,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -2780,7 +2725,6 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 203_AOQ_Walk
       takeName: 203_AOQ_Walk
@@ -2791,7 +2735,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -2904,7 +2847,6 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 204_AOQ_Hit
       takeName: 204_AOQ_Hit
@@ -2915,7 +2857,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -3028,7 +2969,6 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 205_AOQ_glad
       takeName: 205_AOQ_glad
@@ -3039,7 +2979,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -3152,7 +3091,6 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: 206_AOQ_warp
       takeName: 206_AOQ_warp
@@ -3163,7 +3101,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -3276,45 +3213,30 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.01
+    globalScale: .00999999978
     meshCompression: 0
     addColliders: 0
-    useSRGBMaterialColor: 1
-    importVisibility: 0
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
-    keepQuads: 0
     weldVertices: 1
-    preserveHierarchy: 0
-    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 0
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 4
-    normalCalculationMode: 0
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
+    tangentImportMode: 1
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
     human:
     - boneName: Chr_Hips
       humanName: Hips
@@ -3510,260 +3432,254 @@ ModelImporter:
         modified: 0
     skeleton:
     - name: PQchan 1(Clone)
-      parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: Body
-      parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: Brooch
-      parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: Chr_Reference
-      parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: Chr_Hips
-      parentName: 
-      position: {x: 0.0000000037252903, y: 0.8264092, z: -0.02733722}
+      position: {x: 3.7252903e-09, y: .826409221, z: -.0273372196}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: skirt_Front
-      parentName: 
-      position: {x: -0, y: 0.017161414, z: 0.10902014}
+      position: {x: -0, y: .017161414, z: .109020136}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: skirt_L_02
-      parentName: 
-      position: {x: -0.13104254, y: 0.04157525, z: -0.068575755}
+      position: {x: -.13104254, y: .0415752493, z: -.0685757548}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: skirt_Back
-      parentName: 
-      position: {x: -0, y: 0.0147427805, z: -0.11833143}
+      position: {x: -0, y: .0147427805, z: -.118331432}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: skirt_L_01
-      parentName: 
-      position: {x: -0.096238315, y: 0.03197576, z: 0.08906457}
+      position: {x: -.0962383151, y: .0319757611, z: .0890645683}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: skirt_R_02
-      parentName: 
-      position: {x: 0.13104299, y: 0.041575674, z: -0.068575785}
+      position: {x: .131042987, y: .041575674, z: -.0685757846}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: skirt_R_01
-      parentName: 
-      position: {x: 0.09623829, y: 0.031975675, z: 0.08906501}
-      rotation: {x: 7.888609e-27, y: -4.440892e-14, z: -8.881784e-14, w: 1}
-      scale: {x: 1, y: 0.99999994, z: 1}
+      position: {x: .0962382928, y: .0319756754, z: .0890650079}
+      rotation: {x: 7.88860905e-27, y: -4.4408921e-14, z: -8.8817842e-14, w: 1}
+      scale: {x: 1, y: .99999994, z: 1}
+      transformModified: 1
     - name: Chr_LeftUpLeg
-      parentName: 
-      position: {x: -0.07704576, y: -0.013692249, z: 2.220446e-18}
-      rotation: {x: -2.6120413e-28, y: 4.440891e-14, z: 5.4426936e-15, w: 1}
+      position: {x: -.077045761, y: -.0136922486, z: 2.220446e-18}
+      rotation: {x: -2.61204128e-28, y: 4.44089108e-14, z: 5.44269364e-15, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: Chr_LeftLeg
-      parentName: 
-      position: {x: -0.0022344182, y: -0.35090336, z: -0.002229143}
-      rotation: {x: 3.4125054e-28, y: -4.440891e-14, z: -7.245179e-15, w: 1}
+      position: {x: -.00223441818, y: -.350903362, z: -.00222914293}
+      rotation: {x: 3.41250544e-28, y: -4.44089108e-14, z: -7.24517932e-15, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: Chr_LeftFoot
-      parentName: 
-      position: {x: 0.022745168, y: -0.37326556, z: -0.051454835}
-      rotation: {x: -1.3877785e-15, y: -2.501455e-30, z: 1.8024887e-15, w: 1}
+      position: {x: .0227451678, y: -.373265564, z: -.0514548346}
+      rotation: {x: -1.38777846e-15, y: -2.50145499e-30, z: 1.80248865e-15, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: Chr_LeftToeBase
-      parentName: 
-      position: {x: -0.000000026329749, y: -0.047962174, z: 0.10409635}
-      rotation: {x: 1.3877785e-15, y: 7.5532505e-30, z: -1.5312428e-21, w: 1}
+      position: {x: -2.6329749e-08, y: -.0479621738, z: .104096353}
+      rotation: {x: 1.38777846e-15, y: 7.55325048e-30, z: -1.53124278e-21, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: Chr_RightUpLeg
-      parentName: 
-      position: {x: 0.07704576, y: -0.013692249, z: 2.220446e-18}
-      rotation: {x: -3.3077832e-28, y: -4.440891e-14, z: -1.2197272e-15, w: 1}
+      position: {x: .077045761, y: -.0136922486, z: 2.220446e-18}
+      rotation: {x: -3.30778324e-28, y: -4.44089108e-14, z: -1.21972723e-15, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: Chr_RightLeg
-      parentName: 
-      position: {x: 0.002234812, y: -0.3509034, z: -0.0022271404}
-      rotation: {x: 3.583432e-28, y: 3.85e-43, z: 1.3281487e-16, w: 1}
+      position: {x: .00223481189, y: -.350903392, z: -.00222714036}
+      rotation: {x: 3.58343196e-28, y: 3.85357078e-43, z: 1.32814872e-16, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: Chr_RightFoot
-      parentName: 
-      position: {x: -0.022744767, y: -0.3732659, z: -0.051454872}
-      rotation: {x: -2.775557e-15, y: 4.3021132e-14, z: 2.5400438e-16, w: 1}
+      position: {x: -.0227447674, y: -.373265892, z: -.0514548719}
+      rotation: {x: -2.77555693e-15, y: 4.3021132e-14, z: 2.54004376e-16, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: Chr_RightToeBase
-      parentName: 
-      position: {x: 0.000000023228312, y: -0.047962192, z: 0.10409639}
-      rotation: {x: 2.775557e-15, y: 1.7347234e-15, z: 8.329074e-16, w: 1}
+      position: {x: 2.32283117e-08, y: -.0479621924, z: .10409639}
+      rotation: {x: 2.77555693e-15, y: 1.73472337e-15, z: 8.32907402e-16, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: Chr_Spine
-      parentName: 
-      position: {x: -3.5526934e-17, y: 0.1323546, z: 0.017364467}
+      position: {x: -3.55269342e-17, y: .132354602, z: .0173644666}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: Chr_Spine1
-      parentName: 
-      position: {x: -1.2769529e-17, y: 0.15988316, z: -0.013708881}
+      position: {x: -1.27695287e-17, y: .159883156, z: -.0137088811}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: Chr_LeftShoulder
-      parentName: 
-      position: {x: -0.058704145, y: 0.13287783, z: -0.031013586}
+      position: {x: -.0587041453, y: .132877827, z: -.0310135856}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: Chr_LeftArm
-      parentName: 
-      position: {x: -0.06627107, y: -0.0038244638, z: -2.220446e-18}
-      rotation: {x: 3.4694462e-16, y: 2.775557e-15, z: -2.5642443e-16, w: 1}
+      position: {x: -.0662710667, y: -.00382446381, z: -2.220446e-18}
+      rotation: {x: 3.46944616e-16, y: 2.77555693e-15, z: -2.56424428e-16, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: Chr_LeftForeArm
-      parentName: 
-      position: {x: -0.25051525, y: -0.0047799936, z: -0.0046885014}
-      rotation: {x: -3.4694462e-16, y: 2.775557e-15, z: 2.1478814e-16, w: 1}
+      position: {x: -.250515252, y: -.00477999356, z: -.00468850136}
+      rotation: {x: -3.46944616e-16, y: 2.77555693e-15, z: 2.1478814e-16, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: Chr_LeftHand
-      parentName: 
-      position: {x: -0.1897212, y: 0.001332545, z: 0.016327528}
-      rotation: {x: 4.545242e-30, y: -5.551114e-15, z: 4.163621e-17, w: 1}
+      position: {x: -.189721197, y: .00133254495, z: .0163275283}
+      rotation: {x: 4.54524206e-30, y: -5.55111385e-15, z: 4.16362089e-17, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: Chr_RightShoulder
-      parentName: 
-      position: {x: 0.058704145, y: 0.13287783, z: -0.031013586}
+      position: {x: .0587041453, y: .132877827, z: -.0310135856}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: Chr_RightArm
-      parentName: 
-      position: {x: 0.06627107, y: -0.0038244638, z: -2.220446e-18}
-      rotation: {x: 0, y: 0, z: -1.6393069e-15, w: 1}
+      position: {x: .0662710667, y: -.00382446381, z: -2.220446e-18}
+      rotation: {x: 0, y: 0, z: -1.63930691e-15, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: Chr_RightForeArm
-      parentName: 
-      position: {x: 0.25051525, y: -0.0047800383, z: -0.00468852}
-      rotation: {x: 0, y: 0, z: 1.6337775e-15, w: 1}
+      position: {x: .250515252, y: -.00478003826, z: -.00468851998}
+      rotation: {x: 0, y: 0, z: 1.63377748e-15, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: Chr_RightHand
-      parentName: 
-      position: {x: 0.1897212, y: 0.0013325454, z: 0.016327562}
-      rotation: {x: 0, y: 0, z: 5.529431e-18, w: 1}
+      position: {x: .189721197, y: .00133254542, z: .0163275618}
+      rotation: {x: 0, y: 0, z: 5.52943108e-18, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: Chr_Neck
-      parentName: 
-      position: {x: 4.2188466e-16, y: 0.15988299, z: -0.034729157}
+      position: {x: 4.21884665e-16, y: .159882993, z: -.0347291566}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: Chr_Head
-      parentName: 
-      position: {x: 5.153459e-16, y: 0.10802706, z: 0.02467593}
+      position: {x: 5.15345909e-16, y: .108027063, z: .0246759299}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: H01_Front
-      parentName: 
-      position: {x: -8.889347e-16, y: 0.1098998, z: 0.04634617}
+      position: {x: -8.88934714e-16, y: .109899797, z: .046346169}
       rotation: {x: 0, y: 0, z: 0, w: 1}
-      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000005}
+      scale: {x: 1.00000048, y: 1.00000048, z: 1.00000048}
+      transformModified: 1
     - name: H02_L
-      parentName: 
-      position: {x: -0.08793476, y: 0.065191776, z: 0.06930589}
+      position: {x: -.0879347622, y: .0651917756, z: .0693058893}
       rotation: {x: 0, y: 0, z: 0, w: 1}
-      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000005}
+      scale: {x: 1.00000048, y: 1.00000048, z: 1.00000048}
+      transformModified: 1
     - name: H03_L
-      parentName: 
-      position: {x: -0.10338834, y: 0.040167414, z: -0.0030618529}
+      position: {x: -.103388339, y: .0401674137, z: -.00306185288}
       rotation: {x: 0, y: 0, z: 0, w: 1}
-      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000005}
+      scale: {x: 1.00000048, y: 1.00000048, z: 1.00000048}
+      transformModified: 1
     - name: H04_Back
-      parentName: 
-      position: {x: -8.889347e-16, y: 0.008379712, z: -0.093014285}
+      position: {x: -8.88934714e-16, y: .00837971177, z: -.093014285}
       rotation: {x: 0, y: 0, z: 0, w: 1}
-      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000005}
+      scale: {x: 1.00000048, y: 1.00000048, z: 1.00000048}
+      transformModified: 1
     - name: H02_R
-      parentName: 
-      position: {x: 0.0879348, y: 0.0651915, z: 0.06930589}
-      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
-      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000005}
+      position: {x: .0879347995, y: .0651914999, z: .0693058893}
+      rotation: {x: 1, y: 0, z: 0, w: -6.12323426e-17}
+      scale: {x: 1.00000048, y: 1.00000048, z: 1.00000048}
+      transformModified: 1
     - name: H03_R
-      parentName: 
-      position: {x: 0.103388004, y: 0.040171497, z: -0.00306185}
-      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
-      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000005}
+      position: {x: .103388004, y: .0401714966, z: -.00306185009}
+      rotation: {x: 1, y: 0, z: 0, w: -6.12323426e-17}
+      scale: {x: 1.00000048, y: 1.00000048, z: 1.00000048}
+      transformModified: 1
     - name: Pai_L
-      parentName: 
-      position: {x: -0.06736102, y: 0.069, z: 0.1056909}
+      position: {x: -.0673610196, y: .0689999983, z: .105690897}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: Pai_R
-      parentName: 
-      position: {x: 0.067361, y: 0.069, z: 0.10569131}
-      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+      position: {x: .0673609972, y: .0689999983, z: .105691306}
+      rotation: {x: 1, y: 0, z: 0, w: -6.12323426e-17}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: Finger_Gu
-      parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: Finger_Nomal
-      parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: Finger_Pa
-      parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: Hair
-      parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: Head_01_Normal
-      parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: Head_02_MouthOpen
-      parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: HeadSet
-      parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: Skirt
-      parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: Udewa
-      parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    armTwist: 0.5
-    foreArmTwist: 0.5
-    upperLegTwist: 0.5
-    legTwist: 0.5
-    armStretch: 0.05
-    legStretch: 0.05
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
     feetSpacing: 0
     rootMotionBoneName: 
-    hasTranslationDoF: 0
-    hasExtraRoot: 0
-    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 3
-  humanoidOversampling: 1
   additionalBone: 0
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 

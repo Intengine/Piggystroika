@@ -284,7 +284,22 @@ ModelImporter:
     13700004: 0002_AN_NPC_MOB_DragonNewtA_A01_SK_TOM
     13700006: 0003_AN_NPC_MOB_DragonNewtA_A01_SK_TOM
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CH_NPC_MOB_DragonNewtA_A01_MI_01_TOM
+    second: {fileID: 2100000, guid: ccd45e933d8e96543bf15a60ad2e44cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CH_NPC_MOB_DragonNewtA_A01_MI_02_TOM
+    second: {fileID: 2100000, guid: 32e70e46125c86047abdefa9927ecba6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CH_NPC_WP_TAX_DN_A01_MI_BYN
+    second: {fileID: 2100000, guid: 82e0bd9d972edf44b852590403b112f3, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -296,11 +311,38 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 1
     motionNodeName: 
-    rigImportErrors: "Avatar creation failed:\n\tTransform 'Bip01_Pelvis' for human
-      bone 'Hips' not found\n"
+    rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'C4D Animation Take' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Bip01_Spine' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Spine1' has translation
+      animation that will be discarded.\n\t'Bip01_Spine2' has translation animation
+      that will be discarded.\n\t'Bip01_Neck' has translation animation that will
+      be discarded.\n\t'Bip01_Neck' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Bip01_L_Clavicle' has translation animation
+      that will be discarded.\n\t'Bip01_L_UpperArm' has translation animation that
+      will be discarded.\n\t'Bip01_L_Forearm' has translation animation that will
+      be discarded.\n\t'Bip01_L_Hand' has translation animation that will be discarded.\n\t'Bip01_L_Finger01'
+      has translation animation that will be discarded.\n\t'Bip01_L_Finger1' has translation
+      animation that will be discarded.\n\t'Bip01_L_Finger2' has translation animation
+      that will be discarded.\n\t'Bip01_L_Finger3' has translation animation that
+      will be discarded.\n\t'Bip01_L_Finger4' has translation animation that will
+      be discarded.\n\t'Bip01_R_Clavicle' has translation animation that will be discarded.\n\t'Bip01_R_UpperArm'
+      has translation animation that will be discarded.\n\t'Bip01_R_Forearm' has translation
+      animation that will be discarded.\n\t'Bip01_R_Hand' has translation animation
+      that will be discarded.\n\t'Bip01_R_Finger01' has translation animation that
+      will be discarded.\n\t'Bip01_R_Finger2' has translation animation that will
+      be discarded.\n\t'Bip01_R_Finger3' has translation animation that will be discarded.\n\t'Bip01_R_Finger4'
+      has translation animation that will be discarded.\n\t'Bip01_Head' has translation
+      animation that will be discarded.\n\t'Bip01_L_Thigh' has translation animation
+      that will be discarded.\n\t'Bip01_L_Calf' has translation animation that will
+      be discarded.\n\t'Bip01_L_Foot' has translation animation that will be discarded.\n\t'BN_Toe04_L_01'
+      has translation animation that will be discarded.\n\t'Bip01_R_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_R_Calf' has translation animation
+      that will be discarded.\n\t'Bip01_R_Foot' has translation animation that will
+      be discarded.\n\t'BN_Toe04_R_01' has translation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0

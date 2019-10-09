@@ -168,7 +168,17 @@ ModelImporter:
     9500000: //RootNode
     13700000: AN_NPC_MOB_DragonNewt_C01_SK_GRN
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CH_NPC_MOB_DragonNewt_C01_MI_GRN
+    second: {fileID: 2100000, guid: 203c2bf2ba2c93e479f66f07c18727f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CH_NPC_WP_ETC_DN_A01_MI_GRN
+    second: {fileID: 2100000, guid: 707ad18e04fc4b243a1af4d37df3bb5b, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -180,11 +190,22 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: "Avatar creation failed:\n\tTransform 'Bip01_Pelvis' for human
-      bone 'Hips' not found\n"
-    rigImportWarnings: 
+    rigImportErrors: 
+    rigImportWarnings: "Avatar Rig Configuration mis-match. Inbetween bone rotation
+      in configuration does not match rotation in animation file:\n\t'BN_RFinger_0201'
+      : rotation error = 9.624766 deg\n\t'BN_LFinger_0201' : rotation error = 45.079563
+      deg\n\t'BN_LFinger_0101' : rotation error = 41.922913 deg\n"
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'C4D Animation Take' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Bip01_Spine' has translation animation that
+      will be discarded.\n\t'Bip01_Spine' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'Bip01_R_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_L_Thigh' has translation animation
+      that will be discarded.\n\t'BN_RFinger_0201' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'BN_LFinger_0201' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'BN_LFinger_0101'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0

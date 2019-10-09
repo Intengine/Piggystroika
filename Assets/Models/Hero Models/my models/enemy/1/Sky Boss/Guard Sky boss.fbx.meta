@@ -456,7 +456,67 @@ ModelImporter:
     13700020: 0010_AN_PC_Sire_M_Refer_Face00
     13700022: AN_PC_WP_TAX0005_A00
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CH_PC_Sire_M_Eye000_MI_LJG
+    second: {fileID: 2100000, guid: 02b7539de5dffad4383a58655441984d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CH_PC_Sire_M_Eyelash000_MI_LJG
+    second: {fileID: 2100000, guid: c05d8888c5e9e3b4fa34625ab2c17f70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CH_PC_Sire_M_Face000_MI_LJG
+    second: {fileID: 2100000, guid: 13a477e88aa1c3140ab5875ef5778b02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CH_PC_Sire_M_MS0101_A00_Belt_MI_KSY
+    second: {fileID: 2100000, guid: e9ce80d65f5f5e140b5af8f1b503171e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CH_PC_Sire_M_MS0101_A00_Boots_MI_KSY
+    second: {fileID: 2100000, guid: 35503cfb52ad682448217103a3f5f284, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CH_PC_Sire_M_MS0101_A00_Glove_MI_KSY
+    second: {fileID: 2100000, guid: b8f8717470ffead4bbb9c05373a7e5d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CH_PC_Sire_M_MS0101_A00_Helmet_MI_KSY
+    second: {fileID: 2100000, guid: 8ee07ea67a394fa409feb24f8736d070, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CH_PC_Sire_M_MS0101_A00_Lower_MI_KSY
+    second: {fileID: 2100000, guid: f9676c0f49a898040a8394bdabe8f936, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CH_PC_Sire_M_MS0101_A00_Shoulder_MI_KSY
+    second: {fileID: 2100000, guid: 7945136e0e955424aa16d7344a9cd1ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CH_PC_Sire_M_MS0101_A00_Upper_MI_KSY
+    second: {fileID: 2100000, guid: 787bb9ee432b5924fa696fef4b3addc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CH_PC_Sire_M_Referbody_MI_LJG
+    second: {fileID: 2100000, guid: 585e62c5abd3546419b6b209d448ab5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CH_PC_WP_TAX0005_A00_MI_SKP
+    second: {fileID: 2100000, guid: 391557e23541e20418c4c47c82261d4a, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -468,11 +528,14 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: "Avatar creation failed:\n\tTransform 'Bip01_Pelvis' for human
-      bone 'Hips' not found\n"
+    rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'C4D Animation Take' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Bip01_Spine1' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_Neck' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0

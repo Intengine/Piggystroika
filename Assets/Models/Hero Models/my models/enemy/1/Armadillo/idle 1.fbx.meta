@@ -164,7 +164,12 @@ ModelImporter:
     9500000: //RootNode
     13700000: AN_NPC_MOB_FArmadillo_A01_SK_ATR
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CH_NPC_MOB_FArmadillo_A01_MI_ATR
+    second: {fileID: 2100000, guid: bea261b618cb93443bfc52bf37e853bf, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -176,11 +181,22 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 1
     motionNodeName: 
-    rigImportErrors: "Avatar creation failed:\n\tTransform 'Bip01_Pelvis' for human
-      bone 'Hips' not found\n"
-    rigImportWarnings: 
+    rigImportErrors: 
+    rigImportWarnings: "Avatar Rig Configuration mis-match. Inbetween bone rotation
+      in configuration does not match rotation in animation file:\n\t'Bip01_Spine2'
+      : rotation error = 7.047156 deg\n\t'Bip01_Spine3' : rotation error = 14.071558
+      deg\n"
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'C4D Animation Take' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Bip01_Spine' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01_R_Thigh' has translation
+      animation that will be discarded.\n\t'Bip01_L_Thigh' has translation animation
+      that will be discarded.\n\t'Bip01_Spine2' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'Bip01_Spine3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01_R_Clavicle'
+      has translation animation that will be discarded.\n\t'Bip01_L_Clavicle' has
+      translation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0

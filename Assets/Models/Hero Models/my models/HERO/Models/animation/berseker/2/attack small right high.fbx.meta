@@ -150,7 +150,22 @@ ModelImporter:
     13700002: Mark2_head
     13700004: Skexy
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mark_Boyd 2H
+    second: {fileID: 2100000, guid: ec4fe12d8bd9ba54ebaa08058691f6b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mark_Boyd 2H.1
+    second: {fileID: 2100000, guid: ec4fe12d8bd9ba54ebaa08058691f6b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skexy
+    second: {fileID: 2100000, guid: 4a163bb2e09c81a48b5c569a90340453, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -162,11 +177,15 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: "Avatar creation failed:\n\tTransform 'b_MF_Pelvis' for human
-      bone 'Hips' not found\n"
+    rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'C4D Animation Take' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'b_MF_Spine_03' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'b_MF_Neck' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'b_MF_Weapon_R'
+      has translation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0

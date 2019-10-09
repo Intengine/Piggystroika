@@ -3,9 +3,130 @@ guid: e398b817e94608f488315868abff7178
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
+    100000: HARPY
+    100002: //RootNode
+    100004: HARPY_
+    100006: HARPY_ Footsteps
+    100008: HARPY_ Head
+    100010: HARPY_ L Calf
+    100012: HARPY_ L Clavicle
+    100014: HARPY_ L Finger0
+    100016: HARPY_ L Foot
+    100018: HARPY_ L Forearm
+    100020: HARPY_ L Hand
+    100022: HARPY_ L Thigh
+    100024: HARPY_ L Toe0
+    100026: HARPY_ L Toe01
+    100028: HARPY_ L Toe02
+    100030: HARPY_ L Toe1
+    100032: HARPY_ L Toe11
+    100034: HARPY_ L Toe12
+    100036: HARPY_ L Toe2
+    100038: HARPY_ L Toe21
+    100040: HARPY_ L Toe22
+    100042: HARPY_ L Toe3
+    100044: HARPY_ L Toe31
+    100046: HARPY_ L Toe32
+    100048: HARPY_ L UpperArm
+    100050: HARPY_ Neck
+    100052: HARPY_ Pelvis
+    100054: HARPY_ Queue de cheval 1
+    100056: HARPY_ Queue de cheval 11
+    100058: HARPY_ Queue de cheval 12
+    100060: HARPY_ Queue de cheval 13
+    100062: HARPY_ Queue de cheval 14
+    100064: HARPY_ Queue de cheval 15
+    100066: HARPY_ Queue de cheval 16
+    100068: HARPY_ Queue de cheval 2
+    100070: HARPY_ R Calf
+    100072: HARPY_ R Clavicle
+    100074: HARPY_ R Finger0
+    100076: HARPY_ R Foot
+    100078: HARPY_ R Forearm
+    100080: HARPY_ R Hand
+    100082: HARPY_ R Thigh
+    100084: HARPY_ R Toe0
+    100086: HARPY_ R Toe01
+    100088: HARPY_ R Toe02
+    100090: HARPY_ R Toe1
+    100092: HARPY_ R Toe11
+    100094: HARPY_ R Toe12
+    100096: HARPY_ R Toe2
+    100098: HARPY_ R Toe21
+    100100: HARPY_ R Toe22
+    100102: HARPY_ R Toe3
+    100104: HARPY_ R Toe31
+    100106: HARPY_ R Toe32
+    100108: HARPY_ R UpperArm
+    100110: HARPY_ Spine
+    100112: HARPY_ Spine1
+    100114: HARPY_ Tail
+    100116: HARPY_BREAST_L
+    100118: HARPY_BREAST_R
     400000: //RootNode
+    400002: HARPY
+    400004: HARPY_
+    400006: HARPY_ Footsteps
+    400008: HARPY_ Head
+    400010: HARPY_ L Calf
+    400012: HARPY_ L Clavicle
+    400014: HARPY_ L Finger0
+    400016: HARPY_ L Foot
+    400018: HARPY_ L Forearm
+    400020: HARPY_ L Hand
+    400022: HARPY_ L Thigh
+    400024: HARPY_ L Toe0
+    400026: HARPY_ L Toe01
+    400028: HARPY_ L Toe02
+    400030: HARPY_ L Toe1
+    400032: HARPY_ L Toe11
+    400034: HARPY_ L Toe12
+    400036: HARPY_ L Toe2
+    400038: HARPY_ L Toe21
+    400040: HARPY_ L Toe22
+    400042: HARPY_ L Toe3
+    400044: HARPY_ L Toe31
+    400046: HARPY_ L Toe32
+    400048: HARPY_ L UpperArm
+    400050: HARPY_ Neck
+    400052: HARPY_ Pelvis
+    400054: HARPY_ Queue de cheval 1
+    400056: HARPY_ Queue de cheval 11
+    400058: HARPY_ Queue de cheval 12
+    400060: HARPY_ Queue de cheval 13
+    400062: HARPY_ Queue de cheval 14
+    400064: HARPY_ Queue de cheval 15
+    400066: HARPY_ Queue de cheval 16
+    400068: HARPY_ Queue de cheval 2
+    400070: HARPY_ R Calf
+    400072: HARPY_ R Clavicle
+    400074: HARPY_ R Finger0
+    400076: HARPY_ R Foot
+    400078: HARPY_ R Forearm
+    400080: HARPY_ R Hand
+    400082: HARPY_ R Thigh
+    400084: HARPY_ R Toe0
+    400086: HARPY_ R Toe01
+    400088: HARPY_ R Toe02
+    400090: HARPY_ R Toe1
+    400092: HARPY_ R Toe11
+    400094: HARPY_ R Toe12
+    400096: HARPY_ R Toe2
+    400098: HARPY_ R Toe21
+    400100: HARPY_ R Toe22
+    400102: HARPY_ R Toe3
+    400104: HARPY_ R Toe31
+    400106: HARPY_ R Toe32
+    400108: HARPY_ R UpperArm
+    400110: HARPY_ Spine
+    400112: HARPY_ Spine1
+    400114: HARPY_ Tail
+    400116: HARPY_BREAST_L
+    400118: HARPY_BREAST_R
+    4300000: HARPY
+    7400000: Take 001
     11100000: //RootNode
+    13700000: HARPY
     2186277476908879412: ImportLogs
   externalObjects:
   - first:
@@ -44,35 +165,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Take 001
-      takeName: Take 001
-      firstFrame: 0
-      lastFrame: 1
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []

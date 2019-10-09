@@ -210,7 +210,17 @@ ModelImporter:
     11100000: //RootNode
     13700000: lizard_warrior
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: batle_axe
+    second: {fileID: 2100000, guid: 7e2d859691e2ec647a85c1ac7db5dcbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tongue
+    second: {fileID: 2100000, guid: ebb941873db21e049a0d2d60dae6b885, type: 2}
   materials:
     importMaterials: 1
     materialName: 3
