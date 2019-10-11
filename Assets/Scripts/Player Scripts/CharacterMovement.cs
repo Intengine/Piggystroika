@@ -23,14 +23,14 @@ public class CharacterMovement : MonoBehaviour
 
     void Awake()
     {
-      motor = GetComponent<MovementMotor>();
-      animator = GetComponent<Animator>();
+        motor = GetComponent<MovementMotor>();
+        animator = GetComponent<Animator>();
     }
 
     void Start()
     {
-    //  animator.applyRootMotion = false;
-      mainCamera = Camera.main;
+        //  animator.applyRootMotion = false;
+        mainCamera = Camera.main;
     }
 
     void Update()
@@ -40,47 +40,47 @@ public class CharacterMovement : MonoBehaviour
 
     private Vector3 MoveDirection
     {
-      get
-      {
-        return direction;
-      }
-
-      set
-      {
-        direction = value * speedMoveMultiplier;
-
-        if (direction.magnitude > 0.1f)
+        get
         {
-          var newRotation = Quaternion.LookRotation(direction);
-          transform.rotation = Quaternion.Slerp(transform.rotation, newRotation, Time.deltaTime + turnSpeed);
+            return direction;
         }
-        direction += speed * (Vector3.Dot(transform.forward, direction) + 1f) * 5f;
-        motor.Move(direction);
 
-        // AnimationMove(motor.characterController.velocity.magnitude * 0.1f);
-      }
+        set
+        {
+            direction = value * speedMoveMultiplier;
+
+            if (direction.magnitude > 0.1f)
+            {
+                var newRotation = Quaternion.LookRotation(direction);
+                transform.rotation = Quaternion.Slerp(transform.rotation, newRotation, Time.deltaTime + turnSpeed);
+            }
+            direction *= speed * (Vector3.Dot(transform.forward, direction) + 1f) * 5f;
+            motor.Move(direction);
+
+            // AnimationMove(motor.characterController.velocity.magnitude * 0.1f);
+        }
     }
 
     void Moving(Vector3 direction, float multiplier)
     {
-      speedMoveMultiplier = 1 * multiplier;
-      MoveDirection = direction;
+        speedMoveMultiplier = 1 * multiplier;
+        MoveDirection = direction;
     }
 
     void Jump()
     {
-      motor.Jump(jumpPower);
+        motor.Jump(jumpPower);
     }
 
     void MovementAndJumping()
     {
-      Vector3 moveInput = Vector3.zero;
-      Vector3 forward = Quaternion.AngleAxis(-90, Vector3.up) * mainCamera.transform.right;
+        Vector3 moveInput = Vector3.zero;
+        Vector3 forward = Quaternion.AngleAxis(-90, Vector3.up) * mainCamera.transform.right;
 
-      moveInput += forward * Input.GetAxis("Vertical");
-      moveInput += mainCamera.transform.right * Input.GetAxis("Horizontal");
-      moveInput.Normalize();
+        moveInput += forward * Input.GetAxis("Vertical");
+        moveInput += mainCamera.transform.right * Input.GetAxis("Horizontal");
+        moveInput.Normalize();
 
-      Moving(moveInput.normalized, 1f);
+        Moving(moveInput.normalized, 1f);
     }
 }
