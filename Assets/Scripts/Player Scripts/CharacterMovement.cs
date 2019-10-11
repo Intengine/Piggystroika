@@ -82,5 +82,10 @@ public class CharacterMovement : MonoBehaviour
         moveInput.Normalize();
 
         Moving(moveInput.normalized, 1f);
+
+        if (Input.GetKey(KeyCode.Space))
+        {
+            Jump();
+        }
     }
 }
