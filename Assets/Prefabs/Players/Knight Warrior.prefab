@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 9523588}
   - component: {fileID: 143531544524534930}
   - component: {fileID: 1243301513674890629}
+  - component: {fileID: 7389849316942977428}
   m_Layer: 8
   m_Name: Knight Warrior
   m_TagString: Player
@@ -93,6 +94,18 @@ MonoBehaviour:
   lerpTime: 10
   characterController: {fileID: 0}
   distanceToGround: 0.1
+--- !u!114 &7389849316942977428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa1239230a1f74c06890f2a9276e18bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &123292
 GameObject:
   m_ObjectHideFlags: 0
