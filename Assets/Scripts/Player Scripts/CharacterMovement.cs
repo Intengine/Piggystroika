@@ -52,7 +52,7 @@ public class CharacterMovement : MonoBehaviour
             if (direction.magnitude > 0.1f)
             {
                 var newRotation = Quaternion.LookRotation(direction);
-                transform.rotation = Quaternion.Slerp(transform.rotation, newRotation, Time.deltaTime + turnSpeed);
+                transform.rotation = Quaternion.Slerp(transform.rotation, newRotation, Time.deltaTime * turnSpeed);
             }
             direction *= speed * (Vector3.Dot(transform.forward, direction) + 1f) * 5f;
             motor.Move(direction);
