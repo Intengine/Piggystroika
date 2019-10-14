@@ -29,7 +29,7 @@ public class CharacterMovement : MonoBehaviour
 
     void Start()
     {
-        //  animator.applyRootMotion = false;
+        animator.applyRootMotion = false;
         mainCamera = Camera.main;
     }
 
@@ -79,8 +79,8 @@ public class CharacterMovement : MonoBehaviour
 
         moveInput += forward * Input.GetAxis("Vertical");
         moveInput += mainCamera.transform.right * Input.GetAxis("Horizontal");
-        moveInput.Normalize();
 
+        moveInput.Normalize();
         Moving(moveInput.normalized, 1f);
 
         if (Input.GetKey(KeyCode.Space))
