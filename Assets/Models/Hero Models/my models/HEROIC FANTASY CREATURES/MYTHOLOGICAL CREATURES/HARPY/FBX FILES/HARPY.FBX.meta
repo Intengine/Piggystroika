@@ -1,133 +1,383 @@
 fileFormatVersion: 2
 guid: e398b817e94608f488315868abff7178
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: HARPY
-    100002: //RootNode
-    100004: HARPY_
-    100006: HARPY_ Footsteps
-    100008: HARPY_ Head
-    100010: HARPY_ L Calf
-    100012: HARPY_ L Clavicle
-    100014: HARPY_ L Finger0
-    100016: HARPY_ L Foot
-    100018: HARPY_ L Forearm
-    100020: HARPY_ L Hand
-    100022: HARPY_ L Thigh
-    100024: HARPY_ L Toe0
-    100026: HARPY_ L Toe01
-    100028: HARPY_ L Toe02
-    100030: HARPY_ L Toe1
-    100032: HARPY_ L Toe11
-    100034: HARPY_ L Toe12
-    100036: HARPY_ L Toe2
-    100038: HARPY_ L Toe21
-    100040: HARPY_ L Toe22
-    100042: HARPY_ L Toe3
-    100044: HARPY_ L Toe31
-    100046: HARPY_ L Toe32
-    100048: HARPY_ L UpperArm
-    100050: HARPY_ Neck
-    100052: HARPY_ Pelvis
-    100054: HARPY_ Queue de cheval 1
-    100056: HARPY_ Queue de cheval 11
-    100058: HARPY_ Queue de cheval 12
-    100060: HARPY_ Queue de cheval 13
-    100062: HARPY_ Queue de cheval 14
-    100064: HARPY_ Queue de cheval 15
-    100066: HARPY_ Queue de cheval 16
-    100068: HARPY_ Queue de cheval 2
-    100070: HARPY_ R Calf
-    100072: HARPY_ R Clavicle
-    100074: HARPY_ R Finger0
-    100076: HARPY_ R Foot
-    100078: HARPY_ R Forearm
-    100080: HARPY_ R Hand
-    100082: HARPY_ R Thigh
-    100084: HARPY_ R Toe0
-    100086: HARPY_ R Toe01
-    100088: HARPY_ R Toe02
-    100090: HARPY_ R Toe1
-    100092: HARPY_ R Toe11
-    100094: HARPY_ R Toe12
-    100096: HARPY_ R Toe2
-    100098: HARPY_ R Toe21
-    100100: HARPY_ R Toe22
-    100102: HARPY_ R Toe3
-    100104: HARPY_ R Toe31
-    100106: HARPY_ R Toe32
-    100108: HARPY_ R UpperArm
-    100110: HARPY_ Spine
-    100112: HARPY_ Spine1
-    100114: HARPY_ Tail
-    100116: HARPY_BREAST_L
-    100118: HARPY_BREAST_R
-    400000: //RootNode
-    400002: HARPY
-    400004: HARPY_
-    400006: HARPY_ Footsteps
-    400008: HARPY_ Head
-    400010: HARPY_ L Calf
-    400012: HARPY_ L Clavicle
-    400014: HARPY_ L Finger0
-    400016: HARPY_ L Foot
-    400018: HARPY_ L Forearm
-    400020: HARPY_ L Hand
-    400022: HARPY_ L Thigh
-    400024: HARPY_ L Toe0
-    400026: HARPY_ L Toe01
-    400028: HARPY_ L Toe02
-    400030: HARPY_ L Toe1
-    400032: HARPY_ L Toe11
-    400034: HARPY_ L Toe12
-    400036: HARPY_ L Toe2
-    400038: HARPY_ L Toe21
-    400040: HARPY_ L Toe22
-    400042: HARPY_ L Toe3
-    400044: HARPY_ L Toe31
-    400046: HARPY_ L Toe32
-    400048: HARPY_ L UpperArm
-    400050: HARPY_ Neck
-    400052: HARPY_ Pelvis
-    400054: HARPY_ Queue de cheval 1
-    400056: HARPY_ Queue de cheval 11
-    400058: HARPY_ Queue de cheval 12
-    400060: HARPY_ Queue de cheval 13
-    400062: HARPY_ Queue de cheval 14
-    400064: HARPY_ Queue de cheval 15
-    400066: HARPY_ Queue de cheval 16
-    400068: HARPY_ Queue de cheval 2
-    400070: HARPY_ R Calf
-    400072: HARPY_ R Clavicle
-    400074: HARPY_ R Finger0
-    400076: HARPY_ R Foot
-    400078: HARPY_ R Forearm
-    400080: HARPY_ R Hand
-    400082: HARPY_ R Thigh
-    400084: HARPY_ R Toe0
-    400086: HARPY_ R Toe01
-    400088: HARPY_ R Toe02
-    400090: HARPY_ R Toe1
-    400092: HARPY_ R Toe11
-    400094: HARPY_ R Toe12
-    400096: HARPY_ R Toe2
-    400098: HARPY_ R Toe21
-    400100: HARPY_ R Toe22
-    400102: HARPY_ R Toe3
-    400104: HARPY_ R Toe31
-    400106: HARPY_ R Toe32
-    400108: HARPY_ R UpperArm
-    400110: HARPY_ Spine
-    400112: HARPY_ Spine1
-    400114: HARPY_ Tail
-    400116: HARPY_BREAST_L
-    400118: HARPY_BREAST_R
-    4300000: HARPY
-    7400000: Take 001
-    11100000: //RootNode
-    13700000: HARPY
-    2186277476908879412: ImportLogs
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: HARPY
+  - first:
+      1: 100002
+    second: //RootNode
+  - first:
+      1: 100004
+    second: HARPY_
+  - first:
+      1: 100006
+    second: HARPY_ Footsteps
+  - first:
+      1: 100008
+    second: HARPY_ Head
+  - first:
+      1: 100010
+    second: HARPY_ L Calf
+  - first:
+      1: 100012
+    second: HARPY_ L Clavicle
+  - first:
+      1: 100014
+    second: HARPY_ L Finger0
+  - first:
+      1: 100016
+    second: HARPY_ L Foot
+  - first:
+      1: 100018
+    second: HARPY_ L Forearm
+  - first:
+      1: 100020
+    second: HARPY_ L Hand
+  - first:
+      1: 100022
+    second: HARPY_ L Thigh
+  - first:
+      1: 100024
+    second: HARPY_ L Toe0
+  - first:
+      1: 100026
+    second: HARPY_ L Toe01
+  - first:
+      1: 100028
+    second: HARPY_ L Toe02
+  - first:
+      1: 100030
+    second: HARPY_ L Toe1
+  - first:
+      1: 100032
+    second: HARPY_ L Toe11
+  - first:
+      1: 100034
+    second: HARPY_ L Toe12
+  - first:
+      1: 100036
+    second: HARPY_ L Toe2
+  - first:
+      1: 100038
+    second: HARPY_ L Toe21
+  - first:
+      1: 100040
+    second: HARPY_ L Toe22
+  - first:
+      1: 100042
+    second: HARPY_ L Toe3
+  - first:
+      1: 100044
+    second: HARPY_ L Toe31
+  - first:
+      1: 100046
+    second: HARPY_ L Toe32
+  - first:
+      1: 100048
+    second: HARPY_ L UpperArm
+  - first:
+      1: 100050
+    second: HARPY_ Neck
+  - first:
+      1: 100052
+    second: HARPY_ Pelvis
+  - first:
+      1: 100054
+    second: HARPY_ Queue de cheval 1
+  - first:
+      1: 100056
+    second: HARPY_ Queue de cheval 11
+  - first:
+      1: 100058
+    second: HARPY_ Queue de cheval 12
+  - first:
+      1: 100060
+    second: HARPY_ Queue de cheval 13
+  - first:
+      1: 100062
+    second: HARPY_ Queue de cheval 14
+  - first:
+      1: 100064
+    second: HARPY_ Queue de cheval 15
+  - first:
+      1: 100066
+    second: HARPY_ Queue de cheval 16
+  - first:
+      1: 100068
+    second: HARPY_ Queue de cheval 2
+  - first:
+      1: 100070
+    second: HARPY_ R Calf
+  - first:
+      1: 100072
+    second: HARPY_ R Clavicle
+  - first:
+      1: 100074
+    second: HARPY_ R Finger0
+  - first:
+      1: 100076
+    second: HARPY_ R Foot
+  - first:
+      1: 100078
+    second: HARPY_ R Forearm
+  - first:
+      1: 100080
+    second: HARPY_ R Hand
+  - first:
+      1: 100082
+    second: HARPY_ R Thigh
+  - first:
+      1: 100084
+    second: HARPY_ R Toe0
+  - first:
+      1: 100086
+    second: HARPY_ R Toe01
+  - first:
+      1: 100088
+    second: HARPY_ R Toe02
+  - first:
+      1: 100090
+    second: HARPY_ R Toe1
+  - first:
+      1: 100092
+    second: HARPY_ R Toe11
+  - first:
+      1: 100094
+    second: HARPY_ R Toe12
+  - first:
+      1: 100096
+    second: HARPY_ R Toe2
+  - first:
+      1: 100098
+    second: HARPY_ R Toe21
+  - first:
+      1: 100100
+    second: HARPY_ R Toe22
+  - first:
+      1: 100102
+    second: HARPY_ R Toe3
+  - first:
+      1: 100104
+    second: HARPY_ R Toe31
+  - first:
+      1: 100106
+    second: HARPY_ R Toe32
+  - first:
+      1: 100108
+    second: HARPY_ R UpperArm
+  - first:
+      1: 100110
+    second: HARPY_ Spine
+  - first:
+      1: 100112
+    second: HARPY_ Spine1
+  - first:
+      1: 100114
+    second: HARPY_ Tail
+  - first:
+      1: 100116
+    second: HARPY_BREAST_L
+  - first:
+      1: 100118
+    second: HARPY_BREAST_R
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: HARPY
+  - first:
+      4: 400004
+    second: HARPY_
+  - first:
+      4: 400006
+    second: HARPY_ Footsteps
+  - first:
+      4: 400008
+    second: HARPY_ Head
+  - first:
+      4: 400010
+    second: HARPY_ L Calf
+  - first:
+      4: 400012
+    second: HARPY_ L Clavicle
+  - first:
+      4: 400014
+    second: HARPY_ L Finger0
+  - first:
+      4: 400016
+    second: HARPY_ L Foot
+  - first:
+      4: 400018
+    second: HARPY_ L Forearm
+  - first:
+      4: 400020
+    second: HARPY_ L Hand
+  - first:
+      4: 400022
+    second: HARPY_ L Thigh
+  - first:
+      4: 400024
+    second: HARPY_ L Toe0
+  - first:
+      4: 400026
+    second: HARPY_ L Toe01
+  - first:
+      4: 400028
+    second: HARPY_ L Toe02
+  - first:
+      4: 400030
+    second: HARPY_ L Toe1
+  - first:
+      4: 400032
+    second: HARPY_ L Toe11
+  - first:
+      4: 400034
+    second: HARPY_ L Toe12
+  - first:
+      4: 400036
+    second: HARPY_ L Toe2
+  - first:
+      4: 400038
+    second: HARPY_ L Toe21
+  - first:
+      4: 400040
+    second: HARPY_ L Toe22
+  - first:
+      4: 400042
+    second: HARPY_ L Toe3
+  - first:
+      4: 400044
+    second: HARPY_ L Toe31
+  - first:
+      4: 400046
+    second: HARPY_ L Toe32
+  - first:
+      4: 400048
+    second: HARPY_ L UpperArm
+  - first:
+      4: 400050
+    second: HARPY_ Neck
+  - first:
+      4: 400052
+    second: HARPY_ Pelvis
+  - first:
+      4: 400054
+    second: HARPY_ Queue de cheval 1
+  - first:
+      4: 400056
+    second: HARPY_ Queue de cheval 11
+  - first:
+      4: 400058
+    second: HARPY_ Queue de cheval 12
+  - first:
+      4: 400060
+    second: HARPY_ Queue de cheval 13
+  - first:
+      4: 400062
+    second: HARPY_ Queue de cheval 14
+  - first:
+      4: 400064
+    second: HARPY_ Queue de cheval 15
+  - first:
+      4: 400066
+    second: HARPY_ Queue de cheval 16
+  - first:
+      4: 400068
+    second: HARPY_ Queue de cheval 2
+  - first:
+      4: 400070
+    second: HARPY_ R Calf
+  - first:
+      4: 400072
+    second: HARPY_ R Clavicle
+  - first:
+      4: 400074
+    second: HARPY_ R Finger0
+  - first:
+      4: 400076
+    second: HARPY_ R Foot
+  - first:
+      4: 400078
+    second: HARPY_ R Forearm
+  - first:
+      4: 400080
+    second: HARPY_ R Hand
+  - first:
+      4: 400082
+    second: HARPY_ R Thigh
+  - first:
+      4: 400084
+    second: HARPY_ R Toe0
+  - first:
+      4: 400086
+    second: HARPY_ R Toe01
+  - first:
+      4: 400088
+    second: HARPY_ R Toe02
+  - first:
+      4: 400090
+    second: HARPY_ R Toe1
+  - first:
+      4: 400092
+    second: HARPY_ R Toe11
+  - first:
+      4: 400094
+    second: HARPY_ R Toe12
+  - first:
+      4: 400096
+    second: HARPY_ R Toe2
+  - first:
+      4: 400098
+    second: HARPY_ R Toe21
+  - first:
+      4: 400100
+    second: HARPY_ R Toe22
+  - first:
+      4: 400102
+    second: HARPY_ R Toe3
+  - first:
+      4: 400104
+    second: HARPY_ R Toe31
+  - first:
+      4: 400106
+    second: HARPY_ R Toe32
+  - first:
+      4: 400108
+    second: HARPY_ R UpperArm
+  - first:
+      4: 400110
+    second: HARPY_ Spine
+  - first:
+      4: 400112
+    second: HARPY_ Spine1
+  - first:
+      4: 400114
+    second: HARPY_ Tail
+  - first:
+      4: 400116
+    second: HARPY_BREAST_L
+  - first:
+      4: 400118
+    second: HARPY_BREAST_R
+  - first:
+      43: 4300000
+    second: HARPY
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: HARPY
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -173,6 +423,7 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
@@ -180,18 +431,19 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 0
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -200,10 +452,38 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips:
+  - 537c9f40db9e00f4ba10316b3b4ab00b
+  - 55895c962feb56a45a5a035e91e7bf16
+  - 3b81bf556b2bdfa4f9e56ff13726f4f2
+  - 932292fbb09a00d4291b275a66d51e7b
+  - 427466ef1464d6d46be575514587ac99
+  - abd81cb42bde0124da7791be9984fe1c
+  - 95536249c147c5b48b7fabb9e060dea7
+  - 820eb8110b111f94ebc889f8ca3fa9bf
+  - c764eae1c0a0f7b4594317cb45856e41
+  - 3805682b8ebbee345b4aa5088823a729
+  - 76e5dd21814603d4d87f5f9a9fc03234
+  - 621359e5751eb694085753a86e063e9e
+  - 828bd4cd99e67db4b80ba1490087a8b5
+  - 2352bf4bc5d948b49bae071debfda1dd
+  - 4695e45e21675104980483cb6f07a851
+  - 092b050ede512e7478fe91a875b7837b
+  - 869601cce37cadc40a2489ee42488fd8
+  - e36e728493ac8004e842b41b79a5b89e
+  - ca507884b707f9844aaf2aa5ed1abd1a
+  - d921998abee595c41ac52db55c0ed6bf
+  - 95127f4150913a64988d3b84218106a6
+  - fd5e659c99217df4a9e8d5e4277cda19
+  - d74067c975aa8b14fb3e23efb1162817
+  - 01b7a88f3a687dd42afd08ad10a54f4c
+  - df708ba70b976bb43818e9c0f26dd1d5
+  - dc0e8654dddd86a49a1fe1f6920868b7
+  - 09d93705b37c4214e91a298995a44284
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -213,6 +493,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.01
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

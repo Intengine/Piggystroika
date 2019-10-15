@@ -1,145 +1,419 @@
 fileFormatVersion: 2
 guid: 9ee11524dc07df345a8fc6d0005c4090
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: belly_armor
-    100002: //RootNode
-    100004: DRAGONIDE
-    100006: DRAGONIDE_
-    100008: DRAGONIDE_ Head
-    100010: DRAGONIDE_ L Calf
-    100012: DRAGONIDE_ L Clavicle
-    100014: DRAGONIDE_ L Finger0
-    100016: DRAGONIDE_ L Finger01
-    100018: DRAGONIDE_ L Finger02
-    100020: DRAGONIDE_ L Finger1
-    100022: DRAGONIDE_ L Finger11
-    100024: DRAGONIDE_ L Finger12
-    100026: DRAGONIDE_ L Foot
-    100028: DRAGONIDE_ L Forearm
-    100030: DRAGONIDE_ L Hand
-    100032: DRAGONIDE_ L HorseLink
-    100034: DRAGONIDE_ L Thigh
-    100036: DRAGONIDE_ L Toe0
-    100038: DRAGONIDE_ L Toe01
-    100040: DRAGONIDE_ L Toe02
-    100042: DRAGONIDE_ L UpperArm
-    100044: DRAGONIDE_ Neck
-    100046: DRAGONIDE_ Neck1
-    100048: DRAGONIDE_ Pelvis
-    100050: DRAGONIDE_ Queue de cheval 1
-    100052: DRAGONIDE_ R Calf
-    100054: DRAGONIDE_ R Clavicle
-    100056: DRAGONIDE_ R Finger0
-    100058: DRAGONIDE_ R Finger01
-    100060: DRAGONIDE_ R Finger02
-    100062: DRAGONIDE_ R Finger1
-    100064: DRAGONIDE_ R Finger11
-    100066: DRAGONIDE_ R Finger12
-    100068: DRAGONIDE_ R Foot
-    100070: DRAGONIDE_ R Forearm
-    100072: DRAGONIDE_ R Hand
-    100074: DRAGONIDE_ R HorseLink
-    100076: DRAGONIDE_ R Thigh
-    100078: DRAGONIDE_ R Toe0
-    100080: DRAGONIDE_ R Toe01
-    100082: DRAGONIDE_ R Toe02
-    100084: DRAGONIDE_ R UpperArm
-    100086: DRAGONIDE_ Spine
-    100088: DRAGONIDE_ Spine1
-    100090: DRAGONIDE_ Tail
-    100092: DRAGONIDE_ Tail1
-    100094: DRAGONIDE_ Tail2
-    100096: DRAGONIDE_ Tail3
-    100098: DRAGONIDE_ Tail4
-    100100: DRAGONIDE_ Tail5
-    100102: DRAGONIDE_ Tail6
-    100104: DRAGONIDE_ Tail7
-    100106: fighting_skirt
-    100108: forearm_armor
-    100110: shoulder_armor
-    100112: spike_bracelet
-    100114: warhammer
-    400000: belly_armor
-    400002: DRAGONIDE
-    400004: //RootNode
-    400006: DRAGONIDE_
-    400008: DRAGONIDE_ Head
-    400010: DRAGONIDE_ L Calf
-    400012: DRAGONIDE_ L Clavicle
-    400014: DRAGONIDE_ L Finger0
-    400016: DRAGONIDE_ L Finger01
-    400018: DRAGONIDE_ L Finger02
-    400020: DRAGONIDE_ L Finger1
-    400022: DRAGONIDE_ L Finger11
-    400024: DRAGONIDE_ L Finger12
-    400026: DRAGONIDE_ L Foot
-    400028: DRAGONIDE_ L Forearm
-    400030: DRAGONIDE_ L Hand
-    400032: DRAGONIDE_ L HorseLink
-    400034: DRAGONIDE_ L Thigh
-    400036: DRAGONIDE_ L Toe0
-    400038: DRAGONIDE_ L Toe01
-    400040: DRAGONIDE_ L Toe02
-    400042: DRAGONIDE_ L UpperArm
-    400044: DRAGONIDE_ Neck
-    400046: DRAGONIDE_ Neck1
-    400048: DRAGONIDE_ Pelvis
-    400050: DRAGONIDE_ Queue de cheval 1
-    400052: DRAGONIDE_ R Calf
-    400054: DRAGONIDE_ R Clavicle
-    400056: DRAGONIDE_ R Finger0
-    400058: DRAGONIDE_ R Finger01
-    400060: DRAGONIDE_ R Finger02
-    400062: DRAGONIDE_ R Finger1
-    400064: DRAGONIDE_ R Finger11
-    400066: DRAGONIDE_ R Finger12
-    400068: DRAGONIDE_ R Foot
-    400070: DRAGONIDE_ R Forearm
-    400072: DRAGONIDE_ R Hand
-    400074: DRAGONIDE_ R HorseLink
-    400076: DRAGONIDE_ R Thigh
-    400078: DRAGONIDE_ R Toe0
-    400080: DRAGONIDE_ R Toe01
-    400082: DRAGONIDE_ R Toe02
-    400084: DRAGONIDE_ R UpperArm
-    400086: DRAGONIDE_ Spine
-    400088: DRAGONIDE_ Spine1
-    400090: DRAGONIDE_ Tail
-    400092: DRAGONIDE_ Tail1
-    400094: DRAGONIDE_ Tail2
-    400096: DRAGONIDE_ Tail3
-    400098: DRAGONIDE_ Tail4
-    400100: DRAGONIDE_ Tail5
-    400102: DRAGONIDE_ Tail6
-    400104: DRAGONIDE_ Tail7
-    400106: fighting_skirt
-    400108: forearm_armor
-    400110: shoulder_armor
-    400112: spike_bracelet
-    400114: warhammer
-    2300000: forearm_armor
-    2300002: spike_bracelet
-    2300004: warhammer
-    3300000: forearm_armor
-    3300002: spike_bracelet
-    3300004: warhammer
-    4300000: DRAGONIDE
-    4300002: forearm_armor
-    4300004: warhammer
-    4300006: spike_bracelet
-    4300008: shoulder_armor
-    4300010: fighting_skirt
-    4300012: belly_armor
-    7400000: Take 001
-    9500000: //RootNode
-    11100000: //RootNode
-    13700000: belly_armor
-    13700002: DRAGONIDE
-    13700004: fighting_skirt
-    13700006: shoulder_armor
-    2186277476908879412: ImportLogs
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: belly_armor
+  - first:
+      1: 100002
+    second: //RootNode
+  - first:
+      1: 100004
+    second: DRAGONIDE
+  - first:
+      1: 100006
+    second: DRAGONIDE_
+  - first:
+      1: 100008
+    second: DRAGONIDE_ Head
+  - first:
+      1: 100010
+    second: DRAGONIDE_ L Calf
+  - first:
+      1: 100012
+    second: DRAGONIDE_ L Clavicle
+  - first:
+      1: 100014
+    second: DRAGONIDE_ L Finger0
+  - first:
+      1: 100016
+    second: DRAGONIDE_ L Finger01
+  - first:
+      1: 100018
+    second: DRAGONIDE_ L Finger02
+  - first:
+      1: 100020
+    second: DRAGONIDE_ L Finger1
+  - first:
+      1: 100022
+    second: DRAGONIDE_ L Finger11
+  - first:
+      1: 100024
+    second: DRAGONIDE_ L Finger12
+  - first:
+      1: 100026
+    second: DRAGONIDE_ L Foot
+  - first:
+      1: 100028
+    second: DRAGONIDE_ L Forearm
+  - first:
+      1: 100030
+    second: DRAGONIDE_ L Hand
+  - first:
+      1: 100032
+    second: DRAGONIDE_ L HorseLink
+  - first:
+      1: 100034
+    second: DRAGONIDE_ L Thigh
+  - first:
+      1: 100036
+    second: DRAGONIDE_ L Toe0
+  - first:
+      1: 100038
+    second: DRAGONIDE_ L Toe01
+  - first:
+      1: 100040
+    second: DRAGONIDE_ L Toe02
+  - first:
+      1: 100042
+    second: DRAGONIDE_ L UpperArm
+  - first:
+      1: 100044
+    second: DRAGONIDE_ Neck
+  - first:
+      1: 100046
+    second: DRAGONIDE_ Neck1
+  - first:
+      1: 100048
+    second: DRAGONIDE_ Pelvis
+  - first:
+      1: 100050
+    second: DRAGONIDE_ Queue de cheval 1
+  - first:
+      1: 100052
+    second: DRAGONIDE_ R Calf
+  - first:
+      1: 100054
+    second: DRAGONIDE_ R Clavicle
+  - first:
+      1: 100056
+    second: DRAGONIDE_ R Finger0
+  - first:
+      1: 100058
+    second: DRAGONIDE_ R Finger01
+  - first:
+      1: 100060
+    second: DRAGONIDE_ R Finger02
+  - first:
+      1: 100062
+    second: DRAGONIDE_ R Finger1
+  - first:
+      1: 100064
+    second: DRAGONIDE_ R Finger11
+  - first:
+      1: 100066
+    second: DRAGONIDE_ R Finger12
+  - first:
+      1: 100068
+    second: DRAGONIDE_ R Foot
+  - first:
+      1: 100070
+    second: DRAGONIDE_ R Forearm
+  - first:
+      1: 100072
+    second: DRAGONIDE_ R Hand
+  - first:
+      1: 100074
+    second: DRAGONIDE_ R HorseLink
+  - first:
+      1: 100076
+    second: DRAGONIDE_ R Thigh
+  - first:
+      1: 100078
+    second: DRAGONIDE_ R Toe0
+  - first:
+      1: 100080
+    second: DRAGONIDE_ R Toe01
+  - first:
+      1: 100082
+    second: DRAGONIDE_ R Toe02
+  - first:
+      1: 100084
+    second: DRAGONIDE_ R UpperArm
+  - first:
+      1: 100086
+    second: DRAGONIDE_ Spine
+  - first:
+      1: 100088
+    second: DRAGONIDE_ Spine1
+  - first:
+      1: 100090
+    second: DRAGONIDE_ Tail
+  - first:
+      1: 100092
+    second: DRAGONIDE_ Tail1
+  - first:
+      1: 100094
+    second: DRAGONIDE_ Tail2
+  - first:
+      1: 100096
+    second: DRAGONIDE_ Tail3
+  - first:
+      1: 100098
+    second: DRAGONIDE_ Tail4
+  - first:
+      1: 100100
+    second: DRAGONIDE_ Tail5
+  - first:
+      1: 100102
+    second: DRAGONIDE_ Tail6
+  - first:
+      1: 100104
+    second: DRAGONIDE_ Tail7
+  - first:
+      1: 100106
+    second: fighting_skirt
+  - first:
+      1: 100108
+    second: forearm_armor
+  - first:
+      1: 100110
+    second: shoulder_armor
+  - first:
+      1: 100112
+    second: spike_bracelet
+  - first:
+      1: 100114
+    second: warhammer
+  - first:
+      4: 400000
+    second: belly_armor
+  - first:
+      4: 400002
+    second: DRAGONIDE
+  - first:
+      4: 400004
+    second: //RootNode
+  - first:
+      4: 400006
+    second: DRAGONIDE_
+  - first:
+      4: 400008
+    second: DRAGONIDE_ Head
+  - first:
+      4: 400010
+    second: DRAGONIDE_ L Calf
+  - first:
+      4: 400012
+    second: DRAGONIDE_ L Clavicle
+  - first:
+      4: 400014
+    second: DRAGONIDE_ L Finger0
+  - first:
+      4: 400016
+    second: DRAGONIDE_ L Finger01
+  - first:
+      4: 400018
+    second: DRAGONIDE_ L Finger02
+  - first:
+      4: 400020
+    second: DRAGONIDE_ L Finger1
+  - first:
+      4: 400022
+    second: DRAGONIDE_ L Finger11
+  - first:
+      4: 400024
+    second: DRAGONIDE_ L Finger12
+  - first:
+      4: 400026
+    second: DRAGONIDE_ L Foot
+  - first:
+      4: 400028
+    second: DRAGONIDE_ L Forearm
+  - first:
+      4: 400030
+    second: DRAGONIDE_ L Hand
+  - first:
+      4: 400032
+    second: DRAGONIDE_ L HorseLink
+  - first:
+      4: 400034
+    second: DRAGONIDE_ L Thigh
+  - first:
+      4: 400036
+    second: DRAGONIDE_ L Toe0
+  - first:
+      4: 400038
+    second: DRAGONIDE_ L Toe01
+  - first:
+      4: 400040
+    second: DRAGONIDE_ L Toe02
+  - first:
+      4: 400042
+    second: DRAGONIDE_ L UpperArm
+  - first:
+      4: 400044
+    second: DRAGONIDE_ Neck
+  - first:
+      4: 400046
+    second: DRAGONIDE_ Neck1
+  - first:
+      4: 400048
+    second: DRAGONIDE_ Pelvis
+  - first:
+      4: 400050
+    second: DRAGONIDE_ Queue de cheval 1
+  - first:
+      4: 400052
+    second: DRAGONIDE_ R Calf
+  - first:
+      4: 400054
+    second: DRAGONIDE_ R Clavicle
+  - first:
+      4: 400056
+    second: DRAGONIDE_ R Finger0
+  - first:
+      4: 400058
+    second: DRAGONIDE_ R Finger01
+  - first:
+      4: 400060
+    second: DRAGONIDE_ R Finger02
+  - first:
+      4: 400062
+    second: DRAGONIDE_ R Finger1
+  - first:
+      4: 400064
+    second: DRAGONIDE_ R Finger11
+  - first:
+      4: 400066
+    second: DRAGONIDE_ R Finger12
+  - first:
+      4: 400068
+    second: DRAGONIDE_ R Foot
+  - first:
+      4: 400070
+    second: DRAGONIDE_ R Forearm
+  - first:
+      4: 400072
+    second: DRAGONIDE_ R Hand
+  - first:
+      4: 400074
+    second: DRAGONIDE_ R HorseLink
+  - first:
+      4: 400076
+    second: DRAGONIDE_ R Thigh
+  - first:
+      4: 400078
+    second: DRAGONIDE_ R Toe0
+  - first:
+      4: 400080
+    second: DRAGONIDE_ R Toe01
+  - first:
+      4: 400082
+    second: DRAGONIDE_ R Toe02
+  - first:
+      4: 400084
+    second: DRAGONIDE_ R UpperArm
+  - first:
+      4: 400086
+    second: DRAGONIDE_ Spine
+  - first:
+      4: 400088
+    second: DRAGONIDE_ Spine1
+  - first:
+      4: 400090
+    second: DRAGONIDE_ Tail
+  - first:
+      4: 400092
+    second: DRAGONIDE_ Tail1
+  - first:
+      4: 400094
+    second: DRAGONIDE_ Tail2
+  - first:
+      4: 400096
+    second: DRAGONIDE_ Tail3
+  - first:
+      4: 400098
+    second: DRAGONIDE_ Tail4
+  - first:
+      4: 400100
+    second: DRAGONIDE_ Tail5
+  - first:
+      4: 400102
+    second: DRAGONIDE_ Tail6
+  - first:
+      4: 400104
+    second: DRAGONIDE_ Tail7
+  - first:
+      4: 400106
+    second: fighting_skirt
+  - first:
+      4: 400108
+    second: forearm_armor
+  - first:
+      4: 400110
+    second: shoulder_armor
+  - first:
+      4: 400112
+    second: spike_bracelet
+  - first:
+      4: 400114
+    second: warhammer
+  - first:
+      23: 2300000
+    second: forearm_armor
+  - first:
+      23: 2300002
+    second: spike_bracelet
+  - first:
+      23: 2300004
+    second: warhammer
+  - first:
+      33: 3300000
+    second: forearm_armor
+  - first:
+      33: 3300002
+    second: spike_bracelet
+  - first:
+      33: 3300004
+    second: warhammer
+  - first:
+      43: 4300000
+    second: DRAGONIDE
+  - first:
+      43: 4300002
+    second: forearm_armor
+  - first:
+      43: 4300004
+    second: warhammer
+  - first:
+      43: 4300006
+    second: spike_bracelet
+  - first:
+      43: 4300008
+    second: shoulder_armor
+  - first:
+      43: 4300010
+    second: fighting_skirt
+  - first:
+      43: 4300012
+    second: belly_armor
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: belly_armor
+  - first:
+      137: 13700002
+    second: DRAGONIDE
+  - first:
+      137: 13700004
+    second: fighting_skirt
+  - first:
+      137: 13700006
+    second: shoulder_armor
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -193,6 +467,7 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
@@ -200,18 +475,19 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 0
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -220,10 +496,37 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips:
+  - 64d90698fcb594e448774e678720072f
+  - 9c460f8bbc179f6478ada5156b9f7232
+  - 86b895802ece7c747b03b673a17dcec9
+  - 7a255de8922a55e4f8be2068842c9d14
+  - e171a37665ff4954db3fd5725aa52b7f
+  - 66472a2f00562484d973124345459d96
+  - 3eb4428da84ffb54da6517f2361f7462
+  - 4830e365dbf3d8b4696345f61331e99d
+  - 2b44fbb38be82e14d98488f4093b43c8
+  - 13ff440bf9b64984a92880ebd7e39085
+  - 4da3494642bc23d4584cd66443b69127
+  - 4c78540b55edd2a4da763433539d161f
+  - 8b74a791178f1644e8601593f97a1a87
+  - 535943ab532b0a84db94032358df0253
+  - 147f8f2586ec3b24981e7de07b46ace2
+  - fa2dc0a81bd611242b1ab0c1c0d5b3e9
+  - 90b0952069b4e23489661a854981d973
+  - ed481fa7d9b44c54e9cf0e3e02fff515
+  - 8c9c750ef4b01e44eabbbbc5f4935ee0
+  - e18725d9d5ea3a346953a1c870a4c7ae
+  - 12d0edb727e79bb439b7392a595429a5
+  - 9c6a7a60d14594c49b44d0be7a88f1db
+  - c2a38a11a319694448ae65d930b6020a
+  - 1aff59a43d7347e409837b4d14408623
+  - 0d693b90517721b45a3b22bee55d02db
+  - 9f295e2fcc5f187468fb87ade2608b88
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human:
     - boneName: DRAGONIDE_ Pelvis
       humanName: Hips
@@ -787,6 +1090,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.01
     rootMotionBoneName: 
     hasTranslationDoF: 1
     hasExtraRoot: 1

@@ -1,281 +1,827 @@
 fileFormatVersion: 2
 guid: 369bf22314485f2499b7991776c86074
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: dagger_L
-    100002: dagger_R
-    100004: Factice001
-    100006: Factice002
-    100008: Factice003
-    100010: Factice004
-    100012: Factice005
-    100014: forearm_armor_L
-    100016: forearm_armor_R
-    100018: //RootNode
-    100020: GOBLIN
-    100022: GOBLIN_
-    100024: GOBLIN_ Head
-    100026: GOBLIN_ L Calf
-    100028: GOBLIN_ L Clavicle
-    100030: GOBLIN_ L Finger0
-    100032: GOBLIN_ L Finger01
-    100034: GOBLIN_ L Finger02
-    100036: GOBLIN_ L Finger1
-    100038: GOBLIN_ L Finger11
-    100040: GOBLIN_ L Finger12
-    100042: GOBLIN_ L Finger2
-    100044: GOBLIN_ L Finger21
-    100046: GOBLIN_ L Finger22
-    100048: GOBLIN_ L Finger3
-    100050: GOBLIN_ L Finger31
-    100052: GOBLIN_ L Finger32
-    100054: GOBLIN_ L Foot
-    100056: GOBLIN_ L Forearm
-    100058: GOBLIN_ L Hand
-    100060: GOBLIN_ L Thigh
-    100062: GOBLIN_ L Toe0
-    100064: GOBLIN_ L UpperArm
-    100066: GOBLIN_ Neck
-    100068: GOBLIN_ Pelvis
-    100070: GOBLIN_ Queue de cheval 1
-    100072: GOBLIN_ R Calf
-    100074: GOBLIN_ R Clavicle
-    100076: GOBLIN_ R Finger0
-    100078: GOBLIN_ R Finger01
-    100080: GOBLIN_ R Finger02
-    100082: GOBLIN_ R Finger1
-    100084: GOBLIN_ R Finger11
-    100086: GOBLIN_ R Finger12
-    100088: GOBLIN_ R Finger2
-    100090: GOBLIN_ R Finger21
-    100092: GOBLIN_ R Finger22
-    100094: GOBLIN_ R Finger3
-    100096: GOBLIN_ R Finger31
-    100098: GOBLIN_ R Finger32
-    100100: GOBLIN_ R Foot
-    100102: GOBLIN_ R Forearm
-    100104: GOBLIN_ R Hand
-    100106: GOBLIN_ R Thigh
-    100108: GOBLIN_ R Toe0
-    100110: GOBLIN_ R UpperArm
-    100112: GOBLIN_ Spine
-    100114: GOBLIN_ Spine1
-    100116: leg_armor_L
-    100118: leg_armor_R
-    100120: shield
-    100122: shoulder_armor
-    100124: slingshot
-    100126: slingshot_body
-    100128: slingshot_rope_middle
-    100130: stone
-    100132: sword
-    100134: Cinema4D_Editor
-    100136: GOBLIN__Head
-    100138: GOBLIN__L_Calf
-    100140: GOBLIN__L_Clavicle
-    100142: GOBLIN__L_Finger0
-    100144: GOBLIN__L_Finger01
-    100146: GOBLIN__L_Finger02
-    100148: GOBLIN__L_Finger1
-    100150: GOBLIN__L_Finger11
-    100152: GOBLIN__L_Finger12
-    100154: GOBLIN__L_Finger2
-    100156: GOBLIN__L_Finger21
-    100158: GOBLIN__L_Finger22
-    100160: GOBLIN__L_Finger3
-    100162: GOBLIN__L_Finger31
-    100164: GOBLIN__L_Finger32
-    100166: GOBLIN__L_Foot
-    100168: GOBLIN__L_Forearm
-    100170: GOBLIN__L_Hand
-    100172: GOBLIN__L_Thigh
-    100174: GOBLIN__L_Toe0
-    100176: GOBLIN__L_UpperArm
-    100178: GOBLIN__Neck
-    100180: GOBLIN__Pelvis
-    100182: GOBLIN__Queue_de_cheval_1
-    100184: GOBLIN__R_Calf
-    100186: GOBLIN__R_Clavicle
-    100188: GOBLIN__R_Finger0
-    100190: GOBLIN__R_Finger01
-    100192: GOBLIN__R_Finger02
-    100194: GOBLIN__R_Finger1
-    100196: GOBLIN__R_Finger11
-    100198: GOBLIN__R_Finger12
-    100200: GOBLIN__R_Finger2
-    100202: GOBLIN__R_Finger21
-    100204: GOBLIN__R_Finger22
-    100206: GOBLIN__R_Finger3
-    100208: GOBLIN__R_Finger31
-    100210: GOBLIN__R_Finger32
-    100212: GOBLIN__R_Foot
-    100214: GOBLIN__R_Forearm
-    100216: GOBLIN__R_Hand
-    100218: GOBLIN__R_Thigh
-    100220: GOBLIN__R_Toe0
-    100222: GOBLIN__R_UpperArm
-    100224: GOBLIN__Spine
-    100226: GOBLIN__Spine1
-    100228: Hair01_1
-    100230: Head
-    400000: dagger_L
-    400002: dagger_R
-    400004: Factice001
-    400006: Factice002
-    400008: Factice003
-    400010: Factice004
-    400012: Factice005
-    400014: forearm_armor_L
-    400016: forearm_armor_R
-    400018: GOBLIN
-    400020: //RootNode
-    400022: GOBLIN_
-    400024: GOBLIN_ Head
-    400026: GOBLIN_ L Calf
-    400028: GOBLIN_ L Clavicle
-    400030: GOBLIN_ L Finger0
-    400032: GOBLIN_ L Finger01
-    400034: GOBLIN_ L Finger02
-    400036: GOBLIN_ L Finger1
-    400038: GOBLIN_ L Finger11
-    400040: GOBLIN_ L Finger12
-    400042: GOBLIN_ L Finger2
-    400044: GOBLIN_ L Finger21
-    400046: GOBLIN_ L Finger22
-    400048: GOBLIN_ L Finger3
-    400050: GOBLIN_ L Finger31
-    400052: GOBLIN_ L Finger32
-    400054: GOBLIN_ L Foot
-    400056: GOBLIN_ L Forearm
-    400058: GOBLIN_ L Hand
-    400060: GOBLIN_ L Thigh
-    400062: GOBLIN_ L Toe0
-    400064: GOBLIN_ L UpperArm
-    400066: GOBLIN_ Neck
-    400068: GOBLIN_ Pelvis
-    400070: GOBLIN_ Queue de cheval 1
-    400072: GOBLIN_ R Calf
-    400074: GOBLIN_ R Clavicle
-    400076: GOBLIN_ R Finger0
-    400078: GOBLIN_ R Finger01
-    400080: GOBLIN_ R Finger02
-    400082: GOBLIN_ R Finger1
-    400084: GOBLIN_ R Finger11
-    400086: GOBLIN_ R Finger12
-    400088: GOBLIN_ R Finger2
-    400090: GOBLIN_ R Finger21
-    400092: GOBLIN_ R Finger22
-    400094: GOBLIN_ R Finger3
-    400096: GOBLIN_ R Finger31
-    400098: GOBLIN_ R Finger32
-    400100: GOBLIN_ R Foot
-    400102: GOBLIN_ R Forearm
-    400104: GOBLIN_ R Hand
-    400106: GOBLIN_ R Thigh
-    400108: GOBLIN_ R Toe0
-    400110: GOBLIN_ R UpperArm
-    400112: GOBLIN_ Spine
-    400114: GOBLIN_ Spine1
-    400116: leg_armor_L
-    400118: leg_armor_R
-    400120: shield
-    400122: shoulder_armor
-    400124: slingshot
-    400126: slingshot_body
-    400128: slingshot_rope_middle
-    400130: stone
-    400132: sword
-    400134: Cinema4D_Editor
-    400136: GOBLIN__Head
-    400138: GOBLIN__L_Calf
-    400140: GOBLIN__L_Clavicle
-    400142: GOBLIN__L_Finger0
-    400144: GOBLIN__L_Finger01
-    400146: GOBLIN__L_Finger02
-    400148: GOBLIN__L_Finger1
-    400150: GOBLIN__L_Finger11
-    400152: GOBLIN__L_Finger12
-    400154: GOBLIN__L_Finger2
-    400156: GOBLIN__L_Finger21
-    400158: GOBLIN__L_Finger22
-    400160: GOBLIN__L_Finger3
-    400162: GOBLIN__L_Finger31
-    400164: GOBLIN__L_Finger32
-    400166: GOBLIN__L_Foot
-    400168: GOBLIN__L_Forearm
-    400170: GOBLIN__L_Hand
-    400172: GOBLIN__L_Thigh
-    400174: GOBLIN__L_Toe0
-    400176: GOBLIN__L_UpperArm
-    400178: GOBLIN__Neck
-    400180: GOBLIN__Pelvis
-    400182: GOBLIN__Queue_de_cheval_1
-    400184: GOBLIN__R_Calf
-    400186: GOBLIN__R_Clavicle
-    400188: GOBLIN__R_Finger0
-    400190: GOBLIN__R_Finger01
-    400192: GOBLIN__R_Finger02
-    400194: GOBLIN__R_Finger1
-    400196: GOBLIN__R_Finger11
-    400198: GOBLIN__R_Finger12
-    400200: GOBLIN__R_Finger2
-    400202: GOBLIN__R_Finger21
-    400204: GOBLIN__R_Finger22
-    400206: GOBLIN__R_Finger3
-    400208: GOBLIN__R_Finger31
-    400210: GOBLIN__R_Finger32
-    400212: GOBLIN__R_Foot
-    400214: GOBLIN__R_Forearm
-    400216: GOBLIN__R_Hand
-    400218: GOBLIN__R_Thigh
-    400220: GOBLIN__R_Toe0
-    400222: GOBLIN__R_UpperArm
-    400224: GOBLIN__Spine
-    400226: GOBLIN__Spine1
-    400228: Hair01_1
-    400230: Head
-    2300000: dagger_L
-    2300002: dagger_R
-    2300004: forearm_armor_L
-    2300006: forearm_armor_R
-    2300008: leg_armor_L
-    2300010: leg_armor_R
-    2300012: shield
-    2300014: stone
-    2300016: sword
-    2300018: Hair01_1
-    3300000: dagger_L
-    3300002: dagger_R
-    3300004: forearm_armor_L
-    3300006: forearm_armor_R
-    3300008: leg_armor_L
-    3300010: leg_armor_R
-    3300012: shield
-    3300014: stone
-    3300016: sword
-    3300018: Hair01_1
-    4300000: GOBLIN
-    4300002: shoulder_armor
-    4300004: dagger_L
-    4300006: stone
-    4300008: forearm_armor_L
-    4300010: shield
-    4300012: dagger_R
-    4300014: sword
-    4300016: forearm_armor_R
-    4300018: leg_armor_L
-    4300020: leg_armor_R
-    4300022: slingshot
-    4300024: Hair01_1
-    4300026: Head
-    7400000: Take 001
-    11100000: //RootNode
-    13700000: GOBLIN
-    13700002: shoulder_armor
-    13700004: slingshot
-    13700006: Head
-    2186277476908879412: ImportLogs
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: dagger_L
+  - first:
+      1: 100002
+    second: dagger_R
+  - first:
+      1: 100004
+    second: Factice001
+  - first:
+      1: 100006
+    second: Factice002
+  - first:
+      1: 100008
+    second: Factice003
+  - first:
+      1: 100010
+    second: Factice004
+  - first:
+      1: 100012
+    second: Factice005
+  - first:
+      1: 100014
+    second: forearm_armor_L
+  - first:
+      1: 100016
+    second: forearm_armor_R
+  - first:
+      1: 100018
+    second: //RootNode
+  - first:
+      1: 100020
+    second: GOBLIN
+  - first:
+      1: 100022
+    second: GOBLIN_
+  - first:
+      1: 100024
+    second: GOBLIN_ Head
+  - first:
+      1: 100026
+    second: GOBLIN_ L Calf
+  - first:
+      1: 100028
+    second: GOBLIN_ L Clavicle
+  - first:
+      1: 100030
+    second: GOBLIN_ L Finger0
+  - first:
+      1: 100032
+    second: GOBLIN_ L Finger01
+  - first:
+      1: 100034
+    second: GOBLIN_ L Finger02
+  - first:
+      1: 100036
+    second: GOBLIN_ L Finger1
+  - first:
+      1: 100038
+    second: GOBLIN_ L Finger11
+  - first:
+      1: 100040
+    second: GOBLIN_ L Finger12
+  - first:
+      1: 100042
+    second: GOBLIN_ L Finger2
+  - first:
+      1: 100044
+    second: GOBLIN_ L Finger21
+  - first:
+      1: 100046
+    second: GOBLIN_ L Finger22
+  - first:
+      1: 100048
+    second: GOBLIN_ L Finger3
+  - first:
+      1: 100050
+    second: GOBLIN_ L Finger31
+  - first:
+      1: 100052
+    second: GOBLIN_ L Finger32
+  - first:
+      1: 100054
+    second: GOBLIN_ L Foot
+  - first:
+      1: 100056
+    second: GOBLIN_ L Forearm
+  - first:
+      1: 100058
+    second: GOBLIN_ L Hand
+  - first:
+      1: 100060
+    second: GOBLIN_ L Thigh
+  - first:
+      1: 100062
+    second: GOBLIN_ L Toe0
+  - first:
+      1: 100064
+    second: GOBLIN_ L UpperArm
+  - first:
+      1: 100066
+    second: GOBLIN_ Neck
+  - first:
+      1: 100068
+    second: GOBLIN_ Pelvis
+  - first:
+      1: 100070
+    second: GOBLIN_ Queue de cheval 1
+  - first:
+      1: 100072
+    second: GOBLIN_ R Calf
+  - first:
+      1: 100074
+    second: GOBLIN_ R Clavicle
+  - first:
+      1: 100076
+    second: GOBLIN_ R Finger0
+  - first:
+      1: 100078
+    second: GOBLIN_ R Finger01
+  - first:
+      1: 100080
+    second: GOBLIN_ R Finger02
+  - first:
+      1: 100082
+    second: GOBLIN_ R Finger1
+  - first:
+      1: 100084
+    second: GOBLIN_ R Finger11
+  - first:
+      1: 100086
+    second: GOBLIN_ R Finger12
+  - first:
+      1: 100088
+    second: GOBLIN_ R Finger2
+  - first:
+      1: 100090
+    second: GOBLIN_ R Finger21
+  - first:
+      1: 100092
+    second: GOBLIN_ R Finger22
+  - first:
+      1: 100094
+    second: GOBLIN_ R Finger3
+  - first:
+      1: 100096
+    second: GOBLIN_ R Finger31
+  - first:
+      1: 100098
+    second: GOBLIN_ R Finger32
+  - first:
+      1: 100100
+    second: GOBLIN_ R Foot
+  - first:
+      1: 100102
+    second: GOBLIN_ R Forearm
+  - first:
+      1: 100104
+    second: GOBLIN_ R Hand
+  - first:
+      1: 100106
+    second: GOBLIN_ R Thigh
+  - first:
+      1: 100108
+    second: GOBLIN_ R Toe0
+  - first:
+      1: 100110
+    second: GOBLIN_ R UpperArm
+  - first:
+      1: 100112
+    second: GOBLIN_ Spine
+  - first:
+      1: 100114
+    second: GOBLIN_ Spine1
+  - first:
+      1: 100116
+    second: leg_armor_L
+  - first:
+      1: 100118
+    second: leg_armor_R
+  - first:
+      1: 100120
+    second: shield
+  - first:
+      1: 100122
+    second: shoulder_armor
+  - first:
+      1: 100124
+    second: slingshot
+  - first:
+      1: 100126
+    second: slingshot_body
+  - first:
+      1: 100128
+    second: slingshot_rope_middle
+  - first:
+      1: 100130
+    second: stone
+  - first:
+      1: 100132
+    second: sword
+  - first:
+      1: 100134
+    second: Cinema4D_Editor
+  - first:
+      1: 100136
+    second: GOBLIN__Head
+  - first:
+      1: 100138
+    second: GOBLIN__L_Calf
+  - first:
+      1: 100140
+    second: GOBLIN__L_Clavicle
+  - first:
+      1: 100142
+    second: GOBLIN__L_Finger0
+  - first:
+      1: 100144
+    second: GOBLIN__L_Finger01
+  - first:
+      1: 100146
+    second: GOBLIN__L_Finger02
+  - first:
+      1: 100148
+    second: GOBLIN__L_Finger1
+  - first:
+      1: 100150
+    second: GOBLIN__L_Finger11
+  - first:
+      1: 100152
+    second: GOBLIN__L_Finger12
+  - first:
+      1: 100154
+    second: GOBLIN__L_Finger2
+  - first:
+      1: 100156
+    second: GOBLIN__L_Finger21
+  - first:
+      1: 100158
+    second: GOBLIN__L_Finger22
+  - first:
+      1: 100160
+    second: GOBLIN__L_Finger3
+  - first:
+      1: 100162
+    second: GOBLIN__L_Finger31
+  - first:
+      1: 100164
+    second: GOBLIN__L_Finger32
+  - first:
+      1: 100166
+    second: GOBLIN__L_Foot
+  - first:
+      1: 100168
+    second: GOBLIN__L_Forearm
+  - first:
+      1: 100170
+    second: GOBLIN__L_Hand
+  - first:
+      1: 100172
+    second: GOBLIN__L_Thigh
+  - first:
+      1: 100174
+    second: GOBLIN__L_Toe0
+  - first:
+      1: 100176
+    second: GOBLIN__L_UpperArm
+  - first:
+      1: 100178
+    second: GOBLIN__Neck
+  - first:
+      1: 100180
+    second: GOBLIN__Pelvis
+  - first:
+      1: 100182
+    second: GOBLIN__Queue_de_cheval_1
+  - first:
+      1: 100184
+    second: GOBLIN__R_Calf
+  - first:
+      1: 100186
+    second: GOBLIN__R_Clavicle
+  - first:
+      1: 100188
+    second: GOBLIN__R_Finger0
+  - first:
+      1: 100190
+    second: GOBLIN__R_Finger01
+  - first:
+      1: 100192
+    second: GOBLIN__R_Finger02
+  - first:
+      1: 100194
+    second: GOBLIN__R_Finger1
+  - first:
+      1: 100196
+    second: GOBLIN__R_Finger11
+  - first:
+      1: 100198
+    second: GOBLIN__R_Finger12
+  - first:
+      1: 100200
+    second: GOBLIN__R_Finger2
+  - first:
+      1: 100202
+    second: GOBLIN__R_Finger21
+  - first:
+      1: 100204
+    second: GOBLIN__R_Finger22
+  - first:
+      1: 100206
+    second: GOBLIN__R_Finger3
+  - first:
+      1: 100208
+    second: GOBLIN__R_Finger31
+  - first:
+      1: 100210
+    second: GOBLIN__R_Finger32
+  - first:
+      1: 100212
+    second: GOBLIN__R_Foot
+  - first:
+      1: 100214
+    second: GOBLIN__R_Forearm
+  - first:
+      1: 100216
+    second: GOBLIN__R_Hand
+  - first:
+      1: 100218
+    second: GOBLIN__R_Thigh
+  - first:
+      1: 100220
+    second: GOBLIN__R_Toe0
+  - first:
+      1: 100222
+    second: GOBLIN__R_UpperArm
+  - first:
+      1: 100224
+    second: GOBLIN__Spine
+  - first:
+      1: 100226
+    second: GOBLIN__Spine1
+  - first:
+      1: 100228
+    second: Hair01_1
+  - first:
+      1: 100230
+    second: Head
+  - first:
+      4: 400000
+    second: dagger_L
+  - first:
+      4: 400002
+    second: dagger_R
+  - first:
+      4: 400004
+    second: Factice001
+  - first:
+      4: 400006
+    second: Factice002
+  - first:
+      4: 400008
+    second: Factice003
+  - first:
+      4: 400010
+    second: Factice004
+  - first:
+      4: 400012
+    second: Factice005
+  - first:
+      4: 400014
+    second: forearm_armor_L
+  - first:
+      4: 400016
+    second: forearm_armor_R
+  - first:
+      4: 400018
+    second: GOBLIN
+  - first:
+      4: 400020
+    second: //RootNode
+  - first:
+      4: 400022
+    second: GOBLIN_
+  - first:
+      4: 400024
+    second: GOBLIN_ Head
+  - first:
+      4: 400026
+    second: GOBLIN_ L Calf
+  - first:
+      4: 400028
+    second: GOBLIN_ L Clavicle
+  - first:
+      4: 400030
+    second: GOBLIN_ L Finger0
+  - first:
+      4: 400032
+    second: GOBLIN_ L Finger01
+  - first:
+      4: 400034
+    second: GOBLIN_ L Finger02
+  - first:
+      4: 400036
+    second: GOBLIN_ L Finger1
+  - first:
+      4: 400038
+    second: GOBLIN_ L Finger11
+  - first:
+      4: 400040
+    second: GOBLIN_ L Finger12
+  - first:
+      4: 400042
+    second: GOBLIN_ L Finger2
+  - first:
+      4: 400044
+    second: GOBLIN_ L Finger21
+  - first:
+      4: 400046
+    second: GOBLIN_ L Finger22
+  - first:
+      4: 400048
+    second: GOBLIN_ L Finger3
+  - first:
+      4: 400050
+    second: GOBLIN_ L Finger31
+  - first:
+      4: 400052
+    second: GOBLIN_ L Finger32
+  - first:
+      4: 400054
+    second: GOBLIN_ L Foot
+  - first:
+      4: 400056
+    second: GOBLIN_ L Forearm
+  - first:
+      4: 400058
+    second: GOBLIN_ L Hand
+  - first:
+      4: 400060
+    second: GOBLIN_ L Thigh
+  - first:
+      4: 400062
+    second: GOBLIN_ L Toe0
+  - first:
+      4: 400064
+    second: GOBLIN_ L UpperArm
+  - first:
+      4: 400066
+    second: GOBLIN_ Neck
+  - first:
+      4: 400068
+    second: GOBLIN_ Pelvis
+  - first:
+      4: 400070
+    second: GOBLIN_ Queue de cheval 1
+  - first:
+      4: 400072
+    second: GOBLIN_ R Calf
+  - first:
+      4: 400074
+    second: GOBLIN_ R Clavicle
+  - first:
+      4: 400076
+    second: GOBLIN_ R Finger0
+  - first:
+      4: 400078
+    second: GOBLIN_ R Finger01
+  - first:
+      4: 400080
+    second: GOBLIN_ R Finger02
+  - first:
+      4: 400082
+    second: GOBLIN_ R Finger1
+  - first:
+      4: 400084
+    second: GOBLIN_ R Finger11
+  - first:
+      4: 400086
+    second: GOBLIN_ R Finger12
+  - first:
+      4: 400088
+    second: GOBLIN_ R Finger2
+  - first:
+      4: 400090
+    second: GOBLIN_ R Finger21
+  - first:
+      4: 400092
+    second: GOBLIN_ R Finger22
+  - first:
+      4: 400094
+    second: GOBLIN_ R Finger3
+  - first:
+      4: 400096
+    second: GOBLIN_ R Finger31
+  - first:
+      4: 400098
+    second: GOBLIN_ R Finger32
+  - first:
+      4: 400100
+    second: GOBLIN_ R Foot
+  - first:
+      4: 400102
+    second: GOBLIN_ R Forearm
+  - first:
+      4: 400104
+    second: GOBLIN_ R Hand
+  - first:
+      4: 400106
+    second: GOBLIN_ R Thigh
+  - first:
+      4: 400108
+    second: GOBLIN_ R Toe0
+  - first:
+      4: 400110
+    second: GOBLIN_ R UpperArm
+  - first:
+      4: 400112
+    second: GOBLIN_ Spine
+  - first:
+      4: 400114
+    second: GOBLIN_ Spine1
+  - first:
+      4: 400116
+    second: leg_armor_L
+  - first:
+      4: 400118
+    second: leg_armor_R
+  - first:
+      4: 400120
+    second: shield
+  - first:
+      4: 400122
+    second: shoulder_armor
+  - first:
+      4: 400124
+    second: slingshot
+  - first:
+      4: 400126
+    second: slingshot_body
+  - first:
+      4: 400128
+    second: slingshot_rope_middle
+  - first:
+      4: 400130
+    second: stone
+  - first:
+      4: 400132
+    second: sword
+  - first:
+      4: 400134
+    second: Cinema4D_Editor
+  - first:
+      4: 400136
+    second: GOBLIN__Head
+  - first:
+      4: 400138
+    second: GOBLIN__L_Calf
+  - first:
+      4: 400140
+    second: GOBLIN__L_Clavicle
+  - first:
+      4: 400142
+    second: GOBLIN__L_Finger0
+  - first:
+      4: 400144
+    second: GOBLIN__L_Finger01
+  - first:
+      4: 400146
+    second: GOBLIN__L_Finger02
+  - first:
+      4: 400148
+    second: GOBLIN__L_Finger1
+  - first:
+      4: 400150
+    second: GOBLIN__L_Finger11
+  - first:
+      4: 400152
+    second: GOBLIN__L_Finger12
+  - first:
+      4: 400154
+    second: GOBLIN__L_Finger2
+  - first:
+      4: 400156
+    second: GOBLIN__L_Finger21
+  - first:
+      4: 400158
+    second: GOBLIN__L_Finger22
+  - first:
+      4: 400160
+    second: GOBLIN__L_Finger3
+  - first:
+      4: 400162
+    second: GOBLIN__L_Finger31
+  - first:
+      4: 400164
+    second: GOBLIN__L_Finger32
+  - first:
+      4: 400166
+    second: GOBLIN__L_Foot
+  - first:
+      4: 400168
+    second: GOBLIN__L_Forearm
+  - first:
+      4: 400170
+    second: GOBLIN__L_Hand
+  - first:
+      4: 400172
+    second: GOBLIN__L_Thigh
+  - first:
+      4: 400174
+    second: GOBLIN__L_Toe0
+  - first:
+      4: 400176
+    second: GOBLIN__L_UpperArm
+  - first:
+      4: 400178
+    second: GOBLIN__Neck
+  - first:
+      4: 400180
+    second: GOBLIN__Pelvis
+  - first:
+      4: 400182
+    second: GOBLIN__Queue_de_cheval_1
+  - first:
+      4: 400184
+    second: GOBLIN__R_Calf
+  - first:
+      4: 400186
+    second: GOBLIN__R_Clavicle
+  - first:
+      4: 400188
+    second: GOBLIN__R_Finger0
+  - first:
+      4: 400190
+    second: GOBLIN__R_Finger01
+  - first:
+      4: 400192
+    second: GOBLIN__R_Finger02
+  - first:
+      4: 400194
+    second: GOBLIN__R_Finger1
+  - first:
+      4: 400196
+    second: GOBLIN__R_Finger11
+  - first:
+      4: 400198
+    second: GOBLIN__R_Finger12
+  - first:
+      4: 400200
+    second: GOBLIN__R_Finger2
+  - first:
+      4: 400202
+    second: GOBLIN__R_Finger21
+  - first:
+      4: 400204
+    second: GOBLIN__R_Finger22
+  - first:
+      4: 400206
+    second: GOBLIN__R_Finger3
+  - first:
+      4: 400208
+    second: GOBLIN__R_Finger31
+  - first:
+      4: 400210
+    second: GOBLIN__R_Finger32
+  - first:
+      4: 400212
+    second: GOBLIN__R_Foot
+  - first:
+      4: 400214
+    second: GOBLIN__R_Forearm
+  - first:
+      4: 400216
+    second: GOBLIN__R_Hand
+  - first:
+      4: 400218
+    second: GOBLIN__R_Thigh
+  - first:
+      4: 400220
+    second: GOBLIN__R_Toe0
+  - first:
+      4: 400222
+    second: GOBLIN__R_UpperArm
+  - first:
+      4: 400224
+    second: GOBLIN__Spine
+  - first:
+      4: 400226
+    second: GOBLIN__Spine1
+  - first:
+      4: 400228
+    second: Hair01_1
+  - first:
+      4: 400230
+    second: Head
+  - first:
+      23: 2300000
+    second: dagger_L
+  - first:
+      23: 2300002
+    second: dagger_R
+  - first:
+      23: 2300004
+    second: forearm_armor_L
+  - first:
+      23: 2300006
+    second: forearm_armor_R
+  - first:
+      23: 2300008
+    second: leg_armor_L
+  - first:
+      23: 2300010
+    second: leg_armor_R
+  - first:
+      23: 2300012
+    second: shield
+  - first:
+      23: 2300014
+    second: stone
+  - first:
+      23: 2300016
+    second: sword
+  - first:
+      23: 2300018
+    second: Hair01_1
+  - first:
+      33: 3300000
+    second: dagger_L
+  - first:
+      33: 3300002
+    second: dagger_R
+  - first:
+      33: 3300004
+    second: forearm_armor_L
+  - first:
+      33: 3300006
+    second: forearm_armor_R
+  - first:
+      33: 3300008
+    second: leg_armor_L
+  - first:
+      33: 3300010
+    second: leg_armor_R
+  - first:
+      33: 3300012
+    second: shield
+  - first:
+      33: 3300014
+    second: stone
+  - first:
+      33: 3300016
+    second: sword
+  - first:
+      33: 3300018
+    second: Hair01_1
+  - first:
+      43: 4300000
+    second: GOBLIN
+  - first:
+      43: 4300002
+    second: shoulder_armor
+  - first:
+      43: 4300004
+    second: dagger_L
+  - first:
+      43: 4300006
+    second: stone
+  - first:
+      43: 4300008
+    second: forearm_armor_L
+  - first:
+      43: 4300010
+    second: shield
+  - first:
+      43: 4300012
+    second: dagger_R
+  - first:
+      43: 4300014
+    second: sword
+  - first:
+      43: 4300016
+    second: forearm_armor_R
+  - first:
+      43: 4300018
+    second: leg_armor_L
+  - first:
+      43: 4300020
+    second: leg_armor_R
+  - first:
+      43: 4300022
+    second: slingshot
+  - first:
+      43: 4300024
+    second: Hair01_1
+  - first:
+      43: 4300026
+    second: Head
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: GOBLIN
+  - first:
+      137: 13700002
+    second: shoulder_armor
+  - first:
+      137: 13700004
+    second: slingshot
+  - first:
+      137: 13700006
+    second: Head
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -391,6 +937,7 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
@@ -398,18 +945,19 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 0
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -418,10 +966,50 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips:
+  - 751d9091a11b9894f8fcebd109a1eac9
+  - 46e8ea5602bd1c14fb1ad3490f82fbbc
+  - 6d5ee1a7afd13524b8addb804ef64807
+  - 7acc7a5c9bd11ab49af3d8fa6764229b
+  - 754f1bf802c6dc84e88e18a33d51cb84
+  - f2aac1388c163034a946e6869ccafc4a
+  - cd1d70c05e1da104983a73e188677d75
+  - a1aeb2e1d87facc479a4ae9d4b1195b4
+  - 13c992943e858d744ad1ccab248fd465
+  - a6cd455cc599c7a49b6218fb2d586a00
+  - 4d31349a2853bae46a814b8ba9b9ec59
+  - 5d1d5198be2318f4990c1f8ff0357810
+  - 511307df0dd54834eaeb93f6cba79824
+  - 230529510d5207947a938a06ab993cba
+  - 1e84b56b829b3e84ca4b8c5413c13cb0
+  - 8612c7689b1440f4b83b60a12741ca25
+  - a758e4d4e081461489ac3775d9507004
+  - fc4084b1e1d028746b878982bd15b256
+  - ab522d7a164368544802131923454582
+  - 74b2122ba1976204595093b23001d7bf
+  - 0832d80ab5ccde34fa8ad950e475049e
+  - c0e8680f32586014986dc03615a033b4
+  - f9bd0a396ffe46346b325a97f756fd0f
+  - 7f07c5eecc1105b4c9d338176620f182
+  - 936e3c7350d5fba48b7b72664d192d23
+  - c211d9ba549aa1f4e9c894e905f41e5a
+  - 72de28fd9b8612e42a4093968fe395b7
+  - 08128d66b01a0834daf7c68671745c1c
+  - d4fbd1dd12a7e3748be14835fc198b4e
+  - 94fd532e80a1b9f4bb38e0b5435ce277
+  - 9a128c04d6f7bdf44a8701670f9671b0
+  - d7307fc5892e63945889956fa7a0e813
+  - 57471f9dda4f81d41b5e4b517ed39ca5
+  - d57e9b68bd0fd4941b4f74a984d0edf8
+  - e9de38a0b4a5d9b43a1aeef2ad579a4e
+  - d3bd855b40135b74a992deaebf4aec3d
+  - 372fadcd825e1164db9878145568e9c7
+  - c87dbdda1487f2345a8aded700f74d7d
+  - b8e55c20c4bb95348ad8356aa1a43cc1
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -431,6 +1019,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.01
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
