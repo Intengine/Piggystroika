@@ -35,7 +35,7 @@ public class CharacterMovement : MonoBehaviour
 
     void Update()
     {
-
+        MovementAndJumping();
     }
 
     private Vector3 MoveDirection

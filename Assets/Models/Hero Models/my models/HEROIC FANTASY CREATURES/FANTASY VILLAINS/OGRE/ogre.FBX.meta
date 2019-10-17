@@ -1,131 +1,377 @@
 fileFormatVersion: 2
 guid: 5bc2fb9fc4a4cac41ac7789267fad3e7
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: morgenstern
-    100002: //RootNode
-    100004: ogre
-    100006: ogre_
-    100008: ogre_ Head
-    100010: ogre_ L Calf
-    100012: ogre_ L Clavicle
-    100014: ogre_ L Finger0
-    100016: ogre_ L Finger01
-    100018: ogre_ L Finger02
-    100020: ogre_ L Finger1
-    100022: ogre_ L Finger11
-    100024: ogre_ L Finger12
-    100026: ogre_ L Finger2
-    100028: ogre_ L Finger21
-    100030: ogre_ L Finger22
-    100032: ogre_ L Finger3
-    100034: ogre_ L Finger31
-    100036: ogre_ L Finger32
-    100038: ogre_ L Finger4
-    100040: ogre_ L Finger41
-    100042: ogre_ L Finger42
-    100044: ogre_ L Foot
-    100046: ogre_ L Forearm
-    100048: ogre_ L Hand
-    100050: ogre_ L Thigh
-    100052: ogre_ L Toe0
-    100054: ogre_ L UpperArm
-    100056: ogre_ Neck
-    100058: ogre_ Pelvis
-    100060: ogre_ Ponytail1
-    100062: ogre_ R Calf
-    100064: ogre_ R Clavicle
-    100066: ogre_ R Finger0
-    100068: ogre_ R Finger01
-    100070: ogre_ R Finger02
-    100072: ogre_ R Finger1
-    100074: ogre_ R Finger11
-    100076: ogre_ R Finger12
-    100078: ogre_ R Finger2
-    100080: ogre_ R Finger21
-    100082: ogre_ R Finger22
-    100084: ogre_ R Finger3
-    100086: ogre_ R Finger31
-    100088: ogre_ R Finger32
-    100090: ogre_ R Finger4
-    100092: ogre_ R Finger41
-    100094: ogre_ R Finger42
-    100096: ogre_ R Foot
-    100098: ogre_ R Forearm
-    100100: ogre_ R Hand
-    100102: ogre_ R Thigh
-    100104: ogre_ R Toe0
-    100106: ogre_ R UpperArm
-    100108: ogre_ Spine
-    100110: ogre_ Spine1
-    100112: ogre_belly
-    400000: morgenstern
-    400002: //RootNode
-    400004: ogre
-    400006: ogre_
-    400008: ogre_ Head
-    400010: ogre_ L Calf
-    400012: ogre_ L Clavicle
-    400014: ogre_ L Finger0
-    400016: ogre_ L Finger01
-    400018: ogre_ L Finger02
-    400020: ogre_ L Finger1
-    400022: ogre_ L Finger11
-    400024: ogre_ L Finger12
-    400026: ogre_ L Finger2
-    400028: ogre_ L Finger21
-    400030: ogre_ L Finger22
-    400032: ogre_ L Finger3
-    400034: ogre_ L Finger31
-    400036: ogre_ L Finger32
-    400038: ogre_ L Finger4
-    400040: ogre_ L Finger41
-    400042: ogre_ L Finger42
-    400044: ogre_ L Foot
-    400046: ogre_ L Forearm
-    400048: ogre_ L Hand
-    400050: ogre_ L Thigh
-    400052: ogre_ L Toe0
-    400054: ogre_ L UpperArm
-    400056: ogre_ Neck
-    400058: ogre_ Pelvis
-    400060: ogre_ Ponytail1
-    400062: ogre_ R Calf
-    400064: ogre_ R Clavicle
-    400066: ogre_ R Finger0
-    400068: ogre_ R Finger01
-    400070: ogre_ R Finger02
-    400072: ogre_ R Finger1
-    400074: ogre_ R Finger11
-    400076: ogre_ R Finger12
-    400078: ogre_ R Finger2
-    400080: ogre_ R Finger21
-    400082: ogre_ R Finger22
-    400084: ogre_ R Finger3
-    400086: ogre_ R Finger31
-    400088: ogre_ R Finger32
-    400090: ogre_ R Finger4
-    400092: ogre_ R Finger41
-    400094: ogre_ R Finger42
-    400096: ogre_ R Foot
-    400098: ogre_ R Forearm
-    400100: ogre_ R Hand
-    400102: ogre_ R Thigh
-    400104: ogre_ R Toe0
-    400106: ogre_ R UpperArm
-    400108: ogre_ Spine
-    400110: ogre_ Spine1
-    400112: ogre_belly
-    2300000: morgenstern
-    3300000: morgenstern
-    4300000: morgenstern
-    4300002: ogre
-    7400000: Take 001
-    9500000: //RootNode
-    11100000: //RootNode
-    13700000: ogre
-    2186277476908879412: ImportLogs
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: morgenstern
+  - first:
+      1: 100002
+    second: //RootNode
+  - first:
+      1: 100004
+    second: ogre
+  - first:
+      1: 100006
+    second: ogre_
+  - first:
+      1: 100008
+    second: ogre_ Head
+  - first:
+      1: 100010
+    second: ogre_ L Calf
+  - first:
+      1: 100012
+    second: ogre_ L Clavicle
+  - first:
+      1: 100014
+    second: ogre_ L Finger0
+  - first:
+      1: 100016
+    second: ogre_ L Finger01
+  - first:
+      1: 100018
+    second: ogre_ L Finger02
+  - first:
+      1: 100020
+    second: ogre_ L Finger1
+  - first:
+      1: 100022
+    second: ogre_ L Finger11
+  - first:
+      1: 100024
+    second: ogre_ L Finger12
+  - first:
+      1: 100026
+    second: ogre_ L Finger2
+  - first:
+      1: 100028
+    second: ogre_ L Finger21
+  - first:
+      1: 100030
+    second: ogre_ L Finger22
+  - first:
+      1: 100032
+    second: ogre_ L Finger3
+  - first:
+      1: 100034
+    second: ogre_ L Finger31
+  - first:
+      1: 100036
+    second: ogre_ L Finger32
+  - first:
+      1: 100038
+    second: ogre_ L Finger4
+  - first:
+      1: 100040
+    second: ogre_ L Finger41
+  - first:
+      1: 100042
+    second: ogre_ L Finger42
+  - first:
+      1: 100044
+    second: ogre_ L Foot
+  - first:
+      1: 100046
+    second: ogre_ L Forearm
+  - first:
+      1: 100048
+    second: ogre_ L Hand
+  - first:
+      1: 100050
+    second: ogre_ L Thigh
+  - first:
+      1: 100052
+    second: ogre_ L Toe0
+  - first:
+      1: 100054
+    second: ogre_ L UpperArm
+  - first:
+      1: 100056
+    second: ogre_ Neck
+  - first:
+      1: 100058
+    second: ogre_ Pelvis
+  - first:
+      1: 100060
+    second: ogre_ Ponytail1
+  - first:
+      1: 100062
+    second: ogre_ R Calf
+  - first:
+      1: 100064
+    second: ogre_ R Clavicle
+  - first:
+      1: 100066
+    second: ogre_ R Finger0
+  - first:
+      1: 100068
+    second: ogre_ R Finger01
+  - first:
+      1: 100070
+    second: ogre_ R Finger02
+  - first:
+      1: 100072
+    second: ogre_ R Finger1
+  - first:
+      1: 100074
+    second: ogre_ R Finger11
+  - first:
+      1: 100076
+    second: ogre_ R Finger12
+  - first:
+      1: 100078
+    second: ogre_ R Finger2
+  - first:
+      1: 100080
+    second: ogre_ R Finger21
+  - first:
+      1: 100082
+    second: ogre_ R Finger22
+  - first:
+      1: 100084
+    second: ogre_ R Finger3
+  - first:
+      1: 100086
+    second: ogre_ R Finger31
+  - first:
+      1: 100088
+    second: ogre_ R Finger32
+  - first:
+      1: 100090
+    second: ogre_ R Finger4
+  - first:
+      1: 100092
+    second: ogre_ R Finger41
+  - first:
+      1: 100094
+    second: ogre_ R Finger42
+  - first:
+      1: 100096
+    second: ogre_ R Foot
+  - first:
+      1: 100098
+    second: ogre_ R Forearm
+  - first:
+      1: 100100
+    second: ogre_ R Hand
+  - first:
+      1: 100102
+    second: ogre_ R Thigh
+  - first:
+      1: 100104
+    second: ogre_ R Toe0
+  - first:
+      1: 100106
+    second: ogre_ R UpperArm
+  - first:
+      1: 100108
+    second: ogre_ Spine
+  - first:
+      1: 100110
+    second: ogre_ Spine1
+  - first:
+      1: 100112
+    second: ogre_belly
+  - first:
+      4: 400000
+    second: morgenstern
+  - first:
+      4: 400002
+    second: //RootNode
+  - first:
+      4: 400004
+    second: ogre
+  - first:
+      4: 400006
+    second: ogre_
+  - first:
+      4: 400008
+    second: ogre_ Head
+  - first:
+      4: 400010
+    second: ogre_ L Calf
+  - first:
+      4: 400012
+    second: ogre_ L Clavicle
+  - first:
+      4: 400014
+    second: ogre_ L Finger0
+  - first:
+      4: 400016
+    second: ogre_ L Finger01
+  - first:
+      4: 400018
+    second: ogre_ L Finger02
+  - first:
+      4: 400020
+    second: ogre_ L Finger1
+  - first:
+      4: 400022
+    second: ogre_ L Finger11
+  - first:
+      4: 400024
+    second: ogre_ L Finger12
+  - first:
+      4: 400026
+    second: ogre_ L Finger2
+  - first:
+      4: 400028
+    second: ogre_ L Finger21
+  - first:
+      4: 400030
+    second: ogre_ L Finger22
+  - first:
+      4: 400032
+    second: ogre_ L Finger3
+  - first:
+      4: 400034
+    second: ogre_ L Finger31
+  - first:
+      4: 400036
+    second: ogre_ L Finger32
+  - first:
+      4: 400038
+    second: ogre_ L Finger4
+  - first:
+      4: 400040
+    second: ogre_ L Finger41
+  - first:
+      4: 400042
+    second: ogre_ L Finger42
+  - first:
+      4: 400044
+    second: ogre_ L Foot
+  - first:
+      4: 400046
+    second: ogre_ L Forearm
+  - first:
+      4: 400048
+    second: ogre_ L Hand
+  - first:
+      4: 400050
+    second: ogre_ L Thigh
+  - first:
+      4: 400052
+    second: ogre_ L Toe0
+  - first:
+      4: 400054
+    second: ogre_ L UpperArm
+  - first:
+      4: 400056
+    second: ogre_ Neck
+  - first:
+      4: 400058
+    second: ogre_ Pelvis
+  - first:
+      4: 400060
+    second: ogre_ Ponytail1
+  - first:
+      4: 400062
+    second: ogre_ R Calf
+  - first:
+      4: 400064
+    second: ogre_ R Clavicle
+  - first:
+      4: 400066
+    second: ogre_ R Finger0
+  - first:
+      4: 400068
+    second: ogre_ R Finger01
+  - first:
+      4: 400070
+    second: ogre_ R Finger02
+  - first:
+      4: 400072
+    second: ogre_ R Finger1
+  - first:
+      4: 400074
+    second: ogre_ R Finger11
+  - first:
+      4: 400076
+    second: ogre_ R Finger12
+  - first:
+      4: 400078
+    second: ogre_ R Finger2
+  - first:
+      4: 400080
+    second: ogre_ R Finger21
+  - first:
+      4: 400082
+    second: ogre_ R Finger22
+  - first:
+      4: 400084
+    second: ogre_ R Finger3
+  - first:
+      4: 400086
+    second: ogre_ R Finger31
+  - first:
+      4: 400088
+    second: ogre_ R Finger32
+  - first:
+      4: 400090
+    second: ogre_ R Finger4
+  - first:
+      4: 400092
+    second: ogre_ R Finger41
+  - first:
+      4: 400094
+    second: ogre_ R Finger42
+  - first:
+      4: 400096
+    second: ogre_ R Foot
+  - first:
+      4: 400098
+    second: ogre_ R Forearm
+  - first:
+      4: 400100
+    second: ogre_ R Hand
+  - first:
+      4: 400102
+    second: ogre_ R Thigh
+  - first:
+      4: 400104
+    second: ogre_ R Toe0
+  - first:
+      4: 400106
+    second: ogre_ R UpperArm
+  - first:
+      4: 400108
+    second: ogre_ Spine
+  - first:
+      4: 400110
+    second: ogre_ Spine1
+  - first:
+      4: 400112
+    second: ogre_belly
+  - first:
+      23: 2300000
+    second: morgenstern
+  - first:
+      33: 3300000
+    second: morgenstern
+  - first:
+      43: 4300000
+    second: morgenstern
+  - first:
+      43: 4300002
+    second: ogre
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: ogre
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -171,6 +417,7 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
@@ -178,18 +425,19 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 0
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -198,10 +446,39 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips:
+  - a59fbcdd8e9b206419d1befd0c01160c
+  - ade82d566f751b345af432f33e3a47b5
+  - 2f87a001381992d48a989984ac13a35e
+  - 4f49cbc82c94ff7478342100d9639234
+  - b128470ee12f6274f85977f9233f0d4e
+  - 234057aab7bb06b40b5b368c80e87d67
+  - 8b5c07fc6f80ce642a9680937ad0c624
+  - 89eca146bd4c07146b841a19e9e1ba7e
+  - 60c87045fe4595a41894bdd81db8b580
+  - cb772733ddfa6214a9f316c335dbfb0e
+  - ad8d9d6ad497f7242bc229632178d6d4
+  - 4f5ed374311e25242b44ed5ea60b8d0d
+  - d2636ad5c4f99f5468ec343d57656842
+  - 17a3ca9f04e60aa44a22b58d3fcbaf8d
+  - cc0645c1dbefd084596f84f70a12f8f6
+  - 6160e6c00202af1488cb5ff6e0014c81
+  - b0f15f7f511b6914daec647c4eb90178
+  - 853269e05a77ba846893f48334a4a335
+  - 1cca5bb4216e4e1429faf724b8e7f5da
+  - ac6cb11a7c75b3b4aae53e6f091b69a9
+  - 787f4581cdd54fe4b9742f3ebd8c1fcd
+  - fa21617dd1e046d48921d427beab32c7
+  - c8f62ccbd09cf634aa3847d087e59460
+  - ec3e42ccd33c86841a48ee3de0091f66
+  - b30c631546712734d9219f32da677cfb
+  - 60918bb138735f747b6abd81978d1fa8
+  - 4b686f05dc7a73540b8d08e322c7b6d4
+  - 66a327fcf81b82844b72bfdf355ae99d
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -211,6 +488,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.01
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 1

@@ -1,128 +1,368 @@
 fileFormatVersion: 2
 guid: 427806e09cb866443ae4e66421bd4494
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: WEREWOLF
-    100004: WEREWOLF_
-    100006: WEREWOLF_ Head
-    100008: WEREWOLF_ L Calf
-    100010: WEREWOLF_ L Clavicle
-    100012: WEREWOLF_ L Finger0
-    100014: WEREWOLF_ L Finger01
-    100016: WEREWOLF_ L Finger02
-    100018: WEREWOLF_ L Finger1
-    100020: WEREWOLF_ L Finger11
-    100022: WEREWOLF_ L Finger12
-    100024: WEREWOLF_ L Finger2
-    100026: WEREWOLF_ L Finger21
-    100028: WEREWOLF_ L Finger22
-    100030: WEREWOLF_ L Finger3
-    100032: WEREWOLF_ L Finger31
-    100034: WEREWOLF_ L Finger32
-    100036: WEREWOLF_ L Foot
-    100038: WEREWOLF_ L Forearm
-    100040: WEREWOLF_ L Hand
-    100042: WEREWOLF_ L HorseLink
-    100044: WEREWOLF_ L Thigh
-    100046: WEREWOLF_ L Toe0
-    100048: WEREWOLF_ L UpperArm
-    100050: WEREWOLF_ Neck
-    100052: WEREWOLF_ Neck1
-    100054: WEREWOLF_ Pelvis
-    100056: WEREWOLF_ Queue de cheval 1
-    100058: WEREWOLF_ R Calf
-    100060: WEREWOLF_ R Clavicle
-    100062: WEREWOLF_ R Finger0
-    100064: WEREWOLF_ R Finger01
-    100066: WEREWOLF_ R Finger02
-    100068: WEREWOLF_ R Finger1
-    100070: WEREWOLF_ R Finger11
-    100072: WEREWOLF_ R Finger12
-    100074: WEREWOLF_ R Finger2
-    100076: WEREWOLF_ R Finger21
-    100078: WEREWOLF_ R Finger22
-    100080: WEREWOLF_ R Finger3
-    100082: WEREWOLF_ R Finger31
-    100084: WEREWOLF_ R Finger32
-    100086: WEREWOLF_ R Foot
-    100088: WEREWOLF_ R Forearm
-    100090: WEREWOLF_ R Hand
-    100092: WEREWOLF_ R HorseLink
-    100094: WEREWOLF_ R Thigh
-    100096: WEREWOLF_ R Toe0
-    100098: WEREWOLF_ R UpperArm
-    100100: WEREWOLF_ Spine
-    100102: WEREWOLF_ Spine1
-    100104: WEREWOLF_ Tail
-    100106: WEREWOLF_ Tail1
-    100108: WEREWOLF_ Tail2
-    100110: WEREWOLF_ Tail3
-    100112: WEREWOLF_ Tail4
-    400000: WEREWOLF
-    400002: //RootNode
-    400004: WEREWOLF_
-    400006: WEREWOLF_ Head
-    400008: WEREWOLF_ L Calf
-    400010: WEREWOLF_ L Clavicle
-    400012: WEREWOLF_ L Finger0
-    400014: WEREWOLF_ L Finger01
-    400016: WEREWOLF_ L Finger02
-    400018: WEREWOLF_ L Finger1
-    400020: WEREWOLF_ L Finger11
-    400022: WEREWOLF_ L Finger12
-    400024: WEREWOLF_ L Finger2
-    400026: WEREWOLF_ L Finger21
-    400028: WEREWOLF_ L Finger22
-    400030: WEREWOLF_ L Finger3
-    400032: WEREWOLF_ L Finger31
-    400034: WEREWOLF_ L Finger32
-    400036: WEREWOLF_ L Foot
-    400038: WEREWOLF_ L Forearm
-    400040: WEREWOLF_ L Hand
-    400042: WEREWOLF_ L HorseLink
-    400044: WEREWOLF_ L Thigh
-    400046: WEREWOLF_ L Toe0
-    400048: WEREWOLF_ L UpperArm
-    400050: WEREWOLF_ Neck
-    400052: WEREWOLF_ Neck1
-    400054: WEREWOLF_ Pelvis
-    400056: WEREWOLF_ Queue de cheval 1
-    400058: WEREWOLF_ R Calf
-    400060: WEREWOLF_ R Clavicle
-    400062: WEREWOLF_ R Finger0
-    400064: WEREWOLF_ R Finger01
-    400066: WEREWOLF_ R Finger02
-    400068: WEREWOLF_ R Finger1
-    400070: WEREWOLF_ R Finger11
-    400072: WEREWOLF_ R Finger12
-    400074: WEREWOLF_ R Finger2
-    400076: WEREWOLF_ R Finger21
-    400078: WEREWOLF_ R Finger22
-    400080: WEREWOLF_ R Finger3
-    400082: WEREWOLF_ R Finger31
-    400084: WEREWOLF_ R Finger32
-    400086: WEREWOLF_ R Foot
-    400088: WEREWOLF_ R Forearm
-    400090: WEREWOLF_ R Hand
-    400092: WEREWOLF_ R HorseLink
-    400094: WEREWOLF_ R Thigh
-    400096: WEREWOLF_ R Toe0
-    400098: WEREWOLF_ R UpperArm
-    400100: WEREWOLF_ Spine
-    400102: WEREWOLF_ Spine1
-    400104: WEREWOLF_ Tail
-    400106: WEREWOLF_ Tail1
-    400108: WEREWOLF_ Tail2
-    400110: WEREWOLF_ Tail3
-    400112: WEREWOLF_ Tail4
-    4300000: WEREWOLF
-    7400000: Take 001
-    9500000: //RootNode
-    11100000: //RootNode
-    13700000: WEREWOLF
-    2186277476908879412: ImportLogs
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: WEREWOLF
+  - first:
+      1: 100004
+    second: WEREWOLF_
+  - first:
+      1: 100006
+    second: WEREWOLF_ Head
+  - first:
+      1: 100008
+    second: WEREWOLF_ L Calf
+  - first:
+      1: 100010
+    second: WEREWOLF_ L Clavicle
+  - first:
+      1: 100012
+    second: WEREWOLF_ L Finger0
+  - first:
+      1: 100014
+    second: WEREWOLF_ L Finger01
+  - first:
+      1: 100016
+    second: WEREWOLF_ L Finger02
+  - first:
+      1: 100018
+    second: WEREWOLF_ L Finger1
+  - first:
+      1: 100020
+    second: WEREWOLF_ L Finger11
+  - first:
+      1: 100022
+    second: WEREWOLF_ L Finger12
+  - first:
+      1: 100024
+    second: WEREWOLF_ L Finger2
+  - first:
+      1: 100026
+    second: WEREWOLF_ L Finger21
+  - first:
+      1: 100028
+    second: WEREWOLF_ L Finger22
+  - first:
+      1: 100030
+    second: WEREWOLF_ L Finger3
+  - first:
+      1: 100032
+    second: WEREWOLF_ L Finger31
+  - first:
+      1: 100034
+    second: WEREWOLF_ L Finger32
+  - first:
+      1: 100036
+    second: WEREWOLF_ L Foot
+  - first:
+      1: 100038
+    second: WEREWOLF_ L Forearm
+  - first:
+      1: 100040
+    second: WEREWOLF_ L Hand
+  - first:
+      1: 100042
+    second: WEREWOLF_ L HorseLink
+  - first:
+      1: 100044
+    second: WEREWOLF_ L Thigh
+  - first:
+      1: 100046
+    second: WEREWOLF_ L Toe0
+  - first:
+      1: 100048
+    second: WEREWOLF_ L UpperArm
+  - first:
+      1: 100050
+    second: WEREWOLF_ Neck
+  - first:
+      1: 100052
+    second: WEREWOLF_ Neck1
+  - first:
+      1: 100054
+    second: WEREWOLF_ Pelvis
+  - first:
+      1: 100056
+    second: WEREWOLF_ Queue de cheval 1
+  - first:
+      1: 100058
+    second: WEREWOLF_ R Calf
+  - first:
+      1: 100060
+    second: WEREWOLF_ R Clavicle
+  - first:
+      1: 100062
+    second: WEREWOLF_ R Finger0
+  - first:
+      1: 100064
+    second: WEREWOLF_ R Finger01
+  - first:
+      1: 100066
+    second: WEREWOLF_ R Finger02
+  - first:
+      1: 100068
+    second: WEREWOLF_ R Finger1
+  - first:
+      1: 100070
+    second: WEREWOLF_ R Finger11
+  - first:
+      1: 100072
+    second: WEREWOLF_ R Finger12
+  - first:
+      1: 100074
+    second: WEREWOLF_ R Finger2
+  - first:
+      1: 100076
+    second: WEREWOLF_ R Finger21
+  - first:
+      1: 100078
+    second: WEREWOLF_ R Finger22
+  - first:
+      1: 100080
+    second: WEREWOLF_ R Finger3
+  - first:
+      1: 100082
+    second: WEREWOLF_ R Finger31
+  - first:
+      1: 100084
+    second: WEREWOLF_ R Finger32
+  - first:
+      1: 100086
+    second: WEREWOLF_ R Foot
+  - first:
+      1: 100088
+    second: WEREWOLF_ R Forearm
+  - first:
+      1: 100090
+    second: WEREWOLF_ R Hand
+  - first:
+      1: 100092
+    second: WEREWOLF_ R HorseLink
+  - first:
+      1: 100094
+    second: WEREWOLF_ R Thigh
+  - first:
+      1: 100096
+    second: WEREWOLF_ R Toe0
+  - first:
+      1: 100098
+    second: WEREWOLF_ R UpperArm
+  - first:
+      1: 100100
+    second: WEREWOLF_ Spine
+  - first:
+      1: 100102
+    second: WEREWOLF_ Spine1
+  - first:
+      1: 100104
+    second: WEREWOLF_ Tail
+  - first:
+      1: 100106
+    second: WEREWOLF_ Tail1
+  - first:
+      1: 100108
+    second: WEREWOLF_ Tail2
+  - first:
+      1: 100110
+    second: WEREWOLF_ Tail3
+  - first:
+      1: 100112
+    second: WEREWOLF_ Tail4
+  - first:
+      4: 400000
+    second: WEREWOLF
+  - first:
+      4: 400002
+    second: //RootNode
+  - first:
+      4: 400004
+    second: WEREWOLF_
+  - first:
+      4: 400006
+    second: WEREWOLF_ Head
+  - first:
+      4: 400008
+    second: WEREWOLF_ L Calf
+  - first:
+      4: 400010
+    second: WEREWOLF_ L Clavicle
+  - first:
+      4: 400012
+    second: WEREWOLF_ L Finger0
+  - first:
+      4: 400014
+    second: WEREWOLF_ L Finger01
+  - first:
+      4: 400016
+    second: WEREWOLF_ L Finger02
+  - first:
+      4: 400018
+    second: WEREWOLF_ L Finger1
+  - first:
+      4: 400020
+    second: WEREWOLF_ L Finger11
+  - first:
+      4: 400022
+    second: WEREWOLF_ L Finger12
+  - first:
+      4: 400024
+    second: WEREWOLF_ L Finger2
+  - first:
+      4: 400026
+    second: WEREWOLF_ L Finger21
+  - first:
+      4: 400028
+    second: WEREWOLF_ L Finger22
+  - first:
+      4: 400030
+    second: WEREWOLF_ L Finger3
+  - first:
+      4: 400032
+    second: WEREWOLF_ L Finger31
+  - first:
+      4: 400034
+    second: WEREWOLF_ L Finger32
+  - first:
+      4: 400036
+    second: WEREWOLF_ L Foot
+  - first:
+      4: 400038
+    second: WEREWOLF_ L Forearm
+  - first:
+      4: 400040
+    second: WEREWOLF_ L Hand
+  - first:
+      4: 400042
+    second: WEREWOLF_ L HorseLink
+  - first:
+      4: 400044
+    second: WEREWOLF_ L Thigh
+  - first:
+      4: 400046
+    second: WEREWOLF_ L Toe0
+  - first:
+      4: 400048
+    second: WEREWOLF_ L UpperArm
+  - first:
+      4: 400050
+    second: WEREWOLF_ Neck
+  - first:
+      4: 400052
+    second: WEREWOLF_ Neck1
+  - first:
+      4: 400054
+    second: WEREWOLF_ Pelvis
+  - first:
+      4: 400056
+    second: WEREWOLF_ Queue de cheval 1
+  - first:
+      4: 400058
+    second: WEREWOLF_ R Calf
+  - first:
+      4: 400060
+    second: WEREWOLF_ R Clavicle
+  - first:
+      4: 400062
+    second: WEREWOLF_ R Finger0
+  - first:
+      4: 400064
+    second: WEREWOLF_ R Finger01
+  - first:
+      4: 400066
+    second: WEREWOLF_ R Finger02
+  - first:
+      4: 400068
+    second: WEREWOLF_ R Finger1
+  - first:
+      4: 400070
+    second: WEREWOLF_ R Finger11
+  - first:
+      4: 400072
+    second: WEREWOLF_ R Finger12
+  - first:
+      4: 400074
+    second: WEREWOLF_ R Finger2
+  - first:
+      4: 400076
+    second: WEREWOLF_ R Finger21
+  - first:
+      4: 400078
+    second: WEREWOLF_ R Finger22
+  - first:
+      4: 400080
+    second: WEREWOLF_ R Finger3
+  - first:
+      4: 400082
+    second: WEREWOLF_ R Finger31
+  - first:
+      4: 400084
+    second: WEREWOLF_ R Finger32
+  - first:
+      4: 400086
+    second: WEREWOLF_ R Foot
+  - first:
+      4: 400088
+    second: WEREWOLF_ R Forearm
+  - first:
+      4: 400090
+    second: WEREWOLF_ R Hand
+  - first:
+      4: 400092
+    second: WEREWOLF_ R HorseLink
+  - first:
+      4: 400094
+    second: WEREWOLF_ R Thigh
+  - first:
+      4: 400096
+    second: WEREWOLF_ R Toe0
+  - first:
+      4: 400098
+    second: WEREWOLF_ R UpperArm
+  - first:
+      4: 400100
+    second: WEREWOLF_ Spine
+  - first:
+      4: 400102
+    second: WEREWOLF_ Spine1
+  - first:
+      4: 400104
+    second: WEREWOLF_ Tail
+  - first:
+      4: 400106
+    second: WEREWOLF_ Tail1
+  - first:
+      4: 400108
+    second: WEREWOLF_ Tail2
+  - first:
+      4: 400110
+    second: WEREWOLF_ Tail3
+  - first:
+      4: 400112
+    second: WEREWOLF_ Tail4
+  - first:
+      43: 4300000
+    second: WEREWOLF
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: WEREWOLF
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -163,6 +403,7 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
@@ -170,18 +411,19 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 0
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -190,10 +432,14 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips:
+  - 39dd5971495ad4244aaa6f532fffc30c
+  - 7aed112845f2e2e49aef8db5834b2085
+  - efb6dc7d348907048a4ae2b18086a209
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human:
     - boneName: WEREWOLF_
       humanName: Hips
@@ -856,6 +1102,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.01
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 1

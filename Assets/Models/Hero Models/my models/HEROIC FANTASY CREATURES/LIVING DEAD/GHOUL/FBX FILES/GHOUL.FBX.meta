@@ -1,178 +1,499 @@
 fileFormatVersion: 2
 guid: 18add10720a21d24a8dfd03bbaa75784
 ModelImporter:
-  serializedVersion: 16
-  fileIDToRecycleName:
-    100000: GHOUL
-    100002: //RootNode
-    100004: GHOUL_
-    100006: GHOUL_ Head
-    100008: GHOUL_ L Calf
-    100010: GHOUL_ L Clavicle
-    100012: GHOUL_ L Finger0
-    100014: GHOUL_ L Finger01
-    100016: GHOUL_ L Finger02
-    100018: GHOUL_ L Finger1
-    100020: GHOUL_ L Finger11
-    100022: GHOUL_ L Finger12
-    100024: GHOUL_ L Finger2
-    100026: GHOUL_ L Finger21
-    100028: GHOUL_ L Finger22
-    100030: GHOUL_ L Finger3
-    100032: GHOUL_ L Finger31
-    100034: GHOUL_ L Finger32
-    100036: GHOUL_ L Finger4
-    100038: GHOUL_ L Finger41
-    100040: GHOUL_ L Finger42
-    100042: GHOUL_ L Foot
-    100044: GHOUL_ L Forearm
-    100046: GHOUL_ L Hand
-    100048: GHOUL_ L Thigh
-    100050: GHOUL_ L Toe0
-    100052: GHOUL_ L UpperArm
-    100054: GHOUL_ Neck
-    100056: GHOUL_ Pelvis
-    100058: GHOUL_ Queue de cheval 1
-    100060: GHOUL_ R Calf
-    100062: GHOUL_ R Clavicle
-    100064: GHOUL_ R Finger0
-    100066: GHOUL_ R Finger01
-    100068: GHOUL_ R Finger02
-    100070: GHOUL_ R Finger1
-    100072: GHOUL_ R Finger11
-    100074: GHOUL_ R Finger12
-    100076: GHOUL_ R Finger2
-    100078: GHOUL_ R Finger21
-    100080: GHOUL_ R Finger22
-    100082: GHOUL_ R Finger3
-    100084: GHOUL_ R Finger31
-    100086: GHOUL_ R Finger32
-    100088: GHOUL_ R Finger4
-    100090: GHOUL_ R Finger41
-    100092: GHOUL_ R Finger42
-    100094: GHOUL_ R Foot
-    100096: GHOUL_ R Forearm
-    100098: GHOUL_ R Hand
-    100100: GHOUL_ R Thigh
-    100102: GHOUL_ R Toe0
-    100104: GHOUL_ R UpperArm
-    100106: GHOUL_ Spine
-    100108: GHOUL_ Spine1
-    100110: MACE
-    400000: //RootNode
-    400002: GHOUL
-    400004: GHOUL_
-    400006: GHOUL_ Head
-    400008: GHOUL_ L Calf
-    400010: GHOUL_ L Clavicle
-    400012: GHOUL_ L Finger0
-    400014: GHOUL_ L Finger01
-    400016: GHOUL_ L Finger02
-    400018: GHOUL_ L Finger1
-    400020: GHOUL_ L Finger11
-    400022: GHOUL_ L Finger12
-    400024: GHOUL_ L Finger2
-    400026: GHOUL_ L Finger21
-    400028: GHOUL_ L Finger22
-    400030: GHOUL_ L Finger3
-    400032: GHOUL_ L Finger31
-    400034: GHOUL_ L Finger32
-    400036: GHOUL_ L Finger4
-    400038: GHOUL_ L Finger41
-    400040: GHOUL_ L Finger42
-    400042: GHOUL_ L Foot
-    400044: GHOUL_ L Forearm
-    400046: GHOUL_ L Hand
-    400048: GHOUL_ L Thigh
-    400050: GHOUL_ L Toe0
-    400052: GHOUL_ L UpperArm
-    400054: GHOUL_ Neck
-    400056: GHOUL_ Pelvis
-    400058: GHOUL_ Queue de cheval 1
-    400060: GHOUL_ R Calf
-    400062: GHOUL_ R Clavicle
-    400064: GHOUL_ R Finger0
-    400066: GHOUL_ R Finger01
-    400068: GHOUL_ R Finger02
-    400070: GHOUL_ R Finger1
-    400072: GHOUL_ R Finger11
-    400074: GHOUL_ R Finger12
-    400076: GHOUL_ R Finger2
-    400078: GHOUL_ R Finger21
-    400080: GHOUL_ R Finger22
-    400082: GHOUL_ R Finger3
-    400084: GHOUL_ R Finger31
-    400086: GHOUL_ R Finger32
-    400088: GHOUL_ R Finger4
-    400090: GHOUL_ R Finger41
-    400092: GHOUL_ R Finger42
-    400094: GHOUL_ R Foot
-    400096: GHOUL_ R Forearm
-    400098: GHOUL_ R Hand
-    400100: GHOUL_ R Thigh
-    400102: GHOUL_ R Toe0
-    400104: GHOUL_ R UpperArm
-    400106: GHOUL_ Spine
-    400108: GHOUL_ Spine1
-    400110: MACE
-    2300000: MACE
-    3300000: MACE
-    4300000: GHOUL
-    4300002: MACE
-    7400000: Take 001
-    11100000: //RootNode
-    13700000: GHOUL
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: GHOUL
+  - first:
+      1: 100002
+    second: //RootNode
+  - first:
+      1: 100004
+    second: GHOUL_
+  - first:
+      1: 100006
+    second: GHOUL_ Head
+  - first:
+      1: 100008
+    second: GHOUL_ L Calf
+  - first:
+      1: 100010
+    second: GHOUL_ L Clavicle
+  - first:
+      1: 100012
+    second: GHOUL_ L Finger0
+  - first:
+      1: 100014
+    second: GHOUL_ L Finger01
+  - first:
+      1: 100016
+    second: GHOUL_ L Finger02
+  - first:
+      1: 100018
+    second: GHOUL_ L Finger1
+  - first:
+      1: 100020
+    second: GHOUL_ L Finger11
+  - first:
+      1: 100022
+    second: GHOUL_ L Finger12
+  - first:
+      1: 100024
+    second: GHOUL_ L Finger2
+  - first:
+      1: 100026
+    second: GHOUL_ L Finger21
+  - first:
+      1: 100028
+    second: GHOUL_ L Finger22
+  - first:
+      1: 100030
+    second: GHOUL_ L Finger3
+  - first:
+      1: 100032
+    second: GHOUL_ L Finger31
+  - first:
+      1: 100034
+    second: GHOUL_ L Finger32
+  - first:
+      1: 100036
+    second: GHOUL_ L Finger4
+  - first:
+      1: 100038
+    second: GHOUL_ L Finger41
+  - first:
+      1: 100040
+    second: GHOUL_ L Finger42
+  - first:
+      1: 100042
+    second: GHOUL_ L Foot
+  - first:
+      1: 100044
+    second: GHOUL_ L Forearm
+  - first:
+      1: 100046
+    second: GHOUL_ L Hand
+  - first:
+      1: 100048
+    second: GHOUL_ L Thigh
+  - first:
+      1: 100050
+    second: GHOUL_ L Toe0
+  - first:
+      1: 100052
+    second: GHOUL_ L UpperArm
+  - first:
+      1: 100054
+    second: GHOUL_ Neck
+  - first:
+      1: 100056
+    second: GHOUL_ Pelvis
+  - first:
+      1: 100058
+    second: GHOUL_ Queue de cheval 1
+  - first:
+      1: 100060
+    second: GHOUL_ R Calf
+  - first:
+      1: 100062
+    second: GHOUL_ R Clavicle
+  - first:
+      1: 100064
+    second: GHOUL_ R Finger0
+  - first:
+      1: 100066
+    second: GHOUL_ R Finger01
+  - first:
+      1: 100068
+    second: GHOUL_ R Finger02
+  - first:
+      1: 100070
+    second: GHOUL_ R Finger1
+  - first:
+      1: 100072
+    second: GHOUL_ R Finger11
+  - first:
+      1: 100074
+    second: GHOUL_ R Finger12
+  - first:
+      1: 100076
+    second: GHOUL_ R Finger2
+  - first:
+      1: 100078
+    second: GHOUL_ R Finger21
+  - first:
+      1: 100080
+    second: GHOUL_ R Finger22
+  - first:
+      1: 100082
+    second: GHOUL_ R Finger3
+  - first:
+      1: 100084
+    second: GHOUL_ R Finger31
+  - first:
+      1: 100086
+    second: GHOUL_ R Finger32
+  - first:
+      1: 100088
+    second: GHOUL_ R Finger4
+  - first:
+      1: 100090
+    second: GHOUL_ R Finger41
+  - first:
+      1: 100092
+    second: GHOUL_ R Finger42
+  - first:
+      1: 100094
+    second: GHOUL_ R Foot
+  - first:
+      1: 100096
+    second: GHOUL_ R Forearm
+  - first:
+      1: 100098
+    second: GHOUL_ R Hand
+  - first:
+      1: 100100
+    second: GHOUL_ R Thigh
+  - first:
+      1: 100102
+    second: GHOUL_ R Toe0
+  - first:
+      1: 100104
+    second: GHOUL_ R UpperArm
+  - first:
+      1: 100106
+    second: GHOUL_ Spine
+  - first:
+      1: 100108
+    second: GHOUL_ Spine1
+  - first:
+      1: 100110
+    second: MACE
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: GHOUL
+  - first:
+      4: 400004
+    second: GHOUL_
+  - first:
+      4: 400006
+    second: GHOUL_ Head
+  - first:
+      4: 400008
+    second: GHOUL_ L Calf
+  - first:
+      4: 400010
+    second: GHOUL_ L Clavicle
+  - first:
+      4: 400012
+    second: GHOUL_ L Finger0
+  - first:
+      4: 400014
+    second: GHOUL_ L Finger01
+  - first:
+      4: 400016
+    second: GHOUL_ L Finger02
+  - first:
+      4: 400018
+    second: GHOUL_ L Finger1
+  - first:
+      4: 400020
+    second: GHOUL_ L Finger11
+  - first:
+      4: 400022
+    second: GHOUL_ L Finger12
+  - first:
+      4: 400024
+    second: GHOUL_ L Finger2
+  - first:
+      4: 400026
+    second: GHOUL_ L Finger21
+  - first:
+      4: 400028
+    second: GHOUL_ L Finger22
+  - first:
+      4: 400030
+    second: GHOUL_ L Finger3
+  - first:
+      4: 400032
+    second: GHOUL_ L Finger31
+  - first:
+      4: 400034
+    second: GHOUL_ L Finger32
+  - first:
+      4: 400036
+    second: GHOUL_ L Finger4
+  - first:
+      4: 400038
+    second: GHOUL_ L Finger41
+  - first:
+      4: 400040
+    second: GHOUL_ L Finger42
+  - first:
+      4: 400042
+    second: GHOUL_ L Foot
+  - first:
+      4: 400044
+    second: GHOUL_ L Forearm
+  - first:
+      4: 400046
+    second: GHOUL_ L Hand
+  - first:
+      4: 400048
+    second: GHOUL_ L Thigh
+  - first:
+      4: 400050
+    second: GHOUL_ L Toe0
+  - first:
+      4: 400052
+    second: GHOUL_ L UpperArm
+  - first:
+      4: 400054
+    second: GHOUL_ Neck
+  - first:
+      4: 400056
+    second: GHOUL_ Pelvis
+  - first:
+      4: 400058
+    second: GHOUL_ Queue de cheval 1
+  - first:
+      4: 400060
+    second: GHOUL_ R Calf
+  - first:
+      4: 400062
+    second: GHOUL_ R Clavicle
+  - first:
+      4: 400064
+    second: GHOUL_ R Finger0
+  - first:
+      4: 400066
+    second: GHOUL_ R Finger01
+  - first:
+      4: 400068
+    second: GHOUL_ R Finger02
+  - first:
+      4: 400070
+    second: GHOUL_ R Finger1
+  - first:
+      4: 400072
+    second: GHOUL_ R Finger11
+  - first:
+      4: 400074
+    second: GHOUL_ R Finger12
+  - first:
+      4: 400076
+    second: GHOUL_ R Finger2
+  - first:
+      4: 400078
+    second: GHOUL_ R Finger21
+  - first:
+      4: 400080
+    second: GHOUL_ R Finger22
+  - first:
+      4: 400082
+    second: GHOUL_ R Finger3
+  - first:
+      4: 400084
+    second: GHOUL_ R Finger31
+  - first:
+      4: 400086
+    second: GHOUL_ R Finger32
+  - first:
+      4: 400088
+    second: GHOUL_ R Finger4
+  - first:
+      4: 400090
+    second: GHOUL_ R Finger41
+  - first:
+      4: 400092
+    second: GHOUL_ R Finger42
+  - first:
+      4: 400094
+    second: GHOUL_ R Foot
+  - first:
+      4: 400096
+    second: GHOUL_ R Forearm
+  - first:
+      4: 400098
+    second: GHOUL_ R Hand
+  - first:
+      4: 400100
+    second: GHOUL_ R Thigh
+  - first:
+      4: 400102
+    second: GHOUL_ R Toe0
+  - first:
+      4: 400104
+    second: GHOUL_ R UpperArm
+  - first:
+      4: 400106
+    second: GHOUL_ Spine
+  - first:
+      4: 400108
+    second: GHOUL_ Spine1
+  - first:
+      4: 400110
+    second: MACE
+  - first:
+      23: 2300000
+    second: MACE
+  - first:
+      33: 3300000
+    second: MACE
+  - first:
+      43: 4300000
+    second: GHOUL
+  - first:
+      43: 4300002
+    second: MACE
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: GHOUL
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MACE
+    second: {fileID: 2100000, guid: 1090192308700814cb234feb0f366369, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Mat\xE9riau #11"
+    second: {fileID: 2100000, guid: 9e3c0c05011b6804c8578797d2c59b78, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 0
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 2
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: .00999999978
+    globalScale: 0.01
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
+    keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
+    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips:
+  - c600d16163a7c6f49906687d24e76a36
+  - 91795e3b3ce4bd149a5682b122396ed9
+  - 706052ac1023b5941a2d850a415f8369
+  - f916758e7ff6a0f46b096626c21b71cf
+  - 51220c929f40cf24fb9fb7afe581f99a
+  - cdd78455cbb155c4f8002e50507a9161
+  - f06983e0abf4a314ebea8f483681f711
+  - 2b9b3136583f8b74abdef1c22b0d4f76
+  - 386471653a0a5a847911f11f57683d14
+  - f16dd3229c22b4040b417bb50e4268fc
+  - b23beb8e9b8ed6f4e8d88b8eb13fb918
+  - 1972f43663757644d95b2b6242d12427
+  - 46928cc4cf4b47e4892f744d40820730
+  - c8240b06ebf58ca4ea16d8ac2498443d
+  - 15b644c86a810c447b2de5fce29d0ab9
+  - 63780ed3caf07aa4e93199d343c19f20
+  - 75aa9fb2036d6fb4093d353668fb341b
+  - f09d22e2537778749a418ff381ee5c56
+  - 7803a3aa8987b044d921dcce2bab3998
+  - 5b041853f424f414a9c80439c4301896
+  - cc9a170eeb6ff8743bbe0a0203c92d26
+  - b79f8247ef87c7840ae4667a94082d22
+  - b3503761fa9931645b3397d70cbce2ae
+  - 8ee6e1d1d1affaa4b9fac277053f3dc8
+  - ce6e55294fd62e04991d920e47e402f5
+  - 13750bcde2a3eb3438ffafad5cd7fb18
+  - e26c581000b71ab4a9b71039ef014a7a
+  - 74802c62a20b0ab46a758539e475cd83
+  - 61a4d2cdff01c5c4aa25f90490bab744
+  - 4ec96eed3bd7b644b84f1ad2b2f994fa
+  - b6c9f2116cd56bf428a92235e932fb54
+  - 0d057b43c913be34da79f7e18eba0bab
+  - 526961319a6257842852ee0d5e8a77af
+  - 6c2b296a2ec225b45a68794c8b5c08a9
+  - cb807ae67cf5f0a429d00775c4f2d87f
+  - a76cdedde3aa90e44a5f3a75801193ef
+  - 2629cd214ed91334e8f9d6a7f016519c
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 3
     human: []
     skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.01
     rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 1
+  humanoidOversampling: 1
   additionalBone: 0
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

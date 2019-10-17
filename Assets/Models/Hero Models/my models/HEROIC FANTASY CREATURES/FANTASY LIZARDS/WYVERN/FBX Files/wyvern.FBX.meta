@@ -1,190 +1,554 @@
 fileFormatVersion: 2
 guid: 0c23c6c93bba6214c8588c2eb1ffea2c
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: wivern_
-    100002: wivern_ Head
-    100004: wivern_ L Calf
-    100006: wivern_ L Clavicle
-    100008: wivern_ L Finger0
-    100010: wivern_ L Finger01
-    100012: wivern_ L Finger02
-    100014: wivern_ L Finger1
-    100016: wivern_ L Finger11
-    100018: wivern_ L Finger12
-    100020: wivern_ L Finger2
-    100022: wivern_ L Finger21
-    100024: wivern_ L Finger22
-    100026: wivern_ L Finger3
-    100028: wivern_ L Finger31
-    100030: wivern_ L Finger32
-    100032: wivern_ L Foot
-    100034: wivern_ L Forearm
-    100036: wivern_ L Hand
-    100038: wivern_ L HorseLink
-    100040: wivern_ L Thigh
-    100042: wivern_ L Toe0
-    100044: wivern_ L Toe01
-    100046: wivern_ L Toe02
-    100048: wivern_ L Toe1
-    100050: wivern_ L Toe11
-    100052: wivern_ L Toe12
-    100054: wivern_ L Toe2
-    100056: wivern_ L Toe21
-    100058: wivern_ L Toe22
-    100060: wivern_ L Toe3
-    100062: wivern_ L Toe31
-    100064: wivern_ L Toe32
-    100066: wivern_ L UpperArm
-    100068: wivern_ Neck
-    100070: wivern_ Neck1
-    100072: wivern_ Neck2
-    100074: wivern_ Neck3
-    100076: wivern_ Neck4
-    100078: wivern_ Neck5
-    100080: wivern_ Pelvis
-    100082: wivern_ Ponytail1
-    100084: wivern_ R Calf
-    100086: wivern_ R Clavicle
-    100088: wivern_ R Finger0
-    100090: wivern_ R Finger01
-    100092: wivern_ R Finger02
-    100094: wivern_ R Finger1
-    100096: wivern_ R Finger11
-    100098: wivern_ R Finger12
-    100100: wivern_ R Finger2
-    100102: wivern_ R Finger21
-    100104: wivern_ R Finger22
-    100106: wivern_ R Finger3
-    100108: wivern_ R Finger31
-    100110: wivern_ R Finger32
-    100112: wivern_ R Foot
-    100114: wivern_ R Forearm
-    100116: wivern_ R Hand
-    100118: wivern_ R HorseLink
-    100120: wivern_ R Thigh
-    100122: wivern_ R Toe0
-    100124: wivern_ R Toe01
-    100126: wivern_ R Toe02
-    100128: wivern_ R Toe1
-    100130: wivern_ R Toe11
-    100132: wivern_ R Toe12
-    100134: wivern_ R Toe2
-    100136: wivern_ R Toe21
-    100138: wivern_ R Toe22
-    100140: wivern_ R Toe3
-    100142: wivern_ R Toe31
-    100144: wivern_ R Toe32
-    100146: wivern_ R UpperArm
-    100148: wivern_ Spine
-    100150: wivern_ Spine1
-    100152: wivern_ Spine2
-    100154: wivern_ Tail
-    100156: wivern_ Tail1
-    100158: wivern_ Tail2
-    100160: wivern_ Tail3
-    100162: wivern_ Tail4
-    100164: wivern_ Tail5
-    100166: wivern_ Tail6
-    100168: wivern_ Tail7
-    100170: wivern_ Tail8
-    100172: wyvern
-    100174: //RootNode
-    400000: wivern_
-    400002: wivern_ Head
-    400004: wivern_ L Calf
-    400006: wivern_ L Clavicle
-    400008: wivern_ L Finger0
-    400010: wivern_ L Finger01
-    400012: wivern_ L Finger02
-    400014: wivern_ L Finger1
-    400016: wivern_ L Finger11
-    400018: wivern_ L Finger12
-    400020: wivern_ L Finger2
-    400022: wivern_ L Finger21
-    400024: wivern_ L Finger22
-    400026: wivern_ L Finger3
-    400028: wivern_ L Finger31
-    400030: wivern_ L Finger32
-    400032: wivern_ L Foot
-    400034: wivern_ L Forearm
-    400036: wivern_ L Hand
-    400038: wivern_ L HorseLink
-    400040: wivern_ L Thigh
-    400042: wivern_ L Toe0
-    400044: wivern_ L Toe01
-    400046: wivern_ L Toe02
-    400048: wivern_ L Toe1
-    400050: wivern_ L Toe11
-    400052: wivern_ L Toe12
-    400054: wivern_ L Toe2
-    400056: wivern_ L Toe21
-    400058: wivern_ L Toe22
-    400060: wivern_ L Toe3
-    400062: wivern_ L Toe31
-    400064: wivern_ L Toe32
-    400066: wivern_ L UpperArm
-    400068: wivern_ Neck
-    400070: wivern_ Neck1
-    400072: wivern_ Neck2
-    400074: wivern_ Neck3
-    400076: wivern_ Neck4
-    400078: wivern_ Neck5
-    400080: wivern_ Pelvis
-    400082: wivern_ Ponytail1
-    400084: wivern_ R Calf
-    400086: wivern_ R Clavicle
-    400088: wivern_ R Finger0
-    400090: wivern_ R Finger01
-    400092: wivern_ R Finger02
-    400094: wivern_ R Finger1
-    400096: wivern_ R Finger11
-    400098: wivern_ R Finger12
-    400100: wivern_ R Finger2
-    400102: wivern_ R Finger21
-    400104: wivern_ R Finger22
-    400106: wivern_ R Finger3
-    400108: wivern_ R Finger31
-    400110: wivern_ R Finger32
-    400112: wivern_ R Foot
-    400114: wivern_ R Forearm
-    400116: wivern_ R Hand
-    400118: wivern_ R HorseLink
-    400120: wivern_ R Thigh
-    400122: wivern_ R Toe0
-    400124: wivern_ R Toe01
-    400126: wivern_ R Toe02
-    400128: wivern_ R Toe1
-    400130: wivern_ R Toe11
-    400132: wivern_ R Toe12
-    400134: wivern_ R Toe2
-    400136: wivern_ R Toe21
-    400138: wivern_ R Toe22
-    400140: wivern_ R Toe3
-    400142: wivern_ R Toe31
-    400144: wivern_ R Toe32
-    400146: wivern_ R UpperArm
-    400148: wivern_ Spine
-    400150: wivern_ Spine1
-    400152: wivern_ Spine2
-    400154: wivern_ Tail
-    400156: wivern_ Tail1
-    400158: wivern_ Tail2
-    400160: wivern_ Tail3
-    400162: wivern_ Tail4
-    400164: wivern_ Tail5
-    400166: wivern_ Tail6
-    400168: wivern_ Tail7
-    400170: wivern_ Tail8
-    400172: wyvern
-    400174: //RootNode
-    4300000: wivern
-    4300002: wyvern
-    7400000: Take 001
-    11100000: //RootNode
-    13700000: wyvern
-    2186277476908879412: ImportLogs
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: wivern_
+  - first:
+      1: 100002
+    second: wivern_ Head
+  - first:
+      1: 100004
+    second: wivern_ L Calf
+  - first:
+      1: 100006
+    second: wivern_ L Clavicle
+  - first:
+      1: 100008
+    second: wivern_ L Finger0
+  - first:
+      1: 100010
+    second: wivern_ L Finger01
+  - first:
+      1: 100012
+    second: wivern_ L Finger02
+  - first:
+      1: 100014
+    second: wivern_ L Finger1
+  - first:
+      1: 100016
+    second: wivern_ L Finger11
+  - first:
+      1: 100018
+    second: wivern_ L Finger12
+  - first:
+      1: 100020
+    second: wivern_ L Finger2
+  - first:
+      1: 100022
+    second: wivern_ L Finger21
+  - first:
+      1: 100024
+    second: wivern_ L Finger22
+  - first:
+      1: 100026
+    second: wivern_ L Finger3
+  - first:
+      1: 100028
+    second: wivern_ L Finger31
+  - first:
+      1: 100030
+    second: wivern_ L Finger32
+  - first:
+      1: 100032
+    second: wivern_ L Foot
+  - first:
+      1: 100034
+    second: wivern_ L Forearm
+  - first:
+      1: 100036
+    second: wivern_ L Hand
+  - first:
+      1: 100038
+    second: wivern_ L HorseLink
+  - first:
+      1: 100040
+    second: wivern_ L Thigh
+  - first:
+      1: 100042
+    second: wivern_ L Toe0
+  - first:
+      1: 100044
+    second: wivern_ L Toe01
+  - first:
+      1: 100046
+    second: wivern_ L Toe02
+  - first:
+      1: 100048
+    second: wivern_ L Toe1
+  - first:
+      1: 100050
+    second: wivern_ L Toe11
+  - first:
+      1: 100052
+    second: wivern_ L Toe12
+  - first:
+      1: 100054
+    second: wivern_ L Toe2
+  - first:
+      1: 100056
+    second: wivern_ L Toe21
+  - first:
+      1: 100058
+    second: wivern_ L Toe22
+  - first:
+      1: 100060
+    second: wivern_ L Toe3
+  - first:
+      1: 100062
+    second: wivern_ L Toe31
+  - first:
+      1: 100064
+    second: wivern_ L Toe32
+  - first:
+      1: 100066
+    second: wivern_ L UpperArm
+  - first:
+      1: 100068
+    second: wivern_ Neck
+  - first:
+      1: 100070
+    second: wivern_ Neck1
+  - first:
+      1: 100072
+    second: wivern_ Neck2
+  - first:
+      1: 100074
+    second: wivern_ Neck3
+  - first:
+      1: 100076
+    second: wivern_ Neck4
+  - first:
+      1: 100078
+    second: wivern_ Neck5
+  - first:
+      1: 100080
+    second: wivern_ Pelvis
+  - first:
+      1: 100082
+    second: wivern_ Ponytail1
+  - first:
+      1: 100084
+    second: wivern_ R Calf
+  - first:
+      1: 100086
+    second: wivern_ R Clavicle
+  - first:
+      1: 100088
+    second: wivern_ R Finger0
+  - first:
+      1: 100090
+    second: wivern_ R Finger01
+  - first:
+      1: 100092
+    second: wivern_ R Finger02
+  - first:
+      1: 100094
+    second: wivern_ R Finger1
+  - first:
+      1: 100096
+    second: wivern_ R Finger11
+  - first:
+      1: 100098
+    second: wivern_ R Finger12
+  - first:
+      1: 100100
+    second: wivern_ R Finger2
+  - first:
+      1: 100102
+    second: wivern_ R Finger21
+  - first:
+      1: 100104
+    second: wivern_ R Finger22
+  - first:
+      1: 100106
+    second: wivern_ R Finger3
+  - first:
+      1: 100108
+    second: wivern_ R Finger31
+  - first:
+      1: 100110
+    second: wivern_ R Finger32
+  - first:
+      1: 100112
+    second: wivern_ R Foot
+  - first:
+      1: 100114
+    second: wivern_ R Forearm
+  - first:
+      1: 100116
+    second: wivern_ R Hand
+  - first:
+      1: 100118
+    second: wivern_ R HorseLink
+  - first:
+      1: 100120
+    second: wivern_ R Thigh
+  - first:
+      1: 100122
+    second: wivern_ R Toe0
+  - first:
+      1: 100124
+    second: wivern_ R Toe01
+  - first:
+      1: 100126
+    second: wivern_ R Toe02
+  - first:
+      1: 100128
+    second: wivern_ R Toe1
+  - first:
+      1: 100130
+    second: wivern_ R Toe11
+  - first:
+      1: 100132
+    second: wivern_ R Toe12
+  - first:
+      1: 100134
+    second: wivern_ R Toe2
+  - first:
+      1: 100136
+    second: wivern_ R Toe21
+  - first:
+      1: 100138
+    second: wivern_ R Toe22
+  - first:
+      1: 100140
+    second: wivern_ R Toe3
+  - first:
+      1: 100142
+    second: wivern_ R Toe31
+  - first:
+      1: 100144
+    second: wivern_ R Toe32
+  - first:
+      1: 100146
+    second: wivern_ R UpperArm
+  - first:
+      1: 100148
+    second: wivern_ Spine
+  - first:
+      1: 100150
+    second: wivern_ Spine1
+  - first:
+      1: 100152
+    second: wivern_ Spine2
+  - first:
+      1: 100154
+    second: wivern_ Tail
+  - first:
+      1: 100156
+    second: wivern_ Tail1
+  - first:
+      1: 100158
+    second: wivern_ Tail2
+  - first:
+      1: 100160
+    second: wivern_ Tail3
+  - first:
+      1: 100162
+    second: wivern_ Tail4
+  - first:
+      1: 100164
+    second: wivern_ Tail5
+  - first:
+      1: 100166
+    second: wivern_ Tail6
+  - first:
+      1: 100168
+    second: wivern_ Tail7
+  - first:
+      1: 100170
+    second: wivern_ Tail8
+  - first:
+      1: 100172
+    second: wyvern
+  - first:
+      1: 100174
+    second: //RootNode
+  - first:
+      4: 400000
+    second: wivern_
+  - first:
+      4: 400002
+    second: wivern_ Head
+  - first:
+      4: 400004
+    second: wivern_ L Calf
+  - first:
+      4: 400006
+    second: wivern_ L Clavicle
+  - first:
+      4: 400008
+    second: wivern_ L Finger0
+  - first:
+      4: 400010
+    second: wivern_ L Finger01
+  - first:
+      4: 400012
+    second: wivern_ L Finger02
+  - first:
+      4: 400014
+    second: wivern_ L Finger1
+  - first:
+      4: 400016
+    second: wivern_ L Finger11
+  - first:
+      4: 400018
+    second: wivern_ L Finger12
+  - first:
+      4: 400020
+    second: wivern_ L Finger2
+  - first:
+      4: 400022
+    second: wivern_ L Finger21
+  - first:
+      4: 400024
+    second: wivern_ L Finger22
+  - first:
+      4: 400026
+    second: wivern_ L Finger3
+  - first:
+      4: 400028
+    second: wivern_ L Finger31
+  - first:
+      4: 400030
+    second: wivern_ L Finger32
+  - first:
+      4: 400032
+    second: wivern_ L Foot
+  - first:
+      4: 400034
+    second: wivern_ L Forearm
+  - first:
+      4: 400036
+    second: wivern_ L Hand
+  - first:
+      4: 400038
+    second: wivern_ L HorseLink
+  - first:
+      4: 400040
+    second: wivern_ L Thigh
+  - first:
+      4: 400042
+    second: wivern_ L Toe0
+  - first:
+      4: 400044
+    second: wivern_ L Toe01
+  - first:
+      4: 400046
+    second: wivern_ L Toe02
+  - first:
+      4: 400048
+    second: wivern_ L Toe1
+  - first:
+      4: 400050
+    second: wivern_ L Toe11
+  - first:
+      4: 400052
+    second: wivern_ L Toe12
+  - first:
+      4: 400054
+    second: wivern_ L Toe2
+  - first:
+      4: 400056
+    second: wivern_ L Toe21
+  - first:
+      4: 400058
+    second: wivern_ L Toe22
+  - first:
+      4: 400060
+    second: wivern_ L Toe3
+  - first:
+      4: 400062
+    second: wivern_ L Toe31
+  - first:
+      4: 400064
+    second: wivern_ L Toe32
+  - first:
+      4: 400066
+    second: wivern_ L UpperArm
+  - first:
+      4: 400068
+    second: wivern_ Neck
+  - first:
+      4: 400070
+    second: wivern_ Neck1
+  - first:
+      4: 400072
+    second: wivern_ Neck2
+  - first:
+      4: 400074
+    second: wivern_ Neck3
+  - first:
+      4: 400076
+    second: wivern_ Neck4
+  - first:
+      4: 400078
+    second: wivern_ Neck5
+  - first:
+      4: 400080
+    second: wivern_ Pelvis
+  - first:
+      4: 400082
+    second: wivern_ Ponytail1
+  - first:
+      4: 400084
+    second: wivern_ R Calf
+  - first:
+      4: 400086
+    second: wivern_ R Clavicle
+  - first:
+      4: 400088
+    second: wivern_ R Finger0
+  - first:
+      4: 400090
+    second: wivern_ R Finger01
+  - first:
+      4: 400092
+    second: wivern_ R Finger02
+  - first:
+      4: 400094
+    second: wivern_ R Finger1
+  - first:
+      4: 400096
+    second: wivern_ R Finger11
+  - first:
+      4: 400098
+    second: wivern_ R Finger12
+  - first:
+      4: 400100
+    second: wivern_ R Finger2
+  - first:
+      4: 400102
+    second: wivern_ R Finger21
+  - first:
+      4: 400104
+    second: wivern_ R Finger22
+  - first:
+      4: 400106
+    second: wivern_ R Finger3
+  - first:
+      4: 400108
+    second: wivern_ R Finger31
+  - first:
+      4: 400110
+    second: wivern_ R Finger32
+  - first:
+      4: 400112
+    second: wivern_ R Foot
+  - first:
+      4: 400114
+    second: wivern_ R Forearm
+  - first:
+      4: 400116
+    second: wivern_ R Hand
+  - first:
+      4: 400118
+    second: wivern_ R HorseLink
+  - first:
+      4: 400120
+    second: wivern_ R Thigh
+  - first:
+      4: 400122
+    second: wivern_ R Toe0
+  - first:
+      4: 400124
+    second: wivern_ R Toe01
+  - first:
+      4: 400126
+    second: wivern_ R Toe02
+  - first:
+      4: 400128
+    second: wivern_ R Toe1
+  - first:
+      4: 400130
+    second: wivern_ R Toe11
+  - first:
+      4: 400132
+    second: wivern_ R Toe12
+  - first:
+      4: 400134
+    second: wivern_ R Toe2
+  - first:
+      4: 400136
+    second: wivern_ R Toe21
+  - first:
+      4: 400138
+    second: wivern_ R Toe22
+  - first:
+      4: 400140
+    second: wivern_ R Toe3
+  - first:
+      4: 400142
+    second: wivern_ R Toe31
+  - first:
+      4: 400144
+    second: wivern_ R Toe32
+  - first:
+      4: 400146
+    second: wivern_ R UpperArm
+  - first:
+      4: 400148
+    second: wivern_ Spine
+  - first:
+      4: 400150
+    second: wivern_ Spine1
+  - first:
+      4: 400152
+    second: wivern_ Spine2
+  - first:
+      4: 400154
+    second: wivern_ Tail
+  - first:
+      4: 400156
+    second: wivern_ Tail1
+  - first:
+      4: 400158
+    second: wivern_ Tail2
+  - first:
+      4: 400160
+    second: wivern_ Tail3
+  - first:
+      4: 400162
+    second: wivern_ Tail4
+  - first:
+      4: 400164
+    second: wivern_ Tail5
+  - first:
+      4: 400166
+    second: wivern_ Tail6
+  - first:
+      4: 400168
+    second: wivern_ Tail7
+  - first:
+      4: 400170
+    second: wivern_ Tail8
+  - first:
+      4: 400172
+    second: wyvern
+  - first:
+      4: 400174
+    second: //RootNode
+  - first:
+      43: 4300000
+    second: wivern
+  - first:
+      43: 4300002
+    second: wyvern
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: wyvern
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -225,6 +589,7 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
@@ -232,18 +597,19 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 0
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -252,10 +618,45 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips:
+  - b85d6488aac1d174ca9525545446e8c7
+  - e3c101cc4607be24e83489317c7e5df5
+  - 1f087f1213e260d48bc88745502d6046
+  - 2847ba79608112541879f634f39218ac
+  - a8134edea9560cb42aef4135037696fe
+  - cc769ffe41d842a44aae3fa5a6e2117a
+  - a26485f4936532944aa8610f8afd35e2
+  - 6862cc8c29e3b084d857cf5befc1d19f
+  - 36cc89bdaa3bbc542aa8bef07b942e3e
+  - 1312f65227646bd49a49fce11a606215
+  - 1c876919ce6b1c149901bfc6dcc05530
+  - a099884326fe2c542a266c794f82349d
+  - 8cd4c212bd515fb4da2c78e17b83d424
+  - d77d3d5b172923c4b8e795134636295c
+  - a7a1c183bf0b2954ca723d9c40c91f73
+  - 928814b547d8f20479cddc9ef8f84a43
+  - 6d158f78adedcfb408720a6911dd3fc0
+  - 5a30e9390caa7564fbfb5fb7cb27c01b
+  - c9368dc0b643a3c41b99ef2689b7a623
+  - 38ebeb6f5a818a14db929e966025a021
+  - fe937b68f6058e941af0cf4137e61e04
+  - 0e71b82edcc23b144a34be01b1dc1c37
+  - 0f776c810c91f3a42b3dc12ac3590fdb
+  - 4f1b29493c1a2284ea2c0acba44871fb
+  - 795fb77815b36c3499b5b18b05fe7a7a
+  - be92fa9a72f11b4498879a7abc790ef4
+  - 050a79c905b494148a558e610892debd
+  - 39b11696ac5050c4bbaac1811a8f8a1a
+  - 53e101efafc31014a903957c7af18591
+  - 2222af34a25e2a34c808f2b401de4017
+  - 9a9e17666cfc8994aa3aa54f20236c13
+  - 0950573480f9ea140b8bb26d6a2ea16f
+  - 9fd8a7d04a48a914aa75a4c5c3dd9fbf
+  - b66b6d9dd2d0081449aae13abfd1863e
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -265,6 +666,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.01
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
