@@ -13,8 +13,6 @@ GameObject:
   - component: {fileID: 143531544524534930}
   - component: {fileID: 1243301513674890629}
   - component: {fileID: 7389849316942977428}
-  - component: {fileID: 5894084865561996633}
-  - component: {fileID: 8076215512727300208}
   m_Layer: 8
   m_Name: Knight Warrior
   m_TagString: Player
@@ -114,40 +112,6 @@ MonoBehaviour:
   speedAttack: 1.5
   turnSpeed: 10
   jumpPower: 20
---- !u!114 &5894084865561996633
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 123290}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa1239230a1f74c06890f2a9276e18bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveMagnitude: 0.05
-  speed: 0.7
-  speedMoveWhileAttack: 0.1
-  speedAttack: 1.5
-  turnSpeed: 10
-  jumpPower: 20
---- !u!114 &8076215512727300208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 123290}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e16e52e496aee4b09953b27ee771216f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gravityMultiplier: 1
-  lerpTime: 10
-  characterController: {fileID: 0}
-  distanceToGround: 0.1
 --- !u!1 &123292
 GameObject:
   m_ObjectHideFlags: 0

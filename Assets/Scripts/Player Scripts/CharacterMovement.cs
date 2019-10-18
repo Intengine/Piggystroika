@@ -47,7 +47,7 @@ public class CharacterMovement : MonoBehaviour
         {
             direction = value * speedMoveMultiplier;
 
-            if (direction.magnitude > 0.1f)
+            if(direction.magnitude > 0.1f)
             {
                 var newRotation = Quaternion.LookRotation(direction);
                 transform.rotation = Quaternion.Slerp(transform.rotation, newRotation, Time.deltaTime * turnSpeed);
@@ -55,7 +55,7 @@ public class CharacterMovement : MonoBehaviour
             direction *= speed * (Vector3.Dot(transform.forward, direction) + 1f) * 5f;
             motor.Move(direction);
 
-            // AnimationMove(motor.characterController.velocity.magnitude * 0.1f);
+            AnimationMove(motor.characterController.velocity.magnitude * 0.1f);
         }
     }
 
@@ -70,6 +70,30 @@ public class CharacterMovement : MonoBehaviour
         motor.Jump(jumpPower);
     }
 
+    void AnimationMove (float magnitude)
+    {
+        if(magnitude > moveMagnitude)
+        {
+            float speedAnimation = magnitude * 2f;
+
+            if(speedAnimation < 1f)
+            {
+                speedAnimation = 1f;
+            }
+
+            if(animator.GetInteger(PARAMETER_STATE) != 2)
+            {
+                animator.SetInteger(PARAMETER_STATE, 1);
+                animator.speed = speedAnimation;
+            }
+        }
+        else if(animator.GetInteger(PARAMETER_STATE) != 2)
+        {
+            animator.SetInteger(PARAMETER_STATE, 0);
+
+        }
+    }
+
     void MovementAndJumping()
     {
         Vector3 moveInput = Vector3.zero;
@@ -81,7 +105,7 @@ public class CharacterMovement : MonoBehaviour
         moveInput.Normalize();
         Moving(moveInput.normalized, 1f);
 
-        if (Input.GetKey(KeyCode.Space))
+        if(Input.GetKey(KeyCode.Space))
         {
             Jump();
         }
