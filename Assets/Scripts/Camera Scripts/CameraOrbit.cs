@@ -22,11 +22,48 @@ public class CameraOrbit : Orbit
     void Start()
     {
         playerTarget = GameObject.FindGameObjectWithTag("Player").transform;
+        mainCamera = Camera.main;
+
         sphericalVectorData.Length = cameraLength;
+        sphericalVectorData.Azimuth = angleOffset.x;
+        sphericalVectorData.Zenith = angleOffset.y;
+
+        cameraPositionTemporary = mainCamera.transform.localPosition;
+        cameraPosition = cameraPositionTemporary;
     }
 
     void Update()
     {
-        
+        HandleCamera();
+    }
+
+    void HandleCamera()
+    {
+        sphericalVectorData.Azimuth += Input.GetAxis("Mouse X") * orbitSpeed.x;
+        sphericalVectorData.Zenith += Input.GetAxis("Mouse Y") * orbitSpeed.y;
+
+        sphericalVectorData.Zenith = Mathf.Clamp(sphericalVectorData.Zenith + orbitOffset.x, orbitOffset.y, 0f);
+
+        float distanceToObject = zoomValue;
+        float deltaDistance = Mathf.Clamp(zoomValue, distanceToObject, -distanceToObject);
+        sphericalVectorData.Length += (deltaDistance - sphericalVectorData.Length);
+
+        Vector3 lookAt = targetOffset;
+        lookAt += playerTarget.position;
+
+        base.Update();
+
+        transform.position += lookAt;
+        transform.LookAt(lookAt);
+
+        if(zoomValue == cameraLengthZoom)
+        {
+            Quaternion targetRotation = transform.rotation;
+            targetRotation.x = 0f;
+            targetRotation.z = 0f;
+            playerTarget.rotation = targetRotation;
+        }
+        cameraPosition = cameraPositionTemporary;
+        zoomValue = cameraLength;
     }
 }
