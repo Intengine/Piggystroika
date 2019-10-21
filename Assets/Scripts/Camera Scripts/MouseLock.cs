@@ -6,25 +6,22 @@ public class MouseLock : MonoBehaviour
 {
     private static bool mouseLocked;
 
-    public static bool MouseLocked
+    public static bool GetMouseLocked()
     {
-        get
+        return mouseLocked;
+    }
+
+    public static void SetMouseLocked(bool value)
+    {
+        mouseLocked = value;
+
+        if (mouseLocked)
         {
-            return mouseLocked;
+            Cursor.lockState = CursorLockMode.Locked;
         }
-
-        set
+        else
         {
-            mouseLocked = value;
-
-            if(mouseLocked)
-            {
-                Cursor.lockState = CursorLockMode.Locked;
-            }
-            else
-            {
-                Cursor.lockState = CursorLockMode.None;
-            }
+            Cursor.lockState = CursorLockMode.None;
         }
     }
 

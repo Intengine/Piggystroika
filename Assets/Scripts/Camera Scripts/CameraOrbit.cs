@@ -31,7 +31,7 @@ public class CameraOrbit : Orbit
         cameraPositionTemporary = mainCamera.transform.localPosition;
         cameraPosition = cameraPositionTemporary;
 
-        MouseLock.MouseLocked = true;
+        MouseLock.SetMouseLocked(true);
     }
 
     void Update()
@@ -42,7 +42,7 @@ public class CameraOrbit : Orbit
 
     void HandleCamera()
     {
-        if(MouseLock.MouseLocked)
+        if(MouseLock.GetMouseLocked())
         {
             sphericalVectorData.Azimuth += Input.GetAxis("Mouse X") * orbitSpeed.x;
             sphericalVectorData.Zenith += Input.GetAxis("Mouse Y") * orbitSpeed.y;
@@ -77,13 +77,13 @@ public class CameraOrbit : Orbit
     {
         if(Input.GetKeyDown(KeyCode.Tab))
         {
-            if(MouseLock.MouseLocked)
+            if(MouseLock.GetMouseLocked())
             {
-                MouseLock.MouseLocked = false;
+                MouseLock.SetMouseLocked(false);
             }
             else
             {
-                MouseLock.MouseLocked = true;
+                MouseLock.SetMouseLocked(true);
             }
         }
     }
