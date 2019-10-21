@@ -30,17 +30,23 @@ public class CameraOrbit : Orbit
 
         cameraPositionTemporary = mainCamera.transform.localPosition;
         cameraPosition = cameraPositionTemporary;
+
+        MouseLock.MouseLocked = true;
     }
 
     void Update()
     {
         HandleCamera();
+        HandleMouseLocking();
     }
 
     void HandleCamera()
     {
-        sphericalVectorData.Azimuth += Input.GetAxis("Mouse X") * orbitSpeed.x;
-        sphericalVectorData.Zenith += Input.GetAxis("Mouse Y") * orbitSpeed.y;
+        if(MouseLock.MouseLocked)
+        {
+            sphericalVectorData.Azimuth += Input.GetAxis("Mouse X") * orbitSpeed.x;
+            sphericalVectorData.Zenith += Input.GetAxis("Mouse Y") * orbitSpeed.y;
+        }
 
         sphericalVectorData.Zenith = Mathf.Clamp(sphericalVectorData.Zenith + orbitOffset.x, orbitOffset.y, 0f);
 
@@ -65,5 +71,20 @@ public class CameraOrbit : Orbit
         }
         cameraPosition = cameraPositionTemporary;
         zoomValue = cameraLength;
+    }
+
+    void HandleMouseLocking()
+    {
+        if(Input.GetKeyDown(KeyCode.Tab))
+        {
+            if(MouseLock.MouseLocked)
+            {
+                MouseLock.MouseLocked = false;
+            }
+            else
+            {
+                MouseLock.MouseLocked = true;
+            }
+        }
     }
 }
