@@ -46,6 +46,15 @@ public class CharacterMovement : MonoBehaviour
 
     void Update()
     {
+        HandleAttackAnimations();
+        if(Input.GetButtonDown("Fire1"))
+        {
+            Attack();
+        } else if(Input.GetButtonDown("Fire2"))
+        {
+            Attack();
+        }
+
         MovementAndJumping();
     }
 
@@ -74,7 +83,17 @@ public class CharacterMovement : MonoBehaviour
 
     void Moving(Vector3 direction, float multiplier)
     {
-        speedMoveMultiplier = 1 * multiplier;
+        // speedMoveMultiplier = 1 * multiplier;
+        // MoveDirection = direction;
+
+        if(isAttacking)
+        {
+            speedMoveMultiplier = speedMoveWhileAttack * multiplier;
+        }
+        else
+        {
+            speedMoveMultiplier = 1 * multiplier;
+        }
         MoveDirection = direction;
     }
 
@@ -188,6 +207,11 @@ public class CharacterMovement : MonoBehaviour
 
     void Attack()
     {
-
+        if(attackStack < 1 || (Time.time > attackStackTimeTemporary + 0.2f && Time.time < attackStackTimeTemporary + 1f))
+        {
+            attackStack++;
+            attackStackTimeTemporary = Time.time;
+        }
+        FightAnimation();
     }
 }
