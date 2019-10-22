@@ -18,6 +18,19 @@ public class CharacterMovement : MonoBehaviour
     private Camera mainCamera;
 
     private string PARAMETER_STATE = "State";
+    private string PARAMETER_ATTACK_TYPE = "AttackType";
+    private string PARAMETER_ATTACK_INDEX = "AttackIndex";
+
+    public AttackAnimation[] attackAnimations;
+    public string[] comboAttackList;
+    public int comboType;
+
+    private int attackIndex = 0;
+    private string[] comboList;
+    private int attackStack;
+    private float attackStackTimeTemporary;
+
+    private bool isAttacking;
 
     void Awake()
     {
@@ -108,6 +121,31 @@ public class CharacterMovement : MonoBehaviour
         if(Input.GetKey(KeyCode.Space))
         {
             Jump();
+        }
+    }
+
+    void ResetCombo()
+    {
+        attackIndex = 0;
+        attackStack = 0;
+        isAttacking = false;
+    }
+
+    void FightAnimation()
+    {
+        if (comboList != null && attackIndex >= comboList.Length)
+        {
+            ResetCombo();
+        } else if (comboList != null && comboList.Length > 0)
+        {
+            int motionIndex = int.Parse(comboList[attackIndex]);
+
+            if(motionIndex < attackAnimations.Length)
+            {
+                animator.SetInteger(PARAMETER_STATE, 2);
+                animator.SetInteger(PARAMETER_ATTACK_TYPE, comboType);
+                animator.SetInteger(PARAMETER_ATTACK_INDEX, attackIndex);
+            }
         }
     }
 }

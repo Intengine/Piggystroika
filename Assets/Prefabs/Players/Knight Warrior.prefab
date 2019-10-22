@@ -112,6 +112,14 @@ MonoBehaviour:
   speedAttack: 1.5
   turnSpeed: 10
   jumpPower: 20
+  attackAnimations:
+  - motion: {fileID: 7400004, guid: adc893f71e3cd13409bb047847216eb2, type: 3}
+    attackTime: 0.5
+  - motion: {fileID: 7400006, guid: adc893f71e3cd13409bb047847216eb2, type: 3}
+    attackTime: 0.6
+  comboAttackList:
+  - 0,1
+  comboType: 0
 --- !u!1 &123292
 GameObject:
   m_ObjectHideFlags: 0
