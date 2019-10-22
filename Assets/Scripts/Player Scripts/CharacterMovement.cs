@@ -148,4 +148,46 @@ public class CharacterMovement : MonoBehaviour
             }
         }
     }
+
+    void HandleAttackAnimations()
+    {
+        if(Time.time > attackStackTimeTemporary + 0.5f)
+        {
+            attackStack = 0;
+        }
+        comboList = comboAttackList[comboType].Split("," [0]);
+
+        if(animator.GetInteger(PARAMETER_STATE) == 2)
+        {
+            animator.speed = speedAttack;
+
+            AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+
+            if(stateInfo.IsTag("Attack"))
+            {
+                int motionIndex = int.Parse(comboList[attackIndex]);
+
+                if(stateInfo.normalizedTime > 0.9f)
+                {
+                    animator.SetInteger(PARAMETER_STATE, 0);
+                    isAttacking = false;
+                    attackIndex++;
+
+                    if(attackStack > 1)
+                    {
+                        FightAnimation();
+                    }
+                    else if(attackIndex >= comboList.Length)
+                    {
+                        ResetCombo();
+                    }
+                }
+            }
+        }
+    }
+
+    void Attack()
+    {
+
+    }
 }
