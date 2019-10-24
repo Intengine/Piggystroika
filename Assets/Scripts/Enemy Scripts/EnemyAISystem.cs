@@ -28,11 +28,65 @@ public class EnemyAISystem : MonoBehaviour
 
     void Awake()
     {
-        
+        animator = GetComponent<Animator>();
+        motor = GetComponent<MovementMotor>();
     }
 
     void Update()
     {
-        
+        EnemyAI();
+    }
+
+    void EnemyAI()
+    {
+        float distance = Vector3.Distance(movementPosition, transform.position);
+        Quaternion targetRotation = Quaternion.LookRotation(movementPosition - transform.position);
+        targetRotation.x = 0f;
+        targetRotation.z = 0f;
+
+        transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, turnSpeed * Time.deltaTime);
+
+        if(playerTarget != null)
+        {
+            movementPosition = playerTarget.position;
+
+            if(aiTime <= 0)
+            {
+                aiState = Random.Range(0, 4);
+                aiTime = Random.Range(10, 100);
+            }
+            else
+            {
+                aiTime--;
+            }
+
+            if(distance <= distanceAttack)
+            {
+                if(aiState == 0)
+                {
+                    // Attack();
+                }
+            } else if(distance <= distanceMoveTo)
+            {
+                transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, turnSpeed * Time.deltaTime);
+            }
+            else
+            {
+                playerTarget = null;
+
+                if(aiState == 0)
+                {
+                    aiState = 1;
+                    aiTime = Random.Range(10, 500);
+
+                    movementPosition = transform.position + new Vector3(Random.Range(-patrolRange, patrolRange), 0f, Random.Range(-patrolRange, patrolRange));
+                }
+            }
+        }
+        else
+        {
+            GameObject target = GameObject.FindGameObjectWithTag("Player");
+            float targetDistance = Vector3.Distance(target.transform.position, transform.position);
+        }
     }
 }
