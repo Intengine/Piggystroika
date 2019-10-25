@@ -87,6 +87,25 @@ public class EnemyAISystem : MonoBehaviour
         {
             GameObject target = GameObject.FindGameObjectWithTag("Player");
             float targetDistance = Vector3.Distance(target.transform.position, transform.position);
+
+            if(targetDistance <= distanceMoveTo || targetDistance <= distanceAttack)
+            {
+                playerTarget = target.transform;
+            } else if(aiState == 0)
+            {
+                aiState = 1;
+                aiTime = Random.Range(10, 200);
+
+                movementPosition = transform.position + new Vector3(Random.Range(-patrolRange, patrolRange), 0f, Random.Range(-patrolRange, patrolRange));
+            } else if(aiTime <= 0)
+            {
+                aiState = Random.Range(0, 4);
+                aiTime = Random.Range(10, 200);
+            }
+            else
+            {
+                aiTime--;
+            }
         }
     }
 }
