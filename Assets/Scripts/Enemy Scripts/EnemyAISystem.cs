@@ -107,5 +107,28 @@ public class EnemyAISystem : MonoBehaviour
                 aiTime--;
             }
         }
+        MoveToPosition(movementPosition, 1f, motor.characterController.velocity.magnitude);
+    }
+
+    void MoveToPosition(Vector3 position, float speedMultiplier, float magnitude)
+    {
+        float speed = movementSpeed * speedMoveMultiplier * 2 * 5 * speedMultiplier;
+        Vector3 direction = position - transform.position;
+        Quaternion newRotation = transform.rotation;
+
+        direction.y = 0f;
+
+        if(direction.magnitude > 0.1f)
+        {
+            motor.Move(direction.normalized * speed);
+            newRotation = Quaternion.LookRotation(direction);
+            transform.rotation = Quaternion.Slerp(transform.rotation, newRotation, turnSpeed * Time.deltaTime);
+        }
+        else
+        {
+            motor.Stop();
+        }
+        // AnimationMove(magnitude * 0.1f);
+        // CheckIfAttackEnded();
     }
 }
