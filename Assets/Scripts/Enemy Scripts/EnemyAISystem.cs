@@ -167,14 +167,14 @@ public class EnemyAISystem : MonoBehaviour
 
     void CheckIfAttackEnded()
     {
-        if(animator.GetCurrentAnimatorStateInfo(0).IsName(PARAMETER_ATTACK_ONE))
+        if(animator.GetCurrentAnimatorStateInfo(0).IsName("Attack1"))
         {
             if(animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.8f)
             {
                 animator.SetBool(PARAMETER_ATTACK_ONE, false);
                 animator.SetBool(PARAMETER_RUN, false);
             }
-        } else if(animator.GetCurrentAnimatorStateInfo(0).IsName(PARAMETER_ATTACK_TWO))
+        } else if(animator.GetCurrentAnimatorStateInfo(0).IsName("Attack2"))
         {
             if(animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.8f)
             {

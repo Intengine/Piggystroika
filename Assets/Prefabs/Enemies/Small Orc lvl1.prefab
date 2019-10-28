@@ -1892,7 +1892,6 @@ GameObject:
   - component: {fileID: 499280}
   - component: {fileID: 95922224086585944}
   - component: {fileID: 14399176}
-  - component: {fileID: 9581676}
   - component: {fileID: -808939179416033146}
   - component: {fileID: 8202252271759390529}
   m_Layer: 9
@@ -1957,25 +1956,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0
   m_Center: {x: 0, y: 0.92, z: 0}
---- !u!95 &9581676
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 199280}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 88ce468391574e041a0e355af8af35d3, type: 3}
-  m_Controller: {fileID: 9100000, guid: a3635d9a463a3ef40a85a9c98b91d3f7, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &-808939179416033146
 MonoBehaviour:
   m_ObjectHideFlags: 0
