@@ -1970,7 +1970,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: a3635d9a463a3ef40a85a9c98b91d3f7, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
@@ -2004,6 +2004,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a62990ceabbad47e8996333b2850ab47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveMagnitude: 0.05
+  movementSpeed: 0.5
+  distanceAttack: 4.5
+  distanceMoveTo: 13
+  turnSpeed: 10
+  patrolRange: 10
 --- !u!1 &1743287388831992
 GameObject:
   m_ObjectHideFlags: 0

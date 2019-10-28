@@ -128,7 +128,28 @@ public class EnemyAISystem : MonoBehaviour
         {
             motor.Stop();
         }
-        // AnimationMove(magnitude * 0.1f);
+        AnimationMove(magnitude * 0.1f);
         // CheckIfAttackEnded();
+    }
+
+    void AnimationMove(float magnitude)
+    {
+        if(magnitude > moveMagnitude)
+        {
+            float speedAnimation = magnitude * 2f;
+
+            if(speedAnimation < 1)
+            {
+                speedAnimation = 1f;
+            } else if(!animator.GetBool(PARAMETER_RUN))
+            {
+                animator.SetBool(PARAMETER_RUN, true);
+                animator.speed = speedAnimation;
+            }
+        }
+        else if(animator.GetBool(PARAMETER_RUN))
+        {
+            animator.SetBool(PARAMETER_RUN, false);
+        }
     }
 }
