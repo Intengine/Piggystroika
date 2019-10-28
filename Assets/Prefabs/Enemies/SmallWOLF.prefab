@@ -1855,6 +1855,7 @@ GameObject:
   - component: {fileID: 95618218205915190}
   - component: {fileID: 14318580}
   - component: {fileID: 6165336467783738718}
+  - component: {fileID: -2653915587628435801}
   m_Layer: 9
   m_Name: SmallWOLF
   m_TagString: Enemy
@@ -1931,6 +1932,24 @@ MonoBehaviour:
   lerpTime: 10
   characterController: {fileID: 0}
   distanceToGround: 0.1
+--- !u!114 &-2653915587628435801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a62990ceabbad47e8996333b2850ab47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveMagnitude: 0.05
+  movementSpeed: 0.5
+  distanceAttack: 4.5
+  distanceMoveTo: 13
+  turnSpeed: 10
+  patrolRange: 10
 --- !u!1 &1428215766986470
 GameObject:
   m_ObjectHideFlags: 0

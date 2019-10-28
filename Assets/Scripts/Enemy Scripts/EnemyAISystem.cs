@@ -64,7 +64,7 @@ public class EnemyAISystem : MonoBehaviour
             {
                 if(aiState == 0)
                 {
-                    // Attack();
+                    Attack();
                 }
             } else if(distance <= distanceMoveTo)
             {
@@ -129,7 +129,7 @@ public class EnemyAISystem : MonoBehaviour
             motor.Stop();
         }
         AnimationMove(magnitude * 0.1f);
-        // CheckIfAttackEnded();
+        CheckIfAttackEnded();
     }
 
     void AnimationMove(float magnitude)
@@ -150,6 +150,37 @@ public class EnemyAISystem : MonoBehaviour
         else if(animator.GetBool(PARAMETER_RUN))
         {
             animator.SetBool(PARAMETER_RUN, false);
+        }
+    }
+
+    void Attack()
+    {
+        if(Random.Range(0, 2) > 0)
+        {
+            animator.SetBool(PARAMETER_ATTACK_ONE, true);
+        }
+        else
+        {
+            animator.SetBool(PARAMETER_ATTACK_TWO, true);
+        }
+    }
+
+    void CheckIfAttackEnded()
+    {
+        if(animator.GetCurrentAnimatorStateInfo(0).IsName(PARAMETER_ATTACK_ONE))
+        {
+            if(animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.8f)
+            {
+                animator.SetBool(PARAMETER_ATTACK_ONE, false);
+                animator.SetBool(PARAMETER_RUN, false);
+            }
+        } else if(animator.GetCurrentAnimatorStateInfo(0).IsName(PARAMETER_ATTACK_TWO))
+        {
+            if(animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.8f)
+            {
+                animator.SetBool(PARAMETER_ATTACK_TWO, false);
+                animator.SetBool(PARAMETER_RUN, false);
+            }
         }
     }
 }
