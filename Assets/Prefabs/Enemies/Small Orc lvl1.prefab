@@ -1894,7 +1894,8 @@ GameObject:
   - component: {fileID: 14399176}
   - component: {fileID: -808939179416033146}
   - component: {fileID: 8202252271759390529}
-  m_Layer: 9
+  - component: {fileID: 2380335181967486047}
+  m_Layer: 8
   m_Name: Small Orc lvl1
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -1990,6 +1991,19 @@ MonoBehaviour:
   distanceMoveTo: 13
   turnSpeed: 10
   patrolRange: 10
+--- !u!114 &2380335181967486047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb630958fcb6b4660ac513f4f24cb449, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
 --- !u!1 &1743287388831992
 GameObject:
   m_ObjectHideFlags: 0
