@@ -26,6 +26,9 @@ public class EnemyAISystem : MonoBehaviour
     private string PARAMETER_ATTACK_ONE = "Attack1";
     private string PARAMETER_ATTACK_TWO = "Attack2";
 
+    [SerializeField]
+    private GameObject leftAttackPoint, rightAttackPoint;
+
     void Awake()
     {
         animator = GetComponent<Animator>();
@@ -182,5 +185,25 @@ public class EnemyAISystem : MonoBehaviour
                 animator.SetBool(PARAMETER_RUN, false);
             }
         }
+    }
+
+    void LeftAttackBegan()
+    {
+        leftAttackPoint.SetActive(true);
+    }
+
+    void LeftAttackEnded()
+    {
+        leftAttackPoint.SetActive(false);
+    }
+
+    void RightAttackBegan()
+    {
+        rightAttackPoint.SetActive(true);
+    }
+
+    void RightAttackEnded()
+    {
+        rightAttackPoint.SetActive(false);
     }
 }

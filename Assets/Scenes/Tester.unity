@@ -120,25 +120,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &378831304 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 123290, guid: e25150d6ea1043f4e8bf39cfeaba68e8,
-    type: 3}
-  m_PrefabInstance: {fileID: 1860634886}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &378831305
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 378831304}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2146439b538949f2a04240543af6956, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 100
 --- !u!1 &510709575
 GameObject:
   m_ObjectHideFlags: 0
@@ -566,6 +547,10 @@ PrefabInstance:
     - target: {fileID: 123290, guid: e25150d6ea1043f4e8bf39cfeaba68e8, type: 3}
       propertyPath: m_Name
       value: Knight Warrior
+      objectReference: {fileID: 0}
+    - target: {fileID: 123290, guid: e25150d6ea1043f4e8bf39cfeaba68e8, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 423290, guid: e25150d6ea1043f4e8bf39cfeaba68e8, type: 3}
       propertyPath: m_LocalPosition.x

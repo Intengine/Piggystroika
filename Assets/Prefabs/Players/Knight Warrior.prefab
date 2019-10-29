@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 143531544524534930}
   - component: {fileID: 1243301513674890629}
   - component: {fileID: 7389849316942977428}
+  - component: {fileID: 378831305}
   m_Layer: 8
   m_Name: Knight Warrior
   m_TagString: Player
@@ -120,6 +121,19 @@ MonoBehaviour:
   comboAttackList:
   - 0,1
   comboType: 0
+--- !u!114 &378831305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2146439b538949f2a04240543af6956, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
 --- !u!1 &123292
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,6 +8,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(float damageAmount)
     {
+        print("P1 damaged");
         health -= damageAmount;
 
         if(health <= 0)

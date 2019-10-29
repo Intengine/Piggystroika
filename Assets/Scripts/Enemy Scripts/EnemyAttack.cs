@@ -11,13 +11,29 @@ public class EnemyAttack : MonoBehaviour
     private PlayerHealth playerHealth;
     private bool collided;
 
-    void Start()
-    {
-        
-    }
-
     void Update()
     {
-        
+        CheckForDamage();
+    }
+
+    void CheckForDamage()
+    {
+        Collider[] hits = Physics.OverlapSphere(transform.position, radius, playerLayer);
+
+        foreach (Collider h in hits)
+        {
+            playerHealth = h.GetComponent<PlayerHealth>();
+
+            if (playerHealth)
+            {
+                collided = true;
+            }
+        }
+        if (collided)
+        {
+            collided = false;
+            playerHealth.TakeDamage(damage);
+            gameObject.SetActive(false);
+        }
     }
 }
