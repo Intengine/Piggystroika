@@ -31,6 +31,7 @@ public class CharacterMovement : MonoBehaviour
     private float attackStackTimeTemporary;
 
     private bool isAttacking;
+    private GameObject attackPoint;
 
     void Awake()
     {
@@ -42,6 +43,9 @@ public class CharacterMovement : MonoBehaviour
     {
         animator.applyRootMotion = false;
         mainCamera = Camera.main;
+
+        attackPoint = GameObject.Find("Player Attack Point");
+        attackPoint.SetActive(false);
     }
 
     void Update()
@@ -213,5 +217,15 @@ public class CharacterMovement : MonoBehaviour
             attackStackTimeTemporary = Time.time;
         }
         FightAnimation();
+    }
+
+    void AttackBegan()
+    {
+        attackPoint.SetActive(true);
+    }
+
+    void AttackEnded()
+    {
+        attackPoint.SetActive(false);
     }
 }

@@ -18,6 +18,22 @@ public class PlayerAttack : MonoBehaviour
 
     void CheckForDamage()
     {
+        Collider[] hits = Physics.OverlapSphere(transform.position, radius, enemyLayer);
 
+        foreach(Collider h in hits)
+        {
+            enemyHealth = h.GetComponent<EnemyHealth>();
+
+            if(enemyHealth)
+            {
+                collided = true;
+            }
+        }
+        if(collided)
+        {
+            collided = false;
+            enemyHealth.TakeDamage(damage);
+            gameObject.SetActive(false);
+        }
     }
 }
