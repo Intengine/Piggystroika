@@ -15,23 +15,15 @@ public class MainMenuController : MonoBehaviour
 
     public void PlayGame()
     {
-        if(mainMenuCamera.CanClick)
-        {
-            mainMenuCamera.CanClick = false;
-            buttonPanel.SetActive(false);
-            characterSelectPanel.SetActive(true);
-            mainMenuCamera.ReachedCharacterSelectPosition = false;
-        }
+        mainMenuCamera.ChangePosition(1);
+        buttonPanel.SetActive(false);
+        characterSelectPanel.SetActive(true);
     }
 
     public void BackToMainMenu()
     {
-        if(mainMenuCamera.CanClick)
-        {
-            mainMenuCamera.CanClick = false;
-            mainMenuCamera.BackToMainMenu = true;
-            buttonPanel.SetActive(true);
-            characterSelectPanel.SetActive(false);
-        }
+        mainMenuCamera.ChangePosition(0);
+        buttonPanel.SetActive(true);
+        characterSelectPanel.SetActive(false);
     }
 }

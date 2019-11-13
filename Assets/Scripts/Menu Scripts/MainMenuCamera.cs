@@ -7,80 +7,38 @@ public class MainMenuCamera : MonoBehaviour
     public GameObject gameStartedPosition;
     public GameObject characterSelectPosition;
 
-    private bool reachedGameStartedPosition;
-    private bool reachedCharacterSelectPosition = true;
-    private bool canClick;
-    private bool backToMainMenu;
+    private List<GameObject> positions = new List<GameObject>();
+
+    private void Awake()
+    {
+        positions.Add(gameStartedPosition);
+    }
 
     void Update()
     {
-        MoveToGameStartedPosition();
-        MoveToCharacterSelectMenu();
-        MoveBackToMainMenu();
+        MoveToPosition();
     }
 
-    void MoveToGameStartedPosition()
+    void MoveToPosition()
     {
-        if(!reachedGameStartedPosition)
+        if(positions.Count > 0)
         {
-            if(Vector3.Distance(transform.position, gameStartedPosition.transform.position) < 0.2f) {
-                reachedGameStartedPosition = true;
-                canClick = true;
-            }
-        } else if(!reachedGameStartedPosition)
-        {
-            transform.position = Vector3.Lerp(transform.position, gameStartedPosition.transform.position, 1f * Time.deltaTime);
-            transform.rotation = Quaternion.Lerp(transform.rotation, gameStartedPosition.transform.rotation, 1f * Time.deltaTime);
+            transform.position = Vector3.Lerp(transform.position, positions[0].transform.position, 1f * Time.deltaTime);
+            transform.rotation = Quaternion.Lerp(transform.rotation, positions[0].transform.rotation, 1f * Time.deltaTime);
         }
     }
 
-    void MoveToCharacterSelectMenu()
+    public void ChangePosition(int index)
     {
-        if(!reachedCharacterSelectPosition)
+        positions.RemoveAt(0);
+
+        if(index == 0)
         {
-            transform.position = Vector3.Lerp(transform.position, characterSelectPosition.transform.position, 1f * Time.deltaTime);
-            transform.rotation = Quaternion.Lerp(transform.rotation, characterSelectPosition.transform.rotation, 1f * Time.deltaTime);
-        } else if(!reachedCharacterSelectPosition)
-        {
-            if(Vector3.Distance(transform.position, characterSelectPosition.transform.position) < 0.2f)
-            {
-                reachedCharacterSelectPosition = true;
-                canClick = true;
-            }
+            positions.Add(gameStartedPosition);
         }
-    }
-
-    void MoveBackToMainMenu()
-    {
-        if(backToMainMenu)
+        else
         {
-            if(Vector3.Distance(transform.position, gameStartedPosition.transform.position) < 0.2f)
-            {
-                backToMainMenu = false;
-                canClick = true;
-            }
-        } else if(backToMainMenu)
-        {
-            transform.position = Vector3.Lerp(transform.position, gameStartedPosition.transform.position, 1f * Time.deltaTime);
-            transform.rotation = Quaternion.Lerp(transform.rotation, gameStartedPosition.transform.rotation, 1f * Time.deltaTime);
+            positions.Add(characterSelectPosition);
         }
-    }
-
-    public bool ReachedCharacterSelectPosition
-    {
-        get { return reachedCharacterSelectPosition; }
-        set { reachedCharacterSelectPosition = value; }
-    }
-
-    public bool CanClick
-    {
-        get { return canClick; }
-        set { canClick = value; }
-    }
-
-    public bool BackToMainMenu
-    {
-        get { return BackToMainMenu; }
-        set { backToMainMenu = value; }
     }
 }
