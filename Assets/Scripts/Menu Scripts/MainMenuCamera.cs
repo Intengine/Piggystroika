@@ -16,6 +16,7 @@ public class MainMenuCamera : MonoBehaviour
     {
         MoveToGameStartedPosition();
         MoveToCharacterSelectMenu();
+        MoveBackToMainMenu();
     }
 
     void MoveToGameStartedPosition()
@@ -46,6 +47,22 @@ public class MainMenuCamera : MonoBehaviour
                 reachedCharacterSelectPosition = true;
                 canClick = true;
             }
+        }
+    }
+
+    void MoveBackToMainMenu()
+    {
+        if(backToMainMenu)
+        {
+            if(Vector3.Distance(transform.position, gameStartedPosition.transform.position) < 0.2f)
+            {
+                backToMainMenu = false;
+                canClick = true;
+            }
+        } else if(backToMainMenu)
+        {
+            transform.position = Vector3.Lerp(transform.position, gameStartedPosition.transform.position, 1f * Time.deltaTime);
+            transform.rotation = Quaternion.Lerp(transform.rotation, gameStartedPosition.transform.rotation, 1f * Time.deltaTime);
         }
     }
 
