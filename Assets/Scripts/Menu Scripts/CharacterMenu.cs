@@ -19,7 +19,12 @@ public class CharacterMenu : MonoBehaviour
 
     public void SelectCharacter()
     {
-        print(UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.name);
+        int index = int.Parse(UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.name);
+
+        TurnOffCharacters();
+
+        characters[index].SetActive(true);
+        characters[index].transform.position = characterPosition.transform.position;
     }
 
     void TurnOffCharacters()
