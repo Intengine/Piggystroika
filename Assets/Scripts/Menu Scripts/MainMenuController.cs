@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MainMenuController : MonoBehaviour
 {
-    public GameObject buttonPanel, characterSelectPanel;
+    public GameObject buttonPanel, characterSelectPanel, createCharacterPanel;
 
     private MainMenuCamera mainMenuCamera;
 
