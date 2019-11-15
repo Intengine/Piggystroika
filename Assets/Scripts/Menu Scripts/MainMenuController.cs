@@ -56,4 +56,50 @@ public class MainMenuController : MonoBehaviour
         optionsPanel.SetActive(false);
         buttonPanel.SetActive(true);
     }
+
+    public void SetQuality()
+    {
+        ChangeQualityLevel();
+    }
+
+    public void SetResolution()
+    {
+        ChangeResolution();
+    }
+
+    void ChangeQualityLevel()
+    {
+        string qualityLevel = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.name;
+
+        switch(qualityLevel)
+        {
+            case "Low":
+                QualitySettings.SetQualityLevel(0);
+                break;
+            case "Medium":
+                QualitySettings.SetQualityLevel(1);
+                break;
+            case "High":
+                QualitySettings.SetQualityLevel(2);
+                break;
+            case "Ultra":
+                QualitySettings.SetQualityLevel(3);
+                break;
+            case "No Shadows":
+                if(QualitySettings.shadows == ShadowQuality.All)
+                {
+                    QualitySettings.shadows = ShadowQuality.Disable;
+                }
+                else
+                {
+                    QualitySettings.shadows = ShadowQuality.All;
+                }
+                break;
+        }
+    }
+
+    void ChangeResolution()
+    {
+
+    }
 }
