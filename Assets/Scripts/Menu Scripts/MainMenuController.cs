@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MainMenuController : MonoBehaviour
 {
-    public GameObject buttonPanel, characterSelectPanel, createCharacterPanel;
+    public GameObject buttonPanel, characterSelectPanel, createCharacterPanel, optionsPanel;
 
     private MainMenuCamera mainMenuCamera;
 
@@ -43,5 +43,17 @@ public class MainMenuController : MonoBehaviour
     {
         characterSelectPanel.SetActive(true);
         createCharacterPanel.SetActive(false);
+    }
+
+    public void OpenOptionsPanel()
+    {
+        optionsPanel.SetActive(true);
+        buttonPanel.SetActive(false);
+    }
+
+    public void CloseOptionsPanel()
+    {
+        optionsPanel.SetActive(false);
+        buttonPanel.SetActive(true);
     }
 }

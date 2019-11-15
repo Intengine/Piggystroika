@@ -669,7 +669,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &184931252
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3729,7 +3729,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &896043827
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5400,7 +5400,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1456913122}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1620450552}
+        m_MethodName: OpenOptionsPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1456913122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5628,6 +5639,7 @@ MonoBehaviour:
   buttonPanel: {fileID: 184931251}
   characterSelectPanel: {fileID: 2092362568}
   createCharacterPanel: {fileID: 1002090028}
+  optionsPanel: {fileID: 896043826}
 --- !u!114 &1620450553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5874,7 +5886,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1747144891}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1620450552}
+        m_MethodName: CloseOptionsPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1747144891
 MonoBehaviour:
   m_ObjectHideFlags: 0
