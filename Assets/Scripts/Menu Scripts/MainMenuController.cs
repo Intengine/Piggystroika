@@ -100,6 +100,22 @@ public class MainMenuController : MonoBehaviour
 
     void ChangeResolution()
     {
+        string index = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.name;
 
+        switch(index)
+        {
+            case "0":
+                Screen.SetResolution(1152, 648, true);
+                break;
+            case "1":
+                Screen.SetResolution(1280, 720, true);
+                break;
+            case "2":
+                Screen.SetResolution(1360, 768, true);
+                break;
+            case "3":
+                Screen.SetResolution(1920, 1080, true);
+                break;
+        }
     }
 }
