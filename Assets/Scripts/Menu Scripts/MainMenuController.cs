@@ -29,7 +29,7 @@ public class MainMenuController : MonoBehaviour
 
     public void StartGame()
     {
-        GameObject.Find("Scene Loader").GetComponent<SceneLoader>().LoadScene("Village");
+        SceneLoader.instance.LoadLevel("Village");
     }
 
     public void CreateCharacter()
