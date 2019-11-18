@@ -27,6 +27,11 @@ public class MainMenuController : MonoBehaviour
         characterSelectPanel.SetActive(false);
     }
 
+    public void StartGame()
+    {
+        GameObject.Find("Scene Loader").GetComponent<SceneLoader>().LoadScene("Village");
+    }
+
     public void CreateCharacter()
     {
         characterSelectPanel.SetActive(false);
