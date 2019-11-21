@@ -310,9 +310,7 @@ public class TasharenWater : MonoBehaviour
 			Transform camTrans = Camera.main.transform;
 			Vector3 cp = camTrans.position;
 			cp.y = mTrans.position.y;
-
-			if (mTrans.position != cp) 
-				mTrans.position = cp;
+			if (mTrans.position != cp) mTrans.position = cp;
 		}
 	}
 
@@ -406,7 +404,7 @@ public class TasharenWater : MonoBehaviour
 			reflectionCamera.cullingMask = ~(1 << 4) & mask.value;
 			reflectionCamera.targetTexture = mTex;
 
-//			GL.SetRevertBackfacing(true);
+			GL.SetRevertBackfacing(true);
 			{
 				reflectionCamera.transform.position = newpos;
 				Vector3 euler = cam.transform.eulerAngles;
@@ -414,7 +412,7 @@ public class TasharenWater : MonoBehaviour
 				reflectionCamera.Render();
 				reflectionCamera.transform.position = oldpos;
 			}
-//			GL.SetRevertBackfacing(false);
+			GL.SetRevertBackfacing(false);
 			mIsRendering = false;
 		}
 #endif
