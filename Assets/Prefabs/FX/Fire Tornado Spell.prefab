@@ -38022,6 +38022,7 @@ GameObject:
   - component: {fileID: 10875696}
   - component: {fileID: 8275696}
   - component: {fileID: -4592140517785931174}
+  - component: {fileID: 1433141642543746234}
   m_Layer: 0
   m_Name: Fire Tornado Spell
   m_TagString: Fx
@@ -42923,3 +42924,20 @@ MonoBehaviour:
   speed: 250
   maxSpeed: 350
   speedMultiplier: 1
+--- !u!114 &1433141642543746234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13dde5c4a03514165b4eaf7ca555b19d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  damage: 20
+  radius: 2
