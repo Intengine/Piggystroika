@@ -38021,6 +38021,7 @@ GameObject:
   - component: {fileID: 12275696}
   - component: {fileID: 10875696}
   - component: {fileID: 8275696}
+  - component: {fileID: -4592140517785931174}
   m_Layer: 0
   m_Name: Fire Tornado Spell
   m_TagString: Fx
@@ -42746,7 +42747,7 @@ Halo:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 175744}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Color:
     serializedVersion: 2
     rgba: 4286474240
@@ -42758,7 +42759,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 175744}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 9
   m_Type: 2
   m_Color: {r: 0, g: 0.8741257, b: 1, a: 1}
@@ -42907,3 +42908,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &-4592140517785931174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5afd38dca627b4874b45ff0417ac34a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 250
+  maxSpeed: 350
+  speedMultiplier: 1
