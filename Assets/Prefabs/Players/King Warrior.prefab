@@ -3021,6 +3021,7 @@ GameObject:
   - component: {fileID: 1023610598}
   - component: {fileID: 1023610597}
   - component: {fileID: 1023610596}
+  - component: {fileID: 3160834765657200498}
   m_Layer: 9
   m_Name: King Warrior
   m_TagString: Player
@@ -3141,6 +3142,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+--- !u!114 &3160834765657200498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452412853929228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ef03d2b102b943ebbf6c8158e8e685d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSwords:
+  - {fileID: 1217073836094454}
+  - {fileID: 1245265609340088}
+  - {fileID: 1434372988395756}
 --- !u!1 &1455062123693394
 GameObject:
   m_ObjectHideFlags: 0

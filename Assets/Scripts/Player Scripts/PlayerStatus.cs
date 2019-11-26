@@ -10,6 +10,11 @@ public class PlayerStatus : MonoBehaviour
 
     void Start()
     {
+        GameObject[] buttons = GameObject.FindGameObjectsWithTag("SwordButton");
+        foreach(GameObject button in buttons)
+        {
+            button.GetComponent<Button>().onClick.AddListener(ChangeSword);
+        }
         itemsPanel = GameObject.Find("Items Panel");
         itemsPanel.SetActive(false);
 
@@ -26,5 +31,16 @@ public class PlayerStatus : MonoBehaviour
         {
             itemsPanel.SetActive(true);
         }
+    }
+
+    public void ChangeSword()
+    {
+        int swordIndex = int.Parse(UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.name);
+
+        for(int i = 0; i < playerSwords.Length; i++)
+        {
+            playerSwords[i].SetActive(false);
+        }
+        playerSwords[swordIndex].SetActive(true);
     }
 }

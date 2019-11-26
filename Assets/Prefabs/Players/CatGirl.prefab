@@ -4793,6 +4793,7 @@ GameObject:
   - component: {fileID: 4654081262934068186}
   - component: {fileID: 3186694774521865365}
   - component: {fileID: 1074338399164180808}
+  - component: {fileID: 5797964045261480633}
   m_Layer: 9
   m_Name: CatGirl
   m_TagString: Player
@@ -4914,6 +4915,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+--- !u!114 &5797964045261480633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ef03d2b102b943ebbf6c8158e8e685d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSwords:
+  - {fileID: 1486117019875860}
+  - {fileID: 1300567709351840}
+  - {fileID: 1847523023564686}
 --- !u!1 &181934
 GameObject:
   m_ObjectHideFlags: 0
