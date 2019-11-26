@@ -13,6 +13,8 @@ public class GameManager : MonoBehaviour
     [HideInInspector]
     public int selectedCharacterIndex;
 
+    public GameObject playerInventory;
+
     void Awake()
     {
         MakeSingleton();
@@ -45,6 +47,8 @@ public class GameManager : MonoBehaviour
     {
         if(scene.name != "MainMenu")
         {
+            Instantiate(playerInventory, Vector3.zero, Quaternion.identity);
+
             Vector3 position = GameObject.FindGameObjectWithTag("SpawnPosition").transform.position;
             Instantiate(characters[selectedCharacterIndex], position, Quaternion.identity);
         }

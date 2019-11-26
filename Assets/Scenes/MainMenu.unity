@@ -3206,7 +3206,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!1 &756856507
 GameObject:
@@ -5028,7 +5028,9 @@ MonoBehaviour:
   - {fileID: 123290, guid: e25150d6ea1043f4e8bf39cfeaba68e8, type: 3}
   - {fileID: 181932, guid: ee17bc45ef026b74687ef3ee1557baf1, type: 3}
   - {fileID: 1452412853929228, guid: 9965fb5ba65344f248273b59b5b859aa, type: 3}
-  selectedCharacter: 0
+  selectedCharacterIndex: 0
+  playerInventory: {fileID: 4821706594000751422, guid: 3d5b2e0f049fa42aabb99f9e9c049530,
+    type: 3}
 --- !u!1 &1156293599
 GameObject:
   m_ObjectHideFlags: 0
