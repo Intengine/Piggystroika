@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
@@ -33,6 +34,8 @@ public class CharacterMovement : MonoBehaviour
     private bool isAttacking;
     private GameObject attackPoint;
 
+    public GameObject fireTornado;
+
     void Awake()
     {
         motor = GetComponent<MovementMotor>();
@@ -57,6 +60,7 @@ public class CharacterMovement : MonoBehaviour
         } else if(Input.GetButtonDown("Fire2"))
         {
             Attack();
+            StartCoroutine(SpecialAttack());
         }
 
         MovementAndJumping();
@@ -87,9 +91,6 @@ public class CharacterMovement : MonoBehaviour
 
     void Moving(Vector3 direction, float multiplier)
     {
-        // speedMoveMultiplier = 1 * multiplier;
-        // MoveDirection = direction;
-
         if(isAttacking)
         {
             speedMoveMultiplier = speedMoveWhileAttack * multiplier;
@@ -227,5 +228,11 @@ public class CharacterMovement : MonoBehaviour
     void AttackEnded()
     {
         attackPoint.SetActive(false);
+    }
+
+    IEnumerator SpecialAttack()
+    {
+        yield return new WaitForSeconds(0.4f);
+        Instantiate(fireTornado, transform.position + transform.forward * 2.5f, Quaternion.identity);
     }
 }
