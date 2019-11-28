@@ -6,6 +6,8 @@ public class PlayerHealth : MonoBehaviour
 {
     public float health = 100f;
 
+    public GameObject deadFX;
+
     public void TakeDamage(float damageAmount)
     {
         print("P1 damaged");
@@ -13,7 +15,8 @@ public class PlayerHealth : MonoBehaviour
 
         if(health <= 0)
         {
-
+            Instantiate(deadFX, transform.position, Quaternion.identity);
+            Destroy(gameObject);
         }
     }
 }

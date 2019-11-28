@@ -37,7 +37,10 @@ public class EnemyAISystem : MonoBehaviour
 
     void Update()
     {
-        EnemyAI();
+        if(playerTarget)
+        {
+            EnemyAI();
+        }
     }
 
     void EnemyAI()

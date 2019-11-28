@@ -36,8 +36,11 @@ public class CameraOrbit : Orbit
 
     void Update()
     {
-        HandleCamera();
-        HandleMouseLocking();
+        if(playerTarget)
+        {
+            HandleCamera();
+            HandleMouseLocking();
+        }
     }
 
     void HandleCamera()
