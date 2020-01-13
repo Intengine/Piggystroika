@@ -10,4 +10,4 @@ Choose your destiny and get along either with President Quinnedy or General Secr
 - a lot of fun!
 
 ## Release date
-TBA
+TBA, playable demo will be release soon
