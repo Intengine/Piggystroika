@@ -36,7 +36,7 @@ public class MovementMotor : MonoBehaviour
 
         characterController.Move(moveDirection * Time.deltaTime);
 
-        if (!isGrounded)
+        if(!isGrounded)
         {
             fallVelocity -= 90f * gravityMultiplier * Time.deltaTime;
         }
@@ -46,12 +46,12 @@ public class MovementMotor : MonoBehaviour
     {
         RaycastHit hit;
 
-        if (characterController.isGrounded)
+        if(characterController.isGrounded)
         {
             return true;
         }
 
-        if (Physics.Raycast(myCollider.bounds.center, -Vector3.up, out hit, distanceToGround + 0.1f))
+        if(Physics.Raycast(myCollider.bounds.center, -Vector3.up, out hit, distanceToGround + 0.1f))
         {
             return true;
         }
@@ -71,7 +71,7 @@ public class MovementMotor : MonoBehaviour
 
     public void Jump(float jumpPower)
     {
-        if (isGrounded)
+        if(isGrounded)
         {
             fallVelocity = jumpPower;
         }

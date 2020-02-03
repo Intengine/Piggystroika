@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
@@ -18,6 +19,22 @@ public class CharacterMovement : MonoBehaviour
     private Camera mainCamera;
 
     private string PARAMETER_STATE = "State";
+    private string PARAMETER_ATTACK_TYPE = "AttackType";
+    private string PARAMETER_ATTACK_INDEX = "AttackIndex";
+
+    public AttackAnimation[] attackAnimations;
+    public string[] comboAttackList;
+    public int comboType;
+
+    private int attackIndex = 0;
+    private string[] comboList;
+    private int attackStack;
+    private float attackStackTimeTemporary;
+
+    private bool isAttacking;
+    private GameObject attackPoint;
+
+    public GameObject fireTornado;
 
     void Awake()
     {
@@ -29,10 +46,23 @@ public class CharacterMovement : MonoBehaviour
     {
         animator.applyRootMotion = false;
         mainCamera = Camera.main;
+
+        attackPoint = GameObject.Find("Player Attack Point");
+        attackPoint.SetActive(false);
     }
 
     void Update()
     {
+        HandleAttackAnimations();
+        if(Input.GetButtonDown("Fire1"))
+        {
+            Attack();
+        } else if(Input.GetButtonDown("Fire2"))
+        {
+            Attack();
+            StartCoroutine(SpecialAttack());
+        }
+
         MovementAndJumping();
     }
 
@@ -47,7 +77,7 @@ public class CharacterMovement : MonoBehaviour
         {
             direction = value * speedMoveMultiplier;
 
-            if (direction.magnitude > 0.1f)
+            if(direction.magnitude > 0.1f)
             {
                 var newRotation = Quaternion.LookRotation(direction);
                 transform.rotation = Quaternion.Slerp(transform.rotation, newRotation, Time.deltaTime * turnSpeed);
@@ -55,19 +85,50 @@ public class CharacterMovement : MonoBehaviour
             direction *= speed * (Vector3.Dot(transform.forward, direction) + 1f) * 5f;
             motor.Move(direction);
 
-            // AnimationMove(motor.characterController.velocity.magnitude * 0.1f);
+            AnimationMove(motor.characterController.velocity.magnitude * 0.1f);
         }
     }
 
     void Moving(Vector3 direction, float multiplier)
     {
-        speedMoveMultiplier = 1 * multiplier;
+        if(isAttacking)
+        {
+            speedMoveMultiplier = speedMoveWhileAttack * multiplier;
+        }
+        else
+        {
+            speedMoveMultiplier = 1 * multiplier;
+        }
         MoveDirection = direction;
     }
 
     void Jump()
     {
         motor.Jump(jumpPower);
+    }
+
+    void AnimationMove (float magnitude)
+    {
+        if(magnitude > moveMagnitude)
+        {
+            float speedAnimation = magnitude * 2f;
+
+            if(speedAnimation < 1f)
+            {
+                speedAnimation = 1f;
+            }
+
+            if(animator.GetInteger(PARAMETER_STATE) != 2)
+            {
+                animator.SetInteger(PARAMETER_STATE, 1);
+                animator.speed = speedAnimation;
+            }
+        }
+        else if(animator.GetInteger(PARAMETER_STATE) != 2)
+        {
+            animator.SetInteger(PARAMETER_STATE, 0);
+
+        }
     }
 
     void MovementAndJumping()
@@ -81,9 +142,97 @@ public class CharacterMovement : MonoBehaviour
         moveInput.Normalize();
         Moving(moveInput.normalized, 1f);
 
-        if (Input.GetKey(KeyCode.Space))
+        if(Input.GetKey(KeyCode.Space))
         {
             Jump();
         }
+    }
+
+    void ResetCombo()
+    {
+        attackIndex = 0;
+        attackStack = 0;
+        isAttacking = false;
+    }
+
+    void FightAnimation()
+    {
+        if (comboList != null && attackIndex >= comboList.Length)
+        {
+            ResetCombo();
+        } else if (comboList != null && comboList.Length > 0)
+        {
+            int motionIndex = int.Parse(comboList[attackIndex]);
+
+            if(motionIndex < attackAnimations.Length)
+            {
+                animator.SetInteger(PARAMETER_STATE, 2);
+                animator.SetInteger(PARAMETER_ATTACK_TYPE, comboType);
+                animator.SetInteger(PARAMETER_ATTACK_INDEX, attackIndex);
+            }
+        }
+    }
+
+    void HandleAttackAnimations()
+    {
+        if(Time.time > attackStackTimeTemporary + 0.5f)
+        {
+            attackStack = 0;
+        }
+        comboList = comboAttackList[comboType].Split("," [0]);
+
+        if(animator.GetInteger(PARAMETER_STATE) == 2)
+        {
+            animator.speed = speedAttack;
+
+            AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+
+            if(stateInfo.IsTag("Attack"))
+            {
+                int motionIndex = int.Parse(comboList[attackIndex]);
+
+                if(stateInfo.normalizedTime > 0.9f)
+                {
+                    animator.SetInteger(PARAMETER_STATE, 0);
+                    isAttacking = false;
+                    attackIndex++;
+
+                    if(attackStack > 1)
+                    {
+                        FightAnimation();
+                    }
+                    else if(attackIndex >= comboList.Length)
+                    {
+                        ResetCombo();
+                    }
+                }
+            }
+        }
+    }
+
+    void Attack()
+    {
+        if(attackStack < 1 || (Time.time > attackStackTimeTemporary + 0.2f && Time.time < attackStackTimeTemporary + 1f))
+        {
+            attackStack++;
+            attackStackTimeTemporary = Time.time;
+        }
+        FightAnimation();
+    }
+
+    void AttackBegan()
+    {
+        attackPoint.SetActive(true);
+    }
+
+    void AttackEnded()
+    {
+        attackPoint.SetActive(false);
+    }
+
+    IEnumerator SpecialAttack()
+    {
+        yield return new WaitForSeconds(0.4f);
+        Instantiate(fireTornado, transform.position + transform.forward * 2.5f, Quaternion.identity);
     }
 }

@@ -13,15 +13,15 @@ GameObject:
   - component: {fileID: 143531544524534930}
   - component: {fileID: 1243301513674890629}
   - component: {fileID: 7389849316942977428}
-  - component: {fileID: 5894084865561996633}
-  - component: {fileID: 8076215512727300208}
-  m_Layer: 8
+  - component: {fileID: 378831305}
+  - component: {fileID: 410639804}
+  m_Layer: 9
   m_Name: Knight Warrior
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &423290
 Transform:
   m_ObjectHideFlags: 0
@@ -114,7 +114,16 @@ MonoBehaviour:
   speedAttack: 1.5
   turnSpeed: 10
   jumpPower: 20
---- !u!114 &5894084865561996633
+  attackAnimations:
+  - motion: {fileID: 7400004, guid: adc893f71e3cd13409bb047847216eb2, type: 3}
+    attackTime: 0.5
+  - motion: {fileID: 7400006, guid: adc893f71e3cd13409bb047847216eb2, type: 3}
+    attackTime: 0.6
+  comboAttackList:
+  - 0,1
+  comboType: 0
+  fireTornado: {fileID: 175744, guid: e5bc8bb50018c46cd9669532417609a0, type: 3}
+--- !u!114 &378831305
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -123,16 +132,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 123290}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa1239230a1f74c06890f2a9276e18bb, type: 3}
+  m_Script: {fileID: 11500000, guid: d2146439b538949f2a04240543af6956, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveMagnitude: 0.05
-  speed: 0.7
-  speedMoveWhileAttack: 0.1
-  speedAttack: 1.5
-  turnSpeed: 10
-  jumpPower: 20
---- !u!114 &8076215512727300208
+  health: 100
+  deadFX: {fileID: 186856, guid: e0fdab13dc4124682b7dbaaf7d287db9, type: 3}
+--- !u!114 &410639804
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,13 +146,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 123290}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e16e52e496aee4b09953b27ee771216f, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ef03d2b102b943ebbf6c8158e8e685d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gravityMultiplier: 1
-  lerpTime: 10
-  characterController: {fileID: 0}
-  distanceToGround: 0.1
+  playerSwords:
+  - {fileID: 1483245197044288}
+  - {fileID: 1817995256331280}
+  - {fileID: 1160830797122106}
 --- !u!1 &123292
 GameObject:
   m_ObjectHideFlags: 0
@@ -317,8 +322,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 123296}
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.000000025915062, y: 0.6099295, z: 3.0893157e-15}
+  m_LocalRotation: {x: -0.7071068, y: 0.000000014901159, z: 0.000000014901159, w: 0.7071068}
+  m_LocalPosition: {x: -0.000000031891087, y: 0.6099295, z: -9.155235e-10}
   m_LocalScale: {x: 2.54, y: 2.54, z: 2.54}
   m_Children:
   - {fileID: 423376}
@@ -779,8 +784,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 123306}
-  m_LocalRotation: {x: -0, y: -0, z: -0.0000006258486, w: 1}
-  m_LocalPosition: {x: 0.012143054, y: 0.0000004871828, z: 0.009865598}
+  m_LocalRotation: {x: -0, y: -0, z: -0.00000061094744, w: 1}
+  m_LocalPosition: {x: 0.012143061, y: 0.0000005241679, z: 0.009865583}
   m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
   m_Children:
   - {fileID: 423380}
@@ -1436,7 +1441,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 123348}
-  m_LocalRotation: {x: -0.00000017881393, y: 0.00000002980232, z: 0.079386026, w: 0.996844}
+  m_LocalRotation: {x: -0.00000017881392, y: 0.000000029802319, z: 0.07938602, w: 0.99684393}
   m_LocalPosition: {x: -0.021019887, y: -0.000043531654, z: -0.0000000022916413}
   m_LocalScale: {x: 1.0000002, y: 1.0000002, z: 0.9999999}
   m_Children:
@@ -5639,6 +5644,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4224885861741592}
+  - component: {fileID: 2443464}
   m_Layer: 0
   m_Name: Player Attack Point
   m_TagString: Untagged
@@ -5660,6 +5666,23 @@ Transform:
   m_Father: {fileID: 423526}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2443464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496690102690820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c91eb4d7ed9d421f899a3799288fa1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  damage: 1
+  radius: 1
 --- !u!1 &1497228319207364
 GameObject:
   m_ObjectHideFlags: 0
