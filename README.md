@@ -1,4 +1,4 @@
-# Piggystroika
+![prototype logo](https://imgur.com/ro7rUI4)
 Funny 3D Zelda-like game made by Unity Engine [WIP]
 
 Choose your destiny and get along either with President Quinnedy or General Secretary Khrumschev!
